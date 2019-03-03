@@ -31,3 +31,5 @@ $$
 which counts the number of forms of the same genus as $q$.
 
 Definition: $q$ is unimodular if $q$ is nondegenerate if for all $n$, it it nondegenerate mod $n$.
+
+For two forms in the same genus, $q,q'$, then $q$ is unimodular iff $q'$ is.
