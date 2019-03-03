@@ -25,3 +25,5 @@
 > we see that self maps E→E of a spectrum give natural transformations of the corresponding cohomology theory. Any map of spaces has to preserve this transformation (by definition of natural), and so we can cook up cohomology operations by cooking up maps of spectra. There's even a machine (you've met it in previous bullet points, it's called the Adams spectral sequence) which computes all maps between spectra,
 
 > Infinite Loop Spaces. When a space has the structure of a group we get extra structure on its homology groups, namely a product structure (called the Pontryagin product). In fact, we only need a weak notion of group: an 'H-space' will do, i.e. a group up to homotopy
+
+> It turns out we get homology operations if our space is associative 'up to coherent homotopy.' You might ask what this means, and it turns out that it's equivalent to being the loopspace of some other space. Being associative and commutative 'up to coherent homotopy' buys you something more: you're an infinite loop space
