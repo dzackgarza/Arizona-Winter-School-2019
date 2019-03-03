@@ -39,3 +39,5 @@ $$
 \mathrm{Mass}(q) = \sum_{q' \text{unimodular}} \frac{1}{O_{q'}(\ZZ)}
 = \zeta(\frac n 2)\frac{\zeta(2)\zeta(4)\cdots\zeta(n-2)}{\mathrm{vol}~S^1 \mathrm{vol} ~S^2 \cdots \mathrm{vol}~S^{n-1}}
 $$
+
+If, for examplen $n=8$, we obtain
