@@ -17,4 +17,6 @@ Are these all you need?
 
 Definition: $q,q'$ are in the same genus if $\forall n, q \equiv q' \mod n$.
 
-Remark: there are only finitely many forms in each genus, and there is a formula to count them: the Smith-Minkowski-Segal formula.
+Remark: there are only finitely many forms in each genus, and there is a formula to count them: the Smith-Minkowski-Segal formula. 
+
+Definition: For a commutative ring $R$, we define the orthogonal group over $R$ to be $O_q(R)$
