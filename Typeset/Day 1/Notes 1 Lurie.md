@@ -47,3 +47,4 @@ $$
 \frac 1 {2^{14}3^55^2 7}
 $$
 
+This is actually the order of the Weil group of the exceptional Lie group $E_8$, i.e. $\abs{W(E_8)}$
