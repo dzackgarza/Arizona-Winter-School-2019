@@ -22,3 +22,8 @@ Remark: there are only finitely many forms in each genus, and there is a formula
 Definition: For a commutative ring $R$, we define the orthogonal group over $R$ to be $O_q(R) = \theset{M \in \GL(n, R) \suchthat q\circ M = q}$; i.e. the square matrices that preserve the quadratic form $q$.
 
 Note that $O_q(\RR)$ is the usual orthogonal group, which is a compact Lie group.
+
+Definition: We define the mass of $q$ as 
+$$
+\mathrm{Mass}(q) = \sum \frac{}{}
+$$
