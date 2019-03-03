@@ -37,4 +37,5 @@ For two forms in the same genus, $q,q'$, then $q$ is unimodular iff $q'$ is, but
 Supposing $q$ is unimodular, we can write the mass formula
 $$
 \mathrm{Mass}(q) = \sum_{q' \suchthat \mathrm{genus} (q') = g} \frac{1}{O_{q'}(\ZZ)}
+= \frac{}{}
 $$
