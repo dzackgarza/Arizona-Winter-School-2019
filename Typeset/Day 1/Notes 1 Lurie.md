@@ -11,3 +11,6 @@ We can similary have forms equivalent over $\RR$ but not over $\ZZ$, e.g. by con
 
 So we have two methods
 - Look over $\RR$, diagonalize, take signature
+- Reduce mod $p$ for various $p$.
+
+Are these all you need?
