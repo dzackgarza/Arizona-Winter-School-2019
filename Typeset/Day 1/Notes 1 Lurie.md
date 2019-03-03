@@ -14,3 +14,5 @@ So we have two methods
 - Reduce mod $p$ for various $p$.
 
 Are these all you need?
+
+Definition: $q,q'$ are in the same genus if $\forall n$ they are equivalent mod $n$
