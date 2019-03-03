@@ -16,3 +16,5 @@ So we have two methods
 Are these all you need?
 
 Definition: $q,q'$ are in the same genus if $\forall n, q \equiv q' \mod n$.
+
+Remark: there are only finitely many forms in each genus.
