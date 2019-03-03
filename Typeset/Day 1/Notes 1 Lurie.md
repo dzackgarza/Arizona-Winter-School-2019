@@ -25,5 +25,5 @@ Note that $O_q(\RR)$ is the usual orthogonal group, which is a compact Lie group
 
 Definition: We define the mass of $q$ as 
 $$
-\mathrm{Mass}(q) = \sum \frac{}{O_{q'}(}
+\mathrm{Mass}(q) = \sum_{\text{} \frac{1}{O_{q'}(\ZZ)}
 $$
