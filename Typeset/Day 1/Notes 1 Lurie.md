@@ -34,7 +34,7 @@ Definition: $q$ is unimodular if $q$ is nondegenerate if for all $n$, it it nond
 
 For two forms in the same genus, $q,q'$, then $q$ is unimodular iff $q'$ is, but the converse is actually true as well -- for a fixed number of variables, any two unimodular forms are in the same genus.
 
-Supposing $q$ is unimodular, So we get a mass formula in the unimodular case:
+Supposing $q$ is unimodular, we can write the mass formula
 $$
-\mathrm{Mass}(q)
+\mathrm{Mass}(q) = \sum_{q' \suchthat \mathrm{genus} (q') = g} \frac{1}{O_{q'}(\ZZ)}
 $$
