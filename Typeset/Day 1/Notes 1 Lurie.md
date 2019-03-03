@@ -40,6 +40,8 @@ $$
 = \zeta(\frac n 2)\frac{\zeta(2)\zeta(4)\cdots\zeta(n-2)}{\mathrm{vol}~S^1 \mathrm{vol} ~S^2 \cdots \mathrm{vol}~S^{n-1}}
 $$
 
+where the denominators are the volumes of spheres, and the numerator contains certain values of the Riemann-zeta function.
+
 If, for examplen $n=8$, we obtain
 $$
 \frac 1 {2^{14}3^55^2 7}
