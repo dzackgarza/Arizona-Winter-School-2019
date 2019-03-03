@@ -25,5 +25,5 @@ Note that $O_q(\RR)$ is the usual orthogonal group, which is a compact Lie group
 
 Definition: Suppose $q$ has genus $g$, then we define the mass of $q$ as 
 $$
-\mathrm{Mass}(q) = \sum_{q' \suchthat} \frac{1}{O_{q'}(\ZZ)}
+\mathrm{Mass}(q) = \sum_{q' \suchthat \mathrm{genus} (q') = g} \frac{1}{O_{q'}(\ZZ)}
 $$
