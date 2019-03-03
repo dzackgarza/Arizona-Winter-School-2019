@@ -23,3 +23,5 @@
 > For example, there is a cohomology theory called tmf which has, as of now, no geometric interpretation, but can detect many nontrivial maps between spheres, and can even be used to prove results in number theory!
 
 > we see that self maps E→E of a spectrum give natural transformations of the corresponding cohomology theory. Any map of spaces has to preserve this transformation (by definition of natural), and so we can cook up cohomology operations by cooking up maps of spectra. There's even a machine (you've met it in previous bullet points, it's called the Adams spectral sequence) which computes all maps between spectra,
+
+> Infinite Loop Spaces. When a space has the structure of a group we get extra structure on its homology groups, namely a product structure (called the Pontryagin product). In fact, we only need a weak notion of group: an 'H-space' will do, i.e. a group up to homotopy
