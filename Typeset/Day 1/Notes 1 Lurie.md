@@ -5,4 +5,4 @@ Examples:
 2. $x^2-y^2$
 3. $-x^2-y^2$
 
-Note that these are all equivalent over $\CC$, under the map $x \mapsto ix$ which sends $x^2\to-x^2$. But these are not equivalent over $\RR$, since (1) is positive-definite, (3) is negative definite,
+Note that these are all equivalent over $\CC$, under the map $x \mapsto ix$ which sends $x^2\to-x^2$. But these are not equivalent over $\RR$, since (1) is positive-definite, (2) is indefinite, and (3) is negative definite.
