@@ -41,3 +41,6 @@ $$
 $$
 
 If, for examplen $n=8$, we obtain
+$$
+\frac 1 {}
+$$
