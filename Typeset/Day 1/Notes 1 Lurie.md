@@ -46,3 +46,4 @@ If, for examplen $n=8$, we obtain
 $$
 \frac 1 {2^{14}3^55^2 7}
 $$
+
