@@ -23,7 +23,7 @@ Definition: For a commutative ring $R$, we define the orthogonal group over $R$ 
 
 Note that $O_q(\RR)$ is the usual orthogonal group, which is a compact Lie group.
 
-Definition: We define the mass of $q$ as 
+Definition: Suppose $q$ has genus $g$, then we define the mass of $q$ as 
 $$
 \mathrm{Mass}(q) = \sum_{q' \suchthat} \frac{1}{O_{q'}(\ZZ)}
 $$
