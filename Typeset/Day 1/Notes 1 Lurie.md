@@ -27,3 +27,5 @@ Definition: Suppose $q$ has genus $g$, then we define the mass of $q$ as
 $$
 \mathrm{Mass}(q) = \sum_{q' \suchthat \mathrm{genus} (q') = g} \frac{1}{O_{q'}(\ZZ)}
 $$
+
+which counts the number of forms of the same genus as $q$.
