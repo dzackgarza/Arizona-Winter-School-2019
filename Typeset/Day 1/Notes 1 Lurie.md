@@ -15,4 +15,4 @@ So we have two methods
 
 Are these all you need?
 
-Definition: $q,q'$ are in the same genus if $\forall n$ they are equivalent mod $n$
+Definition: $q,q'$ are in the same genus if $\forall n, q \equiv q' \mod n$.
