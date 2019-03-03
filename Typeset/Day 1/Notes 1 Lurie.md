@@ -17,4 +17,4 @@ Are these all you need?
 
 Definition: $q,q'$ are in the same genus if $\forall n, q \equiv q' \mod n$.
 
-Remark: there are only finitely many forms in each genus.
+Remark: there are only finitely many forms in each genus, and there is a formula to count them: the Smith-Minkowski-Segal formula.
