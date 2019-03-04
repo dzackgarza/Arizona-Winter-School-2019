@@ -142,6 +142,9 @@ Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines 
 
 ![](2019-03-03-22-27-49.png)
 
+After thinking about what physically happens as you push a plane around, it becomes clear that these three lines are all hyperbolic. Note that this question is the same as asking if a path in the frame bundle lifts.
+
+Although the number of lines isn't a constant, we can take a "signature" sort of formula to obtain an invariant. In this case, the number hyperbolic lines minus the number of elliptic lines *is* constant.
 
 
 
