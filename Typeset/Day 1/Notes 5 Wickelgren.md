@@ -174,6 +174,7 @@ $$
 (x,y) \mapsto axy
 $$
 - Relations: if we change the basis of $k$ using a multiplication by $b\in k^\times$, we get $<ab^2>=<a>$. (This means that $a \in k^\times/(k^\times)^2$
+  - We also get $<a> + <b> = <a+b>
 
 
 
