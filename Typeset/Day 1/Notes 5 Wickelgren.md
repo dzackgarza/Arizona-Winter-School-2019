@@ -14,6 +14,6 @@ $$
 
 where $f$ is degree 3. In general, we want to compactify, so we view $X \injects \CP^3$ as
 $$
-X = \theset{[w,x,y,z] \suchthat }
+X = \theset{\vector x = [w,x,y,z]\neq \vector 0 \suchthat }
 $$
 
