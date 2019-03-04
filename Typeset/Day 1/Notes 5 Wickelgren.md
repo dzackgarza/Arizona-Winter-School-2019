@@ -237,3 +237,9 @@ Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 
 $$
 \sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = 
 $$
+
+where the trace/transfer maps are defined as 
+
+$$
+\mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k)
+$$
