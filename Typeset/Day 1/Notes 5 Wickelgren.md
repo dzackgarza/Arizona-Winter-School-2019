@@ -91,7 +91,7 @@ $$
 
 and so we can take $\deg_p(\sigma) \definedas \deg \bar \sigma$.
 
-There is indeterminacy here up to elements of $\Gl(r, \RR)$
+There is indeterminacy here up to elements of $\Gl(r, \RR)$ which could possibly effect the sign, however,
 
 
 
