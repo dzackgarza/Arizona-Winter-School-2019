@@ -85,7 +85,7 @@ Choose local coordinates near $p$. Since the zeros are isolated, we can choose a
 
 We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(B_\varepsilon(p)) = \RR - \theset{0}$. We can then form a function 
 $$
-\del B_\varepsilon(p) = S^{r-1} \to S^{r-1} = \del \sigma(B_\varepsilon(p)) \\
+\bar\sigma: \del B_\varepsilon(p) = S^{r-1} \to S^{r-1} = \del \sigma(B_\varepsilon(p)) \\
 x \mapsto \frac{\sigma(x)} {\norm{\sigma(x)}}
 $$
 
