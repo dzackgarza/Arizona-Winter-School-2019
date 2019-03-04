@@ -57,7 +57,10 @@ W \to S \to \Gr(1,3) \\
 (\sym^3 W)^\dual \to (\sym^3 S)^\dual \to \Gr(1,3)
 $$
 
-Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$, which is thus a section of the second bundle above.
+Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$, which is thus a section $\sigma_f$ of the second bundle above, where
+$$
+\sigma_f(W) = f \restriction{W}
+$$
 
 
 
