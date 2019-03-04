@@ -182,7 +182,7 @@ Example: compute $GW(\CC)$.
 
 The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
 $$
-GW(\CC) \mapsvia{\cong} \ZZ,
+GW(\CC) \mapsvia{\cong} \ZZ \\
 \beta \mapsto \dim V
 $$
 
@@ -197,7 +197,10 @@ $$
 although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
 Example: $GW(\FF_q)$
-We can make a matrix out of 
+We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
+$$
+GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}}
+$$
 
 
 
