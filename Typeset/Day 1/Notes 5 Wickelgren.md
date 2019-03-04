@@ -79,7 +79,7 @@ $$
 
 where we use the brackets to denote homotopy classes of maps.
 
-
+Definition: Let $p\in M$ where $\sigma(p) = 0$, and define 
 
 
 
