@@ -83,7 +83,7 @@ Definition: Let $p\in M$ where $\sigma(p) = 0$, and define $\deg_p(\sigma)$ in t
 
 Choose local coordinates near $p$. Since the zeros are isolated, we can choose a neighborhood $N(p)$ such that $x\in N(p) - \theset{p} \implies \sigma(x) \neq 0$. Choose a local trivialization of the total space $V$. This allows us to view $\sigma: \RR^r \to \RR^r$ as a real function.
 
-We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(N(p)) = \RR - \pt$
+We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(N(p)) = \RR - \theset{0}$
 
 
 
