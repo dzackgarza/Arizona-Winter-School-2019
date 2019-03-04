@@ -249,4 +249,4 @@ $$
 (\beta: V^2 \to k(L)) \mapsto (V^2 \mapsvia{\beta} k) \circ \mathrm{Trace}_\text{Galois}
 $$
 
-where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note that we can do this because we can view $V$ as a vector space over either $k$ or $k(L)$
+where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note that we can do this because we can view $V$ as a vector space over either $k$ or $k(L)$, so we end up with a quadratic form over $k$.
