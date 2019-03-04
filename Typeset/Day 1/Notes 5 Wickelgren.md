@@ -40,5 +40,5 @@ $$
 L = \theset{[s,\lambda s,t,\omega t] \suchthat s,t \in \CP^1}.
 $$
 
-We can also permute $s,t$ around to get more lines, and by counting this yields 27 distinct possibilities. (3 choices for $\lambda$, 3 choice for $\omega$, 4\choose 2$
+We can also permute $s,t$ around to get more lines, and by counting this yields 27 distinct possibilities. (3 choices for $\lambda$, 3 choices for $\omega$, and $\frac 1 2 {4\choose 2}$
 
