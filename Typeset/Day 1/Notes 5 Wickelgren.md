@@ -62,7 +62,7 @@ $$
 \sigma_f(W) = \restrictionof{f}{W},
 $$
 
-and so the projectivization of $W$
+and so the projectivization of $W$ (i.e. a line
 
 
 
