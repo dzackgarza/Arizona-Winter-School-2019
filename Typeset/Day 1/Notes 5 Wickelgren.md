@@ -196,6 +196,9 @@ $$
 
 although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
+Example: $GW(\FF_q)$
+We can make a matrix out of 
+
 
 
 
