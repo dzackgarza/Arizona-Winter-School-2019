@@ -132,9 +132,9 @@ $$
 
 This says that this deformation space is just a product of the maximal ideal. (This isomorphism is natural.)
 
-This gives you a method: start in characteristic $p$, deform it through other rings in characteristic $p$ to get to characteristic zero, and each time you deform there are only $n-1$ "deformation parameters".
+This gives you a method: start in characteristic $p$, deform it through other rings in characteristic $p$ to get to characteristic zero. Then each time you deform there are only $n-1$ "deformation parameters".
 
-Doesn't completely classify formal groups -- this space has points yielding information if two deformations are isomorphic specifically by an isomorphism *covering the identity,* but we want to know if they're just abstractly isomorphic (perhaps by an isomorphism not over the identity). So we mod out by equivalences which don't necessarily cover the identity.
+This doesn't completely classify formal groups -- this space has points yielding information if two deformations are isomorphic specifically by an isomorphism *covering the identity,* but we want to know if they're just abstractly isomorphic (perhaps by an isomorphism not over the identity). So we mod out by equivalences which don't necessarily cover the identity.
 
 Note that we have extra information: $\pi_0 \mathrm{Deform}_\Gamma(B)$ as a set is acted on by $\aut k$, i.e. the Galois group of $k$, as well as $\aut \Gamma$. What we really want to understand is $\mathrm m^{n-1} / \aut \Gamma$.
 
