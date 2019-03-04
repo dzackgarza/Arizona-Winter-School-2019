@@ -162,7 +162,7 @@ where the target is not the integers in this case, but rather a group of bilinea
 
 The group structure arises because if we have two bilinear forms $B, B'$ on vector spaces $V, W$ respectively, then we can define a new form on $V \oplus W$ by working in components and declaring orthogonality between any of the factors. We then take formal differences of these, and inherit a ring structure from the tensor product of forms.
 
-Bilinear forms over fields can all be diagonalized,
+Bilinear forms over fields can all be diagonalized -- in characteristic 2, this only holds in a stable sense.
 This group has a presentation.
 
 
