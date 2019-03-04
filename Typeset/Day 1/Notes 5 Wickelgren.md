@@ -158,9 +158,7 @@ $$
 [S_\AA^n, S_AA^n] \to GW(k),
 $$
 
-where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic when $\char k \neq 2$.
-
-
+where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group
 
 
 
