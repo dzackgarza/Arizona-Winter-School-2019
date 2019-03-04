@@ -182,9 +182,13 @@ Example: compute $GW(\CC)$.
 
 The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
 $$
-GW(\CC) \mapsvia{\cong} \ZZ
+GW(\CC) \mapsvia{\cong} \ZZ,
+\beta \mapsto \dim V
 $$
 
+which is realized by taking the rank.
+
+Example: $GW(\RR)$
 
 
 
