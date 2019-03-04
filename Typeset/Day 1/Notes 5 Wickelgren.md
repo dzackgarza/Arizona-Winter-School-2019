@@ -12,5 +12,8 @@ $$
 X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0},
 $$
 
-where $f$ is degree 3. In general, we want to compactify, so we view $X \injects \CP^3$
+where $f$ is degree 3. In general, we want to compactify, so we view $X \injects \CP^3$ as
+$$
+X = \theset{[w,x,y,z] \suchthat }
+$$
 
