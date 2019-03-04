@@ -49,5 +49,13 @@ We'll use characteristic classes, which we'll later replace by an $\AA^1$ homoto
 
 Let $\Gr(1,3)$ be the Grassmannian parameterizing 1-dimensional subspaces of $\CP^3$, where the $\CC$ points of this space parameterize 2-dimensional subspaces $W \subseteq \CC^4$. This is a moduli space of the lines we're looking for.
 
-Let $S \to \Gr(1,3)$ be the tautological bundle where the fiber is simply given by $S_W = W$. We can also form the bundle $(\sym^3 S)\dual$
+Let $S \to \Gr(1,3)$ be the tautological bundle where the fiber is simply given by $S_W = W$. We can also form the bundle $(\sym^3 S)^\dual \to \Gr(1,3)$
+
+
+
+
+
+
+
+
 
