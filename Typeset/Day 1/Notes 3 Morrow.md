@@ -7,4 +7,4 @@ Goals:
 
 # Classical Theory
 
-This only depends on basic homological algebra, 
+This only depends on basic homological algebra, but becomes a bit more interesting when objects with a "perfectoid" flavor are input.
