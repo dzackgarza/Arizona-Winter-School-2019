@@ -7,4 +7,8 @@ The goal here is to record information about the fields of definition. However, 
 # Example: Lines on a Smooth Cubic Surface
 > Joint work with Jesse Kass
 
-A **cubic surface** is 
+A **cubic surface** $X$ consists of the $\CC$ solutions to a polynomial in three variables, i.e. 
+$$
+X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0}
+$$
+
