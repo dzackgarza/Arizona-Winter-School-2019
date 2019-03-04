@@ -118,7 +118,7 @@ where the second formulation above shows that there are two fixed points, since 
 $$
 \mathrm{Fix}(I) = \theset{z \in \RR \suchthat cz^2 + (d-z)z + b = 0},
 $$
-
+and we characterize $I$ by 
 
 
 
