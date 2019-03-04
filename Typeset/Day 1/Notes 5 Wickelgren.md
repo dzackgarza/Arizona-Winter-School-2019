@@ -98,7 +98,10 @@ $$
 e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
 $$
 
-It can be shown that because $X$ is smooth, the zeros are all simple and so in the complex case, the degrees are all 1.
+It can be shown that because $X$ is smooth, the zeros are all simple and so in the complex case, the degrees are all 1. We thus obtain
+$$
+\abs{\theset{\text{lines on } X}}
+$$
 
 
 
