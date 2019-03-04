@@ -5,3 +5,6 @@ Enumerative geometry, counts algebro-geometric objects, and in order to actually
 The goal here is to record information about the fields of definition. However, since we may no longer have invariant numbers as solutions to polynomial equations, we replace this with a notion of *weights* to get an "invariance of bilinear form" principle instead. Over characteristic not 2, we can use quadratic forms, which ties to Lurie's first talk.
 
 # Example: Lines on a Smooth Cubic Surface
+> Joint work with Jesse Kass
+
+A **cubic surface** is 
