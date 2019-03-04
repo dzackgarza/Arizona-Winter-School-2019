@@ -254,4 +254,4 @@ where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note tha
 > Note: we have a well-defined map in the other direction, since the $GW$ is a stable homotopy group of spheres.
 $\qed$
 
-Example: let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the RHS is 1.
+Example: let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.
