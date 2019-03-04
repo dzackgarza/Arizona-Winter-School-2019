@@ -42,7 +42,7 @@ $$
 $$ 
 i.e. ring homomorphisms from a polynomial ring into the ring $R$.
 
-## How Formal Groups are Used in Algebraic Topology
+# How Formal Groups are Used in Algebraic Topology
 
 Come up in general cohomology theories $E$ with Chern classes in $\CC\dash$line bundles. So for each vector bundle $V \surjects X$, there are characteristic classes 
 $$
