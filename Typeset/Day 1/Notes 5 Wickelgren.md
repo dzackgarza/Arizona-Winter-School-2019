@@ -107,6 +107,7 @@ where the RHS is independent of $X$ and can be computed using the splitting prin
 
 # What about $\RR$?
 
+Schlafli, 19th century: $X$ can have $3,7,15,27$
 
 
 
