@@ -60,7 +60,8 @@ $$
 c_n(L_1 \tensor L_2) = c_n(L_1) + c_n(L_2),
 $$
 
-although this does work for ordinary homology theories.(?)
+although this does work for ordinary homology theories.
+> Does this mean the technical definition of "ordinary homology theory"?
 
 The proper formula here is due to Quillen. **Theorem:**
 $$
