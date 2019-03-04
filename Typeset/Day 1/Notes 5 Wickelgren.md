@@ -202,7 +202,7 @@ $$
 GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ
 $$
 
-Note that the $
+Note that the quotient is needed because we can change basis in $\FF_q$, which amounts to conjugating by a matrix $A$, and so this discriminant is only well-defined up to squares.
 
 
 
