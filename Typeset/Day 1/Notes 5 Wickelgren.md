@@ -111,7 +111,7 @@ Schlafli, 19th century: $X$ can have $3,7,15$ or $27$ lines. So it's not constan
 
 Recall the characterization of elements in $\Aut L$ for $L=\RP^1$ (real lines) as elliptic/hyperbolic: we have $\Aut L \cong \mathrm{PGL}(2, \RR)$, so pick some $I$ corresponding to a matrix
 $$
-[I] = \pmatrix{a & b \\ c & d}, z\mapsto \frac{az+b}{cz+d}
+[I] = \pmatrix{a & b \\ c & d},\quad  z\mapsto \frac{az+b}{cz+d}
 $$
 
 
