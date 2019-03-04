@@ -149,8 +149,9 @@ Although the number of lines isn't a constant, we can take a "signature" sort of
 General mantra for $\AA^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may be a result in $\AA^1$ theory that has realizations recovering the original results.
 
 # $\AA^1$ Homotopy Theory
-This will allow us to do with schemes much of what we can do in $\mathbf Top$.
+This will allow us to do with schemes much of what we can do in $\mathbf Top$. Smooth schemes behave like manifolds, where there are balls around points.
 
+One nice result due to Morel is that there is a degree map
 
 
 
