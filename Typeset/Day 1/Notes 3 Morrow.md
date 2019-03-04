@@ -19,3 +19,5 @@ HH(A/k) \definedas A \xleftarrow{\del_1} A^{\tensor_k 2} \xleftarrow{\del_2} A^{
 $$
 
 Then by definition, the Hochschild homology groups $HH_n(A/k)$ are obtained by taking the homology of this complex.
+
+Example: 
