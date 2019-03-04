@@ -123,9 +123,9 @@ and $f: G \to i^* \Gamma$ is an isomorphism given by regarding $\Gamma$ as a for
 
 We can make this into a category, which we'll call $\mathrm{Deform}_\Gamma (B)$. This is a codiscrete groupoid, so there is at most one map between any two objects. This means there is at most one isomorphisms between any two deformations, and so if two formal groups $G, G'$ induce the same homomorphism mod $\mathrm m$, then they are in fact the same.
 
-We immediately replace it by its $\pi_0$, which yields the set of isomorphism classes of its objects.
+We immediately replace it by taking its $\pi_0$, which yields the set of isomorphism classes of its objects.
 
-Theorem: let $n$ be the height of $\Gamma$, then
+**Theorem:** Let $n$ be the height of $\Gamma$, then
 $$
 \pi_0 \mathrm{Deform}_\Gamma(B) \cong \mathrm m ^{n-1}.
 $$
