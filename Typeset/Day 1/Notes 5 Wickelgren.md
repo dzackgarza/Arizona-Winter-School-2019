@@ -81,7 +81,7 @@ where we use the brackets to denote homotopy classes of maps.
 
 Definition: Let $p\in M$ where $\sigma(p) = 0$, and define $\deg_p(\sigma)$ in the following way:
 
-Choose local coordinates near $p$. Since the zeros are isolated, we can choose a neighborhood $N(p)$ such that $x\in N(p) - \theset{p} \implies \sigma(x) \neq 0$. Choose a local trivialization of the total space $V$. This allows us to view $\sigma: \RR^r \to \RR^r$.
+Choose local coordinates near $p$. Since the zeros are isolated, we can choose a neighborhood $N(p)$ such that $x\in N(p) - \theset{p} \implies \sigma(x) \neq 0$. Choose a local trivialization of the total space $V$. This allows us to view $\sigma: \RR^r \to \RR^r$ as a real function.
 
 
 
