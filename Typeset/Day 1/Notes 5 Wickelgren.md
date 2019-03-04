@@ -51,6 +51,12 @@ Let $\Gr(1,3)$ be the Grassmannian parameterizing 1-dimensional subspaces of $\C
 
 Let $$S \to \Gr(1,3)$$ be the tautological bundle where the fiber is simply given by $S_W = W$. We can also form the bundle $$(\sym^3 S)^\dual \to \Gr(1,3)$$ where the fiber over the point corresponding to $W$ is all of the cubic polynomials on $W$, i.e. $$(\sym^3 S)^\dual_W = (\sym^3 W)^\dual.$$
 
+Explicitly, we have the following two bundles to work with:
+$$
+W \to S \to \Gr(1,3) \\
+
+$$
+
 Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$
 
 
