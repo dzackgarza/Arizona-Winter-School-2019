@@ -89,7 +89,10 @@ $$
 x \mapsto \frac{\sigma(x)} {\norm{\sigma(x)}},
 $$
 
-and so we can define the degree
+and so we can take $\deg_p(\sigma) \definedas \deg \bar \sigma$.
+
+
+
 
 
 
