@@ -216,4 +216,4 @@ $$
 L = \theset{[a,b,c,d]s + [a',b',c',d']t \suchthat s,t \in \PP^1(k(L}
 $$
 
-which is over an extension field $k(L) = k(a,b,c,d,a',b',c',d')$
+where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$.
