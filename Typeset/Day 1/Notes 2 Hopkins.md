@@ -16,7 +16,8 @@ Some prerequisite things to know about:
 
 We start with a classical theorem.
 
-**Theorem: Kronecker-Weber** theorem -- all abelian Galois extensions of $\QQ$ are just equal to $\QQ[\zeta_n]$ for $\zeta_n$ an $n\dash$th root of unity.
+**Theorem: Kronecker-Weber** 
+All abelian Galois extensions of $\QQ$ are just equal to $\QQ[\zeta_n]$ for $\zeta_n$ an $n\dash$th root of unity.
 
 The analog of roots of unity are points of finite order in the multiplicative group.
 
