@@ -256,4 +256,4 @@ $\qed$
 
 Example: let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.
 
-Example: let $k=\RR$, apply signature. If $L$ is defined over $C$, we're 
+Example: let $k=\RR$, apply signature. If $L$ is defined over $C$, so the type is 1,
