@@ -104,7 +104,7 @@ $$
 
 Note that the height is an isomorphism invariant of formal groups. 
 
-**Theorem:** If $k$ is perfect and algebraically closed, this is a complete invariant.
+**Theorem:** If $k$ is perfect and algebraically closed, this is a *complete* invariant.
 
 We know what happens in characteristic $p$, so now we try to deform away from $p$ -- this is what yields the Lubin-Tate deformation space. Here's the setup:
 
