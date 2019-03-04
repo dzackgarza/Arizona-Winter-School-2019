@@ -119,7 +119,7 @@ $$
 \mathrm{Fix}(I) = \theset{z \in \CC \suchthat cz^2 + (d-z)z + b = 0},
 $$
 and we characterize $I$ by the following cases:
-- $\mathrm{Fix}(I)$ contains two real points: hpyerbolic
+- $\mathrm{Fix}(I)$ contains two real points: hyperbolic
 - A complex conjugate pair: elliptic
 
 So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic.
