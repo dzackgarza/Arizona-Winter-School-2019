@@ -116,7 +116,7 @@ $$
 
 where the second formulation above shows that there are two fixed points, since solving for $z\mapsto z$ yields a quadratic equation. So we have
 $$
-\mathrm{Fix}(I) = \theset{z \in \RR \suchthat cz^2 + (d-z)z + b = 0}
+\mathrm{Fix}(I) = \theset{z \in \RR \suchthat cz^2 + (d-z)z + b = 0},
 $$
 
 
