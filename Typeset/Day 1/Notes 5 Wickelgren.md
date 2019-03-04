@@ -136,7 +136,7 @@ Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
 ![](2019-03-03-22-11-15.png)
 
-Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. 
+Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus where the 
 
 
 
