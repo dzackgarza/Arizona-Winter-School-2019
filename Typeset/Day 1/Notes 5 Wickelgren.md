@@ -206,8 +206,10 @@ $$
 Note that the quotient is needed because we can change basis in $\FF_q$, which amounts to conjugating by a matrix $A$, and so this discriminant is only well-defined up to squares.
 
 # Euler Class
+There is an Euler class in this setting,
+$$
 
-
+$$
 
 
 
