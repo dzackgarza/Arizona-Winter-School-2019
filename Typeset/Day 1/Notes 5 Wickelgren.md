@@ -266,3 +266,4 @@ $$
 $$
 
 which follows from computing the discriminant of the given form.
+$\qed$
