@@ -22,3 +22,4 @@ Then by definition, the Hochschild homology groups $HH_n(A/k)$ are obtained by t
 
 Example: 
 - $HH_0(A/k) = A/<ab-ba> = A/[A,A] = A$ when $A$ is commutative.
+- $HH_1(A/k) = 
