@@ -166,6 +166,7 @@ The group structure arises because if we have two bilinear forms $B, B'$ on vect
 
 Bilinear forms over fields can all be diagonalized, although in characteristic 2, this only holds in a stable sense.
 
+# The Grothendieck-Witt Group
 Since we can diagonlize, the group $GW(k)$ has a presentation coming from the one dimensional forms. Any of these work as a generator, so we have
 
 - Generators: $<a>$ where $a\in k^\times$, corresponding to the form
