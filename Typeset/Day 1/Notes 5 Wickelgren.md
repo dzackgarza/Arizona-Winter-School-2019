@@ -227,5 +227,7 @@ Given such a line $L\subseteq X$, similar to the real setting, we obtain an invo
 
 We then define
 $$
-\mathrm{Type}(L) = <D> \in GW(k(L))
+\mathrm{Type}(L) = <D> \in GW(k(L)),
 $$
+
+or equivalently $D=ab-cd$
