@@ -32,6 +32,6 @@ Example: The Fermat cubic $f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$.
 
 We can find one line, given by 
 $$
-L = \theset{}
+L = \theset{[s,-s,t,-t] \suchthat s,t \in \CC}
 $$
 
