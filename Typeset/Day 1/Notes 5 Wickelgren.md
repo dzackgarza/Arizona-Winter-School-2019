@@ -107,9 +107,9 @@ where the RHS is independent of $X$ and can be computed using the splitting prin
 
 # What about $\RR$?
 
-Schlafli, 19th century: $X$ can have $3,7,1$ or $27$ lines. So it's not constant, and thus there's not an invariant number here, but Segre (1942) distinguished between hyperbolic and elliptic lines.
+Schlafli, 19th century: $X$ can have $3,7,15$ or $27$ lines. So it's not constant, and thus there's not an invariant number here, but Segre (1942) distinguished between hyperbolic and elliptic lines.
 
-R
+Recall the characterization of elements in $\Aut \RR$ as elliptic/hyperbolic:
 
 
 
