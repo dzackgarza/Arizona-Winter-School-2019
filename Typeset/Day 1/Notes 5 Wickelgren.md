@@ -216,7 +216,11 @@ $$
 L = \theset{[a,b,c,d]s + [a',b',c',d']t \suchthat s,t \in \PP^1(k(L}
 $$
 
-where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$. We thus get
+where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$. 
+
+> I think these are always separable, mentioned later in the talk.
+
+We thus get
 $$
 \PP^1(k(L)) \cong L \underset{\substack{\text{closed}\\\text{subscheme}}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).
 $$
