@@ -158,7 +158,7 @@ $$
 [S_\AA^n, S_AA^n] \to GW(k),
 $$
 
-where the target is not the integers in this case, but rather a group of bilinear (actually quadratic) forms.
+where the target is not the integers in this case, but rather a group of bilinear forms.
 
 
 
