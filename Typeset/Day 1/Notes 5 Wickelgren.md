@@ -37,6 +37,8 @@ $$
 
 and in fact this works for any $\lambda, \omega$ such that $\lambda^3 = \omega^3 = -1$, yielding
 $$
-L = \theset{[s,\lambda s,t,\omega t] \suchthat s,t \in \CP^1}
+L = \theset{[s,\lambda s,t,\omega t] \suchthat s,t \in \CP^1}.
 $$
+
+We can also permute $s,t$ around to get more lines, and by counting this yields 27 distinct possibilities.
 
