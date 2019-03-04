@@ -21,3 +21,4 @@ $$
 Then by definition, the Hochschild homology groups $HH_n(A/k)$ are obtained by taking the homology of this complex.
 
 Example: 
+- $HH_0(A/k) = A/<ab-ba>$
