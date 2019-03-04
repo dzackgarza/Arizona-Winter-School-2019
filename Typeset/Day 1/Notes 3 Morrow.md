@@ -33,4 +33,8 @@ If $A$ is smooth over $k$, then $\varepsilon_n$ are all isomorphisms.
 
 So the philosophy here is that $HH_*$ works as a generalization of differential forms, even if $A$ is not smooth or even not commutative (Connes, Feigen-Tsygen, Loday-Quillen).
 
-Proving this theorem
+Proving this theorem:
+
+We use $\tensor^
+
+Lemma: for any 
