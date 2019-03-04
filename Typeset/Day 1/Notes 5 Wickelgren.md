@@ -155,8 +155,10 @@ This will allow us to do with schemes much of what we can do in $\mathbf Top$. S
 
 We'll get spheres from $S_\AA^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
 $$
-
+[S_\AA^n, S_AA^n] \to GW(k),
 $$
+
+where the target
 
 
 
