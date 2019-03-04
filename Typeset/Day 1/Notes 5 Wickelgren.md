@@ -62,7 +62,7 @@ $$
 \sigma_f(W) = \restrictionof{f}{W},
 $$
 
-and so the projectivization of $W$ (i.e. the line corresponding to $W$) is in the surface exactly when this is the zero section.
+and so the projectivization of $W$ (i.e. the line corresponding to $W$) is in the surface exactly when this is the zero section, 
 
 
 
