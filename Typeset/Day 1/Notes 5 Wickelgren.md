@@ -178,6 +178,10 @@ $$
 
 There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.
 
+Example: compute $GW(\CC)$.
+
+The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ has a square
+
 
 
 
