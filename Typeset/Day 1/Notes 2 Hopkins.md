@@ -32,7 +32,7 @@ Behaves like a 1-dimensional Lie group in an appropriate category, i.e. a group 
 
 **Question**: can we count/classify formal groups? And how do we construct them?
 
-Theorem of Lazard:
+**Theorem** (Lazard)
 There is a functor
 $$
 F: R \to \theset{\text{formal group laws over }R}
