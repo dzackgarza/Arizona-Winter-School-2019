@@ -9,7 +9,7 @@ Goals:
 
 This only depends on basic homological algebra, but becomes a bit more interesting when objects with a "perfectoid" flavor are input.
 
-Fix a commutative ring $k$, then for any $k\dash$ algebra we can form the Hochschild complex
+Fix a commutative ring $k$, then for any $k\dash$ algebra $A$ we can form the Hochschild complex
 $$
-
+A \to A^{\tensor_k 2}
 $$
