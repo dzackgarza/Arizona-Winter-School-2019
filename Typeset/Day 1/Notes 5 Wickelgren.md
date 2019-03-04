@@ -126,7 +126,7 @@ So we'll associate an involution to $L$, and port over these notions of hyperbol
 
 Let $p\in L$, and consider $T_pX \intersect X$ . Since $L$ is in both of the varieties we're intersecting here, and we can apply Bezout's theorem, we know that its complement will some degree 2 variety $Q$ (since the total degree is 3).
 
-So we can write $T_pX \intersect X = L \union Q$. We know that $L \intersect Q$ will be the intersection of a degree 1 and a degree 2 curve, which will have 2 points of intersection. At one of these points, say $p$, $Q$ and $L$ will intersect transversally, and so the tangent vectors $T_pQ$ and $T_pL$ give a 2-dimensional frame, and yield a plane $P$. But  
+So we can write $T_pX \intersect X = L \union Q$. We know that $L \intersect Q$ will be the intersection of a degree 1 and a degree 2 curve, which will have 2 points of intersection. At one of these points, say $p$, $Q$ and $L$ will intersect transversally, and so the tangent vectors $T_pQ$ and $T_pL$ give a 2-dimensional frame, which yields a plane $P$ 
 
 
 
