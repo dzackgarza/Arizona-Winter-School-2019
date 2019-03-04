@@ -122,6 +122,8 @@ and we characterize $I$ by the following cases:
 - $\mathrm{Fix}(I)$ contains two real points: hpyerbolic
 - A complex conjugate pair: elliptic
 
+So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic.
+
 
 
 
