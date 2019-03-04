@@ -114,6 +114,7 @@ $$
 [I] = \pmatrix{a & b \\ c & d},\quad  z\mapsto \frac{az+b}{cz+d}
 $$
 
+where the second formulation above shows that there are two fixed points, since solving for $z
 
 
 
