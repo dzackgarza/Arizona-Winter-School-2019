@@ -118,7 +118,9 @@ where the second formulation above shows that there are two fixed points, since 
 $$
 \mathrm{Fix}(I) = \theset{z \in \RR \suchthat cz^2 + (d-z)z + b = 0},
 $$
-and we characterize $I$ by 
+and we characterize $I$ by the following cases:
+- $\mathrm{Fix}(I)$ contains two real points: hpyerbolic
+-  
 
 
 
