@@ -121,7 +121,7 @@ $$
 and $f: G \to i^* \Gamma$ is an isomorphism given by regarding $\Gamma$ as a formal group over $G/\mathrm m$.
 > Should this be $p^*$...?
 
-We can make this into a category, which we'll call $\mathrm{Deform}_\Gamma (B)$. This is a codiscrete groupoid, so there is at most one map between any two objects. So there are is at most one isomorphisms between any two deformations. So if two formal groups $G, G'$ induce the same homomorphism mod $\mathrm m$, then they are actually the same!
+We can make this into a category, which we'll call $\mathrm{Deform}_\Gamma (B)$. This is a codiscrete groupoid, so there is at most one map between any two objects. This means there is at most one isomorphisms between any two deformations. So if two formal groups $G, G'$ induce the same homomorphism mod $\mathrm m$, then they are actually the same!
 
 We immediately replace it its $\pi_0$, which yields the set of isomorphism classes of its objects.
 
