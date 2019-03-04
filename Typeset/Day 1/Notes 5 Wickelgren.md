@@ -262,5 +262,5 @@ Example: let $k=\FF^q$. We can define lines in $\FF_q^n$, and the "begin a squar
 
 We thus get
 $$
-
+\pmatrix{}
 $$
