@@ -47,5 +47,5 @@ We can also permute $s,t$ around to get more lines, and by counting this yields 
 # Modern Proof
 We'll use characteristic classes, which we'll later replace by an $\AA^1$ homotopy theory variant.
 
-Let $\Gr(1,3)$ be the Grassmannian parameterizing 1-dimensional subspaces of $\CP^3$ 
+Let $\Gr(1,3)$ be the Grassmannian parameterizing 1-dimensional subspaces of $\CP^3$, where the $\CC$ points of this space parameterize  
 
