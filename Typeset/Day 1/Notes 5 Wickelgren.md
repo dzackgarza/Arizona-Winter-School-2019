@@ -221,4 +221,4 @@ $$
 \PP^1(k(L)) \cong L \underset{\substack{\text{closed}\\\text{subscheme}}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).
 $$
 
-Given such a line $L\subseteq X$, we 
+Given such a line $L\subseteq X$, similar to the real setting, we obtain an involution $I \in \Aut L$
