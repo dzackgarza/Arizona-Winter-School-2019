@@ -59,7 +59,7 @@ $$
 
 Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$, which is thus a section $\sigma_f$ of the second bundle above, where
 $$
-\sigma_f(W) = f \restriction{W}
+\sigma_f(W) = f \restrictedto{W}
 $$
 
 
