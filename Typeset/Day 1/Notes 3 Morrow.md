@@ -12,5 +12,5 @@ This only depends on basic homological algebra, but becomes a bit more interesti
 Fix a commutative ring $k$, then for any $k\dash$ algebra $A$ we can form the Hochschild complex
 $$
 HH(A/k) \definedas A \xleftarrow{\del_1} A^{\tensor_k 2} \xleftarrow{\del_2} A^{\tensor_k 3}\to \cdots \\
-
+\del_1: 
 $$
