@@ -199,7 +199,7 @@ although a minor parity issue crops up here that can be fixed without damaging t
 Example: $GW(\FF_q)$
 We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
 $$
-GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}}
+GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \ZZ^2
 $$
 
 
