@@ -100,7 +100,7 @@ $$
 
 It can be shown that because $X$ is smooth, the zeros are all simple and so in the complex case, the degrees are all 1. We thus obtain
 $$
-\abs{\theset{\text{lines on } X}}
+\abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual)
 $$
 
 
