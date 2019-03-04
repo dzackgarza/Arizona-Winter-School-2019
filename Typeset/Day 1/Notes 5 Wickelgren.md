@@ -124,7 +124,7 @@ and we characterize $I$ by the following cases:
 
 So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic. As we'll see later, for each point on $L$, there will be a unique other point that has the tangent space, and this involution will swap them.
 
-
+Let $p\in L$, and consider $T_pX \intersect X$
 
 
 
