@@ -160,9 +160,9 @@ $$
 
 Everything we know about these is a results of explicit computation, so we'd like a better theoretical understanding. 
 
-**Question:** Can we explicitly write down the action $\aut \Gamma \actson E_0$? There is some information that comes from the "crystalline period map", we also know this explicitly for any finite subgroup of $\aut \Gamma$
+**Question:** Can we explicitly write down the action $\aut \Gamma \actson E_0$? There is some information that comes from the "crystalline period map", we also know this explicitly for any finite subgroup of $\aut \Gamma$.
 
-**Question:** What is the picard group of Lubin-Tate space, i.e.
+**Question:** What is the Picard group of Lubin-Tate space, i.e.
 $$
 H^1(\aut \Gamma; E_0^\times)
 $$
