@@ -32,6 +32,8 @@ Example: The Fermat cubic $f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$.
 
 We can find one line, given by 
 $$
-L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1}
+L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1},
 $$
+
+and in fact this works for any $\omega_3$ such that $\omega_3^3 = -1$
 
