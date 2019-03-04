@@ -72,6 +72,11 @@ To be precise, the Euler class counts the zeros of a section of a properly orien
 
 > We choose $\RR$ here because $\CC$ is slightly too nice and gives us a preferred orientation (which we'll want to track later.)
 
+For any section $\sigma$ with only isolated zero, we assign a weight coming from the topological degree function
+$$
+\deg
+$$
+
 
 
 
