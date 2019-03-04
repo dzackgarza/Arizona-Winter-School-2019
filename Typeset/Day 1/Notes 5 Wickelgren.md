@@ -173,7 +173,7 @@ $$
 <a> : k^2 \to k\\
 (x,y) \mapsto axy
 $$
-- Relations:
+- Relations: if we change the basis of $k$ using a multiplication by $b$.
 
 
 
