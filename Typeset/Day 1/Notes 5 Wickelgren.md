@@ -124,9 +124,9 @@ and we characterize $I$ by the following cases:
 
 So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic. As we'll see later, for each point on $L$, there will be a unique other point that has the tangent space, and this involution will swap them.
 
-Let $p\in L$, and consider $T_pX \intersect X$ . Since $L$ is in both of the varieties we're intersecting here, and we can apply Bezout's theorem, we know that its complement will some degree 2 variety $L$ (since the total degree is 3).
+Let $p\in L$, and consider $T_pX \intersect X$ . Since $L$ is in both of the varieties we're intersecting here, and we can apply Bezout's theorem, we know that its complement will some degree 2 variety $Q$ (since the total degree is 3).
 
-So we can write $T_pX \intersect X = L \union 
+So we can write $T_pX \intersect X = L \union Q$.
 
 
 
