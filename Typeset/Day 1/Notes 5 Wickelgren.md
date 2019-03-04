@@ -258,4 +258,4 @@ Example: let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since 
 
 Example: let $k=\RR$, apply signature. If $L$ is defined over $C$, so the type is 1, and we're just left with the trace of $\CC/\RR$ -- but this contributes a $+1$ and $-1$, so there is no contribution. What's left are the lines of $\RR$, and since we set it up so type 1 lines are hyperbolic, we just get the trace $15-12=3$.
 
-Example: let $k=\FF^q$. We can define lines in $\FF_q^n$, and the squares in $(\FF_q^n)^\times$ 
+Example: let $k=\FF^q$. We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements. 
