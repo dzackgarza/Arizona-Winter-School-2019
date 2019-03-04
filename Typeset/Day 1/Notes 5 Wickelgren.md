@@ -213,7 +213,7 @@ $$
 
 Letting $X$ be a smooth cubic surface over $k$, then a line $L\subset X$ will be a closed point of the Grassmannian $\Gr(1,3)$, so we can think of it as points of the form
 $$
-L = \theset{(
+L = \theset{[a,b,c,d]s + [a',b',c',d']t \suchthat s,t \in \PP^1}
 $$
 
 
