@@ -153,7 +153,7 @@ This will allow us to do with schemes much of what we can do in $\mathbf Top$. S
 
 > Remark: in my notation I use $\RP^n, \CP^n$, and $\PP^n(k)$ to denote various projective spaces. I'll adopt Kirsten's convention here and just denote $\PP^n(k)$ as $\PP^n$.
 
-We'll get spheres from $S^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
+We'll get spheres from $S_\AA^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
 $$
 
 $$
