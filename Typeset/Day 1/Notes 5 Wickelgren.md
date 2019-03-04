@@ -23,3 +23,5 @@ X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z) = 0}
 $$
 where $f$ is homogeneous.
 
+The surface $X$ is smooth if 
+
