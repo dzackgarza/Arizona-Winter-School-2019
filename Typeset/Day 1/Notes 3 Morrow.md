@@ -25,5 +25,11 @@ Example:
 - $HH_1(A/k) = A\tensor_k A / <ab\tensor c - a\tensor bc + ac\tensor b> = \Omega^1_{A/k}$
   - Note that the ideal appearing here is the Leibniz rule from differential forms, and so the last object is the module of Kahler differential forms via the identification $adb \mapsto a\tensor b$
 - $HH_*(A/k)$ is a commutative graded $k\dash$algebra
-- We get maps $\varepsilon_n: \Omega^n_{A/k} \to HH_n$
+- Using these facts, we get maps $$\varepsilon_n: \Omega^n_{A/k} \to HH_n$$
   - This is by the universal property of the differential forms $\Omega^*_{A/k} \definedas \Lambda_A^* \Omega^1_{A/k}$
+
+**Theorem (Hochschild-Kostent-Rosenburg, 60s):**
+If $A$ is smooth over $k$, then $\varepsilon_n$ are all isomorphisms.
+
+So the philosophy here is that $HH_*$ works as a generalization of differential forms, even if $A$ is not smooth or even not commutative (Connes, Feigen-Tsygen, Loday-Quillen).
+
