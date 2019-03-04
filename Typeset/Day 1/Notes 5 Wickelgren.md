@@ -208,8 +208,10 @@ Note that the quotient is needed because we can change basis in $\FF_q$, which a
 # Euler Class
 There is an Euler class in this setting,
 $$
-
+e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
 $$
+
+Letting $X$ be a smooth cubic surface 
 
 
 
