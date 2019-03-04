@@ -24,3 +24,4 @@ Example:
 - $HH_0(A/k) = A/<ab-ba> = A/[A,A] = A$ when $A$ is commutative.
 - $HH_1(A/k) = A\tensor_k A / <ab\tensor c - a\tensor bc + ac\tensor b> = \Omega^1_{A/k}$
   - Note that the ideal appearing here is the Leibniz rule from differential forms, and so the last object is the module of Kahler differential forms via the identification $adb \mapsto a\tensor b$
+- $HH_*(A/k)
