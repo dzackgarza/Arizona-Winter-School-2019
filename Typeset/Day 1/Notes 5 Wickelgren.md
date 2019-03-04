@@ -245,5 +245,6 @@ $$
 where the trace/transfer maps are defined as 
 
 $$
-\mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k)
+\mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k) \\
+(\beta: V^2 \to k(L)) \mapsto 
 $$
