@@ -63,13 +63,13 @@ $$
 although this does work for ordinary homology theories.
 > Does this mean the technical definition of "ordinary homology theory"?
 
-The proper formula here is due to Quillen. **Theorem (Quillen):** The proper formula is given by
+**Theorem (Quillen):** The proper formula is given by
 $$
 c_n(L_1 \tensor L_2) = c_n(L_1) +_F c_n(L_2),
 $$
 where $F$ is a formal group law.
 
-Also showed that for some cohomology theories (e.g. complex cobordism, which is the universal cohomology theory for which there are Chern classes for complex line bundles), $F$ is in fact Lazard's formal group law.
+He also showed that for some cohomology theories (e.g. complex cobordism, which is the universal cohomology theory for which there are Chern classes for complex line bundles), $F$ is in fact Lazard's formal group law.
 
 There is a spectral sequence
 $$
