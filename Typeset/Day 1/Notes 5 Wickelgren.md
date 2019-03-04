@@ -146,7 +146,10 @@ After thinking about what physically happens as you push a plane around, it beco
 
 Although the number of lines isn't a constant, we can take a "signature" sort of formula to obtain an invariant. In this case, the number hyperbolic lines minus the number of elliptic lines *is* constant. In this case, the constant is 3.
 
-General mantra for $\AA^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may work
+General mantra for $\AA^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may be a result in $\AA^1$ theory that has realizations recovering the original results.
+
+# $\AA^1$ Homotopy Theory
+This will allow us to do with schemes much of what we can do in $\mathbf Top$.
 
 
 
