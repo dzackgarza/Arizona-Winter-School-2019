@@ -66,7 +66,7 @@ We thus have
 $$
 \PP W \in X \iff \sigma_f(W) = 0,
 $$
-i.e. the line corresponding to $W$ is in our surface exactly when this is the zero section.
+i.e. the line corresponding to $W$ is in our surface exactly when this section is zero. We now want to count the zeros of $\sigma_f$. 
 
 
 
