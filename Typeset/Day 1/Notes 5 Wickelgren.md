@@ -19,6 +19,6 @@ $$
 
 and so 
 $$
-X = \theset{}
+X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z}
 $$
 
