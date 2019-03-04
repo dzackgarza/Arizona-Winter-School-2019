@@ -44,3 +44,6 @@ We can also permute $s,t$ around to get more lines, and by counting this yields 
 
 > There is a proof in the notes that these are the only lines, which is relatively elementary.
 
+# Modern Proof
+We'll use a characteristic class, which we'll later replace by an $\AA^1$
+
