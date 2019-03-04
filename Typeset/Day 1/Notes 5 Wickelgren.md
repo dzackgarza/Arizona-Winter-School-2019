@@ -72,12 +72,13 @@ To be precise, the Euler class counts the zeros of a section of a properly orien
 
 > We choose $\RR$ here because $\CC$ is slightly too nice and gives us a preferred orientation (which we'll want to track later.)
 
-For any section $\sigma$ with only isolated zero, we assign a weight coming from the topological degree function
+For any section $\sigma$ with only isolated zero, we'll assign a weight to each zero which comes from the topological degree function
 $$
 \deg: [S^{r-1}, S^{r-1}] \to \ZZ,
 $$
 
 where we use the brackets to denote homotopy classes of maps.
+
 
 
 
