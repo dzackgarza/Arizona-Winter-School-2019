@@ -134,8 +134,7 @@ A natural way to see that there should be a distinction between two types of lin
 
 Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
-
-
+![](2019-03-03-22-11-15.png)
 
 
 
