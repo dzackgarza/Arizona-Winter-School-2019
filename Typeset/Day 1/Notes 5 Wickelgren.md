@@ -150,4 +150,3 @@ Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines 
 
 
 
-
