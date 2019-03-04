@@ -152,7 +152,7 @@ $$
 E_* \definedas E_0[x, x^{-1}].
 $$
 
-In Algebraic Topology, we're interested in
+In Algebraic Topology, we're interested in the cohomology rings
 $$
 H^*(\aut \Gamma; E_0),\\
 H^*(\aut \Gamma; E_*).
