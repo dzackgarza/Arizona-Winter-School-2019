@@ -180,7 +180,10 @@ There are many concrete computations of this known for global fields, local fiel
 
 Example: compute $GW(\CC)$.
 
-The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ has a square
+The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
+$$
+GW(\CC) \mapsvia{\cong} \ZZ
+$$
 
 
 
