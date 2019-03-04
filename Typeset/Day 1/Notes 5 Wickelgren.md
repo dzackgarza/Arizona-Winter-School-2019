@@ -74,7 +74,7 @@ To be precise, the Euler class counts the zeros of a section of a properly orien
 
 For any section $\sigma$ with only isolated zero, we assign a weight coming from the topological degree function
 $$
-\deg
+\deg: [S^{r-1}, S^{r-1}] \to \ZZ
 $$
 
 
