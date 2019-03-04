@@ -103,7 +103,7 @@ $$
 \abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual),
 $$
 
-where the RHS is independent of $X$.
+where the RHS is independent of $X$. Computing this can be done using the splitting principle and the cohomology of $\Gr$
 
 
 
