@@ -87,7 +87,9 @@ The object $\omega^j$ is a section of line bundle, the dual of the Lie algebra, 
 We can thus understand something about homotopy groups of spheres by knowing something about the modui space of all formal groups.
 
 # Invariants
-Defining the height of a formal group: let $k$ be a field of characteristic $p>0$ and we have a homomorphism between two formal groups,
+We first define the height of a formal group. 
+
+Let $k$ be a field of characteristic $p>0$ and suppose we have a homomorphism between two formal groups,
 $$
 f: G_1 \to G_2.
 $$
