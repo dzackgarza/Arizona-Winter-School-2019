@@ -130,7 +130,7 @@ So we can write $T_pX \intersect X = L \union Q$. We know that $L \intersect Q$ 
 
 This also holds for the second point of intersection, $p'$, and so we take the involution $I(p) = p'$ and vice-versa. We then say $L$ is elliptic/hyperbolic exactly when $I$ is.
 
-A natural way to see that there should be a distinction between two types of lines is to consider a physical cubic surface sitting inside $\RR^3$.
+A natural way to see that there should be a distinction between two types of lines is to use spin structures. Consider a physical cubic surface sitting inside $\RR^3$.
 
 
 
