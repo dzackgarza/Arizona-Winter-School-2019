@@ -23,5 +23,7 @@ X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z) = 0}
 $$
 where $f$ is homogeneous.
 
-The surface $X$ is smooth if the underlying points form a manifold, or equivalently if the partials don't simulteanously vanish
+The surface $X$ is smooth if the underlying points form a manifold, or equivalently if the partials don't simultaneously vanish.
+
+**Theorem ()**
 
