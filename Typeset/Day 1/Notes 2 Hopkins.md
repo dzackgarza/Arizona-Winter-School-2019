@@ -176,6 +176,7 @@ $$
 H^*(\aut \Gamma; W) \mapsvia{\cong} H^*(\aut \Gamma; E_0),
 $$
 
-where $W$ is just the constant functions on Lubin-Tate space but the RHS is *all* such functions.
+where $W$ is just the constant functions on Lubin-Tate space while the RHS is *all* such functions.
 
-Note -- we can get a lot of mileage out of replacing the ring of formal functions with the ring of entire p-adic analytic functions. This lets you understand the action via an etale map to $\PP(k, {n-1})$, which relates this to $\GL(n)\dash$equivariant line bundles on the [drinfeld upper half plane](https://en.wikipedia.org/wiki/Drinfeld_upper_half_plane). This provides a way of describing line bundles in two different ways, but we don't yet know how to pass between them.
+Note -- we can get a lot of mileage out of replacing the ring of formal functions with the ring of entire p-adic analytic functions. This lets you understand the action via an etale map to $\PP(k, {n-1})$, which relates this to $\GL(n)\dash$equivariant line bundles on the [drinfeld upper half plane](https://en.wikipedia.org/wiki/Drinfeld_upper_half_plane). This provides a way of describing line bundles in two different ways, but we don't yet know how to pass between them. 
+$\qed$
