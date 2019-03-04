@@ -116,11 +116,11 @@ $$
 
 where the second formulation above shows that there are two fixed points, since solving for $z\mapsto z$ yields a quadratic equation. So we have
 $$
-\mathrm{Fix}(I) = \theset{z \in \RR \suchthat cz^2 + (d-z)z + b = 0},
+\mathrm{Fix}(I) = \theset{z \in \CC \suchthat cz^2 + (d-z)z + b = 0},
 $$
 and we characterize $I$ by the following cases:
 - $\mathrm{Fix}(I)$ contains two real points: hpyerbolic
--  
+- A complex conjugate pair: elliptic
 
 
 
