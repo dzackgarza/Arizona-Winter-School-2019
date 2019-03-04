@@ -122,7 +122,9 @@ and we characterize $I$ by the following cases:
 - $\mathrm{Fix}(I)$ contains two real points: hyperbolic
 - A complex conjugate pair: elliptic
 
-So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic. As we'll see later, for each point on $L$, there will be a unique other point
+So we'll associate an involution to $L$, and port over these notions of hyperbolic/elliptic. As we'll see later, for each point on $L$, there will be a unique other point that has the tangent space, and this involution will swap them.
+
+
 
 
 
