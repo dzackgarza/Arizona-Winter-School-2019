@@ -151,7 +151,7 @@ General mantra for $\AA^1$ homotopy theory: if you have a result that works over
 # $\AA^1$ Homotopy Theory
 This will allow us to do with schemes much of what we can do in $\mathbf Top$. Smooth schemes behave like manifolds, where there are balls around points.
 
-One nice result due to Morel is that there is a degree map
+One nice result due to Morel is that there is a degree map. We'll get spheres from $S^n \definedas PP^n(k)$
 
 
 
