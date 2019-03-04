@@ -130,6 +130,8 @@ So we can write $T_pX \intersect X = L \union Q$. We know that $L \intersect Q$ 
 
 This also holds for the second point of intersection, $p'$, and so we take the involution $I(p) = p'$ and vice-versa. We then say $L$ is elliptic/hyperbolic exactly when $I$ is.
 
+We can alternatively view this us
+
 
 
 
