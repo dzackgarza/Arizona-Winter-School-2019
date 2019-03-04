@@ -189,6 +189,10 @@ $$
 which is realized by taking the rank.
 
 Example: $GW(\RR)$
+We still have the rank, but now we can also take the signature, so we have
+$$
+GW(\RR) \mapsvia{\cong} 
+$$
 
 
 
