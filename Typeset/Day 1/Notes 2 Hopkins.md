@@ -63,7 +63,7 @@ $$
 although this does work for ordinary homology theories.
 > Does this mean the technical definition of "ordinary homology theory"?
 
-The proper formula here is due to Quillen. **Theorem:**
+The proper formula here is due to Quillen. **Theorem (Quillen):** The proper formula is given by
 $$
 c_n(L_1 \tensor L_2) = c_n(L_1) +_F c_n(L_2),
 $$
