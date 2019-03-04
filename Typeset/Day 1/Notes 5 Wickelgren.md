@@ -138,7 +138,7 @@ Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
 Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/$z$ coordinates, etc.
 
-Remark: I found this imagery 
+> This took me a while to visualize -- what worked for me was thinking about 
 
 
 
