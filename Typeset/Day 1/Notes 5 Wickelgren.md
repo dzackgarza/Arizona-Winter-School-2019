@@ -59,13 +59,14 @@ $$
 
 Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$, which is thus a section $\sigma_f$ of the second bundle above, where
 $$
-\sigma_f(W) = \restrictionof{f}{W},
+\sigma_f(W) = \restrictionof{f}{W}.
 $$
 
-and so 
+We thus have
 $$
-\PP W \in X \iff \sigma_f(W) = 0
+\PP W \in X \iff \sigma_f(W) = 0,
 $$
+i.e. the line corresponding to $W$ is in our surface exactly when this is the zero section.
 
 
 
