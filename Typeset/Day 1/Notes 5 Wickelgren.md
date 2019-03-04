@@ -81,7 +81,7 @@ where we use the brackets to denote homotopy classes of maps.
 
 Definition: Let $p\in M$ where $\sigma(p) = 0$, and define $\deg_p(\sigma)$ in the following way:
 
-
+Since the 0 is isolated, we can choose neighborhood containing only this zero.
 
 
 
