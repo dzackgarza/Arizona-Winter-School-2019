@@ -103,7 +103,9 @@ $$
 \abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual),
 $$
 
-where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$.
+where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$. $\qed$
+
+# What about $\RR$?
 
 
 
