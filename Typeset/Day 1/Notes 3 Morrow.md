@@ -17,3 +17,4 @@ HH(A/k) \definedas A \xleftarrow{\del_1} A^{\tensor_k 2} \xleftarrow{\del_2} A^{
 \del_2(a_0\tensor a_1\tensor a_2) = a_0a_1 \tensor a_2 -a_1a_2\tensor a_3 + a_2a_0\tensor a_1 \\
 \vdots
 $$
+
