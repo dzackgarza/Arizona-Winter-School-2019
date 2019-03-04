@@ -23,7 +23,7 @@ The analog of roots of unity are points of finite order in the multiplicative gr
 
 Modified by Lubin-Tate, showed you can get all of the totally ramified extensions of p-adic fields by adding points of finite order by using formal groups.
 
-Properties of a formal group law:
+Properties of a formal group law (see posted notes):
 - Unital
 - Commutative
 - Associative
