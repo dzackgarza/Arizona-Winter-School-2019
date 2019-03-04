@@ -91,7 +91,7 @@ $$
 
 and so we can take $\deg_p(\sigma) \definedas \deg \bar \sigma$.
 
-There is indeterminacy here up to elements of $\Gl(r, \RR)$ which could possibly effect the sign, however, but this can be fixed using the assumption that $V$ is oriented and choosing local trivializations for which the orientations are compatible.
+There is indeterminacy here up to elements of $\Gl(r, \RR)$ which could possibly effect the sign, however, but this can be fixed using the assumption that $V$ is oriented and choosing local trivializations for which the orientations are compatible. This gives us a well-defined local degree of a section at a zero.
 
 
 
