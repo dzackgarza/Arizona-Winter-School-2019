@@ -218,5 +218,5 @@ $$
 
 where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$. We thus get
 $$
-\PP^1(k(L)) \cong L \underset{\text{subscheme}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).
+\PP^1(k(L)) \cong L \underset{\text{closed \\subscheme}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).
 $$
