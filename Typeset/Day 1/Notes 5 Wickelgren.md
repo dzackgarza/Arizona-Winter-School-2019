@@ -225,3 +225,7 @@ Given such a line $L\subseteq X$, similar to the real setting, we obtain an invo
 - $2 k(L)$ points, or
 - 2 conjugate points in some quadratic extension $k(L)[\sqrt D]$ where $D \in k(L)^\times / (k(L)^\times)^2$. These correspond to the oddities in the tangent plane in the real case.
 
+We then define
+$$
+\mathrm{Type}(L) = <D> \in GW(k(L))
+$$
