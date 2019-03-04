@@ -25,4 +25,5 @@ Example:
 - $HH_1(A/k) = A\tensor_k A / <ab\tensor c - a\tensor bc + ac\tensor b> = \Omega^1_{A/k}$
   - Note that the ideal appearing here is the Leibniz rule from differential forms, and so the last object is the module of Kahler differential forms via the identification $adb \mapsto a\tensor b$
 - $HH_*(A/k)$ is a commutative graded $k\dash$algebra
-- By the universal property of the Kahler 
+- We get maps
+  - This is by the universal property of $\Omega_*(A/k)
