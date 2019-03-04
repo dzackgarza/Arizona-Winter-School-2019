@@ -81,6 +81,7 @@ where the LHS is essentially the cohomology of a moduli space with coefficients 
 The object $\mathcal M_{FG}$ is a **moduli stack of formal group laws,** thought of as a category or even just a space quotiented by a group action (so like an orbifold). The space is the Lazard space of infinitely many sequences of elements in the ring $R$ (equivalent to formal group laws over $R$), modulo isomorphism.
 
 The object $\omega^j$ is a section of line bundle, the dual of the Lie algebra, $(\mathrm{Lie} F)^\dual$, i.e. the space of invariant differentials on the formal group $F$. To obtain this, just take the tangent space at the identity in $\mathcal M_{FG}$.
+
 > This allows us to have an algebraic interpretation of $F$, given by definitions and formulas, and a geometric object, as a group structure on a line.
 
 We can thus understand something about homotopy groups of spheres by knowing something about the modui space of all formal groups.
