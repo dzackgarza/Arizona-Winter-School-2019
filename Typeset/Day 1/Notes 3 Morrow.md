@@ -6,3 +6,5 @@ Goals:
 - Relate these to Algebraic and Arithmetic Geometry
 
 # Classical Theory
+
+This only depends on basic homological algebra, 
