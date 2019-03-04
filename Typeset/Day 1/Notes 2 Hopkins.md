@@ -130,7 +130,7 @@ $$
 \pi_0 \mathrm{Deform}_\Gamma(B) \cong \mathrm m ^{n-1}.
 $$
 
-This says that this deformation space is just a products of the maximal ideal. This isomorphism is natural.
+This says that this deformation space is just a product of the maximal ideal. This isomorphism is natural.
 
 Gives you a method: can start in characteristic $p$, deform it through other rings in characteristic $p$ to get to characteristic zero, and each time you deform there are only $n-1$ "deformation parameters".
 
