@@ -5,3 +5,4 @@ Goals:
 - Describe the "Topological" counterparts
 - Relate these to Algebraic and Arithmetic Geometry
 
+# Classical Theory
