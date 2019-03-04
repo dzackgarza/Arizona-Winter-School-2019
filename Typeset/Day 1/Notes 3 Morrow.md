@@ -26,4 +26,4 @@ Example:
   - Note that the ideal appearing here is the Leibniz rule from differential forms, and so the last object is the module of Kahler differential forms via the identification $adb \mapsto a\tensor b$
 - $HH_*(A/k)$ is a commutative graded $k\dash$algebra
 - We get maps
-  - This is by the universal property of $\Omega^*_{A/k} \definedas \Lambda_A^* $
+  - This is by the universal property of $\Omega^*_{A/k} \definedas \Lambda_A^* \Omega^1_{A/k}$
