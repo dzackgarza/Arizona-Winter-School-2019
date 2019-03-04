@@ -94,13 +94,17 @@ $$
 f: G_1 \to G_2.
 $$
 
-Then there is a *unique* unit $g(x)$ where $g'(0)\neq 0$ and some $q = p^a$ (some power of $p$) such that $f(x) = g(x^q)$ (where $a$ could be infinity). The **height** of a formal group $F$ is this value of $a$ for the homomorphism
+Then there is a *unique* unit $g(x)$ where $g'(0)\neq 0$ and some $q = p^a$ (some power of $p$) such that $f(x) = g(x^q)$ (where $a$ could be infinity). 
+
+The **height** of a formal group $F$ is this value of $a$ for the homomorphism
 $$
 f: F \to F \\
 x \mapsto px.
 $$
 
-Note that the height is an isomorphism invariant of formal groups. **Theorem:** If $k$ is perfect and algebraically closed, this is a complete invariant.
+Note that the height is an isomorphism invariant of formal groups. 
+
+**Theorem:** If $k$ is perfect and algebraically closed, this is a complete invariant.
 
 We know what happens in characteristic $p$, so now we try to deform away from $p$ -- this is what yields the Lubin-Tate deformation space. Here's the setup:
 
