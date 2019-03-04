@@ -211,7 +211,7 @@ $$
 e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
 $$
 
-Letting $X$ be a smooth cubic surface 
+Letting $X$ be a smooth cubic surface over $k$, then a line $L\subset X$ will be a closed point of the Grassmannian $\Gr(1,3)$
 
 
 
