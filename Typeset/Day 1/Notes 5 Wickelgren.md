@@ -140,6 +140,8 @@ Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines 
 
 > This took me a while to visualize -- what worked for me was thinking about "egg crate" padding:
 
+![](2019-03-03-22-27-49.png)
+
 
 
 
