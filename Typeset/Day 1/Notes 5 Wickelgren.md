@@ -83,7 +83,10 @@ Definition: Let $p\in M$ where $\sigma(p) = 0$, and define $\deg_p(\sigma)$ in t
 
 Choose local coordinates near $p$. Since the zeros are isolated, we can choose a ball $B_\varepsilon(p)$ such that $x\in B_\varepsilon(p) - \theset{p} \implies \sigma(x) \neq 0$. Choose a local trivialization of the total space $V$. This allows us to view $\sigma: \RR^r \to \RR^r$ as a real function.
 
-We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(B_\varepsilon(p)) = \RR - \theset{0}$. We can then form a function from $S^{r-1} = \del B_\varepsilon(p)$
+We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(B_\varepsilon(p)) = \RR - \theset{0}$. We can then form a function 
+$$
+S^{r-1} = \del B_\varepsilon(p) \to S^{r-1} = \del \sigma(B_\varepsilon(p))
+$$
 
 
 
