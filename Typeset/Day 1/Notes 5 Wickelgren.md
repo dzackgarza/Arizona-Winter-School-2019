@@ -9,6 +9,8 @@ The goal here is to record information about the fields of definition. However, 
 
 A **cubic surface** $X$ consists of the $\CC$ solutions to a polynomial in three variables, i.e. 
 $$
-X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0}
+X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0},
 $$
+
+where $f$ is degree 3.
 
