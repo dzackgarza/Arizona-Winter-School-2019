@@ -2,3 +2,4 @@
 
 Goals:
 - Describe Hochschild and cyclic homology using a classical approach
+- Describe the "Topological" counterparts
