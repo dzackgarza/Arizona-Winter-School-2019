@@ -14,6 +14,11 @@ $$
 
 where $f$ is degree 3. In general, we want to compactify, so we view $X \injects \CP^3$ as
 $$
-X = \theset{\vector x = [w,x,y,z]\neq \vector 0 \suchthat \forall \lambda \in \CC^\times,~\vector x = \lambda \vector x}.
+\CP^3 = \theset{\vector x = [w,x,y,z]\neq \vector 0 \suchthat \forall \lambda \in \CC^\times,~\vector x = \lambda \vector x}
+$$
+
+and so 
+$$
+X = \theset{}
 $$
 
