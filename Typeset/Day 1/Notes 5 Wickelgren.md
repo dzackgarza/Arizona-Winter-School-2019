@@ -128,7 +128,7 @@ Let $p\in L$, and consider $T_pX \intersect X$ . Since $L$ is in both of the var
 
 So we can write $T_pX \intersect X = L \union Q$. We know that $L \intersect Q$ will be the intersection of a degree 1 and a degree 2 curve, which will have 2 points of intersection. At one of these points, say $p$, $Q$ and $L$ will intersect transversally, and so the tangent vectors $T_pQ$ and $T_pL$ give a 2-dimensional frame, which yields a plane $P \subseteq T_pX$. Since $X$ is smooth, we get equality and $P = T_pX$.
 
-This also holds for the second point of intersection, $p'$, and so we take the involution $I(p) = p'$ and vice-versa.
+This also holds for the second point of intersection, $p'$, and so we take the involution $I(p) = p'$ and vice-versa. We then say $L$ is elliptic/hyperbolic exactly when $I$ is.
 
 
 
