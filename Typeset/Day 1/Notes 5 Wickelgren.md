@@ -54,7 +54,7 @@ Let $$S \to \Gr(1,3)$$ be the tautological bundle where the fiber is simply give
 Explicitly, we have the following two bundles to work with:
 $$
 W \to S \to \Gr(1,3) \\
-
+(\sym^3
 $$
 
 Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$
