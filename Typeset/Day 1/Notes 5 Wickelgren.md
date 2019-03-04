@@ -35,5 +35,8 @@ $$
 L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1},
 $$
 
-and in fact this works for any $\lambda, \omega$ such that $\lambda^3 = \omega^3 = -1$,
+and in fact this works for any $\lambda, \omega$ such that $\lambda^3 = \omega^3 = -1$, yielding
+$$
+L = \theset{[] \suchthat s,t \in \CP^1}
+$$
 
