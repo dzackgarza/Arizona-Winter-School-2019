@@ -35,5 +35,5 @@ $$
 L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1},
 $$
 
-and in fact this works for any $\omega_3$ such that $\omega_3^3 = -1$
+and in fact this works for any $\zeta_3$ such that $\zeta_3^3 = -1$,
 
