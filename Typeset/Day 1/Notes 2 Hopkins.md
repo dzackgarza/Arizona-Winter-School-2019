@@ -106,7 +106,10 @@ Note that the height is an isomorphism invariant of formal groups.
 
 **Theorem:** If $k$ is perfect and algebraically closed, this is a *complete* invariant.
 
-We know what happens in characteristic $p$, so now we try to deform away from $p$ -- this is what yields the Lubin-Tate deformation space. Here's the setup:
+# Deforming Away from $p$
+We know what happens in characteristic $p$, so now we try to deform away from $p$ -- this is what yields the Lubin-Tate deformation space. 
+
+Here's the setup:
 
 Let $k$ be a field of characteristic $p>0$ with a formal group law over $k$ given by $\Gamma$. We know $\Gamma$ is classified by its height, but what happens over other rings? Let $B$ be a complete local ring with maximal ideal $\mathrm m$ (i.e. $\mathrm m$ is nilpotent, or it is topologically complete wrt powers of $\mathrm m$).
 
