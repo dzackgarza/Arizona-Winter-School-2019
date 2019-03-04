@@ -230,4 +230,4 @@ $$
 \mathrm{Type}(L) = <D> \in GW(k(L)),
 $$
 
-or equivalently $D=ab-cd$ when $I = \pmatrix{a&b\\c&d}$
+or equivalently $D=ab-cd$ when $I = \pmatrix{a&b\\c&d}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
