@@ -264,3 +264,5 @@ We thus get
 $$
 \pmatrix{\text{elliptic lines } L \\ \text{with } k(L) = \FF_\text{odd} } - \pmatrix{\text{hyperbolic lines } L \\ \text{with } k(L) = \FF_\text{even} } = 0 \mod 2
 $$
+
+which follows from computing the discriminant of the form, 
