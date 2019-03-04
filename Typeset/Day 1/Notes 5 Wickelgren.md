@@ -23,7 +23,8 @@ X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z) = 0}
 $$
 where $f$ is homogeneous.
 
-The surface $X$ is smooth if the underlying points form a manifold, or equivalently if the partials don't simultaneously vanish.
+The surface $X$ is **smooth** if the underlying points form a manifold, or equivalently if the partials don't simultaneously vanish.
 
-**Theorem ()**
+**Theorem (Salmon Cayley 1849):**
+If $X$ is a smooth cubic surface, then $X$ contains exactly 27 lines.
 
