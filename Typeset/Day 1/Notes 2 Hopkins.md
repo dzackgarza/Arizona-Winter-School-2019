@@ -28,9 +28,9 @@ Properties of a formal group law (see posted notes):
 - Commutative
 - Associative
 
-Works similar to a 1-dimensional Lie group in an appropriate category, i.e. a group object in this category.
+Behaves like a 1-dimensional Lie group in an appropriate category, i.e. a group object in this category.
 
-Can we count/classify formal groups? And how do we construct them?
+**Question**: can we count/classify formal groups? And how do we construct them?
 
 Theorem of Lazard:
 There is a functor
