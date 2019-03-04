@@ -220,3 +220,5 @@ where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoini
 $$
 \PP^1(k(L)) \cong L \underset{\substack{\text{closed}\\\text{subscheme}}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).
 $$
+
+Given such a line $L\subseteq X$, we 
