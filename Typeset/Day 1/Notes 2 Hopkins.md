@@ -158,7 +158,7 @@ H^*(\aut \Gamma; E_0),\\
 H^*(\aut \Gamma; E_*).
 $$
 
-Everything we know about these are the results of explicit computations, so we'd like a better theoretical understanding. 
+Everything we know about these is a results of explicit computation, so we'd like a better theoretical understanding. 
 
 **Question:** Can we explicitly write down the action $\aut \Gamma \actson E_0$? There is some information that comes from the "crystalline period map", we also know this explicitly for any finite subgroup of $\aut \Gamma$
 
