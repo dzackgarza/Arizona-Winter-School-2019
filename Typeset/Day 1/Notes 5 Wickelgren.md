@@ -239,7 +239,7 @@ or equivalently $D=ab-cd$ when $I = \pmatrix{a&b\\c&d}$, in which case $\mathrm{
 **Theorem:**
 Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 2, we then have
 $$
-\sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = 
+\sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = \text{One fixed quadratic form}
 $$
 
 where the trace/transfer maps are defined as 
