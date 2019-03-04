@@ -231,3 +231,6 @@ $$
 $$
 
 or equivalently $D=ab-cd$ when $I = \pmatrix{a&b\\c&d}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
+
+**Theorem:**
+Supposing $X$ is smooth of $k$ of characteristic not equal to 2,
