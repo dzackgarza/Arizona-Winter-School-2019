@@ -19,9 +19,8 @@ $$\begin{align*}
 where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$ and 
 $$
 \bar Y = Y \underset{\spec(\bar\FF_q)}\cross\spec(\bar \FF_q),
-
 $$
 
 so the bar notation just means extending scalars up to the algebraic closure of the underlying field.
 
-We can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius
+We can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius.
