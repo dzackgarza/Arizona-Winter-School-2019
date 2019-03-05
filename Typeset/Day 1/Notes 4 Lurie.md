@@ -205,8 +205,10 @@ $$
 
 where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
 
-Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\varphi \actson V$ dually to how it acts on cohomology, so $\varphi: x \mapsto \frac 1 q x$. Thus $\det(1 - \varphi) = 1 - \frac 1 q = \frac {q-1} q$, and inverting it yields $\frac q {q-1}$ as expected.
+# Sanity Check
+Let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\varphi \actson V$ dually to how it acts on cohomology, so $\varphi: x \mapsto \frac 1 q x$. Thus $\det(1 - \varphi) = 1 - \frac 1 q = \frac {q-1} q$, and inverting it yields $\frac q {q-1}$ as expected.
 
+# Trace for Algebraic Groups
 Now let $G$ be a connected linear algebraic group over $\FF_q$. What does the GL trace formula say about $BG$? Well, $H^*(BG)$ will always be a polynomial ring on even generators, so our previous analysis will apply. We can write
 
 $$
