@@ -175,4 +175,4 @@ Note that for an algebraic variety of dimension $n$, cohomology can only be supp
 
 What does the GL trace formula say in this case?
 
-In this situation, the Frobenius will act on both the cohomology and homotopy groups, and $\bar b$ will be equivariant with respect to this action.
+In this situation, the Frobenius will act on both the cohomology and homotopy groups, and $\bar b$ will be equivariant with respect to this action. For the infinite sum in the formula to make sense, we fix an embedding $\QQ_\ell \into \CC$
