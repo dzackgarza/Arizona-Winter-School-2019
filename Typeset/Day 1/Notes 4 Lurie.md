@@ -247,3 +247,5 @@ and the homotopy will be an $n\dash$dimensional $\QQ_\ell$vector space generated
 $$
 \pi_*(BG) = \QQ_\ell\left\{ e_1, e_2, \cdots e_n \right\}
 $$
+
+The Frobenius acts by $\phi(c_i) = q^i
