@@ -242,3 +242,5 @@ which can be identified with the Chern classes of the universal vector bundle of
 $$
 H^*(BG) = \QQ_\ell[c_1, c_2, \cdots c_n]
 $$
+
+and the homotopy 
