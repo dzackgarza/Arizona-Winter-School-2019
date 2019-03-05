@@ -156,5 +156,6 @@ Recall that the target of the degree map was $GW(k)$; we'll also talk a bit abou
 
 From yesterday, we defined $GW(k)$ as the isomorphism classes of symmetric nondegenerate bilinear forms over $k$, which had a presentation
 $$
-\generators{a}
+\generators{a}, a\in k^\times \\
+
 $$
