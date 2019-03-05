@@ -184,6 +184,8 @@ $$\begin{align*}
 \tr (\phi^{-1} \mid H^*(\bar Y)) &= \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
 &= \tr (\phi^{-1} \mid \sym^* (I/I^2))
 \end{align*}$$
-where $\mathrm{gr}$ denotes the associated graded, and the equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
+where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
+
+If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra,
 
 
