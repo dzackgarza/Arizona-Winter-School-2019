@@ -10,4 +10,4 @@ where the sum is over the objects in this category, with one term from each isom
 
 As a special case, let $Y$ be smooth of dimension $d$.
 
-Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if
+Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius on cohomology
