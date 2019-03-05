@@ -183,5 +183,4 @@ The trace is additive for exact sequences, and so
 $$
 \tr (\phi^{-1} \mid H^*(\bar Y)) = \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
 $$
-
-where the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$,
+where $\mathrm{gr}$ denotes the associated graded, and the equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
