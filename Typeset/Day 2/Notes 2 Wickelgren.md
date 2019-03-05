@@ -117,3 +117,12 @@ $$
   Y @>>> \therefore \Sigma X\wedge Y 
 \end{CD}
 $$
+
+and so we proceed by induction on a diagram of the form
+$$
+\begin{CD}
+  ()\cross() @>>>  \\
+  @VVV \selfmap @VVV \\
+  Y @>>> \therefore \Sigma X\wedge Y 
+\end{CD}
+$$
