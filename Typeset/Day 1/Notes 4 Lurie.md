@@ -45,3 +45,5 @@ We then need to check what the dimension $d=\dim B\GG_m$ is. We regard $B\GG_m$ 
 $$
 B\GG_m = \pt / \GG_m
 $$
+
+> Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
