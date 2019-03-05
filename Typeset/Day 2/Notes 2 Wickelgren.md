@@ -85,3 +85,8 @@ $$
 where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{Spc}_k$ our $\AA^1$ homotopy theory.
 
 # Making Spheres
+
+Given two pointed spaces $X, Y$, we have
+$$
+X \smash YT
+$$
