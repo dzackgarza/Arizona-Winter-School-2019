@@ -34,4 +34,4 @@ $$
 
 for any $\FF_q\dash$algebra $R$.
 
-A more specific example: let $G = \GG_m$, the multiplicative group, and $Y =B\GG$.
+A more specific example: let $G = \GG_m$, the multiplicative group, and $Y =B\GG_m$.
