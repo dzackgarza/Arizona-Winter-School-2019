@@ -163,3 +163,5 @@ If $H^*(\bar Y)$ is a polynomial ring on generators of only even degree, then $\
 $$
 \pi_*(\bar Y) = \left(\frac I I^2\right)^\dual
 $$
+
+
