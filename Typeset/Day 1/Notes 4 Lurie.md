@@ -81,17 +81,17 @@ $$
 H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\varphi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\varphi(t) = qt$ and $\varphi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
 
 $$
 \tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) = \sum_{n\geq 0} q^{-n} = \frac{q}{q-1}
 $$
 
-where the signs drop out because everything is in even degree, and the term comes from degree $2n$ and $\phi^{-1}: x\mapsto 2^{-n} x$.
+where the signs drop out because everything is in even degree, and the term comes from degree $2n$ and $\varphi^{-1}: x\mapsto 2^{-n} x$.
 
 **Conclusion**: The GL trace formula works for the stack $B\GG_m$, even though it was not an algebraic variety.
 
-Note that the reason we take $\phi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\phi$ will not yield a convergent sum, whereas $\tr\phi^{-1}$ does because the eigenvalues of $\phi$ are like positive powers of $q$.
+Note that the reason we take $\varphi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\varphi$ will not yield a convergent sum, whereas $\tr\varphi^{-1}$ does because the eigenvalues of $\varphi$ are like positive powers of $q$.
 
 # $\ell\dash$adic Homotopy Groups
 A different way of thinking about the above computation: we'll see that we can count the number of points on an algebraic variety not by using $\ell\dash$adic cohomology, but rather a notion of $\ell\dash$adic homotopy.
@@ -180,36 +180,36 @@ What does the GL trace formula say in this case?
 
 In this situation, the Frobenius will act on both the cohomology and homotopy groups, and $\bar b$ will be equivariant with respect to this action. For the infinite sum in the formula to make sense, we fix an embedding $\QQ_\ell \into \CC$ with the usual topology.
 
-Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensional $\QQ_\ell$ vector space. So we look at the generalized eigenvalues of $\varphi$ on this once we extend scalars to $\CC$, say $\theset{\lambda_i}_{i=1}^n$ on $\pi_*(\bar Y)$ and thus $\phi^{-1}$ will have the same eigenvalues on $\pi_*(\bar Y)^\dual = (I/I^2)^{\dual\dual} = I/I^2$.
+Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensional $\QQ_\ell$ vector space. So we look at the generalized eigenvalues of $\varphi$ on this once we extend scalars to $\CC$, say $\theset{\lambda_i}_{i=1}^n$ on $\pi_*(\bar Y)$ and thus $\varphi^{-1}$ will have the same eigenvalues on $\pi_*(\bar Y)^\dual = (I/I^2)^{\dual\dual} = I/I^2$.
 
 The trace is additive for exact sequences, and so 
 $$\begin{align*}
-\tr (\phi^{-1} \mid H^*(\bar Y)) &= \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
-&= \tr (\phi^{-1} \mid \sym^* (I/I^2))
+\tr (\varphi^{-1} \mid H^*(\bar Y)) &= \tr (\varphi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
+&= \tr (\varphi^{-1} \mid \sym^* (I/I^2))
 \end{align*}$$
 where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
 
 If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$, and so
 $$\begin{align*}
-\tr (\phi^{-1} \mid \sym^* (I/I^2)) &= \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n} \\
+\tr (\varphi^{-1} \mid \sym^* (I/I^2)) &= \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n} \\
 &= \prod_{i=1}^n \frac{1}{1-\lambda_i}
 \end{align*}$$
 
 where the evaluation comes recognizing the fact that the sum that appears is a product of geometric series, which falls out after some elementary manipulations.
 
-But the $\lambda_i$ are eigenvalues of $\phi^{-1}$ on the homotopy groups, and we can write their product as a determinant, so
+But the $\lambda_i$ are eigenvalues of $\varphi^{-1}$ on the homotopy groups, and we can write their product as a determinant, so
 $$
-\tr (\phi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \phi \mid \pi_*(\bar Y )_{\QQ_\ell})}
+\tr (\varphi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \varphi \mid \pi_*(\bar Y )_{\QQ_\ell})}
 $$
 
 where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
 
-Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\phi \actson V$ dually to how it acts on cohomology, so $\phi: x \mapsto \frac 1 q x$. Thus $\det(1 - \phi) = 1 - \frac 1 q = \frac {q-1} q$, and inverting it yields $\frac q {q-1}$ as expected.
+Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\varphi \actson V$ dually to how it acts on cohomology, so $\varphi: x \mapsto \frac 1 q x$. Thus $\det(1 - \varphi) = 1 - \frac 1 q = \frac {q-1} q$, and inverting it yields $\frac q {q-1}$ as expected.
 
 Now let $G$ be a connected linear algebraic group over $\FF_q$. What does the GL trace formula say about $BG$? Well, $H^*(BG)$ will always be a polynomial ring on even generators, so our previous analysis will apply. We can write
 
 $$
-\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \tr(\phi^{-1} \mid H^*(\overline{BG})) 
+\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \tr(\varphi^{-1} \mid H^*(\overline{BG})) 
 $$
 
 i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
@@ -224,12 +224,12 @@ $$
 
 giving an alternative way of writing the LHS. From our earlier analysis, we also have an alternative for the RHS, so we can write
 $$
-\frac{q^{\dim G}}{\abs{G(\FF_q)}} =_? \frac{1}{\det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})}.
+\frac{q^{\dim G}}{\abs{G(\FF_q)}} =_? \frac{1}{\det(1-\varphi \mid \pi_*(\bar Y)_{\QQ_\ell})}.
 $$
 
 Rearranging for what we actually want to count, we obtain **Steinberg's Formula**:
 $$
-\abs{G(\FF_q)} = q^{\dim G} \det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})
+\abs{G(\FF_q)} = q^{\dim G} \det(1-\varphi \mid \pi_*(\bar Y)_{\QQ_\ell})
 $$
 
 So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some correction factor involving the action of the Frobenius on homotopy groups.
@@ -250,7 +250,7 @@ $$
 \pi_*(BG) = \QQ_\ell\left\{ e_1, e_2, \cdots e_n \right\}
 $$
 
-The Frobenius acts by $\phi(c_i) = q^i c_i$, and so $\phi(e_i) = q^{-i}e_i$. Reading off Steinberg's formula, we obtain
+The Frobenius acts by $\varphi(c_i) = q^i c_i$, and so $\varphi(e_i) = q^{-i}e_i$. Reading off Steinberg's formula, we obtain
 
 $$
 \abs{\GL(n, \FF_q)} = q^{n^2} \prod_{i=1}^{n-1} \frac{1}{1-q^i}
@@ -265,7 +265,7 @@ $$
 
 where the LHS appears on the $E_2$ page, and the RHS is the associated graded for an $\ell\dash$adic filtration on $H^*$. When $H^*$ is polynomial, this sequence degenerates at $E_2$ and this an equivalence.
 
-However, the trace $\phi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
+However, the trace $\varphi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
 \tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
