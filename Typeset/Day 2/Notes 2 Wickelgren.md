@@ -37,7 +37,7 @@ We're building a homotopy theory, which can mean
 
 Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\Sm)$ has this structure. 
 
-This construction is essentially "freely adding colimits", but since $\Sm$ had colimits (e.g. the union/intersection of open sets), we want $Y$ to preserve these. We fix this be forcing certain maps to be equivalences using **Bousefield localization**.
+This construction is essentially "freely adding colimits", but since $\Sm$ had colimits (e.g. the union/intersection of open sets), we want $Y$ to preserve these. We fix this be forcing certain maps to be equivalences using **Bousfield localization**.
 
 This is carried out by looking at open covers
 $$
@@ -53,5 +53,5 @@ $$
 
 This gives us a localization functor
 $$
-
+\mathrm{PreSh}(\Sm) \mapsvia{L} \mathrm{Sh}_k
 $$
