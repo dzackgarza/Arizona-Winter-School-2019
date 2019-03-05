@@ -7,3 +7,7 @@ $$
 $$
 
 where the sum is over the objects in this category, with one term from each isomorphism class.
+
+As a special case, let $Y$ be smooth of dimension $d$.
+
+Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if
