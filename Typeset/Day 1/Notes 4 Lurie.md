@@ -87,4 +87,6 @@ $$
 
 where the signs drop out because everything is in even degree, and the term comes from degree $2n$ and $\phi^{-1}: x\mapsto 2^{-n} x$.
 
+**Conclusion**: The GL trace formula works for the stack $B\GG_m$, even though it was not an algebraic variety.
+
 
