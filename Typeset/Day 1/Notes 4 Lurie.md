@@ -187,8 +187,9 @@ $$\begin{align*}
 where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
 
 If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$, and so
-$$
-\tr (\phi^{-1} \mid \sym^* (I/I^2)) = \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n}
-$$
+$$\begin{align*}
+\tr (\phi^{-1} \mid \sym^* (I/I^2)) &= \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n} \\
+&= \prod_{i=1}^n \frac{1}{1-\lambda_i}
+\end{align*}$$
 
 
