@@ -17,5 +17,5 @@ $$
 
 where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$ and 
 $$
-\bar Y = Y \cross_{}\spec(\bar \FF_q)
+\bar Y = Y \underset{\spec(\bar\FF_q)}\cross\spec(\bar \FF_q)
 $$
