@@ -180,8 +180,8 @@ In this situation, the Frobenius will act on both the cohomology and homotopy gr
 Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensional $\QQ_\ell$ vector space. So we look at the generalized eigenvalues of $\varphi$ on this once we extend scalars to $\CC$, say $\theset{\lambda_i}_{i=1}^n$ on $\pi_*(\bar Y)$ and thus $\phi^{-1}$ will have the same eigenvalues on $\pi_*(\bar Y)^\dual = (I/I^2)^{\dual\dual} = I/I^2$.
 
 The trace is additive for exact sequences, and so 
-$$
-\tr (\phi^{-1} \mid H^*(\bar Y)) = \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
-= \tr (\phi^{-1} \mid \sym^* (I/I^2))
-$$
+$$\begin{align*}
+\tr (\phi^{-1} \mid H^*(\bar Y)) &= \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
+&= \tr (\phi^{-1} \mid \sym^* (I/I^2))
+\end{align*}$$
 where $\mathrm{gr}$ denotes the associated graded, and the equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
