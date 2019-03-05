@@ -32,6 +32,7 @@ $$
 where one might normally require the target to be sets, but since we'd like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead which can essentially be regarded as topological spaces. We can also identify the target with presheaves on the category of smooth schemes.
 
 We're building a homotopy theory, which can mean
-- A simplicial model category
-  - Here we have simplicial sets, notions of fibrations/cofibrations, weak equivalences, etc
-- Or an $\infty\dash$category 
+- A simplicial model category, or
+- An $\infty\dash$category
+
+Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc.
