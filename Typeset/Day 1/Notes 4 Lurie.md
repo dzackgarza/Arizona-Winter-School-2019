@@ -12,7 +12,7 @@ As a special case, let $Y$ be smooth of dimension $d$.
 
 Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius on cohomology, i.e.
 $$
-\frac{\abs{Y(\FF_q)}}{q^d}
+\frac{\abs{Y(\FF_q)}}{q^d} = \trace
 $$
 
-where $q^d$ is the naive estimate of how many
+where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$.
