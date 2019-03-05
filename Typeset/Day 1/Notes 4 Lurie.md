@@ -79,6 +79,12 @@ $$
 H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$).
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
+
+$$
+\tr(\phi^{-1} \mid H^*(\overline{B\GG_m})) =
+$$
+
+where the signs drop out because everything is in even degree
 
 
