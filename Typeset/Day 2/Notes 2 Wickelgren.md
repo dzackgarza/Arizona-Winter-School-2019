@@ -105,4 +105,4 @@ $$
 \end{CD}
 $$
 
-which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$, 
+which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$ (yielding the top-right copy of $\AA^1$), and we can take a neighborhood around the point at $\infty$ to obtain the bottom-left copy.
