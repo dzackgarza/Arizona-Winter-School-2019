@@ -199,4 +199,6 @@ $$
 \tr (\phi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \phi \mid \pi_*(\bar Y )_{\QQ_\ell})}
 $$
 
+where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
+
 
