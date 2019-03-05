@@ -79,5 +79,5 @@ This topology has a few nice properties:
 
 The next step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homotopic X$, which will come from another localization $L_\AA$. This composition will land us in the homotopy theory we want:
 $$
-\Sm \mapsvia{} \text{PreSh}_k \mapsvia{}\text{Sh}_k \mapsvia{} \text{Spc}_k
+\Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\AA}} \text{Spc}_k
 $$
