@@ -88,5 +88,6 @@ where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{S
 
 Given two pointed spaces $X, Y$, we have
 $$
-X \wedge Y = \frac{X \cross Y}{() \union ()}
+X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}
 $$
+
