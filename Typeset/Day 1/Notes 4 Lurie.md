@@ -76,7 +76,7 @@ $$
 
 If we instead take the $\ell\dash$adic cohomology of the classifying stack instead (over any algebraically closed field where $\ell\neq 0$), you get
 $$
-H^*(B\GG_m) = \QQ_\ell[t], \\ \abs{t} = 2.
+H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra.
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius automorphism
