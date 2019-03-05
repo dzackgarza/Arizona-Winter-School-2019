@@ -25,11 +25,11 @@ These correspond to crushing and gluing operations, which we can do with topolog
 
 We want colimits, so we add them: let $\Sm$ to be the smooth schemes over $k$. There is a Yoneda embedding
 $$
-\Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op}, \mathrm{Sset}) \\
+\Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op}, \mathrm{Sset}) = \text{PreSh}(\Sm) \\
 X \mapsto \hom(\wait, X)
 $$
 
-where one might normally require the target to be sets, but since we'd like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead. These can essentially be regarded as topological spaces.
+where one might normally require the target to be sets, but since we'd like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead which can essentially be regarded as topological spaces. The 
 
 > Note: This looks a lot like sending a scheme to a its presheaves.
 
