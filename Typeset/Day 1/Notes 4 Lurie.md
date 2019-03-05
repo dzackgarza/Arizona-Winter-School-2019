@@ -251,7 +251,7 @@ $$
 The Frobenius acts by $\phi(c_i) = q^i c_i$, and so $\phi(e_i) = q^{-i}e_i$. Reading off Steinberg's formula, we obtain
 
 $$
-\abs{\GL(n, \FF_q) = q^{n^2} \prod_{i=0}^{n-1} \frac{1}{1-q^i}
+\abs{\GL(n, \FF_q) = q^{n^2} \prod_{i=1}^{n-1} \frac{1}{1-q^i}
 $$
 
 where $\dim \GL_n = n^2$
