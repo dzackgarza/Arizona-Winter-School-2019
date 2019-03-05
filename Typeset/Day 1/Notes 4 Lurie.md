@@ -118,4 +118,4 @@ To $\bar Y$ they associate a topological space $Z$ such that
 - $H^*_\text{Sing}(Z, \ZZ/\ell\ZZ) \cong H_\text{et}^*(\bar Y, \ZZ/\ell\ZZ)$
 
 
-This allows us to realize the etale cohomology of some AG object $Y$ as the literal cohomology of some actual topological space
+This allows us to realize the etale cohomology of some AG object $Y$ as the literal cohomology of some actual topological space $Z$ that is related to $Y$
