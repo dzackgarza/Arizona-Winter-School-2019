@@ -82,4 +82,6 @@ $$
 \Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\AA}} \text{Spc}_k
 $$
 
-and so we'll call $\text{Spc}_k$ our $\AA^1$ homotopy theory.
+where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{Spc}_k$ our $\AA^1$ homotopy theory.
+
+# Making Spheres
