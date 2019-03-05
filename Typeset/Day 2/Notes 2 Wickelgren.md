@@ -68,4 +68,4 @@ $$
 
 Definition: A map $\f: \coprod_\alpha U_\alpha \to X$ is an **etale cover** if it is etale and surjective
 
-Definition: A map $\f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies 
+Definition: A map $\f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat 
