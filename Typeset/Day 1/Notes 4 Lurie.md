@@ -29,5 +29,5 @@ The classical GL trace formula says this is true for $Y$ an algebraic variety, a
 
 Example: Let $G$ be a linear algebraic group over $\FF_q$ and $Y=BG$, the classifying stack of $G$, which is characterized by the equivalence
 $$
-\pmatrix{\text{Maps } \\ \spec(R) \to BG} \iff \pmatrix\text{}
+\pmatrix{\text{Maps } \\ \spec(R) \to BG} \iff \pmatrix{\text{Principal $G\dash$bundles}\\\text{on $R$} }
 $$
