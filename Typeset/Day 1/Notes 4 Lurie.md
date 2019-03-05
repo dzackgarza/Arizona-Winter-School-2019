@@ -196,7 +196,7 @@ where the evaluation comes recognizing the fact that the sum that appears is a p
 
 But the $\lambda_i$ are eigenvalues of $\phi^{-1}$ on the homotopy groups, and we can write their product as a determinant, so
 $$
-\tr (\phi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det \phi^{-1} \mid \pi_*()}
+\tr (\phi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \phi^{-1} \mid \pi_*())}
 $$
 
 
