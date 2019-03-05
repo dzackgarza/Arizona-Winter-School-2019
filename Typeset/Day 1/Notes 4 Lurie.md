@@ -256,4 +256,4 @@ $$
 
 where $\dim \GL_n = n^2$.
 
-If the cohomology ring is not a polynomial ring
+If the cohomology ring is not polynomial, things get more complicated, and the relationship between $\pi_*$ and $H^*$ is described by some spectral sequence/
