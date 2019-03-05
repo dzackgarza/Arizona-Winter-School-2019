@@ -59,7 +59,10 @@ $$
 
 for the LHS of the GL trace formula.
 
-For the RHS,
+For the RHS, we are looking at 
+$$
+\tr(\phi^{-1} \mid H^*(\bar{B\GG_m}))
+$$
 
 
 
