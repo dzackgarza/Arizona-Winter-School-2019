@@ -201,6 +201,4 @@ $$
 
 where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
 
-Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\phi \actson V$
-
-
+Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\phi \actson V$ dually to how it acts on cohomology, so $\phi: x \mapsto 
