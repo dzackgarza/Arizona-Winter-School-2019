@@ -109,11 +109,11 @@ which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$ (yieldin
 
 So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$.
 
-We can also show $\AA^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$. This will rely on the fact that the colimit of $X\cross Y$ with its projections is a suspension, i.e.
+We can also show $\AA^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$. This will rely on a general fact about the colimit of $X\cross Y$ with its projections is a suspension, given by
 $$
 \begin{CD}
   X\cross Y @>>> X \\
   @VVV \selfmap @VVV \\
-  Y @>>> \Sigma X\cross Y
+  Y @>>> \therefore \Sigma X\wedge Y 
 \end{CD}
 $$
