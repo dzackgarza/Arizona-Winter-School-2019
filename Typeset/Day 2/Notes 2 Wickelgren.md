@@ -127,4 +127,10 @@ $$
 \end{CD}
 $$
 
-We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\AA^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\AA^n / \AA^{n} - \theset{0} \homotopic \pt / \AA^{n} - \theset{0} = \Sigma (\AA^{n} - \theset{0})$
+We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\AA^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\AA^n / \AA^{n} - \theset{0} \homotopic \pt / \AA^{n} - \theset{0} = \Sigma (\AA^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
+
+# Thom Spaces
+These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space $$
+\text{Th}(V) = V / V-X \
+$ 
+where $X$ here corresponds to the zero section.
