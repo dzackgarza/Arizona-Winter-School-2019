@@ -203,4 +203,4 @@ where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$ve
 
 Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one generator. So $V \definedas \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional, and $\phi \actson V$ dually to how it acts on cohomology, so $\phi: x \mapsto \frac 1 q x$. Thus $\det(1 - \phi) = 1 - \frac 1 q = \frac {q-1} q$, and inverting it yields $\frac q {q-1}$ as expected.
 
-Now let $G$ be any linear algebraic group.
+Now let $G$ be any linear algebraic group over $\FF_q$. What does the GL trace formula say about $BG$?
