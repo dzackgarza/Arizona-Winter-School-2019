@@ -74,3 +74,4 @@ $$
 H^*(\CP^\infty) = \Lambda[t], \\ \abs{t} = 2.
 $$
 
+If we instead take the $\ell\dash$adic cohomology of the classifying stack instead (over any algebraically closed field where $\ell\neq 0$)
