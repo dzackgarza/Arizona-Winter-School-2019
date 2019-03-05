@@ -207,3 +207,5 @@ Now let $G$ be any linear algebraic group over $\FF_q$. What does the GL trace f
 $$
 \frac{\abs{BG(\FF_q)}}{}
 $$
+
+i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
