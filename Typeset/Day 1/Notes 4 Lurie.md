@@ -188,7 +188,7 @@ where $\mathrm{gr}$ denotes the associated graded, and the first equality comes 
 
 If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$, and so
 $$
-\tr (\phi^{-1} \mid \sym^* (I/I^2)) = \sum_{}\lambda_i^{e_i}\lambda_i^{e_i}\cdots\lambda_n^{e_n}
+\tr (\phi^{-1} \mid \sym^* (I/I^2)) = \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n}
 $$
 
 
