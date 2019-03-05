@@ -171,5 +171,5 @@ $$
 
 and $H^*$ is a polynomial ring, this is an exhaustive filtration, and we can recover the homotopy from the associated graded.
 
-Note that for an algebraic variety of dimension $n$, cohomology can only be supported on degrees up to $2n$, so it will never look like a polynomial algebra.
+Note that for an algebraic variety of dimension $n$, cohomology can only be supported on degrees up to $2n$, so it will never look like a polynomial algebra -- but this is something that may work for stacks (e.g. $\bar Y = B\GG_m)$.
 
