@@ -65,6 +65,8 @@ $$
 $$
 where the bar is just to remind that we're in algebraic closures of the underlying fields.
 
+Before seeing what this looks like in characteristic $p$, lets first look at $\CC$.
+
 
 
 > Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
