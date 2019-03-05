@@ -163,5 +163,7 @@ $$
 
 and relations
 $$
-
+\generators{ab^2} = \generators{a}
 $$
+
+which follows because we're in $k^\times/(k^\times)^2$
