@@ -91,7 +91,9 @@ where the signs drop out because everything is in even degree, and the term come
 
 Note that the reason we take $\phi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\phi$ will not yield a convergent sum, whereas $\tr\phi^{-1}$ does because the eigenvalues of $\phi$ are like positive powers of $q$.
 
-# A Different Way of Thinking About This Computation
+# $\ell\dash$adic Homotopy Groups
 A different way of thinking about the above computation: we'll see that we can count the number of points on an algebraic variety not by using $\ell\dash$adic cohomology, but rather a notion of $\ell\dash$adic homotopy.
+
+Let $\bar Y$ be some AG object over an algebraically closed field $k$
 
 
