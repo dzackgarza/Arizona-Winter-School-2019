@@ -218,3 +218,8 @@ $$
 \abs{BG(\FF_q)} = \frac{1}{\abs{G(\FF_q)}} \\
 q^{\dim BG} = \frac{1}{q^{\dim G}}
 $$
+
+giving an alternative way of writing the LHS. From our earlier analysis, we also have an alternative for the RHS, so we can write
+$$
+\frac{}{}  = \frac{1}{}
+$$
