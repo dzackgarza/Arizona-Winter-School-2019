@@ -127,4 +127,4 @@ $$
 \end{CD}
 $$
 
-We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge}
+We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge $
