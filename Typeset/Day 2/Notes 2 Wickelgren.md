@@ -41,5 +41,5 @@ This construction is essentially "freely adding colimits", but since $\Sm$ had c
 
 This is carried out by looking at open covers
 $$
-U = \coprod_{x\in X}
+U = \coprod_{\alpha} U_\alpha \to X
 $$
