@@ -34,5 +34,6 @@ where one might normally require the target to be sets, but since we'd like homo
 > Note: This looks a lot like sending a scheme to a its presheaves.
 
 We're building a homotopy theory, which can mean
-- A simplicial model category,
+- A simplicial model category
+  - Here we have simplicial sets, notions of fibrations/cofibrations, weak equivalences, etc
 - 
