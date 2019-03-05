@@ -10,4 +10,4 @@ $$
 \end{CD}
 $$
 
-which is the same as requiring that maps from the total space into the quotient  
+which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree.
