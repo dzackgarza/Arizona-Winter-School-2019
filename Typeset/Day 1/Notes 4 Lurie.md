@@ -79,4 +79,6 @@ $$
 H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ (where $t$ was the generator in $H^*$).
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$).
+
+
