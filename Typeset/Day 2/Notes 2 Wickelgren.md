@@ -105,4 +105,4 @@ $$
 \end{CD}
 $$
 
-which follows from the fact that 
+which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$, 
