@@ -149,4 +149,4 @@ Example: Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neigh
 Example: Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$
 > Note: video says "disjoint basepoint" here and uses different notation, may not be correct.
 
-Compare to manifolds: 
+Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
