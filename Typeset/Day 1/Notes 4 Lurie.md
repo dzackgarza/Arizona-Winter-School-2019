@@ -154,6 +154,6 @@ $$
 
 where $b$ will vanish on any cohomology class that can be decomposed as a product of two cohomology classes of lower degree. This comes from observing that 
 $$
-\eta = \eta_1 \eta_2 \implies f(\eta) = f(\eta_1)f(\eta_2)
+\eta = \eta_1 \eta_2 \implies f(\eta) = f(\eta_1)f(\eta_2) \in H^*(S^n; \QQ_\ell)
 $$
 
