@@ -61,4 +61,7 @@ for $\tau$ a Grothendieck topology which declares certain classes of maps to be 
 - Nisnevich
 - Etale
 
-Definition:  A map $f\in hom(X,Y) \in \Sm$ (not necessarily smooth)
+Definition:  A map $f\in hom(X,Y) \in \Sm$ (not necessarily smooth) is etale at a point $x\in X$ if the induced map on tangent/cotangent spaces is an ismorphism:
+$$
+
+$$
