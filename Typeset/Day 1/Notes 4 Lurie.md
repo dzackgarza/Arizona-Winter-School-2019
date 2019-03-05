@@ -226,5 +226,5 @@ $$
 
 Rearranging for what we actually want to count, we have
 $$
-\abs{G(\FF_q) = \det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})
+\abs{G(\FF_q)} = q^{\dim G} \det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})
 $$
