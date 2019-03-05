@@ -140,3 +140,5 @@ $$
 b: \pi_n(\bar Y)_{\QQ_\ell} \tensor H^n(\bar Y) \to \QQ_\ell \\
 $$
 
+which amounts to just pulling back elements in cohomology along 
+
