@@ -3,7 +3,7 @@ Let $Y \to \spec(\FF_q)$ be some algebro-geometric object defined over $\FF_q$ -
 
 We can then look at the $\FF_q\dash$valued points of $Y$, $Y(\FF_q)$, and we think of stacks as categories, where we can measure the size of this category in the following way:
 $$
-\abs{Y(\FF_q)} = \sum_{y\in Y(\FF_q)} \frac{1}{\abs{\Aut y}}
+\abs{Y(\FF_q)} = \sum_{y\in Y(\FF_q)} \frac{1}{\abs{\Aut(y)}}
 $$
 
-where the sum is over the objects in this category.
+where the sum is over the objects in this category, with one term from each isomorphism class.
