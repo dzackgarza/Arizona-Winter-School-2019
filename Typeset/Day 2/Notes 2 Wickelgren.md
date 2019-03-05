@@ -53,5 +53,7 @@ $$
 
 This gives us a localization functor
 $$
-\mathrm{PreSh}(\Sm) \mapsvia{L} \mathrm{Sh}_k
+\mathrm{PreSh}(\Sm) \mapsvia{L_\tau} \mathrm{Sh}_k
 $$
+
+for $\tau$ a Grothendieck topology
