@@ -12,14 +12,16 @@ As a special case, let $Y$ be a smooth algebraic stack of dimension $d$, which m
 
 Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius $\varphi$ on cohomology, i.e.
 $$
-\frac{\abs{Y(\FF_q)}}{q^d} = \tr(\varphi^{-1} \mid H^*(\bar Y))
+\frac{\abs{Y(\FF_q)}}{q^d} = \tr(\varphi^{-1} \mid H^*(\bar Y))\\
+\definedas \sum \
 $$
 
 where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$ and 
 $$
 \bar Y = Y \underset{\spec(\bar\FF_q)}\cross\spec(\bar \FF_q),
+
 $$
 
 so the bar notation just means extending scalars up to the algebraic closure of the underlying field.
 
-We can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some $\QQ_\ell\dash$vector space with an automorphism called the Frobenius
+We can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius
