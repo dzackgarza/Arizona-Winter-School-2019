@@ -29,4 +29,6 @@ $$
 X \mapsto \hom(\wait, X)
 $$
 
-where one might normally require the target to be sets, but since we'd like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead.
+where one might normally require the target to be sets, but since we'd like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead. These can essentially be regarded as topological spaces.
+
+> Note: 
