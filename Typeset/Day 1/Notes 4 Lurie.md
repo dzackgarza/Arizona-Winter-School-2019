@@ -79,4 +79,4 @@ $$
 H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius automorphism
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where 
