@@ -5,7 +5,7 @@ Recall from last time that we wanted to form a space analogous to a sphere, give
 $$
 \begin{CD}
   \PP^{n-1} @>>> \PP^n \\
-  @AAA \selfmap @AAA \\
+  @VVV \selfmap @VVV \\
   \pt @>>> \PP^n/ \PP^{n-1}
 \end{CD}
 $$
