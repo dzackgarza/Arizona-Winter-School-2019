@@ -91,3 +91,4 @@ $$
 X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}
 $$
 
+In topology, we have $S^m \wedge S^n = S^{m+n}$
