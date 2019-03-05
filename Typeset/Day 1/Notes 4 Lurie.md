@@ -147,5 +147,8 @@ which amounts to just pulling back elements in cohomology along the maps given b
 
 > Note: I may have gotten the type of $\eta$ wrong here.
 
-Nothing interesting happens in degree zero, so let's take the reduced homology instead and define $I = \tilde {H^*}(\bar Y) \leq H^*(\bar Y)$ which is an ideal.
+Nothing interesting happens in degree zero, so let's take the reduced homology instead and define $I = \tilde {H^*}(\bar Y) \leq H^*(\bar Y)$ which is an ideal. We can then descend the above pairing into a new pairing
+$$
+\pi_n(\bar Y)_{\QQ_\ell} \tensor 
+$$
 
