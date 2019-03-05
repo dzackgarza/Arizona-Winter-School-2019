@@ -88,5 +88,5 @@ where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{S
 
 Given two pointed spaces $X, Y$, we have
 $$
-X \smash YT
+X \wedge Y = \frac{X \cross Y}{() \union ()}
 $$
