@@ -61,7 +61,7 @@ for the LHS of the GL trace formula.
 
 For the RHS, we are looking at 
 $$
-\tr(\phi^{-1} \mid H^*(\overline{B\GG_m}))
+\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m}))
 $$
 where the bar is just to remind that we're in algebraic closures of the underlying fields.
 
@@ -82,9 +82,9 @@ $$
 which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
 
 $$
-\tr(\phi^{-1} \mid H^*(\overline{B\GG_m})) =
+\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) =
 $$
 
-where the signs drop out because everything is in even degree, and the term comes from degree $2n$ where the map is 
+where the signs drop out because everything is in even degree, and the term comes from degree $2n$ where the map $q 
 
 
