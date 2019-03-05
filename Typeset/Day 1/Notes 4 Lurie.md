@@ -269,4 +269,4 @@ $$
 \tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
 $$
 
-This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_i$ are all finite dimensional.
+This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_*$ is finite dimensional / concentrated in finitely many degrees.
