@@ -96,4 +96,11 @@ $$
 S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} .
 $$ 
 
-Some of these end up being familiar spaces. For example
+Some of these end up being familiar spaces. For example, we can look at the colimit
+$$
+\begin{CD}
+  \GG_m @>>> \AA^1 \homotopic \pt \\
+  @VVV \selfmap @VVV \\
+  \pt \homotopic \AA^1 @>>> \PP^1
+\end{CD}
+$$
