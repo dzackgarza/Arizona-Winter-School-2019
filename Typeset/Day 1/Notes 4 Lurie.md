@@ -194,4 +194,6 @@ $$\begin{align*}
 
 where the evaluation comes recognizing the fact that the sum that appears is a product of geometric series, which falls out after some elementary manipulations.
 
+But the $\lambda_i$ 
+
 
