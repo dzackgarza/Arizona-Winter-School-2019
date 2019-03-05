@@ -186,6 +186,6 @@ $$\begin{align*}
 \end{align*}$$
 where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
 
-If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra,
+If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$.
 
 
