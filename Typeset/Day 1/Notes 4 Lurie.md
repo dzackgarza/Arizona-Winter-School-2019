@@ -235,9 +235,7 @@ $$
 So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some correction factor involving the action of the Frobenius on homotopy groups.
 
 # A More Complicated Example
-Let $G = \GL_n$
-
-Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have 
+Let $G = \GL_n$. Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have 
 $$
 H^*(BG) = \QQ_\ell[x_2, x_4, \cdots x_{2n}], \quad \deg x_i = i
 $$
@@ -258,7 +256,7 @@ $$
 \abs{\GL(n, \FF_q)} = q^{n^2} \prod_{i=1}^{n-1} \frac{1}{1-q^i}
 $$
 
-where $\dim \GL_n = n^2$.
+since $\dim \GL_n = n^2$.
 
 If the cohomology ring is not polynomial, things get more complicated, and the relationship between $\pi_*$ and $H^*$ is described by a spectral sequence:
 $$
