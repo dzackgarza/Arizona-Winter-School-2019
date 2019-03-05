@@ -51,7 +51,7 @@ $$
 
 which counts the number of forms of the same genus as $q$.
 
-Definition: $q$ is **unimodular** if $q$ is nondegenerate nondegenerate mod $n$ for all $n$.
+Definition: $q$ is **unimodular** if $q$ is nondegenerate mod $n$ for all $n$.
 
 For two forms in the same genus, $q,q'$, then $q$ is unimodular iff $q'$ is, but the converse is actually true as well -- for a fixed number of variables, any two unimodular forms are in the same genus.
 
