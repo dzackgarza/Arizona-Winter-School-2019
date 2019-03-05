@@ -172,4 +172,4 @@ which follows because we're in $k^\times/(k^\times)^2$.
 
 These relations imply a special relation concerning a hyperbolic form, which we'll define as $h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}$ for any $a$.
 
-A huge achievement of $\AA^1$ homotopy theory is the Milnor conjecture, which involves this group, so let's take a look!
+A huge achievement of $\AA^1$ homotopy theory is the Milnor conjecture, which involves this group, so let's take a look.
