@@ -115,4 +115,4 @@ Assuming
 To $\bar Y$ they associate a topological space $Z$ such that
 - $Z$ is simply-connected and each $\pi_n(Z)$ is a finitely generated $\ZZ_\ell\dash$module
   - So it behaves as if it's $\ell\dash$adically complete.
-- $H^*_\text{Sing}(Z, \ZZ/\ell\ZZ)$
+- $H^*_\text{Sing}(Z, \ZZ/\ell\ZZ) \cong H_\text{et}^*(\bar Y, \ZZ/\ell\ZZ)$
