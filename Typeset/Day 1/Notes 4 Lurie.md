@@ -46,4 +46,6 @@ $$
 B\GG_m = \pt / \GG_m
 $$
 
+where the quotient is taken in the category of stacks and not varieties.
+
 > Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
