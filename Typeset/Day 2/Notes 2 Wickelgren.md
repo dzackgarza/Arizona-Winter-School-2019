@@ -121,8 +121,8 @@ $$
 and so we proceed by induction on a diagram of the form
 $$
 \begin{CD}
-  ()\cross() @>>>  \\
+  ()\cross() @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
   @VVV \selfmap @VVV \\
-  Y @>>> \therefore \Sigma X\wedge Y 
+  Y @>>> \AA^n - \theset{0} 
 \end{CD}
 $$
