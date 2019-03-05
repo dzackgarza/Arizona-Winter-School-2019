@@ -13,7 +13,7 @@ As a special case, let $Y$ be a smooth algebraic stack of dimension $d$, which m
 Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius $\varphi$ on cohomology, i.e.
 $$
 \frac{\abs{Y(\FF_q)}}{q^d} = \tr(\varphi^{-1} \mid H^*(\bar Y))\\
-\definedas \sum \
+\definedas \sum_i (-1)^i\tr(\varphi^{-1} \mid H^*(\bar Y))
 $$
 
 where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$ and 
