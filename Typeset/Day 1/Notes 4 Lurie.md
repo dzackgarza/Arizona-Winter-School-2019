@@ -133,3 +133,6 @@ $$
 
 which is now a finite-dimensional $\QQ_\ell\dash$vector space.
 
+How are the $\ell\dash$adic homology groups related to these $\ell\dash$adic homotopy groups?
+
+
