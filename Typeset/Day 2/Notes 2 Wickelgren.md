@@ -136,3 +136,5 @@ $$
 \text{Th}(V) = \frac{V} {V-X} \homotopic \frac{\PP(V \oplus \mathcal O)}{\PP V}
 $$
 where $X$ here corresponds to the zero section, $\mathcal O$ is the trivial line bundle, and $\PP V$ is the projectivization of $V$ where the coordinate is zero.
+
+> Note: If this was a virtual vector bundle, we could make a Thom spectrum.
