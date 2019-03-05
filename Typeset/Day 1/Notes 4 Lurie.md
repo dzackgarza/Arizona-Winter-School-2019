@@ -40,3 +40,5 @@ What is $Y(\FF_q)$? This is the category of 1-dimensional $\FF_q\dash$vector spa
 $$
 \abs{Y(\FF_q)} = \sum_{y\in Y(\FF_q)} \frac{1}{\abs{\Aut(y)}} = \frac{1}{\abs{\FF_q^\times}} = \frac{1}{q-1}.
 $$
+
+We then need to check what the dimension $d=\dim B\GG_m$ is.
