@@ -118,7 +118,7 @@ $$
 \end{CD}
 $$
 
-and so we proceed by induction on a diagram of the form
+and so we can proceed by induction on the following diagram:
 $$
 \begin{CD}
   (\AA^{n-1} - \theset{0} )\cross(\AA^1 -\theset{0}) @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
@@ -126,3 +126,4 @@ $$
   \AA^n \cross (\AA^1 -\theset{0}) @>>> \AA^n - \theset{0} 
 \end{CD}
 $$
+
