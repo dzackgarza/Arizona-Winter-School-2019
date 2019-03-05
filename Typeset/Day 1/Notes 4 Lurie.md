@@ -231,3 +231,6 @@ $$
 
 So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some correction factor involving the action of the Frobenius on homotopy groups.
 
+More complicated example: $G = \GL_n$
+
+We have $H^*(\GL_n) = $
