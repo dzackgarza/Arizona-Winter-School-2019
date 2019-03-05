@@ -233,4 +233,4 @@ So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some
 
 More complicated example: $G = \GL_n$
 
-We have $H^*(\GL_n) = $
+Note that $BG \definedas B\GL_n$ We have $H^*(B\GL_n) = $
