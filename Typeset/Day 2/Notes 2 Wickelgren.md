@@ -17,6 +17,6 @@ $$
 \begin{CD}
   U\intersect V @>>> U \\
   @VVV \selfmap @VVV \\
-  V @>>> \PP^n/ \PP^{n-1}
+  V @>>> U \union V
 \end{CD}
 $$
