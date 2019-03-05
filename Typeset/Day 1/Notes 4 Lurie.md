@@ -233,4 +233,7 @@ So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some
 
 More complicated example: $G = \GL_n$
 
-Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have $H^*(BG) = \Lambda$
+Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have 
+$$
+H^*(BG) = \QQ_\ell[x_2, x_4, \cdots x_{2n}], \quad \deg x_i = 2
+$$
