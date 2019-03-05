@@ -10,4 +10,6 @@ $$
 \end{CD}
 $$
 
-which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree.
+which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree when the compositions are taken.
+
+Another example of a colimit
