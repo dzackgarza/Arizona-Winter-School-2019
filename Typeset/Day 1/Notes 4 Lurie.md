@@ -175,3 +175,4 @@ Note that for an algebraic variety of dimension $n$, cohomology can only be supp
 
 What does the GL trace formula say in this case?
 
+In this situation, the Frobenius will act on both the cohomology and homotopy groups
