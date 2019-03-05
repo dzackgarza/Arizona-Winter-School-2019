@@ -182,5 +182,6 @@ Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensio
 The trace is additive for exact sequences, and so 
 $$
 \tr (\phi^{-1} \mid H^*(\bar Y)) = \tr (\phi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
+= \tr (\phi^{-1} \mid \sym^* (I/I^2))
 $$
 where $\mathrm{gr}$ denotes the associated graded, and the equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
