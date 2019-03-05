@@ -113,3 +113,4 @@ Assuming
 
 
 To $\bar Y$ they associate a topological space $Z$ such that
+- $Z$ is simply-connected
