@@ -98,5 +98,6 @@ Let $\bar Y$ be some AG object over an algebraically closed field $k$ with a fix
 
 We can take the etale fundamental group $\pi_1^\text{et}(\bar Y, y)$, which is a profinite group that was introduced by Grothendieck. If we assume that $\bar Y$ is connected, then there is a correspondence
 $$
-\pmatrix{\text{Finite etale}\\\text{covers of } \bar Y} \iff \pmatrix{\text{Finite sets with} \\ \text{a continuous action}}
+\pmatrix{\text{Finite etale}\\\text{covers of } \bar Y} \iff \pmatrix{\text{Finite sets with} \\ \text{a continuous action} \\ \text{of } \pi_1^\text{et}(\bar Y, y)}.
 $$
+
