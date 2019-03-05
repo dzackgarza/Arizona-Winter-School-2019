@@ -150,3 +150,6 @@ Example: Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{
 > Note: video says "disjoint basepoint" here and uses different notation, may not be correct.
 
 Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
+
+# The Grothendieck-Witt Group
+This crops up as the target of the degree map.
