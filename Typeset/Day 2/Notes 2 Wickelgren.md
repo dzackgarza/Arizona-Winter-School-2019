@@ -66,4 +66,6 @@ $$
 T_x X \mapsvia{f^*} T_{f(x)}Y
 $$
 
-Definition: A map is a **cover** if it is etale and surjective.
+Definition: A map $\f: \coprod_\alpha U_\alpha \to X$ is an **etale cover** if it is etale and surjective
+
+Definition: A map 
