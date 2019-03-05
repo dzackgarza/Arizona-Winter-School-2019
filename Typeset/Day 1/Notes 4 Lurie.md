@@ -128,6 +128,8 @@ $$
 
 where we can ignore base points because we are in the simply-connected case. This is a finitely generated $\ZZ_\ell\dash$module, and for now we will only be interested in its rationalization 
 $$
-\pi_n(\bar Y)_{\QQ_\ell}\definedas \pi_n(\bar Y)[\frac 1 \ell]
+\pi_n(\bar Y)_{\QQ_\ell}\definedas \pi_n(\bar Y)\left[\frac 1 \ell\right]
 $$
+
+which is now a finite-dimensional $\QQ_\ell\dash$vector space.
 
