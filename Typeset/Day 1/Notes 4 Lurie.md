@@ -152,5 +152,5 @@ $$
 b: \pi_n(\bar Y)_{\QQ_\ell} \tensor \frac I I^2 \to \QQ_\ell
 $$
 
-where $b
+where $b$ will vanish on any cohomology class that can be decomposed as a product of two cohomology classes of lower degree.
 
