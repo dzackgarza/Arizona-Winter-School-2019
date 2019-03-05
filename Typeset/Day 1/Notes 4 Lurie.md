@@ -135,6 +135,7 @@ $$
 
 which is now a finite-dimensional $\QQ_\ell\dash$vector space.
 
+# Relation to Homology
 How are the $\ell\dash$adic homology groups related to these $\ell\dash$adic homotopy groups? In Topology, we have the Hurewciz maps taking homotopy groups into homology groups, which we can think of as giving a bilinear pairing between the homotopy groups and the cohomology groups (via natural duality of homology/cohomology).
 
 We have the same thing here: there is a canonical map
