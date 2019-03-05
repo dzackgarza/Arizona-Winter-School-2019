@@ -238,4 +238,7 @@ $$
 H^*(BG) = \QQ_\ell[x_2, x_4, \cdots x_{2n}], \quad \deg x_i = i
 $$
 
-which can be identified with the Chern classes of the universal vector bundle of degree $n$, so we have
+which can be identified with the Chern classes of the universal vector bundle of degree $n$, so we can write
+$$
+H^*(BG) = \QQ_\ell[c_1, c_2, \cdots c_n]
+$$
