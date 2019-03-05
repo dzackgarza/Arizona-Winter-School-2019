@@ -51,11 +51,16 @@ $$
 \dim B\GG_m = \dim \pt - \dim \GG_m = 0 - 1 = -1.
 $$
 
-and so 
+and so we obtain 
 
 $$
 \frac {\abs{Y(\FF_q)}}{q^{\dim Y}} = \frac{1/(q-1)}{q^{-1}} = \frac q {q-1}
 $$
+
+for the LHS of the GL trace formula.
+
+For the RHS,
+
 
 
 > Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
