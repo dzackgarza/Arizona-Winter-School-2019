@@ -5,7 +5,7 @@ Recall from last time that we wanted to form a space analogous to a sphere, give
 $$
 \begin{CD}
   \PP^{n-1} @>>> \PP^n \\
-  @AAA \selfmap @AA\varepsilon_{n+1} A \\
-  \Omega^n_{A/k} @>\del_{DR}>> \Omega^{n+1}_{A/k}
+  @AAA \selfmap @AAA \\
+  \pt @>>> \PP^n/ \PP^{n-1}
 \end{CD}
 $$
