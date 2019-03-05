@@ -67,5 +67,5 @@ where the bar is just to remind that we're in algebraic closures of the underlyi
 
 Before seeing what this looks like in characteristic $p$, lets first look at $\CC$ and $\GG_m(\CC) = \CC^\times$. In this setting, we can dispense with $\ell\dash$adic cohomology and just take the usual cohomology of topological spaces. 
 
-We can also just take the usual topological classifying space $B\GG_m(\CC)$ by just finding a contractible space on which $\CC^\times$ acts freely. We know that $\CC^\times$ will act on any $\CC\dash$vector space $V$, but fixes zero. We could instead try letting it act on $V-\theset{0}$, but this isn't contractible in -- in finite dimensions. So we can take $\CC^\infty = \varprojlim \CC^n$ 
+We can also just take the usual topological classifying space $B\GG_m(\CC)$ by just finding a contractible space on which $\CC^\times$ acts freely. We know that $\CC^\times$ will act on any $\CC\dash$vector space $V$, but fixes zero. We could instead try letting it act on $V-\theset{0}$, but this isn't contractible in -- in finite dimensions. So we can take $\CC^\infty = \varprojlim \CC^n$, where $\CC^\infty - \pt \homotopic \pt$ and is thus contractible, and finally take
 
