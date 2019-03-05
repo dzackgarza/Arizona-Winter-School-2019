@@ -169,5 +169,5 @@ $$
 \cdots I^3 \subseteq I^2 \subseteq I \subseteq H^*(\bar Y)
 $$
 
-and $H^*$ is a polynomial ring, this is an exhaustive filtration
+and $H^*$ is a polynomial ring, this is an exhaustive filtration, and we can recover the 
 
