@@ -71,4 +71,4 @@ Definition: A map $f: \coprod_\alpha U_\alpha \to X$ is an **etale cover** if it
 Definition: A map $f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$.
 
 This topology has a few nice properties:
-- Smooth schemes have etale maps into $\AA^n$
+- Smooth schemes have etale maps into $\AA^n$, and inclusions of schemes map to 
