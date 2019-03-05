@@ -104,3 +104,5 @@ $$
   \pt \homotopic \AA^1 @>>> \PP^1
 \end{CD}
 $$
+
+which follows from the fact that 
