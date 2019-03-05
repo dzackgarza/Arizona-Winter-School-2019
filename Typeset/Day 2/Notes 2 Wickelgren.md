@@ -107,4 +107,6 @@ $$
 
 which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$ (yielding the top-right copy of $\AA^1$), and we can take a neighborhood around the point at $\infty$ to obtain the bottom-left copy -- these intersect in $\GG_m$.
 
-So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$
+So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$.
+
+We can also write $\AA^1 - \theset{0} \homotopic (S^1)^{\wedge n-1}$
