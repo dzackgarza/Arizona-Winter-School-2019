@@ -210,3 +210,5 @@ $$
 $$
 
 i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
+
+Since $G$ is connected, there is only one principal $G\dash$bundle on $\spec \FF_q$ (a theorem of Lang)
