@@ -85,6 +85,6 @@ $$
 \tr(\phi^{-1} \mid H^*(\overline{B\GG_m})) =
 $$
 
-where the signs drop out because everything is in even degree
+where the signs drop out because everything is in even degree, and the term comes from degree $2n$ where the map is 
 
 
