@@ -65,8 +65,7 @@ $$
 $$
 where the bar is just to remind that we're in algebraic closures of the underlying fields.
 
-Before seeing what this looks like in characteristic $p$, lets first look at $\CC$ and $\GG_m(\CC)$. In this setting, we can dispense with $\ell\dash$adic cohomology and just take the usual cohomology of topological spaces.
-
+Before seeing what this looks like in characteristic $p$, lets first look at $\CC$ and $\GG_m(\CC) = \CC^\times$. In this setting, we can dispense with $\ell\dash$adic cohomology and just take the usual cohomology of topological spaces.
 
 
 > Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
