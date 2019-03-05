@@ -35,4 +35,4 @@ We're building a homotopy theory, which can mean
 - A simplicial model category, or
 - An $\infty\dash$category
 
-Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\sm)$ has this structure.
+Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\sm)$ has this structure. This construction is essentially "freely adding colimits", which has the problem that
