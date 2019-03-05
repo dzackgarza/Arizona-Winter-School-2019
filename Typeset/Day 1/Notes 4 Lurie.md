@@ -125,3 +125,5 @@ This also allows us to define homotopy groups of $\bar Y$, given by
 $$
 \pi_n(\bar Y) = \pi_n(Z)
 $$
+
+where we can ignore base points because we are in the simply-connected case.
