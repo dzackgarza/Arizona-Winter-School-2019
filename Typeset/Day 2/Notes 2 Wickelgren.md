@@ -48,3 +48,10 @@ and making a simplicial object out of this map and forcing a weak equivalence
 $$
 \text{cos}^0_x \coprod_\alpha U_\alpha \mapsvia{\homotopic} X
 $$
+
+> Note: this may be the Cech nerve, not entirely sure.
+
+This gives us a localization functor
+$$
+
+$$
