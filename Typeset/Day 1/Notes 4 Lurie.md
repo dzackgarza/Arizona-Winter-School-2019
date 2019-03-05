@@ -235,5 +235,7 @@ More complicated example: $G = \GL_n$
 
 Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have 
 $$
-H^*(BG) = \QQ_\ell[x_2, x_4, \cdots x_{2n}], \quad \deg x_i = 2
+H^*(BG) = \QQ_\ell[x_2, x_4, \cdots x_{2n}], \quad \deg x_i = i
 $$
+
+which can be written in terms of the Chern classes
