@@ -89,4 +89,6 @@ where the signs drop out because everything is in even degree, and the term come
 
 **Conclusion**: The GL trace formula works for the stack $B\GG_m$, even though it was not an algebraic variety.
 
+Note that the reason we take $\phi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\phi$ will not yield a convergent sum.
+
 
