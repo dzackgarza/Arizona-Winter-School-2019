@@ -12,4 +12,11 @@ $$
 
 which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree when the compositions are taken.
 
-Another example of a colimit
+Another example of a colimit is the union, which is given by
+$$
+\begin{CD}
+  U\intersect V @>>> U \\
+  @VVV \selfmap @VVV \\
+  V @>>> \PP^n/ \PP^{n-1}
+\end{CD}
+$$
