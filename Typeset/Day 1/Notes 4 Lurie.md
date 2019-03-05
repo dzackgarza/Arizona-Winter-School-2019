@@ -254,4 +254,6 @@ $$
 \abs{\GL(n, \FF_q)} = q^{n^2} \prod_{i=1}^{n-1} \frac{1}{1-q^i}
 $$
 
-where $\dim \GL_n = n^2$
+where $\dim \GL_n = n^2$.
+
+If the cohomology ring is not a polynomial ring
