@@ -161,7 +161,11 @@ where the two images land in degree lower than $n$ in the cohomology ring of the
 
 If $H^*(\bar Y)$ is a polynomial ring on generators of only even degree, then $\bar b$ is a perfect pairing and thus
 $$
-\pi_*(\bar Y) = \left(\frac I I^2\right)^\dual
+\pi_*(\bar Y) = \left(\frac I I^2\right)^\dual,
 $$
 
+so we can read the homotopy groups right off of the cohomology. Going the other way almost works, since we have a filtration
+$$
+\cdots I^3 \subseteq I^2 \subseteq I \subseteq H^*(\bar Y)
+$$
 
