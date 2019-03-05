@@ -78,3 +78,5 @@ If we instead take the $\ell\dash$adic cohomology of the classifying stack inste
 $$
 H^*(B\GG_m) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
+
+which is a $\QQ_\ell\dash$algebra.
