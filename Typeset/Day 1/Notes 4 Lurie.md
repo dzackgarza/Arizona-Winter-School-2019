@@ -82,7 +82,7 @@ $$
 which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\phi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
 
 $$
-\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) =
+\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) = \sum_{n\geq 0} q^{-n} = \frac{q}{q-1}
 $$
 
 where the signs drop out because everything is in even degree, and the term comes from degree $2n$ and $\phi^{-1}: x\mapsto 2^{-n} x$.
