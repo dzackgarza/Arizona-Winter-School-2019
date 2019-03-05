@@ -25,4 +25,6 @@ so the bar notation just means extending scalars up to the algebraic closure of 
 
 This definition makes sense because we can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius, and so we can take its inverse and trace.
 
-The classical GL trace formula says this is true for $Y$ an algebraic variety, and we want an analog for stacks. We'll 
+The classical GL trace formula says this is true for $Y$ an algebraic variety, and we want an analog for stacks. We'll go through this for a moduli stack of $G\dash$ bundles not on a curve, but just on a point.
+
+Example: Let $G$ be a linear algebraic group over $\FF_q$ and 
