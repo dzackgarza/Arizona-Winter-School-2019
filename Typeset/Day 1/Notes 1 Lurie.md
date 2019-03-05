@@ -153,7 +153,7 @@ We can define $V_\RR$, the vector space of such forms, which is an $\RR\dash$vec
 
 It's not the case that $SO_q(\QQ_{(p)}$ are Lie groups, but there is a replacement notion of **$p\dash$adic analytic Lie groups**, which has an analog of differential forms, particularly in top degree and left-invariant, where any choice determines a Haar measure. We again look at the collection of such forms $V_{\QQ_{(p)}}$, which is a 1-dimensional $\QQ_{(p)}\dash$vector space. In a similar fashion, $O_q(\QQ_{(p)}$ is an algebraic group, and we find that $V_{\QQ} \subseteq V_{\QQ_{(p)}}$.
 
-So a choice of $\omega \in V_\QQ$ determins measures on both factors, say $\mu_{\omega, \RR}$ and $\mu_{\omega, \QQ_{(p)}}$. So we can arrive at the Tamagawa measure:
+So a choice of $\omega \in V_\QQ$ determines measures on both factors, say $\mu_{\omega, \RR}$ and $\mu_{\omega, \QQ_{(p)}}$. So we can arrive at the Tamagawa measure:
 $$
 \mu_{\text{tam}} \definedas \prod_{p\in \PP} \mu_{\omega, \QQ_{(p)}} \times \mu_{\omega, \RR}.
 $$
