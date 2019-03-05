@@ -221,5 +221,10 @@ $$
 
 giving an alternative way of writing the LHS. From our earlier analysis, we also have an alternative for the RHS, so we can write
 $$
-\frac{q^{\dim G}}{\abs{G(\FF_q)}} =_? \frac{1}{\det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})}
+\frac{q^{\dim G}}{\abs{G(\FF_q)}} =_? \frac{1}{\det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})}.
+$$
+
+Rearranging for what we actually want to count, we have
+$$
+\abs{G(\FF_q) = \det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})
 $$
