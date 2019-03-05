@@ -149,6 +149,8 @@ which amounts to just pulling back elements in cohomology along the maps given b
 
 Nothing interesting happens in degree zero, so let's take the reduced homology instead and define $I = \tilde {H^*}(\bar Y) \leq H^*(\bar Y)$ which is an ideal. We can then descend the above pairing into a new pairing
 $$
-\pi_n(\bar Y)_{\QQ_\ell} \tensor 
+b: \pi_n(\bar Y)_{\QQ_\ell} \tensor \frac I I^2 \to \QQ_\ell
 $$
+
+where $b
 
