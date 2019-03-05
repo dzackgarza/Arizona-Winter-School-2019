@@ -61,9 +61,9 @@ for $\tau$ a Grothendieck topology which declares certain classes of maps to be 
 - Nisnevich
 - Etale
 
-Definition:  A map $f\in hom(X,Y) \in \Sm$ (not necessarily smooth) is etale at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
+Definition:  A map $f\in hom(X,Y) \in \Sm$ (not necessarily smooth) is **etale** at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
 $$
 T_x X \mapsvia{f^*} T_{f(x)}Y
 $$
 
-
+Definition: A map is a **cover** if it is etale and surjective.
