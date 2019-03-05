@@ -20,3 +20,5 @@ $$
   V @>>> U \union V
 \end{CD}
 $$
+
+These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well.
