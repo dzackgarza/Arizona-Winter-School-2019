@@ -25,5 +25,6 @@ These correspond to crushing and gluing operations, which we can do with topolog
 
 We want colimits, so we add them: let $\Sm$ to be the smooth schemes over $k$. There is a Yoneda embedding
 $$
-\Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op}
+\Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op} \\
+X \mapsto \Hom(\wait, X)
 $$
