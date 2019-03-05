@@ -116,7 +116,7 @@ To $\bar Y$ they associate a topological space $Z$ , the **$\ell\dash$adic homot
 - $Z$ is simply-connected and each $\pi_n(Z)$ is a finitely generated $\ZZ_\ell\dash$module
   - So it behaves as if it's $\ell\dash$adically complete.
 - $H^*_\text{Sing}(Z, \ZZ/\ell\ZZ) \cong H_\text{et}^*(\bar Y, \ZZ/\ell\ZZ)$
-  - This is an abstract isomorphism. Stating this carefully would involve
+  - This is an abstract isomorphism. Stating this carefully would involve saying there is some datum that induces this isomorphism.
 
 
 This allows us to realize the etale cohomology of some AG object $Y$ as the literal cohomology of some actual topological space $Z$ that is related to $Y$. So we can produce many more invariants of an algebraic variety $\bar Y$.
