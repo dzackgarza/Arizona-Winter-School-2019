@@ -98,7 +98,7 @@ $$
 
 where the restricted product only allows finitely many primes in denominators.
 
-Note that since $A \in \GL(n, \hat \ZZ)$, $M$ is only well-defined up to right-multiplication by elements in $O_q(\hat \ZZ)$, and similarly it is only well-defined up to left-multiplication by elements in $O_q(\QQ_{p})$. If we take the double quotient out by these groups (forming a double coset), we get something unique.
+Note that since $A \in \GL(n, \hat \ZZ)$, the matrix $M$ is only well-defined up to right-multiplication by elements in $O_q(\hat \ZZ)$, and similarly it is only well-defined up to left-multiplication by elements in $O_q(\QQ_{p})$. If we take the double quotient out by these groups (forming a double coset), we get something unique.
 
 If you land in the identity coset here, you have $B^{-1}A = I$, and so each entry of $M$ would need to lie in $\QQ \intersect \hat \ZZ = \ZZ$. Moreover, this collection of cosets bijects with equivalence classes of quadratic forms in the genus of $q$.
 
