@@ -75,4 +75,4 @@ This topology has a few nice properties:
 - Satisfies descent for K-theory
 - The cohomological dimension equals the Krull dimension 
 - Cohomology can be computed Cech complexes
-- More listed in 
+- More listed in Voevodsky's original paper
