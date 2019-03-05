@@ -10,4 +10,4 @@ $$
 \end{CD}
 $$
 
-which is the same as requiring that maps from the point and maps from quotiented space 
+which is the same as requiring that maps from the total space into the quotient  
