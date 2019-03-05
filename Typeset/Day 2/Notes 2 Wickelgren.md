@@ -151,5 +151,10 @@ Example: Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{
 
 Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
 
-# The Grothendieck-Witt Group
-This crops up as the target of the degree map.
+# The Grothendieck-Witt Group and Milnor K-Theory
+Recall that the target of the degree map was $GW(k)$; we'll also talk a bit about Milnor K-theory $K^M_*(k)$.
+
+From yesterday, we defined $GW(k)$ as the isomorphism classes of symmetric nondegenerate bilinear forms over $k$, which had a presentation
+$$
+\generators{a}
+$$
