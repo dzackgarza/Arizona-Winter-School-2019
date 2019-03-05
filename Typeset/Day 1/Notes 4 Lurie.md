@@ -8,7 +8,7 @@ $$
 
 where the sum is over the objects in this category, with one term from each isomorphism class.
 
-As a special case, let $Y$ be smooth of dimension $d$.
+As a special case, let $Y$ be a smooth algebraic stack of dimension $d$, which means that it is locally a variety
 
 Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius $\varphi$ on cohomology, i.e.
 $$
