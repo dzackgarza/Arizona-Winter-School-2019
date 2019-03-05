@@ -21,4 +21,6 @@ $$
 \end{CD}
 $$
 
-These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well.
+These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well. 
+
+We'd also like smooth schemes to behave like smooth manifolds, in the sense that we can take an open ball around each point.
