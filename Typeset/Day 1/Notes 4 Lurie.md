@@ -260,3 +260,5 @@ If the cohomology ring is not polynomial, things get more complicated, and the r
 $$
 \sym^*\left( (\pi(\bar Y)_{\QQ_\ell})^\dual\right) \Rightarrow H^*(\bar Y)
 $$
+
+where the LHS appears on the $E_2$ page, and the RHS is the associated graded for an $\ell\dash$adic filtration on $H^*$. When 
