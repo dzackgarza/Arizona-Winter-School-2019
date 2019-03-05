@@ -215,5 +215,6 @@ Since $G$ is connected, there is only one principal $G\dash$bundle on $\spec \FF
 
 We thus find
 $$
-\abs{BG(\FF_q)} = \frac{1}{\abs{\FF_q}}
+\abs{BG(\FF_q)} = \frac{1}{\abs{G(\FF_q)}} \\
+q^{\dim BG} = \frac{1}{\dim G}
 $$
