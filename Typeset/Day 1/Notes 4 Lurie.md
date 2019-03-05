@@ -101,4 +101,4 @@ $$
 \pmatrix{\text{Finite etale}\\\text{covers of } \bar Y} \iff \pmatrix{\text{Finite sets with} \\ \text{a continuous action} \\ \text{of } \pi_1^\text{et}(\bar Y, y)}.
 $$
 
-Generally in characteristic $p$, this invariant ends up being too large, so we reduce by taking the maximal $\ell
+Generally in characteristic $p$, this invariant ends up being too large, so we reduce by taking the maximal pro$\dash\ell$ quotient of $\pi_1$.
