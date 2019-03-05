@@ -146,4 +146,4 @@ Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in 
 
 Example: Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
 
-Example: Replace $\spec k$
+Example: Replace $\spec k$ with $\spec k(z)$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec k(z)$
