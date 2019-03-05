@@ -175,6 +175,7 @@ and $H^*$ is a polynomial ring, this is an exhaustive filtration, and we can rec
 
 Note that for an algebraic variety of dimension $n$, cohomology can only be supported on degrees up to $2n$, so it will never look like a polynomial algebra -- but this is something that may work for stacks (e.g. $\bar Y = B\GG_m)$.
 
+# Trace in Terms of Homotopy
 What does the GL trace formula say in this case?
 
 In this situation, the Frobenius will act on both the cohomology and homotopy groups, and $\bar b$ will be equivariant with respect to this action. For the infinite sum in the formula to make sense, we fix an embedding $\QQ_\ell \into \CC$ with the usual topology.
