@@ -56,6 +56,8 @@ $$
 \mathrm{PreSh}(\Sm) \mapsvia{L_\tau} \mathrm{Sh}_k
 $$
 
-for $\tau$ a Grothendieck topology which declares certain classes of maps to be covers. We have some choices of topology here:
-- Zariski topology on schemes
-- 
+for $\tau$ a Grothendieck topology which declares certain classes of maps to be covers. We have some choices of topology here, roughly in order of increasing number of open sets:
+- Zariski (on schemes)
+- Nisnevich
+- Etale
+
