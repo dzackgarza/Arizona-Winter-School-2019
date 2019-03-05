@@ -138,7 +138,7 @@ How are the $\ell\dash$adic homology groups related to these $\ell\dash$adic hom
 We have the same thing here: there is a canonical map
 $$
 b: \pi_n(\bar Y)_{\QQ_\ell} \tensor H^n(\bar Y) \to \QQ_\ell \\
-(f: S^n \to Z, \eta: H_n(\bar Y) \to \QQ_\ell) \mapsto f^*\eta\\
+(f: S^n \to Z, \eta: H_n(\bar Y) \to \QQ_\ell) \mapsto f^*\eta\\ ~ \\
 \text{where } f^*\eta \in H^n(S^n, \QQ_\ell) \cong \QQ_\ell
 $$
 
