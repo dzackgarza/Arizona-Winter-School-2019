@@ -81,3 +81,5 @@ The next step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homot
 $$
 \Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\AA}} \text{Spc}_k
 $$
+
+and so we'll call $\text{Spc}_k$ our $\AA^1$ homotopy theory.
