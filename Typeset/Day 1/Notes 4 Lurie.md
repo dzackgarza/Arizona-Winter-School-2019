@@ -224,7 +224,9 @@ $$
 \frac{q^{\dim G}}{\abs{G(\FF_q)}} =_? \frac{1}{\det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})}.
 $$
 
-Rearranging for what we actually want to count, we have
+Rearranging for what we actually want to count, we obtain **Steinberg's Formula**:
 $$
 \abs{G(\FF_q)} = q^{\dim G} \det(1-\phi \mid \pi_*(\bar Y)_{\QQ_\ell})
 $$
+
+and so the number of $\FF_q$ points of $G$ is equal to the naive estimate times some correction factor involving the action of the Frobenius on homotopy groups.
