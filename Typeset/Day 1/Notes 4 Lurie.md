@@ -186,6 +186,9 @@ $$\begin{align*}
 \end{align*}$$
 where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
 
-If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$.
+If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$, and so
+$$
+\tr (\phi^{-1} \mid \sym^* (I/I^2)) = \sum_{}\lambda_i^{e_i}
+$$
 
 
