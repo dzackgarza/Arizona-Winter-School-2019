@@ -43,3 +43,5 @@ This is carried out by looking at open covers
 $$
 U = \coprod_{\alpha} U_\alpha \to X
 $$
+
+and making a simplicial object out of this map.
