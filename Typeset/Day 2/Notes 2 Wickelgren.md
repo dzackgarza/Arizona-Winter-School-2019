@@ -93,5 +93,5 @@ $$
 
 In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\AA^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have $S^1$, we can also take $\GG_m = \AA^1 - \theset{0}$, and so we have spheres
 $$
-S^{p+q,q} = (S^1) 
+S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} 
 $$ 
