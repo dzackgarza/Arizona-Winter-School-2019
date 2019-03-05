@@ -54,7 +54,7 @@ $$
 and so 
 
 $$
-\frac {\abs{Y(\FF_q)}}{q^{\dim Y}} =  
+\frac {\abs{Y(\FF_q)}}{q^{\dim Y}} = \frac{1/(q-1)}{q^{-1}} = \frac q {q-1}
 $$
 
 
