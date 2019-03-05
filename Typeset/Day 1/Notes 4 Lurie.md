@@ -211,4 +211,9 @@ $$
 
 i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
 
-Since $G$ is connected, there is only one principal $G\dash$bundle on $\spec \FF_q$ (a theorem of Lang), i.e. every principal $G\dash$bundle for a finite field is trivial. Moreover, the trivial bundle has an automorphism group given by the finite group $G(\FF_q)$.
+Since $G$ is connected, there is only one principal $G\dash$bundle on $\spec \FF_q$ (a theorem of Lang), i.e. every principal $G\dash$bundle for a finite field is trivial. Moreover, the trivial bundle has an automorphism group given by the finite group $G(\FF_q)$. 
+
+We thus find
+$$
+\abs{BG(\FF_q)
+$$
