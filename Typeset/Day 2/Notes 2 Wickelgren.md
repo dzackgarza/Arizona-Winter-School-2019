@@ -109,4 +109,4 @@ which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$ (yieldin
 
 So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$.
 
-We can also write $\AA^1 - \theset{0} \homotopic (S^1)^{\wedge n-1}$
+We can also write $\AA^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$.
