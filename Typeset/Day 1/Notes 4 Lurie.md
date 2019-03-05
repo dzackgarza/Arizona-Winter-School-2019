@@ -192,6 +192,6 @@ $$\begin{align*}
 &= \prod_{i=1}^n \frac{1}{1-\lambda_i}
 \end{align*}$$
 
-where the evaluation comes recognizing the fact that the sum that appears is a product of geometric series
+where the evaluation comes recognizing the fact that the sum that appears is a product of geometric series, which falls out after some elementary manipulations.
 
 
