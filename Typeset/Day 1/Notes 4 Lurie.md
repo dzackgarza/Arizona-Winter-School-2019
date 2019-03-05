@@ -138,7 +138,8 @@ How are the $\ell\dash$adic homology groups related to these $\ell\dash$adic hom
 We have the same thing here: there is a canonical map
 $$
 b: \pi_n(\bar Y)_{\QQ_\ell} \tensor H^n(\bar Y) \to \QQ_\ell \\
+(f: S^n \to \ZZ)
 $$
 
-which amounts to just pulling back elements in cohomology along 
+which amounts to just pulling back elements in cohomology along the maps given by homotopy groups.
 
