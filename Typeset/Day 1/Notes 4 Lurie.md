@@ -262,3 +262,5 @@ $$
 $$
 
 where the LHS appears on the $E_2$ page, and the RHS is the associated graded for an $\ell\dash$adic filtration on $H^*$. When $H^*$ is polynomial, this sequence degenerates at $E_2$ and this an equivalence.
+
+However, the trace $\phi$ can be computed on any page
