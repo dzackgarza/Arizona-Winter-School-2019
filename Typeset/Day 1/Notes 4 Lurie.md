@@ -266,5 +266,7 @@ where the LHS appears on the $E_2$ page, and the RHS is the associated graded fo
 However, the trace $\phi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
-\tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}
+\tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
 $$
+
+This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_i$ are all finite dimensional.
