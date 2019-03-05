@@ -206,7 +206,7 @@ Sanity check: let $\bar Y = \GG_m$, and recall that this yielded a polynomial ri
 Now let $G$ be any linear algebraic group over $\FF_q$. What does the GL trace formula say about $BG$? Well, $H^*(BG)$ will always be a polynomial ring on even generators, so our previous analysis will apply. We can write
 
 $$
-\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \tr
+\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \tr(\phi^{-1} \mid H^*(\bar{BG}))
 $$
 
 i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
