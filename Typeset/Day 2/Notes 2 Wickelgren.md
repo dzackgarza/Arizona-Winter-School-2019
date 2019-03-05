@@ -28,3 +28,5 @@ $$
 \Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op}, \mathrm{Sset}) \\
 X \mapsto \hom(\wait, X)
 $$
+
+where one might normally require the target to be sets, but since we'd like homotopy colimits
