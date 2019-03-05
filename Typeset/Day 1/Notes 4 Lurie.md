@@ -152,5 +152,8 @@ $$
 b: \pi_n(\bar Y)_{\QQ_\ell} \tensor \frac I I^2 \to \QQ_\ell
 $$
 
-where $b$ will vanish on any cohomology class that can be decomposed as a product of two cohomology classes of lower degree.
+where $b$ will vanish on any cohomology class that can be decomposed as a product of two cohomology classes of lower degree. This comes from observing that 
+$$
+\eta = \eta_1 \eta_2 \implies f(\eta) = f(\eta_1)f(\eta_2)
+$$
 
