@@ -33,3 +33,5 @@ $$
 $$
 
 for any $\FF_q\dash$algebra $R$.
+
+A more specific example: let $G = \
