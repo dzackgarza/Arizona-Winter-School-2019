@@ -266,5 +266,5 @@ where the LHS appears on the $E_2$ page, and the RHS is the associated graded fo
 However, the trace $\phi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
-\tr(\phi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{}
+\tr(\phi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det()}
 $$
