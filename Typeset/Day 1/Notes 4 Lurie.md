@@ -265,7 +265,7 @@ $$
 
 where the LHS appears on the $E_2$ page, and the RHS is the associated graded for an $\ell\dash$adic filtration on $H^*$. When $H^*$ is polynomial, this sequence degenerates at $E_2$ and this an equivalence.
 
-However, the trace $\phi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
+However, the trace of $\varphi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
 \tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
@@ -273,4 +273,5 @@ $$
 
 This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_*$ is finite dimensional / concentrated in finitely many degrees.
 
-What's the point? This will apply for $Y = \bun_G(X)$. $\qed$
+# What's the Point? 
+This will apply for $Y = \bun_G(X)$! $\qed$
