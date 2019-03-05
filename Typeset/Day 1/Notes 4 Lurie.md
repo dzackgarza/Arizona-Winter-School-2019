@@ -234,7 +234,8 @@ $$
 
 So the number of $\FF_q$ points of $G$ is equal to the naive estimate times some correction factor involving the action of the Frobenius on homotopy groups.
 
-More complicated example: $G = \GL_n$
+# A More Complicated Example
+Let $G = \GL_n$
 
 Note that $BG \definedas B\GL_n$ is the classifying stack for vector bundles of rank $n$. We have 
 $$
