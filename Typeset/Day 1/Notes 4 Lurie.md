@@ -201,6 +201,6 @@ $$
 
 where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
 
-Sanity check: let $\bar Y = \GG_m$, then $\pi_*(\bar Y )_{\QQ_\ell}$
+Sanity check: let $\bar Y = \GG_m$, then $V \pi_*(\bar Y )_{\QQ_\ell}$ is 1-dimensional.
 
 
