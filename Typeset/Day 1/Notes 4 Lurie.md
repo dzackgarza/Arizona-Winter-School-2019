@@ -81,7 +81,7 @@ $$
 H^*(\overline {B\GG_m}) = \QQ_\ell[t], \\ \abs{t} = 2.
 $$
 
-which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\vvarphi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
+which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\varphi(t) = qt$ and $\phi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
 
 $$
 \tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) = \sum_{n\geq 0} q^{-n} = \frac{q}{q-1}
@@ -265,7 +265,7 @@ $$
 
 where the LHS appears on the $E_2$ page, and the RHS is the associated graded for an $\ell\dash$adic filtration on $H^*$. When $H^*$ is polynomial, this sequence degenerates at $E_2$ and this an equivalence.
 
-However, the trace of $\varphi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
+However, the trace $\phi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
 \tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
