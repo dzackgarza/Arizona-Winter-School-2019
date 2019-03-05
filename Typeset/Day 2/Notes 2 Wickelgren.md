@@ -76,3 +76,5 @@ This topology has a few nice properties:
 - The cohomological dimension equals the Krull dimension 
 - Cohomology can be computed Cech complexes
 - More listed in Voevodsky's original paper
+
+The next step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homotopic X$.
