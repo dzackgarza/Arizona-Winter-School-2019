@@ -126,4 +126,4 @@ $$
 \pi_n(\bar Y) = \pi_n(Z)
 $$
 
-where we can ignore base points because we are in the simply-connected case.
+where we can ignore base points because we are in the simply-connected case. This is a finitely generated $\ZZ_\ell\dash$module, and for now we will only be interested in its rationalization $\pi_n(\bar Y)_{\QQ_\ell}$
