@@ -109,4 +109,7 @@ Assuming
 - $\pi_1^\text{et}(\bar Y, y)_\ell = 0$, so $\bar Y$ looks simply-connected at $\ell$.
   - Equivalently, $H^1_\text{et}(\bar Y, \ZZ/\ell\ZZ)$
 - $\dim(H^1_\text{et}(\bar Y, \ZZ/\ell\ZZ)) < \infty$ as a vector space over $\ZZ/\ell\ZZ$.
+  - This always happens for $\bar Y$ an algebraic variety.
+
+
 To $\bar Y$ they associate a topological space $Z$ such that
