@@ -177,4 +177,4 @@ What does the GL trace formula say in this case?
 
 In this situation, the Frobenius will act on both the cohomology and homotopy groups, and $\bar b$ will be equivariant with respect to this action. For the infinite sum in the formula to make sense, we fix an embedding $\QQ_\ell \into \CC$ with the usual topology.
 
-Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensional $\QQ_\ell$ vector space. So we look at the generalized eigenvalues of $\varphi$ on this once we extend scalars to $\CC$, say $\theset{\lambda_i}_{i=1}^n$.
+Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensional $\QQ_\ell$ vector space. So we look at the generalized eigenvalues of $\varphi$ on this once we extend scalars to $\CC$, say $\theset{\lambda_i}_{i=1}^n$ on $\pi_*(\bar Y)$ and thus .
