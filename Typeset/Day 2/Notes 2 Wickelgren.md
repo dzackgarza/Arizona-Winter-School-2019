@@ -142,3 +142,4 @@ where $X$ here corresponds to the zero section, $\mathcal O$ is the trivial line
 The next theorem gives us neighborhoods around points
 
 **The Purity Theorem**:
+Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view 
