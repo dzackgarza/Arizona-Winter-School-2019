@@ -258,5 +258,5 @@ where $\dim \GL_n = n^2$.
 
 If the cohomology ring is not polynomial, things get more complicated, and the relationship between $\pi_*$ and $H^*$ is described by a spectral sequence:
 $$
-\sym^*\left( (\pi(\bar Y)_{\QQ_\ell})^\dual\right) 
+\sym^*\left( (\pi(\bar Y)_{\QQ_\ell})^\dual\right) \Rightarrow H^*(\bar Y)
 $$
