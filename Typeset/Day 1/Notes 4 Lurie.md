@@ -270,3 +270,5 @@ $$
 $$
 
 This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_*$ is finite dimensional / concentrated in finitely many degrees.
+
+What's the point? This will apply for $Y = \bun_G(X)$
