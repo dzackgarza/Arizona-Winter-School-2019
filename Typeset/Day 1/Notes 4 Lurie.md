@@ -23,4 +23,6 @@ $$
 
 so the bar notation just means extending scalars up to the algebraic closure of the underlying field.
 
-We can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius.
+This definition makes sense because we can ask about the $\ell\dash$adic cohomology of $\bar Y$, which is some$\QQ_\ell\dash$vector space with an automorphism called the Frobenius, and so we can take its inverse and trace.
+
+The classical GL
