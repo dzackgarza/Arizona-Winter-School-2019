@@ -163,7 +163,11 @@ $$
 
 and relations
 $$
-\generators{ab^2} = \generators{a}
+\generators{ab^2} = \generators{a} \\
+\generators{a}\tensor\generators{b} = \generators{ab}\\
+\generators{a} + \generators b = \generators{a+b} + \generators{ab(a+b)}
 $$
 
-which follows because we're in $k^\times/(k^\times)^2$
+which follows because we're in $k^\times/(k^\times)^2$.
+
+These relations imply a special relation concerning a hyperbolic form, which we'll define as $h\definedas \generators {1} + \generators {-1}$
