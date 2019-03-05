@@ -46,6 +46,10 @@ $$
 B\GG_m = \pt / \GG_m
 $$
 
-where the quotient is taken in the category of stacks and not varieties.
+where the quotient is taken in the category of stacks and not varieties. In this case, we get 
+$$
+\dim B\GG_m = \dim \pt - \dim \GG_m = 0 - 1 = -1.
+$$
 
 > Note: this is probably the analog of a classifying space in algebraic topology -- a contractible space upon which the group acts freely.
+
