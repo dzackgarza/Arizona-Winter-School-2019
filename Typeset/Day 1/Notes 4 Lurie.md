@@ -145,3 +145,5 @@ $$
 
 which amounts to just pulling back elements in cohomology along the maps given by homotopy groups.
 
+> Note: I may have gotten the type of $\eta$ wrong here.
+
