@@ -91,4 +91,4 @@ $$
 X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}
 $$
 
-In topology, we have $S^m \wedge S^n = S^{m+n}$
+In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\AA^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors 
