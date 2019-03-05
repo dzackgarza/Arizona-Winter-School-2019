@@ -38,5 +38,5 @@ A more specific example: let $G = \GG_m$, the multiplicative group, and $Y =B\GG
 
 What is $Y(\FF_q)$? This is the category of 1-dimensional $\FF_q\dash$vector spaces -- so up to isomorphism, there's only one object in this category, but it has a group of symmetries $\Aut \FF_q = \FF_q^\times$ the group of units. We thus obtain
 $$
-\abs{Y(\FF_q)} = \sum_{y\in Y(\FF_q)} \frac{1}{\abs{\Aut(y)}}
+\abs{Y(\FF_q)} = \sum_{y\in Y(\FF_q)} \frac{1}{\abs{\Aut(y)}} = \frac{1}{q-1}
 $$
