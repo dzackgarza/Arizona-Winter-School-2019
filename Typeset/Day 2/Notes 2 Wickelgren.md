@@ -170,4 +170,4 @@ $$
 
 which follows because we're in $k^\times/(k^\times)^2$.
 
-These relations imply a special relation concerning a hyperbolic form, which we'll define as $h\definedas \generators {1} + \generators {-1}$
+These relations imply a special relation concerning a hyperbolic form, which we'll define as $h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}$ for any $a$.
