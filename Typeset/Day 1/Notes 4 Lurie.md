@@ -248,4 +248,4 @@ $$
 \pi_*(BG) = \QQ_\ell\left\{ e_1, e_2, \cdots e_n \right\}
 $$
 
-The Frobenius acts by $\phi(c_i) = q^i
+The Frobenius acts by $\phi(c_i) = q^i c_i$, and so $\phi(e_i) = q^{-i}e_i$.
