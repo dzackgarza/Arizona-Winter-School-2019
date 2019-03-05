@@ -157,3 +157,5 @@ $$
 \eta = \eta_1 \eta_2 \implies f(\eta) = f(\eta_1)f(\eta_2) \in H^*(S^n; \QQ_\ell)
 $$
 
+where the two images land in degree lower than $n$ and thus vanish.
+
