@@ -63,6 +63,7 @@ For the RHS, we are looking at
 $$
 \tr(\phi^{-1} \mid H^*(\overline{B\GG_m}))
 $$
+where the bar is just to remind that we're in algebraic closures of the underlying fields.
 
 
 
