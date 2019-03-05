@@ -121,4 +121,7 @@ To $\bar Y$ they associate a topological space $Z$ , the **$\ell\dash$adic homot
 
 This allows us to realize the etale cohomology of some AG object $Y$ as the literal cohomology of some actual topological space $Z$ that is related to $Y$. So we can produce many more invariants of an algebraic variety $\bar Y$.
 
-This also allows us to define homotopy groups of $Y$, given by $
+This also allows us to define homotopy groups of $\bar Y$, given by 
+$$
+\pi_n(\bar Y) = \pi_n(Z)
+$$
