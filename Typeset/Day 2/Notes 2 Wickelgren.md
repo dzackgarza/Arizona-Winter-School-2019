@@ -74,4 +74,5 @@ This topology has a few nice properties:
 - Smooth schemes have etale maps into $\AA^n$, inclusions/closed immersions $Z \injects X$ induce maps $\AA^d \injects \AA^n$
 - Satisfies descent for K-theory
 - The cohomological dimension equals the Krull dimension 
-- 
+- Cohomology can be computed Cech complexes
+- More listed in 
