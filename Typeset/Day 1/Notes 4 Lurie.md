@@ -107,5 +107,6 @@ Generally in characteristic $p$, this invariant ends up being too large, so we r
 
 Assuming 
 - $\pi_1^\text{et}(\bar Y, y)_\ell = 0$, so $\bar Y$ looks simply-connected at $\ell$.
-  - Equivalently, $H^1_\text{et}(\bar Y, y)
+  - Equivalently, $H^1_\text{et}(\bar Y, \ZZ/\ell\ZZ)$
+  - 
 To $\bar Y$ they associate a topological space $Z$ such that
