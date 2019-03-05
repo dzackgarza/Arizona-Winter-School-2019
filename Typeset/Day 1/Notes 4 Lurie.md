@@ -36,4 +36,4 @@ for any $\FF_q\dash$algebra $R$.
 
 A more specific example: let $G = \GG_m$, the multiplicative group, and $Y =B\GG_m$ so that an $R\dash$valued point of $Y$ is just an invertible $R\dash$module. 
 
-What is $Y(\FF_q)$? This is the category of 1-dimensional $\FF_q\dash$vector spaces -- so up to isomorphism, there's only one object in this category.
+What is $Y(\FF_q)$? This is the category of 1-dimensional $\FF_q\dash$vector spaces -- so up to isomorphism, there's only one object in this category, but it has a group of symmetries $\Aut \FF_q = \FF_q^\times$ the group of units.
