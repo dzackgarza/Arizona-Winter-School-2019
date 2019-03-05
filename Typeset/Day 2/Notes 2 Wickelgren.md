@@ -123,6 +123,6 @@ $$
 \begin{CD}
   ()\cross() @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
   @VVV \selfmap @VVV \\
-  Y @>>> \AA^n - \theset{0} 
+   @>>> \AA^n - \theset{0} 
 \end{CD}
 $$
