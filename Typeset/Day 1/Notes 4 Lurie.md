@@ -113,4 +113,4 @@ Assuming
 
 
 To $\bar Y$ they associate a topological space $Z$ such that
-- $Z$ is simply-connected
+- $Z$ is simply-connected and each $\pi_n(Z)$ is a finitely generated $\ZZ_\ell$module
