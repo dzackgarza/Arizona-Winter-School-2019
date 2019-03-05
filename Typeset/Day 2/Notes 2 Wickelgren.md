@@ -44,4 +44,7 @@ $$
 U = \coprod_{\alpha} U_\alpha \to X
 $$
 
-and making a simplicial object out of this map.
+and making a simplicial object out of this map and forcing a weak equivalence
+$$
+\text{cos}^0_x \coprod_\alpha U_\alpha \mapsvia{\homotopic} X
+$$
