@@ -121,8 +121,8 @@ $$
 and so we proceed by induction on a diagram of the form
 $$
 \begin{CD}
-  ()\cross() @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
+  (\AA^{n-1} - \theset{0} )\cross(\AA^1 -\theset{0}) @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
   @VVV \selfmap @VVV \\
-  \AA^n @>>> \AA^n - \theset{0} 
+  \AA^n \cross (\AA^1 -\theset{0}) @>>> \AA^n - \theset{0} 
 \end{CD}
 $$
