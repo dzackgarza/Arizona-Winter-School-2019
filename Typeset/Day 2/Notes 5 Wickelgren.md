@@ -86,4 +86,8 @@ So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ tha
 
 Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\AA^d$. However, we could just add something from a really high power of the maximal ideal, and it can be shown that $\sigma$ is pulled back from $\AA^d$. These choices don't affect the outcome, so the assumption is not necessary by "finite determinacy of $\deg_p$". 
 
-> Need to show that it is well-defined, which it is under some conditions.
+> Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
+
+Other perspectives: 
+
+Barge Morel
