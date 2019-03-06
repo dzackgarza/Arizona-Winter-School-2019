@@ -161,4 +161,4 @@ We can do the same thing for the other $L_i$ and combine them to get a section o
 
 Is this bundle relatively orientable? $\det TX =\O(4), \det V = (S^\dual \wedge S^\dual)^{\tensor 4}$, which are both tensor squares, so yes.
 
-Following the recipe, we need to identify $\sigma$ with a function. To compute $\deg_{\PP W}(\sigma)$
+Following the recipe, we need to identify $\sigma$ with a function. To compute $\deg_{\PP W}(\sigma)$, choose local coordinates on $\Gr(1,3)$.
