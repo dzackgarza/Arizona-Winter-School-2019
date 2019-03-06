@@ -184,4 +184,7 @@ $$
 (B: V^2 \to k) \mapsto \dim V
 $$
 
-and the **fundamental ideal** is defined as 
+and the **fundamental ideal** is defined as $I \definedas \ker \text{rank}$. This yields a filtration
+$$
+
+$$
