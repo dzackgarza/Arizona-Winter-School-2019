@@ -191,6 +191,8 @@ $$
 
 where the associated graded are etale cohomology groups and (by the Milnor conjecture) Milnor K-theory groups.
 
+# Milnor K-Theory
+
 We define **Milnor K-theory** as
 $$
 K_i^M \definedas \frac{\bigoplus_{i=1}^\infty  (k^\times)^{\tensor i} } {\generators{a\tensor(1-a)}}
