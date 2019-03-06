@@ -49,4 +49,4 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 
 **Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
 
-**Example:** Consider $\PP^n$ and $\Gr(m,n)$ be the Grassmannian parameterizing subspaces $\PP^m \leq \PP^n$.  Then $\det T
+**Example:** Consider $\PP^n$ and $\Gr(m,n)$ be the Grassmannian parameterizing subspaces $\PP^m \leq \PP^n$.  Then $\det TX = \mathcal O(n+1)$, the dual of the tautological tensored $n+1$ times.
