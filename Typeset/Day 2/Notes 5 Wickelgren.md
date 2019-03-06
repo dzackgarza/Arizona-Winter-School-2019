@@ -125,5 +125,5 @@ $$
 
 If $V \surjects X$ is relatively oriented, there is a map $X \mapsvia \pi \spec(k)$ and so $\pi_* e(V) \in GW(k)$.
 
-There is a different perspective of Morel, giving the Euler class as the principal obstruction to having a nonvanishing section
+There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit ($\generators{a}$)
 
