@@ -192,4 +192,4 @@ $$
 \sigma(x,y,x',y') = (xy' -yx', ?, ? , ?)
 $$
 
-Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s?
+Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s? Is there an AG interpretation of this local degree $\deg_P(?
