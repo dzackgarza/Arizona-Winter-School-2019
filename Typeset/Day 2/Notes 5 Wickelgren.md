@@ -50,3 +50,5 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 **Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
 
 **Example:** Consider both $X = \PP^n$ and $X = \Gr(m,n)$ be the Grassmannian parameterizing subspaces $\PP^m \leq \PP^n$.  Then $\det TX = \mathcal O(n+1)$, the dual of the tautological tensored $n+1$ times -- for the Grassmannian, you put it in the Plucker embedding and pull back the $\mathcal O(1)$.
+
+$\therefore X$ is orientable $\iff n$ is odd.
