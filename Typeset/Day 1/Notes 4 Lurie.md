@@ -1,1 +1,1 @@
-Throughout this lecture, we'll let $
+Throughout this lecture, we'll let $X\ covers \spec(\FF_q)$ be a smooth, projective, algebraic curve over a finite field.
