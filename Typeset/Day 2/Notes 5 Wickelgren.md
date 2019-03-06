@@ -162,6 +162,8 @@ We can do the same thing for the other $L_i$ and combine them to get a section o
 Is this bundle relatively orientable? $\det TX =\O(4), \det V = (S^\dual \wedge S^\dual)^{\tensor 4}$, which are both tensor squares, so yes.
 
 Following the recipe, we need to identify $\sigma$ with a function. To compute $\deg_{\PP W}(\sigma)$, choose local coordinates on $\Gr(1,3)$. So we need to choose dimension 2 subspaces parameterized by $\AA^4$, so we'll pick the lines which intersect $\theset{\phi_3= \phi_4 = 0}$, yielding a new basis
-$$
+$$\begin{align*}
+\tilde e_1 = e_1 \\
+\tilde e_2 = e_2 \\
 
-$$
+\end{align*}$$
