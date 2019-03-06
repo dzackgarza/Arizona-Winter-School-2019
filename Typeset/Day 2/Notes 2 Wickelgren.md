@@ -197,3 +197,5 @@ K_i^M \definedas \frac{\bigoplus_{i=1}^\infty  (k^\times)^{\tensor i} } {\genera
 $$
 
 which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
+
+**Theorem: The Milnor Conjecture (Voevodsky)**
