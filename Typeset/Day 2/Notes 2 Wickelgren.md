@@ -215,4 +215,78 @@ $$
 k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
 $$
 
-where we can use that fact that $k^\times \cong K^M_1$ to realize this as a map
+where we can use that fact that $k^\times \cong K^M_1$ to land in Milnor K-theory,
+$$
+K_1^M \to H_\text{et}^1(k;~\ZZ/2\ZZ),
+$$
+
+where we can use the cup product to lift this to a map to the $n$th graded piece
+$$
+K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ).
+$$
+
+Fitting all of this together, we get maps
+$$
+I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),
+$$
+
+and the Milnor conjecture states that these are isomorphisms.
+
+In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded. 
+
+This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$. 
+- For $n=0$, this is the rank homomorphism.  
+- For $n=1$ we get the discriminant, which is the determinant of the linear map associated to the bilinear form obtained after choosing a basis.
+- For $n=2$ this is the Hasse-Witt invariant (see written notes)
+- For $n=3$ this is the Arason invariant
+
+For higher $n$ these invariants don't have names, but for various fields, the lower degrees form a complete invariant -- for example, for finite fields, one needs only check $n=0,1$, while $\QQ$ requires $n=0,1,2$.
+
+The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_*^{MW}(k)$, which is also a homotopy group of spheres in $\AA^1$ homotopy theory (due to Hopkins and Morel). 
+
+This group has generators
+$$\begin{align*}
+\generators{a}, &\quad a\in k^\times, &\deg a = 1\\
+\eta, & & \quad\deg \eta = -1
+\end{align*}$$
+
+and relations
+$$\begin{align*}
+\eta \generators{a} &= \generators{a} \eta\\
+\generators{a}\generators{1-a} &= 0&\\
+\generators{ab} &= \generators{a} + \generators{b} + \eta \generators{a}\generators{b}\\
+\eta h &= 0
+\end{align*}$$
+
+where $h$ is the same as earlier, but since it's in the wrong group, we need to define this using the isomorphism
+$$\begin{align*}
+G W ( k ) &\cong K _ { 0 } ^ { MW } ( k ) \\
+\generators{a} &\mapsto 1 + n \generators{a}\\
+h\definedas \generators{1} + \generators{-1} &\mapsto 2 + \eta\generators{-1}\definedas h.
+\end{align*}$$
+
+# Degree Theorem
+This theorem says that $\eta$ corresponds to a Hopf map.
+
+**Theorem (Morel):**
+$$
+[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
+$$
+
+where the square brackets correspond to homotopy classes of maps. In particular, when $j=r=n$, we obtain
+$$
+[\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] \cong GW(k)
+$$
+
+> This is a fantastic theorem, which we will see again later when doing oriented Chow groups.
+
+A nice consequence is that if we let $k=\RR$, the degrees behave nicely, characterized by the commutativity of this diagram:
+$$
+\begin{CD}
+[S^{2n},~S^{2n}] @<\CC\dash\text{points}<< P @>\RR\dash\text{points}>> [S^n,~S^n] \\
+@VV\deg V \selfmap @VV\deg V \selfmap @VV\deg V \\
+\ZZ @<<\text{signature}< GW(k) @>>\text{rank}> \ZZ
+\end{CD}
+$$
+
+where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual
