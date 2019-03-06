@@ -4,6 +4,10 @@ Start with the version from Algebraic Topology. Let $X$ be be an $\RR\dash$manif
 
 $$
 \text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X} \\
+$$
+
+which can be defined on a fiber
+$$
 \text{Th}(V_x) \cong \PP(V\oplus \mathcal O)  / \PP(V_x) \homotopic S^r
 $$
 
