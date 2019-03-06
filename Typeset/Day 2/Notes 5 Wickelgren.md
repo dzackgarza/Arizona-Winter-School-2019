@@ -55,4 +55,6 @@ $\therefore X$ is orientable $\iff n$ is odd.
 
 This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the morphism required in the definition above.
 
-**Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable.
+**Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
+
+**Example**:
