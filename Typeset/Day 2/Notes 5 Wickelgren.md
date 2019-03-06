@@ -196,4 +196,7 @@ Now we can compute the local degree by taking the Jacobian and taking the determ
 
 Well $L=\PP W$ intersects $L_i$, so we have 4 points on $L\cong \PP^1_{k(L)}$, and therefore we have a cross-ratio $\lambda$.
 
-We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$
+We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$, so we have 
+$$
+W \subseteq V \subseteq k(L)^4
+$$
