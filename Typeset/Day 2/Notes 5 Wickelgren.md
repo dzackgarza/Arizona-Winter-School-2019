@@ -171,6 +171,6 @@ $$\begin{align*}
 
 We then have an open subset
 $$
-U =\spec() \injects \Gr(1,3)
-
+U =\spec(k[x,y,x',y']) \injects \Gr(1,3) \\
+(x,y,x',y') \mapsto \PP
 $$
