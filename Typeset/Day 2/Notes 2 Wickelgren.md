@@ -39,7 +39,7 @@ We're building a category for a homotopy theory, which means we need either
 
 Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\Sm)$ has this structure. 
 
-## Preserving Old Colimits
+## Preserving Old Colimits: Picking a Topology
 This construction is essentially "freely adding colimits". Since $\Sm$ had colimits (e.g. the union/intersection of open sets), we want $Y$ to preserve these. We fix this be forcing certain maps to be equivalences using **Bousfield localization**.
 
 This is carried out by looking at open covers
