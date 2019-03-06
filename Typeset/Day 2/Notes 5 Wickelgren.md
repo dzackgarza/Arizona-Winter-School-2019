@@ -183,6 +183,6 @@ The expression for the function $\sigma$ will depend on our choice of line, and 
 
 We want to find the coefficient $c$ in 
 $$
-\restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c \tilde\phi_3 \wedge \tilde\phi_4
+\restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
 $$
 
