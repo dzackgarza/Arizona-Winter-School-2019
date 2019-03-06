@@ -102,4 +102,6 @@ $$
 
 where $X^{(0)}$ are reduced irreducible subschemes of $X$, and the RHS disappears because it's the generic point.
 
-In Algebraic Topology, the definition of the Thom class involves a canonical map $\text{Th}(-V)\to X$, making the class land in $H^0(\text{Th}(-V)$ which under the Thom isomorphism
+In Algebraic Topology, the definition of the Thom class involves a canonical map $\text{Th}(-V)\to X$, making the class land in $H^0(\text{Th}(-V)$ which under the Thom isomorphism gives something in $H^r$ with a twist. An analog in this setting is the following pushforward.
+
+Let $\sigma$ denote the zero section of 
