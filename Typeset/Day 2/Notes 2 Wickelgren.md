@@ -293,6 +293,8 @@ where the edge degree maps are just the topological degree of maps between spher
 
 So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with $U^+$ and sheafifying. Thus $GW(k), K^{MW}_*(k),$ and $K^M_*(k)$ are all global sections of sheaves.
 
+
+# Producing a Sheaf
 There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*$ from the values on fields, i.e. $K^{MW}_*(E)$ for some $E \supset k$ of finite type. It proceeds as follows:
 
 We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^MW_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally. 
