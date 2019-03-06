@@ -22,5 +22,5 @@ if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. No
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism
 $$
-
+H^r(X; \ZZ) \cong \ZZ
 $$
