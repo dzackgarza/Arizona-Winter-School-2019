@@ -3,7 +3,7 @@ Particularly, arithmetically enriching enumerative results. The first part of th
 
 
 ## Adding Colimits
-Recall from last time that we wanted to form a space analogous to a sphere, given by $\PP^n/ \PP^{n-1}$, which we get from a colimit
+Recall from last time that we wanted to form a space analogous to a sphere, given by $\PP^n/ \PP^{n-1}$, which we get from a **colimit**
 $$
 \begin{CD}
   \PP^{n-1} @>>> \PP^n \\
@@ -14,7 +14,7 @@ $$
 
 which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree when the compositions are taken.
 
-Another example of a colimit is the union, which is given by
+**Example:** Another example of a colimit is the union, which is given by
 $$
 \begin{CD}
   U\intersect V @>>> U \\
@@ -149,9 +149,9 @@ The next theorem gives us neighborhoods around points
 **The Purity Theorem**:
 Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view this as a neighborhood mod its boundary. This is equivalent to $\text{Th}(N_Z X)$, the Thom space of the normal bundle of $Z$ in $X$. $\qed$
 
-Example: Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
+**Example:** Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
 
-Example: Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$
+**Example:** Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$
 > Note: video says "disjoint basepoint" here and uses different notation, may not be correct.
 
 Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
