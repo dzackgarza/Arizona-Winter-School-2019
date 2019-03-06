@@ -172,10 +172,11 @@ $$\begin{align*}
 We then have an open subset
 $$
 U =\spec(k[x,y,x',y']) \injects \Gr(1,3) \\
-(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4).
+(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4),
 $$
 
+so we have some local coordinates. Let $\tilde \phi_i$ be the dual basis.
 
-Next we choose a local trivialization
+Next we choose a local trivialization on $S^\dual \wedge S^\dual$
 
 So we have coordinates. The expression for the function $\sigma$ will depend on our line
