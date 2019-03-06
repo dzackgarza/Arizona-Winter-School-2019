@@ -91,3 +91,4 @@ Note that we don't actually need the immersion condition here, since the $\AA^1$
 Other perspectives: 
 
 Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$
+> Note that you can use $V$ or $-V$ here
