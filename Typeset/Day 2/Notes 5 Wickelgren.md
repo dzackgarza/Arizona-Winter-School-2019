@@ -4,8 +4,7 @@ Start with the version from Algebraic Topology. Let $X$ be be an $\RR\dash$manif
 
 $$
 \text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X} \\
-\text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X}
-
+\text{Th}(V_x) \cong \PP(V\oplus \mathcal O)  / \PP(V_x) \homotopic S^r
 $$
 
 where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
