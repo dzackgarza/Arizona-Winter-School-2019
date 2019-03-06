@@ -279,7 +279,7 @@ This theorem says that $\eta$ corresponds to a Hopf map.
 
 **Theorem (Morel):**
 $$
-[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
+[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j} \qed
 $$
 
 where the square brackets correspond to homotopy classes of maps. In particular, when $j=r=n$, we obtain
