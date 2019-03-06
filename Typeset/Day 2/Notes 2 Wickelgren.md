@@ -283,10 +283,10 @@ $$
 A nice consequence is that if we let $k=\RR$, the degrees behave nicely, characterized by the commutativity of this diagram:
 $$
 \begin{CD}
-[S^{2n},~S^{2n}] @<\CC\dash\text{points}<< P @>\RR\dash\text{points}>> [S^n,~S^n] \\
+[S^{2n},~S^{2n}] @<\CC\dash\text{points}<< [] @>\RR\dash\text{points}>> [S^n,~S^n] \\
 @VV\deg V \selfmap @VV\deg V \selfmap @VV\deg V \\
-\ZZ @<<\text{signature}< GW(k) @>>\text{rank}> \ZZ
+\ZZ @<<\text{rank}< GW(k) @>>\text{signature}> \ZZ
 \end{CD}
 $$
 
-where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual
+where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus @GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes.
