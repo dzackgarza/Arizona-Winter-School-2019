@@ -176,4 +176,4 @@ h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}
 $$ 
 for any $a$.
 
-A huge achievement of $\AA^1$ homotopy theory is the Milnor conjecture, which involves this group, so let's take a look. We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with.
+A huge achievement of $\AA^1$ homotopy theory is the Milnor conjecture, which involves this group, so let's take a look. We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in $\AA^1$ homotopy theory.
