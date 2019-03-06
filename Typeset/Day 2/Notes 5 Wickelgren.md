@@ -200,3 +200,5 @@ We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i
 $$
 W \subseteq V \subseteq k(L)^4
 $$
+
+where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$
