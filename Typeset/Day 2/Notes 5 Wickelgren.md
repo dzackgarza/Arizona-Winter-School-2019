@@ -143,4 +143,5 @@ Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wen
 
 Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. Let 
 - $L_i$ be 4 lines, no two of which intersect
-- $e_i$
+- $e_i$ be a basis of $k^4$
+- $\phi_i$ be the corresponding dual basis
