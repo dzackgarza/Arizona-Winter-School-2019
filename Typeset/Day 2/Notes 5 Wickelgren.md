@@ -115,5 +115,5 @@ where the source with ordinarily have a twist by the canonical, but when pulled 
 
 The map $p$ also yields an isomorphism
 $$
-\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
+p^*: \widetilde{\text{Ch}}{}^r(X, \det V) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
 $$
