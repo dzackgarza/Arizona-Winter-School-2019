@@ -169,3 +169,8 @@ $$\begin{align*}
 \tilde e_4 &= x'e_1 + y'e_2 + e_4 \\
 \end{align*}$$
 
+We then have an open subset
+$$
+U =\spec() \injects \Gr(1,3)
+
+$$
