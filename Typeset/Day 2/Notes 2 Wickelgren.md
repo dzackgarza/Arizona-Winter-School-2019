@@ -302,5 +302,5 @@ $$
 \del_V^\pi: K_*^{MW}(E) \to K_*^{MW}(k(V))[-1]\\
 \generators{\pi}\generators{a_1}\cdots\generators{a_n}
 $$
-where $a_i \in \mathcal O_V$
+where $a_i \in \mathcal{O}_V^\times$
 
