@@ -134,4 +134,4 @@ Other perspectives
 
 # Example Computations
 
-**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$
+**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$
