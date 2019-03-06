@@ -18,7 +18,7 @@ $$
 
 if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
 
-**Definition**: A space $X$ is oriented iff its tangent space $TX$ is oriented.
+**Definition**: A **space** $X$ is **oriented** iff its tangent space $TX$ is oriented.
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
 
@@ -47,4 +47,4 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 
 **Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
 
-**Definition**: $V$ is relatively oriented
+**Definition**: $V$ is relatively oriented if $\hom(\det TX, \det V)$ is oriented.
