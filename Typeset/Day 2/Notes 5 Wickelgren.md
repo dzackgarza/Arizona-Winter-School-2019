@@ -205,5 +205,7 @@ where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$. We get 4 planes containin
 
 Although there was choice, since our section was determined not by $L$ but rather by the zero set of some functions, normalizing things correctly yields
 $$
-\deg_L(\sigma) = \tr
+\deg_L(\sigma) = \tr_{k(L) / k}\generators{\lambda-\mu}.
 $$
+
+**Theorem**:
