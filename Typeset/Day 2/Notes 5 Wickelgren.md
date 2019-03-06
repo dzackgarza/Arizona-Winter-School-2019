@@ -148,4 +148,4 @@ Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \sub
 
 where $L_1 = \PP(ke_3\oplus ke_4) = \theset{\phi_1=\phi_2 = 0}$. Lets find a condition on bundles for lines that intersect this line.
 
-Let $L= \PP(k\tilde e_3 \oplus k\tilde e_4)$, the span of some two linearly independent vectors.
+Let $L= \PP(k\tilde e_3 \oplus k\tilde e_4)$, the span of some two linearly independent vectors. If we wrote these out in terms of $e_i$
