@@ -120,5 +120,7 @@ $$
 
 and so we define
 $$
-e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1})
+e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1}).
 $$
+
+If $V \surjects X$
