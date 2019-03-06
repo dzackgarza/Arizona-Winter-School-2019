@@ -202,5 +202,10 @@ which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
 There is a map
 $$
 K_n^M \to I^n/I^{n+1} \\
-\bigotimes_{i=1}^n a_i \mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right)
+\bigotimes_{i=1}^n a_i \mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right).
+$$
+
+We can also look at the Kummer map coming from the short exact sequence
+$$
+1\to \ZZ/2\ZZ \to (k^\times)
 $$
