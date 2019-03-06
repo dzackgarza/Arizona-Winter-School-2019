@@ -111,4 +111,4 @@ $$
 
 where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.
 
-> Note: the difference between the canonical bundle of $V$ and the twist we had to do to get rid of $X$
+> Note: the difference between the canonical bundle of $V$ and the twist we had to do to get rid of $X$ is like the difference between $TV$ and $TX$, yielding the determinant appearing on the RHS.
