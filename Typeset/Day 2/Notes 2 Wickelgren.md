@@ -297,5 +297,5 @@ There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*
 
 We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^MW_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally. 
 
-
+So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_v = \theset{e\in E \suchthat V(e) \geq 0}$
 
