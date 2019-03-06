@@ -312,3 +312,5 @@ $$
 
 and there is a procedure for making a sheaf from this denoted $K_*^{MW}$.
 
+The fact this is a stable homotopy sheaf provides some transfers (seen last time).
+
