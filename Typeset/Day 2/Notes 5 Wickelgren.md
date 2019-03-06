@@ -129,4 +129,8 @@ Other perspectives
 
 - There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit ($\generators{a}$)
 - A six functor formalism
+- Mike Hopkins 
+- Raxit and Levine?
+
+# Example Computations
 
