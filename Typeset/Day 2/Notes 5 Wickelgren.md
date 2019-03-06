@@ -34,3 +34,5 @@ $$
 by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
 
 Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
+
+**Definition** $V\to X$ is relatively oriented if
