@@ -297,7 +297,7 @@ There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*
 
 We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^MW_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally. 
 
-So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so let
+So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so define the **residue homomorphism**
 $$\begin{align*}
 \del_V^\pi: K_*^{MW}(E) &\to K_*^{MW}(k(V))[-1]\\
 \generators{\pi}\generators{a_1}\cdots\generators{a_n} &\mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\
@@ -310,5 +310,5 @@ $$
 K^{MW}_*(\mathcal O_V) \definedas \ker \del_V^\pi
 $$
 
-
+and there is a procedure for making a sheaf from this denoted $K_*^{MW}$.
 
