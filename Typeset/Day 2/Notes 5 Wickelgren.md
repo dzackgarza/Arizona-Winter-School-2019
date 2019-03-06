@@ -219,8 +219,8 @@ $$
 $$
 $\qed$
 
-# Where things are going now
+# Where Things Are Going
 - Gromov-Witten invariants with Jake and Jesse
 - Welschinger invariants, Mark Levine
 
-These produce more than just the 1s appearing in $h$, have ties to modular forms
+These produce more than just the 1s appearing in $h$, and have ties to things like modular forms. $\qed$
