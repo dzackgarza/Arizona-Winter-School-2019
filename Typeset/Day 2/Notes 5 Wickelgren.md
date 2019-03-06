@@ -202,3 +202,5 @@ W \subseteq V \subseteq k(L)^4
 $$
 
 where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$. We get 4 planes containing $L$, namely the 4 planes spanned by each pair $(L, L_i)$. This provides a second cross-ratio $\mu$
+
+Although there was choice back when 
