@@ -65,4 +65,4 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$ -- what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
 
-**Definition**: The **Nisnevich** coordinates near $x$
+**Definition**: The **Nisnevich** coordinates near $x$ are given by $\varphi: U \to \AA^d$
