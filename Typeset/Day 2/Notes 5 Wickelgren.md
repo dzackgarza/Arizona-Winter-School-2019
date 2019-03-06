@@ -123,4 +123,4 @@ $$
 e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1}).
 $$
 
-If $V \surjects X$
+If $V \surjects X$ is relatively oriented, there is a map $X \mapsvia \pi \spec(k)$
