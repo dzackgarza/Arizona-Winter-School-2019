@@ -186,5 +186,5 @@ $$
 
 and the **fundamental ideal** is defined as $I \definedas \ker \text{rank}$. This yields a filtration
 $$
-
+GW(k) \supseteq I \supseteq I^2 \supseteq \cdots
 $$
