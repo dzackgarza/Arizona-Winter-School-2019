@@ -9,4 +9,4 @@ $$
 
 where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 
-**Definition**: $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$
+**Definition**: $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$
