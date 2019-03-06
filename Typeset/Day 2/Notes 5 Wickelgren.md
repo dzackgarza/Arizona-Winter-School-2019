@@ -179,4 +179,4 @@ so we have some local coordinates. Let $\tilde \phi_i$ be the dual basis.
 
 Next we choose a local trivialization, where $S^\dual \wedge S^\dual$ can be locally trivialized by $\tilde\phi_3 \wedge \tilde \phi_4$ which are compatible with some relative orientation.
 
-So we have coordinates. The expression for the function $\sigma$ will depend on our line
+The expression for the function $\sigma$ will depend on our choice of line, and instead of notating all of them, just assume that $L_1 = \PP(
