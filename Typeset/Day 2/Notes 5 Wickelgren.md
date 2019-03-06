@@ -59,3 +59,5 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 **Example**: Take $\O(d)\oplus \O(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd. 
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
+
+## Computing Euler Classes for Relatively Orientable Bundles
