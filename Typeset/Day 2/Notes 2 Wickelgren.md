@@ -212,7 +212,7 @@ $$
 
 which lets us make a map 
 $$
-k^\times \to H_\text{et}^1(k)
+k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
 $$
 
 where $k^\times \cong K^M_1$
