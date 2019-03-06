@@ -38,3 +38,5 @@ Note that if we composed the trivialization with an element of $\GL(U)$ with neg
 **Definition:** The bundle $V\to X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
 
 We know what it means for such a homomorphism to be positive, and this won't change the value of the local index.
+
+Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$ with $\mathcal O(V_x)
