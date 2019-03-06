@@ -88,6 +88,8 @@ Note that we don't actually need the immersion condition here, since the $\AA^1$
 
 > Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
 
+# Relations to Chow Groups
+
 Other perspectives: 
 
 Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$.
