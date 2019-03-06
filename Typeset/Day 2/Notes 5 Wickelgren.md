@@ -204,3 +204,6 @@ $$
 where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$. We get 4 planes containing $L$, namely the 4 planes spanned by each pair $(L, L_i)$. This provides a second cross-ratio $\mu$
 
 Although there was choice, since our section was determined not by $L$ but rather by the zero set of some functions, normalizing things correctly yields
+$$
+\deg_L(\sigma) = \tr
+$$
