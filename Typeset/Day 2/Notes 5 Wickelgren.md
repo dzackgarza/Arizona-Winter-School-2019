@@ -16,4 +16,4 @@ $$
 \theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} > 0
 $$
 
-if and only if $det V = L^{\tensor 2}$ for some line bundle $L \surjects X$
+if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. 
