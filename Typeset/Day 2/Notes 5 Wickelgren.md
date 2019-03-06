@@ -134,5 +134,7 @@ Other perspectives
 
 # Example Computations
 
-**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$. Moreover, since this is a line bundle
+**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of $h$.
+
 > Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion
+
