@@ -5,7 +5,7 @@ There is a strong analogy between the behavior of number fields and that of func
 |Number Fields   | Function Fields  |
 |---|---|
 | A finite extension of $\QQ$  | Fields like $K_X$   |
-|Prime numbers $p$ (or point at $\infty$)^[1] | Closed points $x\in X$ |
+|Prime numbers $p$ (or point at $\infty$)[^1] | Closed points $x\in X$ |
 
 
-^[1]: 
+[^1]: asdsa
