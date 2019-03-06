@@ -78,4 +78,4 @@ So we can get compatibility by varying the trivialization until we get a square 
 
 So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ that are compatible. If $\phi: U \injects \AA^d$ is an open immersion, then our section $\sigma$ is a function can be identified by pulling back $\sigma: \AA^d \to \AA^r$ and defining $\deg_p(\sigma) \definedas \deg_{\phi(p)}(\sigma)$.
 
-Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if 
+Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map that
