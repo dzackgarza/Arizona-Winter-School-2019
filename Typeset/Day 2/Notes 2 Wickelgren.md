@@ -233,11 +233,11 @@ K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ).
 $$
 
 Fitting all of this together, we get maps
-$$
+$$s
 I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),
 $$
 
-and the Milnor conjecture states that these are isomorphisms.
+and the Milnor conjecture states that these are isomorphisms. $\qed$
 
 In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded. 
 
