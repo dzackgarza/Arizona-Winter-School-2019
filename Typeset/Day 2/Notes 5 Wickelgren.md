@@ -82,7 +82,10 @@ which induces an isomorphism on the function field, so the induced extension of 
 
 And so we can make the following definition:
 
-**Definition**: Local coordinates and a local trivialization are **compatible** if for these distinguished sections $\hom(\det TX(U), V(U)) \cong L^{\tensor 2}$.
+**Definition**: Local coordinates and a local trivialization are **compatible** if for these distinguished sections, we have
+$$
+\hom(\det TX(U), V(U)) \cong L^{\tensor 2}.
+$$
 
 So we can get compatibility by varying the trivialization until we get a square (no problem). Nisnevich coordinates will always exist when $k(p)$ is a separable extension of $k$, or the dimension is 1 (by Galois theory).
 
