@@ -188,3 +188,5 @@ and the **fundamental ideal** is defined as $I \definedas \ker \text{rank}$. Thi
 $$
 GW(k) \supseteq I \supseteq I^2 \supseteq \cdots
 $$
+
+where the associated graded are etale 
