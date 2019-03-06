@@ -141,5 +141,5 @@ Other perspectives
 **Example**: How many lines meet 4 general lines in $\PP^3$?
 Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
 
-
+Lines in $\PP^3$ are parameterized 
 
