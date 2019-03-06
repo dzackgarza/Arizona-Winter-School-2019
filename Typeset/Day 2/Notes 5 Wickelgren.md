@@ -211,3 +211,7 @@ $$
 We thus obtain a theorem:
 
 **Theorem**:
+
+$$
+\sum_{}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1}
+$$
