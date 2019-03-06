@@ -193,5 +193,5 @@ where the associated graded are etale cohomology groups and (by the Milnor conje
 
 We define **Milnor K-theory** as
 $$
-K_*^M \definedas \left (\bigoplus_{i=1}^\infty \bigotimes_{j=1}^i k^\times 
+K_*^M \definedas \frac{\bigoplus_{i=1}^\infty \bigotimes_{j=1}^i k^\times } {\generators{a\tensor(1-a)}}
 $$
