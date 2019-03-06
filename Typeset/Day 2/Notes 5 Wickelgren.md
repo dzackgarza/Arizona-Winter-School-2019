@@ -156,3 +156,5 @@ $$
 So we look at the line bundle $S^\dual \wedge S^\dual \covers \Gr(1,3)$, where the fiber above a dimension 2 subspace $W$ is given by $(S^\dual \wedge S^\dual)_{\PP W} = W^\dual \wedge W^\dual$.
 
 Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma_1$ of $S^\dual \wedge S^\dual$ by $\sigma_1(\PP W) = \restrictionof{\phi_1}{W} \wedge \restrictionof{\phi_2}{W}$, where lines intersection $L_1$ correspond exactly to zeros of $\sigma_1$.
+
+We can do the same thing for the other $L_i$ to get a section of $V \definedas \oplus_{i=1}$4 
