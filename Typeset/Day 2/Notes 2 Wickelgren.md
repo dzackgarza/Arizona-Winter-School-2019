@@ -207,5 +207,5 @@ $$
 
 We can also look at the Kummer map coming from the short exact sequence
 $$
-1\to \ZZ/2\ZZ \to k^\times \to k^\times \to 1
+1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
 $$
