@@ -236,6 +236,8 @@ and the Milnor conjecture states that these are isomorphisms.
 
 In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded. 
 
+# Grothendieck-Witt Group Invariants
+
 This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$. 
 - For $n=0$, this is the rank homomorphism.  
 - For $n=1$ we get the discriminant, which is the determinant of the linear map associated to the bilinear form obtained after choosing a basis.
