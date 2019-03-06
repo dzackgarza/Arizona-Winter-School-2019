@@ -2,7 +2,7 @@
 Particularly, arithmetically enriching enumerative results. The first part of this talk focuses on setting up the correct category for this theory.
 
 
-## Colimits
+## Adding Colimits
 Recall from last time that we wanted to form a space analogous to a sphere, given by $\PP^n/ \PP^{n-1}$, which we get from a colimit
 $$
 \begin{CD}
