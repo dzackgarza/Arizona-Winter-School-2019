@@ -186,4 +186,4 @@ $$
 \restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
 $$
 
-How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to get how many $\tilde \phi_3$s we need, but that's just $x$. So the RHS evaluates to $(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x'\tilde\phi_3 \wedge y'\tilde\phi_4)$, and we obtain $c = (xy' -yx')\tilde\phi_3\wedge \tilde\phi_4$
+How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to get how many $\tilde \phi_3$s we need, but that's just $x$. So the RHS evaluates to $(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x'\tilde\phi_3 \wedge y'\tilde\phi_4)$, and we obtain $c = xy' -yx'$. We can thus write
