@@ -68,4 +68,4 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 **Definition**: The **Nisnevich** coordinates near $x$ are given by $\varphi: U \to \AA^d$ which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
 
 - Such coordinates determine a distinguished section of $\det TX(U)$
-- A local trivialization $\restrictionof{\varphi}{U} \to \O^r$ determines a 
+- A local trivialization $\restrictionof{\varphi}{U} \to \O^r$ determines a distinguished section of $\det V(U)$
