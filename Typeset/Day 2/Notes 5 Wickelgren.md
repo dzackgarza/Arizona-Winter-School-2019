@@ -6,6 +6,6 @@ $$
 \text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X}
 $$
 
-where $\mathcal O$ is a trivial bundle.
+where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 
-**Definition**: $V$ is **oriented**  by $u$ a Thom class
+**Definition**: $V$ is **oriented**  by a Thom class $u$ 
