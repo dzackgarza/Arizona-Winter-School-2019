@@ -61,3 +61,4 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
 
 ## Computing Euler Classes for Relatively Orientable Bundles
+> Joint with Jesse Kass
