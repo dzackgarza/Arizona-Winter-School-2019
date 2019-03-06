@@ -47,4 +47,6 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 
 **Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
 
-**Definition**: $V$ is relatively oriented if $\hom(\det TX, \det V)$ is oriented.
+**Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
+
+**Example:$$
