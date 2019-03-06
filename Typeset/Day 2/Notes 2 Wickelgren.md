@@ -64,7 +64,7 @@ for $\tau$ a Grothendieck topology which declares certain classes of maps to be 
 - Nisnevich
 - Etale
 
-Definition:  A map $f\in hom(X,Y) \in \Sm$ (not necessarily smooth) is **etale** at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
+Definition:  A map $f\in \hom(X,Y) \in \Sm$ (not necessarily smooth) is **etale** at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
 $$
 T_x X \mapsvia{f^*} T_{f(x)}Y
 $$
@@ -80,7 +80,9 @@ This topology has a few nice properties:
 - Cohomology can be computed Cech complexes
 - More listed in Voevodsky's original paper
 
-The next step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homotopic X$, which will come from another localization $L_\AA$. This composition will land us in the homotopy theory we want:
+## Contracting the Affine Line
+
+The last step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homotopic X$, which will come from another localization $L_\AA$. This composition will land us in the homotopy theory we want:
 $$
 \Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\AA}} \text{Spc}_k
 $$
