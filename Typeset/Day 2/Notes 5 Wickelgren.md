@@ -43,4 +43,4 @@ Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$
 
 # $\AA^1$ Algebraic Topology
 
-
+Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ a  
