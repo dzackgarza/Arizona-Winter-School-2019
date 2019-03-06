@@ -134,4 +134,4 @@ Other perspectives
 
 # Example Computations
 
-**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so
+**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n$
