@@ -220,3 +220,5 @@ $\qed$
 Where things are going now
 - Gromov-Witten invariants with Jake and Jesse
 - Welschinger invariants, Mark Levine
+
+These produce more than just the 1s appearing in $h$, have ties to modular forms
