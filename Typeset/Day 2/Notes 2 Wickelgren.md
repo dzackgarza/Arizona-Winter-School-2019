@@ -189,4 +189,4 @@ $$
 GW(k) \supseteq I \supseteq I^2 \supseteq \cdots
 $$
 
-where the associated graded are etale 
+where the associated graded are etale cohomology groups and (by the Milnor conjecture) Milnor K-theory groups. 
