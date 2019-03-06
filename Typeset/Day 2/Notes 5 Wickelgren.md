@@ -11,4 +11,7 @@ where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 
 **Definition**: $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$ yields a generator.
 
-**Example**: This occurs when all transitions functions have positive determinant. Let \mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions $
+**Example**: This occurs when all transitions functions have positive determinant. Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
+$$
+\theset{\restrictionof{\varphi}{U \intersect V}}
+$$
