@@ -279,10 +279,12 @@ This theorem says that $\eta$ corresponds to a Hopf map.
 
 **Theorem (Morel):**
 $$
-[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j} \qed
+[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
 $$
 
-where the square brackets correspond to homotopy classes of maps. In particular, when $j=r=n$, we obtain
+where the square brackets correspond to homotopy classes of maps.$\qed$
+
+In particular, when $j=r=n$, we obtain
 $$
 [\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] \cong GW(k)
 $$
@@ -301,6 +303,8 @@ $$
 where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus $GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes over $\RR$.
 
 So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with $U^+$ and sheafifying. Thus $GW(k), K^{MW}_*(k),$ and $K^M_*(k)$ are all global sections of sheaves.
+
+> Not sure what $U^+$ is here.
 
 
 # Producing a Sheaf
