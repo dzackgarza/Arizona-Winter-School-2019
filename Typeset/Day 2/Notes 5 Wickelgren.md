@@ -97,7 +97,7 @@ It is defined as follows:
 
 There is a distinguished element $\generators{1}\in \widetilde{\text{Ch}}{}^0(X)$ which is determined by a complex
 $$
-\bigoplus_{Z\in X^{(0)}} GW(k(Z), \det TX)
+\bigoplus_{z\in X^{(0)}} GW(k(Z), \det T_zX) \to 
 $$
 
 where $X^{(0)}$ are reduced irreducible subschemes of $X$
