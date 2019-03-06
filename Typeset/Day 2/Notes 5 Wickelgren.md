@@ -65,7 +65,11 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$ -- what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
 
-**Definition**: The **Nisnevich** coordinates near $x$ are given by $\varphi: U \to \AA^d$ which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
+**Definition**: The **Nisnevich** coordinates near $x$ are given by 
+$$
+\varphi: U \to \AA^d
+$$ 
+which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
 
 - Such coordinates determine a distinguished section of $\det TX(U)$
 - A local trivialization $\restrictionof{\varphi}{U} \to \O^r$ determines a distinguished section of $\det V(U)$
@@ -77,4 +81,4 @@ And so we can make the following definition:
 So we can get compatibility by varying the trivialization until we get a square (no problem). Nisnevich coordinates will always exist when $k(p)$ is a separable extension of $k$, or the dimension is 1 (by Galois theory).
 
 So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ that are compatible. If $\phi: U \injects \AA^d$ is an open immersion, then our section $\sigma$ is a function can be identified by pulling back $\sigma: \AA^d \to \AA^r$ and defining $\deg_p(\sigma) \definedas \deg_{\phi(p)}(\sigma)$.
-Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from 
+Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\AA^d$
