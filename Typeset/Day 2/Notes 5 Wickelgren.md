@@ -17,3 +17,5 @@ $$
 $$
 
 if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
+
+**Definition**: A space $X$ is oriented iff its tangent space $TX$ is oriented.
