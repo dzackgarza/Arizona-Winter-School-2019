@@ -105,3 +105,6 @@ where $X^{(0)}$ are reduced irreducible subschemes of $X$, and the RHS disappear
 In Algebraic Topology, the definition of the Thom class involves a canonical map $\text{Th}(-V)\to X$, making the class land in $H^0(\text{Th}(-V)$ which under the Thom isomorphism gives something in $H^r$ with a twist. An analog in this setting is the following pushforward.
 
 Let $\sigma$ denote the zero section of $V\surjects X$, then there is a pushforward map
+$$
+\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to 
+$$
