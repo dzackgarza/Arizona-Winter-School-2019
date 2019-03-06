@@ -26,3 +26,4 @@ We can compute the Euler class in the following way: choose a section $\sigma$ w
 $$
 e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
 $$
+where we sum the local degrees, and $\sigma$ is identified with a function
