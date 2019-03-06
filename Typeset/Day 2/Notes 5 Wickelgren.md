@@ -141,5 +141,5 @@ Other perspectives
 **Example**: How many lines meet 4 general lines in $\PP^3$?
 Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
 
-Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\tensor 4}, \dim W = 2$. 
+Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. 
 
