@@ -157,4 +157,6 @@ So we look at the line bundle $S^\dual \wedge S^\dual \covers \Gr(1,3)$, where t
 
 Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma_1$ of $S^\dual \wedge S^\dual$ by $\sigma_1(\PP W) = \restrictionof{\phi_1}{W} \wedge \restrictionof{\phi_2}{W}$, where lines intersection $L_1$ correspond exactly to zeros of $\sigma_1$.
 
-We can do the same thing for the other $L_i$ to get a section of $V \definedas \oplus_{i=1}^4S^\dual \wedge S^\dual$ 
+We can do the same thing for the other $L_i$ and combine them to get a section of $V \definedas \oplus_{i=1}^4S^\dual \wedge S^\dual$, whose zeros are the lines we're looking for.
+
+Is this bundle relatively orientable? $\det TV$
