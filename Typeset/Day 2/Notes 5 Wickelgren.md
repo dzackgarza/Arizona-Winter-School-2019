@@ -187,3 +187,7 @@ $$
 $$
 
 How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to get how many $\tilde \phi_3$s we need, but that's just $x$. So the RHS evaluates to $(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x'\tilde\phi_3 \wedge y'\tilde\phi_4)$, and we obtain $c = xy' -yx'$. We can thus write
+$$
+\sigma: \AA^4 \to \AA^4 \\
+\sigma(x,y,x',y') = (xy' -yx', ?, ? , ?)
+$$
