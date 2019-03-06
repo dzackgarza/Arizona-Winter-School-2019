@@ -9,6 +9,6 @@ There is a strong analogy between the behavior of number fields and that of func
 | $\ZZ/p\ZZ$ | The residue field $\kappa(x)$ at $x$[^2] |
 
 
-Everywhere in this lecture, we'll take $x$ to be a closed point. Note that $\kappa(x)$ is a finite extension of $\FF_q$, which has size $q^D$
+Everywhere in this lecture, we'll take $x$ to be a closed point. Note that $\kappa(x)$ is a finite extension of $\FF_q$, which has size $q^t$ for some $t\in\ZZ$.
 
 [^1]: Corresponding to the Archimedean completion
