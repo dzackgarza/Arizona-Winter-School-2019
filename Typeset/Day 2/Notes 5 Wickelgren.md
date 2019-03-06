@@ -108,3 +108,5 @@ Let $\sigma$ denote the zero section of $V\surjects X$, then there is a pushforw
 $$
 \sigma_*: \widetilde{\text{Ch}}{}^0(X) \to 
 $$
+
+where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.
