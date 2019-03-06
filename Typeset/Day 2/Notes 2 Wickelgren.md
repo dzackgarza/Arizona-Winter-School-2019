@@ -210,4 +210,4 @@ $$
 1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
 $$
 
-which lets us make a map $k^\times \cong K^M_1$
+which lets us make a map from $k^\times \cong K^M_1$
