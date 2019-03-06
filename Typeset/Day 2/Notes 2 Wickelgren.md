@@ -283,10 +283,16 @@ $$
 A nice consequence is that if we let $k=\RR$, the degrees behave nicely, characterized by the commutativity of this diagram:
 $$
 \begin{CD}
-[S^{2n},~S^{2n}] @<\CC\dash\text{points}<< [] @>\RR\dash\text{points}>> [S^n,~S^n] \\
+[S^{2n},~S^{2n}] @<\CC\dash\text{points}<< [\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] @>\RR\dash\text{points}>> [S^n,~S^n] \\
 @VV\deg V \selfmap @VV\deg V \selfmap @VV\deg V \\
 \ZZ @<<\text{rank}< GW(k) @>>\text{signature}> \ZZ
 \end{CD}
 $$
 
-where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus @GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes.
+where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus $GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes over $\RR$.
+
+So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with $U^+$ and sheafifying. Thus $GW(k), K^{MW}_*(k),$ and $K^M_*(k)$ are all global sections of sheaves.
+
+There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*$ from the values on fields, i.e. $K^{MW}_*(E)$ for some $E \supset k$ of finite type.
+
+
