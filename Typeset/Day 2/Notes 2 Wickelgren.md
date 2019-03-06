@@ -209,3 +209,5 @@ We can also look at the Kummer map coming from the short exact sequence
 $$
 1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
 $$
+
+which lets us make a map from $K^M_1
