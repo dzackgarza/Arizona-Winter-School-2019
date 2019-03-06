@@ -193,5 +193,5 @@ where the associated graded are etale cohomology groups and (by the Milnor conje
 
 We define **Milnor K-theory** as
 $$
-K_*^M \definedas 
+K_*^M \definedas \bigoplus \bigotimes k^\times
 $$
