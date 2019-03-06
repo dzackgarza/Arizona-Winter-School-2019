@@ -35,4 +35,5 @@ by choosing local coordinates and a local trivialization compatible with the sta
 
 Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
 
-**Definition:** The bundle $V\to X$ is relatively oriented if $\hom(\det TX, \det V)$ is oriented
+**Definition:** The bundle $V\to X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
+
