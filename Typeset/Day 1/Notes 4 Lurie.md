@@ -2,8 +2,9 @@ Throughout this lecture, we'll let $X\covers \spec(\FF_q)$ be a smooth, projecti
 
 There is a strong analogy between the behavior of number fields and that of function fields:
 
+
 $$
 \begin{align*}
-
+\text{Number Fields} & \text{Function Fields}
 \end{align*}
 $$
