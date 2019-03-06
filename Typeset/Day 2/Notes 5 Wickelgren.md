@@ -26,6 +26,11 @@ We can compute the Euler class in the following way: choose a section $\sigma$ w
 $$
 e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
 $$
-where we sum the local degrees, and $\sigma$ is locally identified with a function $\sigma: \RR^d \to \RR^r$ by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
+where we sum the local degrees, and $\sigma$ is locally identified with a function 
+$$
+\sigma: \RR^d \to \RR^r \\
+\text{coordinates on } X \mapsto \text{local trivialization}
+$$ 
+by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
 
 Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously
