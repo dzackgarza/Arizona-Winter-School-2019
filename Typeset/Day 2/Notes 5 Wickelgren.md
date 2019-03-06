@@ -154,3 +154,5 @@ L\intersect L_1 \iff (\phi_1 \wedge \phi_2)(\tilde e_3 \wedge \tilde e_4) = 0
 $$
 
 So we look at the line bundle $S^\dual \wedge S^\dual \covers \Gr(1,3)$, where the fiber above a dimension 2 subspace $W$ is given by $(S^\dual \wedge S^\dual)_{\PP W} = W^\dual \wedge W^\dual$.
+
+Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma$
