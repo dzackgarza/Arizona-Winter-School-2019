@@ -4,5 +4,6 @@ There is a strong analogy between the behavior of number fields and that of func
 
 |Number Fields   | Function Fields  |
 |---|---|
-| A finite extension of $\QQ$  |   |
+| A finite extension of $\QQ$  | Fields like $K_X$   |
+|Prime numbers $p$ | Closed points $x\in X$ |
 
