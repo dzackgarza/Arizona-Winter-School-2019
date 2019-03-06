@@ -69,4 +69,5 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 Such coordinates determine:
 - A distinguished section of $\det TX(U)$
+- A local trivialization $\restrictionof{\varphi}{U} \to \O^r$
 - 
