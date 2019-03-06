@@ -305,8 +305,10 @@ $$\begin{align*}
 \end{align*}$$
 where $a_i \in \mathcal{O}_V^\times$ and $\overline a_i$ is the reduction.
 
-So then the sections on $\mathcal O$ are given buy
+So then the sections on $\mathcal O$ are given by
 $$
-K^{MW}_*(\mathcal O_V)
+K^{MW}_*(\mathcal O_V) \definedas \ker \del_V^\pi
 $$
+
+
 
