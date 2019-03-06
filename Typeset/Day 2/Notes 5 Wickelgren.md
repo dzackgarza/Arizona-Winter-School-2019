@@ -134,3 +134,4 @@ Other perspectives
 
 # Example Computations
 
+**Example**: Let $n$ be even
