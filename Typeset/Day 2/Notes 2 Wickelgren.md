@@ -180,6 +180,8 @@ We'll look at invariants on bilinear forms -- for many common fields, there are 
 
 We have a rank homomorphism:
 $$
-GW(k) \to \ZZ \\ 
+\text{rank}: GW(k) \to \ZZ \\ 
 (B: V^2 \to k) \mapsto \dim V
 $$
+
+and the **fundamental ideal** is defined as 
