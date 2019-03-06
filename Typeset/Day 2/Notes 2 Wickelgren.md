@@ -215,4 +215,4 @@ $$
 k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
 $$
 
-where $k^\times \cong K^M_1$
+where we can use that fact that $k^\times \cong K^M_1$ to realize this as a map
