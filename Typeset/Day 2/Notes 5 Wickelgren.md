@@ -53,4 +53,6 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 
 $\therefore X$ is orientable $\iff n$ is odd.
 
-This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose an isomorphism 
+This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the morphism required in the definition above.
+
+**Example**: 
