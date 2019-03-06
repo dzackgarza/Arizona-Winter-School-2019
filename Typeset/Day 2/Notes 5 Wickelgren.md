@@ -95,4 +95,4 @@ Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{
 
 It is defined as follows:
 
-There is a distinguished element $\generators{1}$
+There is a distinguished element $\generators{1}\in \widetilde{\text{Ch}}{}^0(X)$
