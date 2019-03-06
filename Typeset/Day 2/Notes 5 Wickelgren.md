@@ -106,7 +106,7 @@ In Algebraic Topology, the definition of the Thom class involves a canonical map
 
 Let $\sigma$ denote the zero section of $V\surjects X$, then there is a pushforward map
 $$
-\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to 
+\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to \widetilde{\text{Ch}}{}^r(V)
 $$
 
 where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.
