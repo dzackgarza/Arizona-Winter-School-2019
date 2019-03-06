@@ -191,3 +191,5 @@ $$
 \sigma: \AA^4 \to \AA^4 \\
 \sigma(x,y,x',y') = (xy' -yx', ?, ? , ?)
 $$
+
+Now we can compute the local degree by taking the Jacobian.
