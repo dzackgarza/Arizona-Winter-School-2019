@@ -117,3 +117,8 @@ The map $p$ also yields an isomorphism
 $$
 p^*: \widetilde{\text{Ch}}{}^r(X, \det V) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
 $$
+
+and so we define
+$$
+e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1})
+$$
