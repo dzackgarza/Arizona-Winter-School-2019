@@ -186,3 +186,5 @@ $$
 \restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
 $$
 
+How many $\tilde e_3$ are in $\phi_1$?
+
