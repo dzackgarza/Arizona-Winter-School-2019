@@ -8,4 +8,4 @@ There is a strong analogy between the behavior of number fields and that of func
 |Prime numbers $p$ (or point at $\infty$)[^1] | Closed points $x\in X$ |
 
 
-[^1]: asdsa
+[^1]: Corresponding to the Archimedean completion
