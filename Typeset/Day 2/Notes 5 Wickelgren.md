@@ -24,5 +24,5 @@ Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain a
 
 We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then 
 $$
-e(V) = \sum_{x\in X\\ \sigma(x) \neq 0}
+e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
 $$
