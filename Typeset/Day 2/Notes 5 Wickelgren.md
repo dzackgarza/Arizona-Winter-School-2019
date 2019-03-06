@@ -159,4 +159,4 @@ Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma_1$ of $S^\dual \wedge
 
 We can do the same thing for the other $L_i$ and combine them to get a section of $V \definedas \oplus_{i=1}^4S^\dual \wedge S^\dual$, whose zeros are the lines we're looking for.
 
-Is this bundle relatively orientable? $\det TV$
+Is this bundle relatively orientable? $\det TX =\O(4), \det V = (S^\dual \wedge S^\dual)^{\tensor 4}$
