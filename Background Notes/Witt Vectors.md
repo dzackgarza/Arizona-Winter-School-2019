@@ -30,7 +30,7 @@ One can find explicit expression for the sums and products of such things, and i
 
 One then defines $W_P(R) = \prod_{i\in P} R = R^P$, and $W(R) = W_\NN(R)$.
 
-A final important part of the definition are the *Witt polynomial*
+A final important part of the definition are the *Witt polynomials*
 $$
 w_n: W_P(R) \to R \\
 w _ { n } = \sum _ { d | n } d x _ { d } ^ { n / d } \in \ZZ \left[ \left\{ x_ { d } \suchthat d \divides n \right\} \right],
