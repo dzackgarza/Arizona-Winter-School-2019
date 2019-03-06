@@ -7,7 +7,7 @@ There is a strong analogy between the behavior of number fields and that of func
 | A finite extension of $\QQ$  | Fields like $K_X$   |
 |Prime numbers $p$ (or point at $\infty$)[^1] | Closed points $x\in X$ |
 | $\ZpZ$ | The residue field $\kappa(x)$ at $x$[^2] |
-| $\ZZ_{(p)}$
+| $\Zp$
 
 
 Everywhere in this lecture, we'll take $x$ to be a closed point. Note that $\kappa(x)$ is a finite extension of $\FF_q$, which has size $q^t$ for some $t\in\ZZ$.
