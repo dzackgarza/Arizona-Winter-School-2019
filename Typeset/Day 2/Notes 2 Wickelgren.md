@@ -193,7 +193,7 @@ where the associated graded are etale cohomology groups and (by the Milnor conje
 
 We define **Milnor K-theory** as
 $$
-K_i^M \definedas \frac{\bigoplus_{i=1}^\infty \bigotimes_{j=1}^i k^\times } {\generators{a\tensor(1-a)}}
+K_i^M \definedas \frac{\bigoplus_{i=1}^\infty  (k^\times)^{\tensor i} } {\generators{a\tensor(1-a)}}
 $$
 
 which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
