@@ -6,6 +6,6 @@ There is a strong analogy between the behavior of number fields and that of func
 |---|---|
 | A finite extension of $\QQ$  | Fields like $K_X$   |
 |Prime numbers $p$ (or point at $\infty$)[^1] | Closed points $x\in X$ |
-
+| $\ZZ/p\ZZ$ | $\kappa(X)$
 
 [^1]: Corresponding to the Archimedean completion
