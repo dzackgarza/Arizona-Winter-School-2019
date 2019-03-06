@@ -199,3 +199,7 @@ $$
 which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
 
 **Theorem: The Milnor Conjecture (Voevodsky)**
+There is a map
+$$
+K_n^M \to 
+$$
