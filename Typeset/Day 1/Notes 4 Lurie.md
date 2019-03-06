@@ -1,0 +1,1 @@
+Throughout this lecture, we'll let $
