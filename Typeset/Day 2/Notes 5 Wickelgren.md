@@ -69,3 +69,7 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 - Such coordinates determine a distinguished section of $\det TX(U)$
 - A local trivialization $\restrictionof{\varphi}{U} \to \O^r$ determines a distinguished section of $\det V(U)$
+
+And so we can make the following definition:
+
+**Definition**: Local coordinates and a local trivialization are **compatible** if 
