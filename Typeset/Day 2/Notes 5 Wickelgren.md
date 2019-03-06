@@ -53,4 +53,4 @@ Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebrai
 
 $\therefore X$ is orientable $\iff n$ is odd.
 
-This follows because we can take $\mathcal O(n+1\over 2)$
+This follows because we can take $\mathcal O({n+1}\over {2})$
