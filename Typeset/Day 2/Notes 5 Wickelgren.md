@@ -57,4 +57,4 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 **Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
 
-**Example**: Take $\O(d)\oplus \O(e)$
+**Example**: Take $\O(d)\oplus \O(e) \to \PP^2$. Since $2+1=3$ is odd, 
