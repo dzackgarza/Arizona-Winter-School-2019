@@ -146,4 +146,4 @@ Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \sub
 - $e_i$ be a basis of $k^4$
 - $\phi_i$ be the corresponding dual basis
 
-where $L_1 = \PP(ke_3\oplus ke_4)$
+where $L_1 = \PP(ke_3\oplus ke_4) = \theset{\phi_1=\phi_2 = 0}$
