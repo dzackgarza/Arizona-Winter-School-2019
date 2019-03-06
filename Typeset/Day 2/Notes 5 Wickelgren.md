@@ -22,4 +22,7 @@ if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. No
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
 
-We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros
+We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then 
+$$
+e(V) = \sum_{x\in X\\ \sigma(x) \neq 0}
+$$
