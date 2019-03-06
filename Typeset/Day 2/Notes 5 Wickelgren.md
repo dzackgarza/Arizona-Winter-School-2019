@@ -166,5 +166,6 @@ $$\begin{align*}
 \tilde e_1 &= e_1 \\
 \tilde e_2 &= e_2 \\
 \tilde e_3 &= xe_1 + ye_2 + e_3 \\
-
+\tilde e_4 &= x'e_1 + y'e_2 + e_4 \\
 \end{align*}$$
+
