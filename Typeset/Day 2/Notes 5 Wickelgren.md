@@ -139,5 +139,7 @@ Other perspectives
 > Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of $h$. A similar argument works here?
 
 **Example**: How many lines meet 4 general lines in $\PP^3$?
-Follows joint work with Srinivasan
+Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
+
+
 
