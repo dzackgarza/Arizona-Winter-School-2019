@@ -1,5 +1,5 @@
 # User's Guide to $\AA^1$ Homotopy Theory
-Particularly, arithmetically enriching enumerative results.
+Particularly, arithmetically enriching enumerative results. The first part of this talk focuses on setting up the correct category for this theory.
 
 
 ## Colimits
