@@ -299,9 +299,14 @@ We want to know what the sections are on some scheme $Y$, so we look at its func
 
 So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so let
 $$\begin{align*}
-\del_V^\pi: K_*^{MW}(E) \to K_*^{MW}(k(V))[-1]\\
-\generators{\pi}\generators{a_1}\cdots\generators{a_n} \mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\
-\generators{a_1} \cdots \generators{a_n} \mapsto 0
+\del_V^\pi: K_*^{MW}(E) &\to K_*^{MW}(k(V))[-1]\\
+\generators{\pi}\generators{a_1}\cdots\generators{a_n} &\mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\
+\generators{a_1} \cdots \generators{a_n} &\mapsto 0
 \end{align*}$$
-where $a_i \in \mathcal{O}_V^\times$ and $\overline a_i$ is the reduction
+where $a_i \in \mathcal{O}_V^\times$ and $\overline a_i$ is the reduction.
+
+So then the sections on $\mathcal O$ are given buy
+$$
+K^{MW}_*(\mathcal O_V)
+$$
 
