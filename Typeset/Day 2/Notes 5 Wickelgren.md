@@ -152,3 +152,5 @@ Let $L= \PP(k\tilde e_3 \oplus k\tilde e_4)$, the span of some two linearly inde
 $$
 L\intersect L_1 \iff (\phi_1 \wedge \phi_2)(\tilde e_3 \wedge \tilde e_4) = 0
 $$
+
+So we look at the line bundle $S^\dual \wedge S^\dual \covers \Gr(1,3)$
