@@ -63,4 +63,4 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 ## Computing Euler Classes for Relatively Orientable Bundles
 > Joint with Jesse Kass
 
-In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$.
+In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$ -- what remains is to define the local degree.
