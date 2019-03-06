@@ -45,4 +45,6 @@ Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$
 
 Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebraic bundle of rank $r$.
 
-**Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$
+**Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
+
+**Definition**: $V$ is relatively oriented
