@@ -202,5 +202,5 @@ which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
 There is a map
 $$
 K_n^M \to I^n/I^{n+1} \\
-\bigotimes_{i=1}^n
+\bigotimes_{i=1}^n a_i \mapsto \bigotimes_{i=1}^n \generators{1} - \generators{a_i}
 $$
