@@ -134,4 +134,4 @@ Other perspectives
 
 # Example Computations
 
-**Example**: Let $n$ be even
+**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$
