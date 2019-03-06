@@ -72,4 +72,4 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 And so we can make the following definition:
 
-**Definition**: Local coordinates and a local trivialization are **compatible** if 
+**Definition**: Local coordinates and a local trivialization are **compatible** if $\hom(\det TX(U), V(U)) \cong L^{\tensor 2}$
