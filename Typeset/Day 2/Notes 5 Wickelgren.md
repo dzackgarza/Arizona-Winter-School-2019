@@ -13,5 +13,5 @@ where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 
 **Example**: This occurs when all transitions functions have positive determinant. Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
 $$
-\theset{\restrictionof{\varphi}{U \intersect V}}
+\theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} 
 $$
