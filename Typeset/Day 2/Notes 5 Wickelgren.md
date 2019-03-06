@@ -21,3 +21,5 @@ if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. No
 **Definition**: A space $X$ is oriented iff its tangent space $TX$ is oriented.
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
+
+We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros
