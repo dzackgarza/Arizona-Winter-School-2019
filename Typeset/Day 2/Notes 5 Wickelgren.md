@@ -90,4 +90,4 @@ Note that we don't actually need the immersion condition here, since the $\AA^1$
 
 Other perspectives: 
 
-Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}(X, \det (-V))$
+Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$
