@@ -208,4 +208,6 @@ $$
 \deg_L(\sigma) = \tr_{k(L) / k}\generators{\lambda-\mu}.
 $$
 
+We thus obtain a theorem:
+
 **Theorem**:
