@@ -101,3 +101,5 @@ $$
 $$
 
 where $X^{(0)}$ are reduced irreducible subschemes of $X$, and the RHS disappears because it's the generic point.
+
+In Algebraic Topology, the definition of the Thom class involves 
