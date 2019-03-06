@@ -64,14 +64,14 @@ for $\tau$ a Grothendieck topology which declares certain classes of maps to be 
 - Nisnevich
 - Etale
 
-Definition:  A map $f\in \hom(X,Y) \in \Sm$ (not necessarily smooth) is **etale** at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
+**Definition:**  A map $f\in \hom(X,Y) \in \Sm$ (not necessarily smooth) is **etale** at a point $x\in X$ if the induced map on tangent/cotangent spaces is an isomorphism:
 $$
 T_x X \mapsvia{f^*} T_{f(x)}Y
 $$
 
-Definition: A map $f: \coprod_\alpha U_\alpha \to X$ is an **etale cover** if it is etale and surjective
+**Definition:** A map $f: \coprod_\alpha U_\alpha \to X$ is an **etale cover** if it is etale and surjective
 
-Definition: A map $f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$.
+**Definition:** A map $f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$.
 
 This topology has a few nice properties:
 - Smooth schemes have etale maps into $\AA^n$, inclusions/closed immersions $Z \injects X$ induce maps $\AA^d \injects \AA^n$
