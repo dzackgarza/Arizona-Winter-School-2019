@@ -57,4 +57,4 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 **Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
 
-**Example**:
+**Example**: Take $\O$
