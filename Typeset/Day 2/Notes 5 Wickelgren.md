@@ -76,4 +76,4 @@ And so we can make the following definition:
 
 So we can get compatibility by varying the trivialization until we get a square (no problem). Nisnevich coordinates will always exist when $k(p)$ is a separable extension of $k$, or the dimension is 1 (by Galois theory).
 
-So suppose $\phi, \pi$
+So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ that are compatible. If $\pi
