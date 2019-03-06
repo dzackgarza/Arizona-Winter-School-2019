@@ -27,3 +27,5 @@ $$
 e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
 $$
 where we sum the local degrees, and $\sigma$ is locally identified with a function $\sigma: \RR^d \to \RR^r$ by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
+
+Note that if we composed the trivialization with an element of $\GL(n, \RR)$
