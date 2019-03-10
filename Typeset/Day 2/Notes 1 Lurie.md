@@ -13,8 +13,8 @@ As a special case, let $Y$ be a smooth algebraic stack of dimension $d$, which m
 Definition: $Y$ satisfies the Grothendieck-Lefschetz trace formula (GL) if the number of $\FF_q$ points on $Y$ is given by some formula involving the trace of the Frobenius $\varphi$ on cohomology, i.e.
 
 $$\begin{align*}
-\frac{\abs{Y(\FF_q)}}{q^d} &= \tr(\varphi^{-1} \mid H^*(\bar Y))\\
-& \definedas \sum_i (-1)^i\tr(\varphi^{-1} \mid H^i(\bar Y))
+\frac{\abs{Y(\FF_q)}}{q^d} &= \Tr(\varphi^{-1} \mid H^*(\bar Y))\\
+& \definedas \sum_i (-1)^i\Tr(\varphi^{-1} \mid H^i(\bar Y))
 \end{align*}$$
 
 where $q^d$ is the naive estimate of how many $\FF_q$ points there are in $Y$ and 
@@ -64,7 +64,7 @@ for the LHS of the GL trace formula.
 
 For the RHS, we are looking at 
 $$
-\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m}))
+\Tr(\varphi^{-1} \mid H^*(\overline{B\GG_m}))
 $$
 where the bar is just to remind that we're in algebraic closures of the underlying fields.
 
@@ -85,14 +85,14 @@ $$
 which is a $\QQ_\ell\dash$algebra. But here we also have a Frobenius that acts on $H^*$, where $\varphi(t) = qt$ and $\varphi(t^n) = q^nt$ (where $t$ was the generator in $H^*$). We then have
 
 $$
-\tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) = \sum_{n\geq 0} q^{-n} = \frac{q}{q-1}
+\Tr(\varphi^{-1} \mid H^*(\overline{B\GG_m})) = \sum_{n\geq 0} q^{-n} = \frac{q}{q-1}
 $$
 
 where the signs drop out because everything is in even degree, and the term comes from degree $2n$ and $\varphi^{-1}: x\mapsto 2^{-n} x$.
 
 **Conclusion**: The GL trace formula works for the stack $B\GG_m$, even though it was not an algebraic variety.
 
-Note that the reason we take $\varphi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\varphi$ will not yield a convergent sum, whereas $\tr\varphi^{-1}$ does because the eigenvalues of $\varphi$ are like positive powers of $q$.
+Note that the reason we take $\varphi^{-1}$ here is because this formula will involve an infinite sum which has to converge. Taking just the trace of $\varphi$ will not yield a convergent sum, whereas $\Tr\varphi^{-1}$ does because the eigenvalues of $\varphi$ are like positive powers of $q$.
 
 # $\ell\dash$adic Homotopy Groups
 A different way of thinking about the above computation: we'll see that we can count the number of points on an algebraic variety not by using $\ell\dash$adic cohomology, but rather a notion of $\ell\dash$adic homotopy.
@@ -186,14 +186,14 @@ Supposing we only have even dimensional generators, $I/I^2$ is a finite-dimensio
 
 The trace is additive for exact sequences, and so 
 $$\begin{align*}
-\tr (\varphi^{-1} \mid H^*(\bar Y)) &= \tr (\varphi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
-&= \tr (\varphi^{-1} \mid \sym^* (I/I^2))
+\Tr (\varphi^{-1} \mid H^*(\bar Y)) &= \Tr (\varphi^{-1} \mid \mathrm{gr} H^*(\bar Y)) \\
+&= \Tr (\varphi^{-1} \mid \sym^* (I/I^2))
 \end{align*}$$
 where $\mathrm{gr}$ denotes the associated graded, and the first equality comes from the trace being additive for exact sequences and the fact that we had a filtration by powers of $I$.
 
 If we know the eigenvalues on $I/I^2$, we'll know them on its symmetric algebra because they will just be monomials in $\lambda_i$, and so
 $$\begin{align*}
-\tr (\varphi^{-1} \mid \sym^* (I/I^2)) &= \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n} \\
+\Tr (\varphi^{-1} \mid \sym^* (I/I^2)) &= \sum_{e_1, e_2, \cdots e_n \geq 0}\lambda_1^{e_1}\lambda_2^{e_2}\cdots\lambda_n^{e_n} \\
 &= \prod_{i=1}^n \frac{1}{1-\lambda_i}
 \end{align*}$$
 
@@ -201,7 +201,7 @@ where the evaluation comes recognizing the fact that the sum that appears is a p
 
 But the $\lambda_i$ are eigenvalues of $\varphi^{-1}$ on the homotopy groups, and we can write their product as a determinant, so
 $$
-\tr (\varphi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \varphi \mid \pi_*(\bar Y )_{\QQ_\ell})}
+\Tr (\varphi^{-1} \mid H^*(\bar Y)) = \frac{1}{\det (1- \varphi \mid \pi_*(\bar Y )_{\QQ_\ell})}
 $$
 
 where $\pi_*(\bar Y )_{\QQ_\ell}$ is just a finite-dimensional $\QQ_\ell\dash$vector space.
@@ -213,7 +213,7 @@ Let $\bar Y = \GG_m$, and recall that this yielded a polynomial ring on one gene
 Now let $G$ be a connected linear algebraic group over $\FF_q$. What does the GL trace formula say about $BG$? Well, $H^*(BG)$ will always be a polynomial ring on even generators, so our previous analysis will apply. We can write
 
 $$
-\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \tr(\varphi^{-1} \mid H^*(\overline{BG})) 
+\frac{\abs{BG(\FF_q)}}{q^{\dim BG}} =_? \Tr(\varphi^{-1} \mid H^*(\overline{BG})) 
 $$
 
 i.e. the number of $\FF_q$ points of $BG$, counted with multiplicity,
@@ -272,7 +272,7 @@ where the LHS appears on the $E_2$ page, and the RHS is the associated graded fo
 However, the trace $\varphi$ can be computed on any page. In the case where the homotopy groups are not concentrated in even degrees, we obtain the same conclusion:
 
 $$
-\tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
+\Tr(\varphi^{-1} \mid H^*(\bar Y)) = \prod_{i} \frac{(-1)^{i+1}}{\det(1-\varphi \mid \pi_i(\bar Y))}.
 $$
 
 This can be obtained by formally playing with infinite sums, where a sufficient condition for convergence will be if $\pi_*$ is finite dimensional / concentrated in finitely many degrees.

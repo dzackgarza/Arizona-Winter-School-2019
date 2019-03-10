@@ -1,4 +1,4 @@
-# User's Guide to $\AA^1$ Homotopy Theory
+# User's Guide to $\Af^1$ Homotopy Theory
 Particularly, arithmetically enriching enumerative results. The first part of this talk focuses on setting up the correct category for this theory.
 
 
@@ -23,7 +23,7 @@ $$
 \end{CD}
 $$
 
-These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well. We'd also like smooth schemes to behave like smooth manifolds, in the sense that we can take an open ball around each point. This is part of what $\AA^1$ homotopy theory buys us.
+These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well. We'd also like smooth schemes to behave like smooth manifolds, in the sense that we can take an open ball around each point. This is part of what $\Af^1$ homotopy theory buys us.
 
 We want colimits, so we add them: let $\Sm$ to be the category of smooth schemes over $k$. There is a Yoneda embedding
 $$
@@ -74,7 +74,7 @@ $$
 **Definition:** A map $f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$.
 
 This topology has a few nice properties:
-- Smooth schemes have etale maps into $\AA^n$, inclusions/closed immersions $Z \injects X$ induce maps $\AA^d \injects \AA^n$
+- Smooth schemes have etale maps into $\Af^n$, inclusions/closed immersions $Z \injects X$ induce maps $\Af^d \injects \Af^n$
 - Satisfies descent for K-theory
 - The cohomological dimension equals the Krull dimension 
 - Cohomology can be computed Cech complexes
@@ -82,12 +82,12 @@ This topology has a few nice properties:
 
 ## Contracting the Affine Line
 
-The last step is forcing $\AA^1$ to be contractible, i.e. $\AA^1 \cross X \homotopic X$, which will come from another localization $L_\AA$. This composition will land us in the homotopy theory we want:
+The last step is forcing $\Af^1$ to be contractible, i.e. $\Af^1 \cross X \homotopic X$, which will come from another localization $L_\Af$. This composition will land us in the homotopy theory we want:
 $$
-\Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\AA}} \text{Spc}_k
+\Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\Af}} \text{Spc}_k
 $$
 
-where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{Spc}_k$ our $\AA^1$ homotopy theory.
+where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{Spc}_k$ our $\Af^1$ homotopy theory.
 
 # Making Spheres
 
@@ -96,7 +96,7 @@ $$
 X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}
 $$
 
-In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\AA^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have $S^1$, we can also take $\GG_m = \AA^1 - \theset{0}$, and so we have spheres
+In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\Af^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have $S^1$, we can also take $\GG_m = \Af^1 - \theset{0}$, and so we have spheres
 $$
 S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} .
 $$ 
@@ -104,17 +104,17 @@ $$
 Some of these end up being familiar spaces. For example, we can look at the colimit
 $$
 \begin{CD}
-  \GG_m @>>> \AA^1 \homotopic \pt \\
+  \GG_m @>>> \Af^1 \homotopic \pt \\
   @VVV \selfmap @VVV \\
-  \pt \homotopic \AA^1 @>>> \PP^1
+  \pt \homotopic \Af^1 @>>> \PP^1
 \end{CD}
 $$
 
-which follows from the fact that $\PP^1 = \AA^1 \union \theset{\infty}$ (yielding the top-right copy of $\AA^1$), and we can take a neighborhood around the point at $\infty$ to obtain the bottom-left copy -- these intersect in $\GG_m$.
+which follows from the fact that $\PP^1 = \Af^1 \union \theset{\infty}$ (yielding the top-right copy of $\Af^1$), and we can take a neighborhood around the point at $\infty$ to obtain the bottom-left copy -- these intersect in $\GG_m$.
 
 So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$.
 
-We can also show $\AA^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$. This will rely on a general fact about the colimit of $X\cross Y$ with its projections is a suspension, given by
+We can also show $\Af^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$. This will rely on a general fact about the colimit of $X\cross Y$ with its projections is a suspension, given by
 $$
 \begin{CD}
   X\cross Y @>>> X \\
@@ -126,13 +126,13 @@ $$
 and so we can proceed by induction on the following diagram:
 $$
 \begin{CD}
-  (\AA^{n-1} - \theset{0} )\cross(\AA^1 -\theset{0}) @>>> (\AA^{n-1} -\theset{0}) \cross \AA^1 \\
+  (\Af^{n-1} - \theset{0} )\cross(\Af^1 -\theset{0}) @>>> (\Af^{n-1} -\theset{0}) \cross \Af^1 \\
   @VVV \selfmap @VVV \\
-  \AA^n \cross (\AA^1 -\theset{0}) @>>> \AA^n - \theset{0} 
+  \Af^n \cross (\Af^1 -\theset{0}) @>>> \Af^n - \theset{0} 
 \end{CD}
 $$
 
-We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\AA^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\AA^n / \AA^{n} - \theset{0} \homotopic \pt / \AA^{n} - \theset{0} = \Sigma (\AA^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
+We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\Af^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\Af^n / \Af^{n} - \theset{0} \homotopic \pt / \Af^{n} - \theset{0} = \Sigma (\Af^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
 
 # Thom Spaces
 These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space 
@@ -147,7 +147,7 @@ where $X$ here corresponds to the zero section, $\mathcal O$ is the trivial line
 The next theorem gives us neighborhoods around points
 
 **The Purity Theorem**:
-Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view this as a neighborhood mod its boundary. This is equivalent to $\text{Th}(N_Z X)$, the Thom space of the normal bundle of $Z$ in $X$. $\qed$
+Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view this as a neighborhood mod its boundary. This is equivalent to $\text{Th}(N_Z X)$, the Thom space of the normal bundle of $Z$ in $X$.
 
 **Example:** Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
 
@@ -181,7 +181,7 @@ h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}
 $$ 
 for any $a$.
 
-We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in $\AA^1$ homotopy theory.
+We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in $\Af^1$ homotopy theory.
 
 We have a **rank homomorphism:**
 $$
@@ -237,7 +237,7 @@ $$s
 I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),
 $$
 
-and the Milnor conjecture states that these are isomorphisms. $\qed$
+and the Milnor conjecture states that these are isomorphisms.
 
 In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded. 
 
@@ -251,15 +251,17 @@ This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$.
 
 For higher $n$ these invariants don't have names, but for various fields, the lower degrees form a complete invariant -- for example, for finite fields, one needs only check $n=0,1$, while $\QQ$ requires $n=0,1,2$.
 
-The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_*^{MW}(k)$, which is also a homotopy group of spheres in $\AA^1$ homotopy theory (due to Hopkins and Morel). 
+The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_*^{MW}(k)$, which is also a homotopy group of spheres in $\Af^1$ homotopy theory (due to Hopkins and Morel). 
 
 This group has generators
+
 $$\begin{align*}
 \generators{a}, &\quad a\in k^\times, &\deg a = 1\\
 \eta, & & \quad\deg \eta = -1
 \end{align*}$$
 
 and relations
+
 $$\begin{align*}
 \eta \generators{a} &= \generators{a} \eta\\
 \generators{a}\generators{1-a} &= 0&\\
@@ -282,7 +284,7 @@ $$
 [(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
 $$
 
-where the square brackets correspond to homotopy classes of maps.$\qed$
+where the square brackets correspond to homotopy classes of maps.
 
 In particular, when $j=r=n$, we obtain
 $$
@@ -300,7 +302,7 @@ $$
 \end{CD}
 $$
 
-where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\AA^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus $GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes over $\RR$.
+where the edge degree maps are just the topological degree of maps between spheres and the middle is the $\Af^1$ degree. The signature is the usual difference in $\pm 1$s occurring after diagonalization. Thus $GW(k)$ lets us simultaneously read off the real and complex degrees of maps between schemes over $\RR$.
 
 So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with $U^+$ and sheafifying. Thus $GW(k), K^{MW}_*(k),$ and $K^M_*(k)$ are all global sections of sheaves.
 
@@ -313,12 +315,17 @@ There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*
 We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^{MW}_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally. 
 
 So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so define the **residue homomorphism**
+
 $$\begin{align*}
-\del_V^\pi: K_*^{MW}(E) &\to K_*^{MW}(k(V))[-1]\\
+\del_V^\pi: K_*^{MW}(E) &\to K_*^{MW}(k(V))[-1] \\
 \generators{\pi}\generators{a_1}\cdots\generators{a_n} &\mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\
-\generators{a_1} \cdots \generators{a_n} &\mapsto 0
+\generators{a_1} \cdots \generators{a_n} &\mapsto 0 \\
+\generators{\eta} \mapsto 0
 \end{align*}$$
+
 where $a_i \in \mathcal{O}_V^\times$ and $\overline a_i$ is the reduction.
+
+> Note that it is true that $\del_V^\pi \eta = \eta \del_V^\pi$, and this is part of what uniquely defines this map. However, we can't have $\eta \mapsto \eta$, because this does not decrease the degree by 1.
 
 So then the sections on $\mathcal O$ are given by
 $$
@@ -327,5 +334,5 @@ $$
 
 and there is a procedure for making a sheaf from this denoted $K_*^{MW}$.
 
-The fact this is a stable homotopy sheaf provides some transfers seen last time, which we'll start with next time. $\qed$
+The fact this is a stable homotopy sheaf provides some transfers (seen last time), which we'll start with next time.
 

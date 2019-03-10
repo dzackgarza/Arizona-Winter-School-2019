@@ -1,6 +1,6 @@
-# $\AA^1$ Enumerative Geometry
+# $\Af^1$ Enumerative Geometry
 
-Enumerative geometry, counts algebro-geometric objects, and in order to actually obtain an invariant number at the end of the day one uses an algebraically closed field $k$ or $\CC$. This is essentially because the conditions imposed are polynomial, and polynomials of degree $n$ over a closed field always have $n$ roots.
+Enumerative geometry counts algebro-geometric objects, and in order to actually obtain an invariant number at the end of the day one uses an algebraically closed field $k$ or $\CC$. This is essentially because the conditions imposed are polynomial, and polynomials of degree $n$ over a closed field always have $n$ roots.
 
 The goal here is to record information about the fields of definition. However, since we may no longer have invariant numbers as solutions to polynomial equations, we replace this with a notion of *weights* to get an "invariance of bilinear form" principle instead. Over characteristic not 2, we can use quadratic forms, which ties to Lurie's first talk.
 
@@ -45,7 +45,7 @@ We can also permute $s,t$ around to get more lines, and by counting this yields 
 > There is a proof in the notes that these are the only lines, which is relatively elementary.
 
 # Modern Proof
-We'll use characteristic classes, which we'll later replace by an $\AA^1$ homotopy theory variant.
+We'll use characteristic classes, which we'll later replace by an $\Af^1$ homotopy theory variant.
 
 Let $\Gr(1,3)$ be the Grassmannian parameterizing 1-dimensional subspaces of $\CP^3$, where the $\CC$ points of this space parameterize 2-dimensional subspaces $W \subseteq \CC^4$. This is a moduli space of the lines we're looking for.
 
@@ -103,7 +103,7 @@ $$
 \abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual),
 $$
 
-where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$. $\qed$
+where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$.
 
 # What about $\RR$?
 
@@ -111,7 +111,7 @@ Schlafli, 19th century: $X$ can have $3,7,15$ or $27$ lines. So it's not constan
 
 Recall the characterization of elements in $\Aut L$ for $L=\RP^1$ (real lines) as elliptic/hyperbolic: we have $\Aut L \cong \mathrm{PGL}(2, \RR)$, so pick some $I$ corresponding to a matrix
 $$
-[I] = \pmatrix{a & b \\ c & d},\quad  z\mapsto \frac{az+b}{cz+d}
+[I] = \begin{pmatrix}a & b \\ c & d\end{pmatrix},\quad  z\mapsto \frac{az+b}{cz+d}
 $$
 
 where the second formulation above shows that there are two fixed points, since solving for $z\mapsto z$ yields a quadratic equation. So we have
@@ -134,28 +134,28 @@ A natural way to see that there should be a distinction between two types of lin
 
 Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
-![](2019-03-03-22-11-15.png)
+![](/assets/2019-03-03-22-11-15.png)
 
 Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/$z$ coordinates, etc.
 
 > This took me a while to visualize -- what worked for me was thinking about "egg crate" padding:
 
-![](2019-03-03-22-27-49.png)
+![](/assets/2019-03-03-22-27-49.png)
 
 After thinking about what physically happens as you push a plane around, it becomes clear that these three lines are all hyperbolic. Note that this question is the same as asking if a path in the frame bundle lifts.
 
 Although the number of lines isn't a constant, we can take a "signature" sort of formula to obtain an invariant. In this case, the number hyperbolic lines minus the number of elliptic lines *is* constant. In this case, the constant is 3.
 
-General mantra for $\AA^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may be a result in $\AA^1$ theory that has realizations recovering the original results.
+General mantra for $\Af^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may be a result in $\Af^1$ theory that has realizations recovering the original results.
 
-# $\AA^1$ Homotopy Theory
-This will allow us to do with schemes much of what we can do in $\mathbf Top$. Smooth schemes behave like manifolds, where there are balls around points. The convention here will be that we're working over smooth schemes, denoted $\mathrm{Sm}_k$ where $k$ is a field.
+# $\Af^1$ Homotopy Theory
+This will allow us to do with schemes much of what we can do in $\mathbf{Top}$. Smooth schemes behave like manifolds, where there are balls around points. The convention here will be that we're working over smooth schemes, denoted $\mathrm{Sm}_k$ where $k$ is a field.
 
 > Remark: in my notation I use $\RP^n, \CP^n$, and $\PP^n(k)$ to denote various projective spaces. I'll adopt Kirsten's convention here and just denote $\PP^n(k)$ as $\PP^n$.
 
-We'll get spheres from $S_\AA^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
+We'll get spheres from $S_\Af^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
 $$
-[S_\AA^n, S_AA^n] \to GW(k),
+[S_\Af^n, S_\Af^n] \to GW(k),
 $$
 
 where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms. 
@@ -179,7 +179,7 @@ $$
 
 There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.
 
-Example: compute $GW(\CC)$.
+**Example:** Computing $GW(\CC)$.
 
 The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
 $$
@@ -189,7 +189,7 @@ $$
 
 which is realized by taking the rank.
 
-Example: $GW(\RR)$
+**Example:** $GW(\RR)$.
 We still have the rank, but now we can also take the signature, so we have
 $$
 GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2, 
@@ -197,7 +197,7 @@ $$
 
 although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
-Example: $GW(\FF_q)$
+**Example:** $GW(\FF_q)$.
 We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
 $$
 GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ
@@ -234,7 +234,7 @@ $$
 \mathrm{Type}(L) = <D> \in GW(k(L)),
 $$
 
-or equivalently $D=ab-cd$ when $I = \pmatrix{a&b\\c&d}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
+or equivalently $D=ab-cd$ when $I = \begin{pmatrix}a&b\\c&d\end{pmatrix}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
 
 # An Analogous Trace Formula 
 
@@ -252,20 +252,26 @@ $$
 $$
 
 where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note that we can do this because we can view $V$ as a vector space over either $k$ or $k(L)$, so we end up with a quadratic form over $k$.
-$\qed$
 
 > Note: we have a well-defined map in the other direction, since the $GW$ is a stable homotopy group of spheres.
 
-Example: let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.
+**Example:** Let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.
 
-Example: let $k=\RR$, apply signature. If $L$ is defined over $C$, so the type is 1, and we're just left with the trace of $\CC/\RR$ -- but this contributes a $+1$ and $-1$, so there is no contribution. What's left are the lines of $\RR$, and since we set it up so type 1 lines are hyperbolic, we just get the trace $15-12=3$.
+**Example:** Let $k=\RR$, apply signature. If $L$ is defined over $C$, so the type is 1, and we're just left with the trace of $\CC/\RR$ -- but this contributes a $+1$ and $-1$, so there is no contribution. What's left are the lines of $\RR$, and since we set it up so type 1 lines are hyperbolic, we just get the trace $15-12=3$.
 
-Example: let $k=\FF^q$. We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.
+**Example:** Let $k=\FF^q$. We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.
 
 We thus get
 $$
-\pmatrix{\text{elliptic lines } L \\ \text{with } k(L) = \FF_\text{odd} } - \pmatrix{\text{hyperbolic lines } L \\ \text{with } k(L) = \FF_\text{even} } = 0 \mod 2
+\mltext{
+    \text{Elliptic lines $L$ } \\  
+    \text{with $k(L) = \FF_\text{odd}$} 
+} - 
+\mltext{
+    \text{Hyperbolic lines $L$} \\
+    \text{with $k(L) = \FF_\text{even}$}
+} 
+\equiv 0 \mod 2
 $$
 
 which follows from computing the discriminant of the given form.
-$\qed$

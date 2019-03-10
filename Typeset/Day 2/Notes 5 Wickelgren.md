@@ -1,233 +1,233 @@
-# The Euler Class
+---
+markdown:
+  absolute_image_path: true
+---
 
-Start with the version from Algebraic Topology. Let $X$ be be an $\RR\dash$manifold of dimension $d$ and $V\surjects X$ be a rank $r$ vector bundle with fibers $V_x$ for each $x\in X$. Recall the definition of the Thom space of $V$, 
 
+# Transfers
+
+## Defining Some Transfers
+Recall that we have the sheaves $K^{MW}_*, GW$, and the sheaf property means that an inclusion $K \injects L$ induces a map $\spec(L) \to \spec(K)$. We can take $GW(spec(L) \to \spec(K))$, and this is exactly the restriction/base change given by $\wait \tensor_k L$ of bilinear forms.
+
+We also saw that these were stable homotopy sheaves, so there should be transfers, and we want to use them for field extensions. Let $K\subset L$ be a finite extension of finite-type schemes over $k$. This leads to transfer maps
 $$
-\text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X} \\
-$$
-
-which can be defined on a fiber
-$$
-\text{Th}(V_x) \cong \PP(V\oplus \mathcal O)  / \PP(V_x) \homotopic S^r
-$$
-
-where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
-
-**Definition**: A **bundle** $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$ yields a generator.
-
-**Example**: This occurs when all transitions functions have positive determinant. Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
-$$
-\theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} > 0
+\Tr_{L/K}: GW(K) \to GW(L).
 $$
 
-if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
+There is also a geometric transfer (which is the prettiest!) which we'll define momentarily, given by with multiplication by one of those brackets to define a cohomological transfer. The geometric transfer will depend on a sequence of generators, while, while this choice can be removed for the cohomological transfer. If you use the twisting data you can get an absolute transfer. 
 
-**Definition**: A **space** $X$ is **oriented** iff its tangent space $TX$ is oriented.
-
-Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
-
-We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then 
+In the case where $K\subset L$ is separable, there is a canonical way to explicitly untwist, and the absolute and cohomological transfers agree.  For these two, we took
 $$
-e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
+\Tr(B: V^2 \to L) = V^2 \mapsvia{B} L \mapsvia{\Tr_{W^k}}
 $$
-where we sum the local degrees, and $\sigma$ is locally identified with a function 
+where we now view $V$ as a $k\dash$vector space, and $\Tr_{W^k}$ is the trace from Galois theory, the sum of the Galois conjugates.
+
+We'll show that we have this structure for the geometric transfer. If $L = K[z]/\generators{f}$, so we've chosen some generator, then we get an induced map $\spec(L) \overset{z}\injects \PP^1_K$. Since this is a closed immersion corresponding to $z$, we can form a backwards map 
 $$
-\sigma: \RR^d \to \RR^r \\
-\text{coordinates on } X \mapsto \text{local trivialization}
-$$ 
-by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
-
-Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
-
-**Definition:** The bundle $V\surjects X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
-
-We know what it means for such a homomorphism to be positive, and this won't change the value of the local index.
-
-Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$ with $\mathcal O(V)_x = H^r(\text{Th}(V_x); \ZZ)$. We can then use the Thom isomorphism to get a Thom class, so we have $e(V) \in H^r(X; \mathcal O(-V))$ which comes from a canonical map. So when $V\to X$ is relatively oriented, we again have $e(V) \in \ZZ$.
-
-# $\AA^1$ Algebraic Topology
-
-Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebraic bundle of rank $r$.
-
-**Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
-
-**Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
-
-**Example:** Consider both $X = \PP^n$ and $X = \Gr(m,n)$ be the Grassmannian parameterizing subspaces $\PP^m \leq \PP^n$.  Then $\det TX = \mathcal O(n+1)$, the dual of the tautological tensored $n+1$ times -- for the Grassmannian, you put it in the Plucker embedding and pull back the $\mathcal O(1)$.
-
-$\therefore X$ is orientable $\iff n$ is odd.
-
-This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the morphism required in the definition above.
-
-**Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
-
-**Example**: Take $\O(d)\oplus \O(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd. 
-> Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
-
-## Computing Euler Classes for Relatively Orientable Bundles
-> Joint with Jesse Kass
-
-In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$, which will land in the Grothendieck-Witt group $GW(k)$ instead of $\ZZ$.
-
-what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
-
-**Definition**: The **Nisnevich** coordinates near $x$ are given by 
+\PP^1_K \to {\PP^1_K \over \PP^1_K-\theset{z}} \homotopic \PP^1_L
+$$  
+by crushing everything but $z$, where the last equivalence was seen in the previous lecture. But now we can take $K^{MW}_1(\PP^1_K \to \PP^1_L)$, which is a map
 $$
-\varphi: U \to \AA^d
-$$ 
-which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
-
-- Such coordinates determine a distinguished section of $\det TX(U)$
-- A local trivialization $\restrictionof{\varphi}{U} \to \O^r$ determines a distinguished section of $\det V(U)$
-
-And so we can make the following definition:
-
-**Definition**: Local coordinates and a local trivialization are **compatible** if for these distinguished sections, we have
-$$
-\hom(\det TX(U), V(U)) \cong L^{\tensor 2}.
+\Tr_{L/K}^{\text{geom}}:  GW(L) \to GW(K)
 $$
 
-So we can get compatibility by varying the trivialization until we get a square (no problem). Nisnevich coordinates will always exist when $k(p)$ is a separable extension of $k$, or the dimension is 1 (by Galois theory).
+So we have some transfers.
 
-So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ that are compatible. If $\phi: U \injects \AA^d$ is an open immersion, then our section $\sigma$ is a function can be identified by pulling back $\sigma: \AA^d \to \AA^r$ and defining $\deg_p(\sigma) \definedas \deg_{\phi(p)}(\sigma)$.
+## Bilinear Forms on Chow Groups
 
-Note that we don't actually need the immersion condition here, since the $\AA^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\AA^d$. However, we could just add something from a really high power of the maximal ideal, and it can be shown that $\sigma$ is pulled back from $\AA^d$. These choices don't affect the outcome, so the assumption is not necessary by "finite determinacy of $\deg_p$". 
-
-> Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
-
-# Relations to Chow Groups
-
-Other perspectives: 
-
-Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$.
-> Note that you can use $V$ or $-V$ here, since the action of $GW$ has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn't effect the oriented chow groups. 
-
-It is defined as follows:
-
-There is a distinguished element $\generators{1}\in \widetilde{\text{Ch}}{}^0(X)$ which is determined by a complex
+The finale of this morning was going to be adding bilinear forms to Chow groups for the purposes of having a tool in enumerative geometry. So let $X\in\Sm$ and $X^{(i)}$ codimension $i$ reduced, irreducible subschemes of $X$. Then 
 $$
-\cdots \to \bigoplus_{z\in X^{(0)}} GW(k(Z), \det T_zX) \to \bigoplus_{z\in X^{(-1)}} GW(k(Z), \det T_zX)
+CH^i(X) = {\bigoplus_{X^{(i)}} \ZZ \over \sim}
 $$
 
-where $X^{(0)}$ are reduced irreducible subschemes of $X$, and the RHS disappears because it's the generic point.
+where $\sim$ is rational equivalence, the equivalence relation generated by taking subvarieties of $V\subset X\cross \PP^1$ and equating the fibers and the endpoints $V_{\theset{1}} \sim V_{\theset{0}}$, i.e. $V\intersect (X\cross\theset{1}) \sim V\intersect (X\cross\theset{0})$.
 
-In Algebraic Topology, the definition of the Thom class involves a canonical map $\text{Th}(-V)\to X$, making the class land in $H^0(\text{Th}(-V)$ which under the Thom isomorphism gives something in $H^r$ with a twist. An analog in this setting is the following pushforward.
+These are useful in enumerative geometry -- there are Chern classes, pushforwards, pullbacks, a ring structure, etc. This ring structure lets us do intersection theory, providing some machinery to help with enumerative questions.
 
-Let $\sigma$ denote the zero section of $V\covers X$, then there is a pushforward map
+The $i$th Chow group, in addition to being a motivic homology group, also has a nice formula due to Bloch that applies in the case of smooth schemes: $CH^i(X) \cong H^i(X; K^{M}_i)$ where the RHS is the Nisnevich cohomology of $X$ with coefficients in Milnor $K\dash$theory.
+
+Oriented Chow groups (AKA Chow-Witt groups) which are the original Chow groups together with a bilinear form. By Borge and Morel, motivated by the Bloch formula above, these can be defined as 
 $$
-\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
-$$
-
-where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.
-
-> Note: the difference between the canonical bundle of $V$ and the twist we had to do to get rid of $X$ is like the difference between $TV$ and $TX$, yielding the determinant appearing on the RHS.
-
-The map $p$ also yields an isomorphism
-$$
-p^*: \widetilde{\text{Ch}}{}^r(X, \det V) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
+\widetilde{CH}{}^i(X) \definedas H^i(X; K_i^{MW}).
 $$
 
-and so we define
+This can be computed by a complex (as in Morel's book):
 $$
-e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1}).
-$$
-
-If $V \surjects X$ is relatively oriented, there is a map $X \mapsvia \pi \spec(k)$ and so $\pi_* e(V) \in GW(k)$.
-
-Other perspectives
-
-- There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit ($\generators{a}$)
-- A six functor formalism
-- Mike Hopkins 
-- Raxit and Levine?
-
-# Example Computations
-
-**Example**: Let $n$ be even, and $V = \O_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$. 
-
-> Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of $h$. A similar argument works here?
-
-**Example**: How many lines meet 4 general lines in $\PP^3$?
-Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
-
-Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. Let 
-- $L_i$ be 4 lines, no two of which intersect
-- $e_i$ be a basis of $k^4$
-- $\phi_i$ be the corresponding dual basis
-
-where $L_1 = \PP(ke_3\oplus ke_4) = \theset{\phi_1=\phi_2 = 0}$. Lets find a condition on bundles for lines that intersect $L_1$.
-
-Let $L= \PP(k\tilde e_3 \oplus k\tilde e_4)$, the span of some two linearly independent vectors. If we wrote these out in terms of $e_i$, we'd need to find a combination where the coefficients of $e_1, e_2$ vanish, i.e. there needs to be a linear dependence in the part of their basis expansion involving these two elements. We thus get the condition
-$$
-L\intersect L_1 \iff (\phi_1 \wedge \phi_2)(\tilde e_3 \wedge \tilde e_4) = 0
+\cdots \to \bigoplus_{z\in X^{(ii1)}} K^{MW}_{1}(K(z), ~\det_{k(z)} T_z X) \to \bigoplus_{z\in X^{(i)}} GW(K(z), ~\det_{k(z)} T_z X)  \to \bigoplus_{z\in X^{(i+1)}} K^{MW}_{-1}(K(z), ~\det_{k(z)} T_z X)  \to \cdots
 $$
 
-So we look at the line bundle $S^\dual \wedge S^\dual \covers \Gr(1,3)$, where the fiber above a dimension 2 subspace $W$ is given by $(S^\dual \wedge S^\dual)_{\PP W} = W^\dual \wedge W^\dual$.
+where $k(z)$ is the function field, and since $z$ has a generic point, we can take the highest wedge power of the tangent space of $X$ at $z$ to yield the determinant term, which serves as an added twist. This explains why elements of the oriented Chow are formal combinations of codimension $i$ subvarieties $z\in X^{(i)}$ and a bilinear form over $k(z)$, $B\in GW(k(z))$.
 
-Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma_1$ of $S^\dual \wedge S^\dual$ by $\sigma_1(\PP W) = \restrictionof{\phi_1}{W} \wedge \restrictionof{\phi_2}{W}$, where lines intersection $L_1$ correspond exactly to zeros of $\sigma_1$.
+There's structure here -- Fasel developed ring structure and pushforwards, while in the context of enumerative geometry, Mark Levine works with these. All in all, we have pullbacks, pushforwards, a noncommutative ring structure, and we can twist these groups as well.
 
-We can do the same thing for the other $L_i$ and combine them to get a section of $V \definedas \oplus_{i=1}^4S^\dual \wedge S^\dual$, whose zeros are the lines we're looking for.
+## Twisted Chow
 
-Is this bundle relatively orientable? $\det TX =\O(4), \det V = (S^\dual \wedge S^\dual)^{\tensor 4}$, which are both tensor squares, so yes.
+First we'll define the twists appearing in the complex above, and then we can define how to do twisted Chow so we can do pushforwards.
 
-Following the recipe, we need to identify $\sigma$ with a function. To compute $\deg_{\PP W}(\sigma)$, choose local coordinates on $\Gr(1,3)$. So we need to choose dimension 2 subspaces parameterized by $\AA^4$, so we'll pick the lines which intersect $\theset{\phi_3= \phi_4 = 0}$, yielding a new basis
+If $E$ is a field of finite type over $k$, then $K^{MW}_i(E; \Lambda)$ ("twisted by $\Lambda$") where $\Lambda$ is a 1-dimensional $E\dash$vector space can be defined as 
+$$
+K^{MW}_i(E) \underset{\ZZ[E^\times]}\tensor \ZZ[\Lambda - \theset{0}]
+$$
+
+since $E^\times$ acts of the LHS due to the bracket $E$ in the Grothendieck-Witt group, and the RHS is possible because we can act on the nonzero elements of the vector space. 
+
+We can also twist by line bundles $L \to X$, leading to a definition of **oriented Chow groups twisted by local coefficients** via $\widetilde{CH}{}^i(X; L) \definedas H^i(X; K^{MW}_i(L))$ where we just take $K\dash$Milnor-Witt and twist by $L$.
+
+For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforward map 
+$$
+f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
+$$
+
+where $\omega_{X/K}$ is the canonical line bundle of $X$ over $k$ given by $\det TX$, the determinant of the tangent bundle of $X$, and $f^* \mathcal L$ is the pullback of any line bundle from $f$.
+
+Note that the bilinear form here acts like an orientation (which is exciting!), hence the name.
+
+# Degree by Local Degree
+
+Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \dots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees. There is a formula for computing the degree from differential topology,  given by choosing coordinates $x_1, \cdots, x_n$ near $q_i$ and $y_1, \cdots, y_n$ near $p$ which are compatible with orientations. Then $f:\RR^n\to\RR^n$, so we can form its Jacobian $\operatorname{Jac}(f) = \det J$ where that matrix $J$ is given by $(J)_{i,j} = \dd{f_i}{x_j}$. We then have
+$$
+\underset{q_i}\deg f = \begin{cases}
+    1,  & $\operatorname{Jac}(f) > 0$ \\
+    -1, & $\operatorname{Jac}(f) < 0$.
+\end{cases}
+$$
+
+In $\Af^1$ algebraic topology, instead of just remembering the sign (like the signature), the idea of Lannes-Morel is to remember the entirety of $\operatorname{Jac}(f)$. Take $f: \PP^1 \to \PP^1$ over a field $k$, then let $p\in \PP^1(k)$ be a $k\dash$rational point so that $f\inv(p) = \theset{q_1, \cdots, q_n}$. We can then define
+$$
+\deg^{\Af^1}(f) = \sum \langle \underset{q_i}{\operatorname{Jac}} f\rangle \in GW(k)
+$$
+
+which doesn't depend on $p$. We then make an analogous definition for higher dimensions.
+
+**Proposition:** the global degree is a sum of local degrees. 
+Let $f: \PP^n \to \PP^n$ be finite such that $f\inv(\Af^n) = \Af^n$ for some chosen copy of $\Af^n \subset \PP^n$. This yields an induced map $\overline f :\PP^{n}/\PP^{n-1} \to \PP^{n}/\PP^{n-1}$. We then define the global degree by picking some $p\in \Af^n$ and setting
+$$
+\deg^{\Af^1}(\overline f) = \sum_{q\in f\inv(p)}\underset{q}\deg{\Af^1}(f)
+$$
+
+where the local degree can be define using balls (as in the first lecture), and we let $\underset{q}\deg{\Af^1}(f)$ be the degree of the composite map
+$$
+{\PP^{n} \over \PP^{n-1}} \homotopic {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic \operatorname{Th}(N_p\Af^n) \homotopic {\PP^{n} \over \PP^{n-1}}
+$$
+
+where $U$ is an open set chosen such that the preimage of $p$ only contains $q$, and $\operatorname{Th}(N_p\Af^n)$ is the Thom space of the normal bundle (here, the tangent bundle) and the last equality follows from the purity theorem and the fact that everything is $k\dash$rational (i.e. $k(q) = k$).
+
+This can also be made to work at a non-rational point, using the Hatcher-style proof, of taking a collapsing map to yield the composite
+$$
+{\PP^{n} \over \PP^{n-1}} \to {\PP^{n} \over \PP^{n-1} -\theset{q}}\to {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic {\PP^{n} \over \PP^{n-1}}.
+$$
+
+This yields a notion of local degree in terms of global degree, by taking boundaries of balls, and we have the following facts:
+
+- If $f$ is etale at $q$, and $k \subseteq k(q)$ is separable then 
+$$\underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle$$
+  - Depending on what you mean by transfer, the hypothesis of separability can be dropped, but it's needed here to take the composition with the Galois theory trace.
+  - We could use this to compute the degree, but we are missing something
+
+
+**Question:** what happens if $\operatorname{Jac}(f) = 0$? Answer: The Eisenbud-Levine-Khimshiashvili signature formula, which says that if $f: \RR^n \to \RR^n$ where $0\mapsto 0$ is an isolated zero, then $\underset 0 \deg(f) = \operatorname{signature} (\omega^{EKL})$ which is a bilinear quadratic form on 
+$$
+Q \definedas \RR[x_1, \cdots, x_n]_0 \over \generators{f_1, \cdots, f_n}
+$$
+
+where the numerator is localized at zero. Since the zero was isolated in its fiber, $Q$ is a finite-dimensional $\RR\dash$vector space, and $\operatorname{Jac}(f) \in Q$ (which may lie in the maximal ideal $\generators{x_1, \cdots, x_n})$. So we can pick any $\RR\dash$linear $\eta: Q \to \RR$ such that $\eta(\operatorname{Jac}(f)) = \dim Q$. This allows us to define
+$$
+\omega^{EKL}: Q^2 \to \RR \\
+(a,b) \mapsto \eta(ab).
+$$
+
+A question Eisenbud was whether or not this whole form could be used as a degree over an arbitrary field $k$, not just its signature. So does it have an interpretation in algebraic topology? The answer is that it does, as a local degree in $\Af^1$ homotopy theory (which wasn't around at the time).
+
+**Theorem (Kass-Wickelgren)**: $\underset 0 \deg^{\Af^1}(f) = \omega^{EKL}$, constructed in the same way.
+
+This works for any rational point, and one of the projects is to remove the hypothesis that $k(x) = k$.
+
+**Example:**
+Let $f(x) = x^2$, and consider $\omega^{EKL}$ for this form. Form $Q = k[x]/\generators{x^2}$, where we don't need to localize at zero since $0$ is the only preimage of $0$. Then $\operatorname{Jac}(f) = 2x$. Note that $Q$ has a basis $\theset{1, x}$, and so we can choose
+$$
+\eta: k[x]/\generators{x^2} \to k \\
+\eta(2x) = 2\\
+\eta(1) = 0
+$$
+
+where we claim can send 1 wherever we want without altering the isomorphism class of $\omega^{EKL}$. We do this by forming the Gram matrix
+$$\begin{array}{cc}
+ & \matrix{1 & x} \\
+ \matrix{1 \\ x} & \begin{bmatrix} 0 & 1 \\ 1 & 0  \end{bmatrix}
+\end{array}$$
+
+where the 1s appear since we require $x\mapsto 1$, the bottom-right 0 because $x^2$ in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of $x$ to it.
+
+Thus we can diagonalize this matrix to yield $\omega^{EKL} = \generators{1} + \generators{-1}$. Note that we needed to assume $\char k$ does not divide $\dim Q$, otherwise we could have used a distinguished socle element instead in place of the Jacobian.
+
+So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\selfmap$, so here's an enumerative application.
+
+# $\Af^1$ Milnor Numbers
+(Joint with Jesse Kass)
+
+**Definition**: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring $\OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}$ (where $o(x_i^3)$ just denotes higher order terms).
+
+Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes. 
+
+More specifically, for any $a_1, \cdots, a_n$, we have a family of varieties/hypersurfaces given by $f(x_1, \cdots x_n) + \sum a_i x_i = t$ parameterized by $t$. One definition of the Milnor number is that in any such family, it counts the number of nodes.
+
+Let $k=\CC$, then a result of Milnor says that for any sufficiently small $a_1, \cdots, a_n$, the family $P$ contains $\mu(p)$ nodes, where $\mu$ denotes taking the Milnor number.
+
+To find nodes, one can look at the gradient and see where all of the coefficients of the linear terms vanish. What remains is $o(x_i^2)$, so we're looking for zeros of the gradient, which requires looking at the inverse image of the gradient, so we're picking up the degree of the gradient. This gives us another definition, $\mu(p) = \deg(\grad f)(p)$.
+
+However, when $k\neq \CC$ and generally not algebraically closed, nodes have interesting information, including arithmetic data.
+
+For example, consider $x^2+y^2$ and $x^2-y^2$. The first carves out just the origin, the latter, two diagonal lines.
+
+![](/assets/2019-03-09-12-18-52.png)
+
+The LHS is a non-split node, meaning the tangent is not defined over $k$, while the RHS is a split node. So we can use the $\Af^1$ degree in place of the topological degree, since we want to count the zeros of the gradient, and it will naturally pick up information about the node.
+
+**Definition:** the **type** of a node $p = \theset{f=0}$ is given by 
+$$
+\operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).
+$$
+
+**Example:** 
+Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$. Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$. Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
+
+Then $\operatorname{Type}(x^2+ay^2) = \generators{a}$. This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction. So this contains geometric/arithmetic information about both the node and its tangent directions.
+
+**Definition:** For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$. 
+
+**Theorem (Kass-Wickelgren):** It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
+$$
+\sum_{x \in \text{a family of nodes}} \operatorname{Type} (x) = \mu^{\Af^1}(p) \in GW(k),
+$$
+
+which is a fixed element.
+
+
+**Example:** 
+Let $f(x,y) = y^2-x^3$, supposing $\char(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then 
+$$
+\mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\ 
+= \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
+$$
+
+since the two variables being split apart implies that we can decompose $\grad f$ into the smash product of two maps into spheres. We know that the latter map is etale, so its degree is $\generators{2}$. For the former, we can use the prior computation for $x\mapsto x^2$ and just post-compose with $x\mapsto 3x$, so we obtain
 $$\begin{align*}
-\tilde e_1 &= e_1 \\
-\tilde e_2 &= e_2 \\
-\tilde e_3 &= xe_1 + ye_2 + e_3 \\
-\tilde e_4 &= x'e_1 + y'e_2 + e_4 \\
+\mu^{\Af^1}(0) &= \generators{3}(\generators{1} + \generators{-1}) \generators{2} \\
+&= \generators{-6} + \generators{6}\\
+&= \generators{1} + \generators{-1}\\
+&= h,
 \end{align*}$$
 
-We then have an open subset
-$$
-U =\spec(k[x,y,x',y']) \injects \Gr(1,3) \\
-(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4),
-$$
+the hyperbolic form from earlier.
 
-so we have some local coordinates. Let $\tilde \phi_i$ be the dual basis.
+Alternatively, take a family $y^2 = x^3 + ax  + t$. We then have two situations, depending on whether or not $a=0$:
 
-Next we choose a local trivialization, where $S^\dual \wedge S^\dual$ can be locally trivialized by $\tilde\phi_3 \wedge \tilde \phi_4$ which are compatible with some relative orientation.
+![](/assets/2019-03-09-12-44-39.png)
 
-The expression for the function $\sigma$ will depend on our choice of line, and instead of notating all of them, just assume that $L_1 = \PP(ke_3 \oplus ke_4)$. We then get $\sigma =(\phi_1 \wedge \phi_2, ?, ?, ?)$ where we just didn't notate the other components. So what is this first component in terms of $x', y'$? This amounts to finding the coordinate of $\tilde\phi_3 \wedge \tilde\phi_4$ is in $\phi_1 \wedge \phi_2$, which is just a linear algebra problem.
+The bottom represents the $t$ line, where the LHS shows a cusp at $t=0$ and otherwise some general fibers. For the RHS, there are nodes exactly when $x^3+ax+t$ has a double root, which happens exactly when this polynomial' discriminant is zero, which occurs at $-27t^2-4t$. In particular, $t$ is degree 2, so there are two nodal fibers (which agrees with Milnor's theorem), and moreover if we add up the types we must get $h$.
 
-We want to find the coefficient $c$ in 
-$$
-\restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
-$$
+So for example, over $\FF_5$, we $\generators{1} = \generators{-1}$, so in a family, it is not possible to have one split and one non-split rational node.
 
-How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to get how many $\tilde \phi_3$s we need, but that's just $x$. So the RHS evaluates to $(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x'\tilde\phi_3 \wedge y'\tilde\phi_4)$, and we obtain $c = xy' -yx'$. We can thus write
-$$
-\sigma: \AA^4 \to \AA^4 \\
-\sigma(x,y,x',y') = (xy' -yx', ?, ? , ?)
-$$
+For $\FF_7$, this is reverse, and you can't have 2 split or 2 non-split rational nodes.
 
-Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s? Is there an AG interpretation of this local degree $\deg_P(\sigma), where $P=L$ is a point on the Grassmannian?
-
-Well $L=\PP W$ intersects $L_i$, so we have 4 points on $L\cong \PP^1_{k(L)}$, and therefore we have a cross-ratio $\lambda$.
-
-We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$, so we have 
-$$
-W \subseteq V \subseteq k(L)^4
-$$
-
-where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$. We get 4 planes containing $L$, namely the 4 planes spanned by each pair $(L, L_i)$. This provides a second cross-ratio $\mu$
-
-Although there was choice, since our section was determined not by $L$ but rather by the zero set of some functions, normalizing things correctly yields
-$$
-\deg_L(\sigma) = \tr_{k(L) / k}\generators{\lambda-\mu}.
-$$
-
-We thus obtain a theorem:
-
-**Theorem**:
-
-$$
-\sum_{\quad L \suchthat \\ L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
-$$
-$\qed$
-
-# Where Things Are Going
-- Gromov-Witten invariants with Jake and Jesse
-- Welschinger invariants, Mark Levine
-
-These produce more than just the 1s appearing in $h$, and have ties to things like modular forms. $\qed$
+Moral of the story: this obstructs certain kinds of arithmetic behavior within these families!

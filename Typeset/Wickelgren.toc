@@ -1,0 +1,35 @@
+\contentsline {chapter}{\numberline {1}Lecture 1}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}\({\mathbb {A}}^1\) Enumerative Geometry}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Example: Lines on a Smooth Cubic Surface}{2}{section.1.2}
+\contentsline {section}{\numberline {1.3}Modern Proof}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}What about \({\mathbb {R}}\)?}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}\({\mathbb {A}}^1\) Homotopy Theory}{6}{section.1.5}
+\contentsline {section}{\numberline {1.6}The Grothendieck-Witt Group}{6}{section.1.6}
+\contentsline {section}{\numberline {1.7}Euler Class}{7}{section.1.7}
+\contentsline {section}{\numberline {1.8}An Analogous Trace Formula}{7}{section.1.8}
+\contentsline {chapter}{\numberline {2}Lecture 2}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}User's Guide to \({\mathbb {A}}^1\) Homotopy Theory}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Adding Colimits}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Preserving Old Colimits: Picking a Topology}{10}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Contracting the Affine Line}{10}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Making Spheres}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Thom Spaces}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}The Grothendieck-Witt Group}{12}{section.2.4}
+\contentsline {section}{\numberline {2.5}Milnor K-Theory}{13}{section.2.5}
+\contentsline {section}{\numberline {2.6}Grothendieck-Witt Group Invariants}{13}{section.2.6}
+\contentsline {section}{\numberline {2.7}Degree Theorem}{14}{section.2.7}
+\contentsline {section}{\numberline {2.8}Producing a Sheaf}{15}{section.2.8}
+\contentsline {chapter}{\numberline {3}Lecture 3}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Transfers}{16}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Defining Some Transfers}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Bilinear Forms on Chow Groups}{16}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Twisted Chow}{17}{subsection.3.1.3}
+\contentsline {section}{\numberline {3.2}Degree by Local Degree}{18}{section.3.2}
+\contentsline {section}{\numberline {3.3}\({\mathbb {A}}^1\) Milnor Numbers}{19}{section.3.3}
+\contentsline {chapter}{\numberline {4}Lecture 4}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}The Euler Class}{22}{section.4.1}
+\contentsline {section}{\numberline {4.2}\({\mathbb {A}}^1\) Algebraic Topology}{23}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Computing Euler Classes for Relatively Orientable Bundles}{23}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Relations to Chow Groups}{24}{section.4.3}
+\contentsline {section}{\numberline {4.4}Example Computations}{25}{section.4.4}
+\contentsline {section}{\numberline {4.5}Where Things Are Going}{26}{section.4.5}
