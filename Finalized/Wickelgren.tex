@@ -903,7 +903,7 @@ relation.
 \textbf{Theorem: The Milnor Conjecture (Voevodsky)} There is a map
 \begin{align*}
 K_n^M &\to I^n/I^{n+1} \\
-\bigotimes_{i=1}^n a_i &\mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right).
+\bigotimes_{i=1}^n a_i &&\mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right).
 \end{align*}
 
 We can also look at the Kummer map coming from the short exact sequence
@@ -941,11 +941,16 @@ then there is a nontrivial piece in the associated graded.
 Invariants}\label{grothendieck-witt-group-invariants}}
 
 This lets us view maps \(I^n \to I^n/I^{n+1}\) as invariants on
-\(GW(k)\). - For \(n=0\), this is the rank homomorphism.\\
-- For \(n=1\) we get the discriminant, which is the determinant of the
+\(GW(k)\).
+\begin{itemize}
+  \item For \(n=0\), this is the rank homomorphism.\\
+  \item For \(n=1\) we get the discriminant, which is the determinant of the
 linear map associated to the bilinear form obtained after choosing a
-basis. - For \(n=2\) this is the Hasse-Witt invariant (see written
-notes) - For \(n=3\) this is the Arason invariant
+basis.
+  \item For \(n=2\) this is the Hasse-Witt invariant (see written
+notes)
+  \item For \(n=3\) this is the Arason invariant
+\end{itemize}
 
 For higher \(n\) these invariants don't have names, but for various
 fields, the lower degrees form a complete invariant -- for example, for
