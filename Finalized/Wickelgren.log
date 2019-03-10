@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.10)  10 MAR 2019 00:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/Arch Linux) (preloaded format=pdflatex 2019.2.10)  10 MAR 2019 00:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,6 +964,7 @@ File: tikzlibraryplotmarks.code.tex 2019/01/05 v3.1 (3.1)
 File: pgflibraryplotmarks.code.tex 2019/01/05 v3.1 (3.1)
 ))) (/usr/share/texmf/tex/latex/asymptote/asymptote.sty
 Package: asymptote 2016/11/26 v1.33 Asymptote style file for LaTeX
+ (./Wickelgren.pre)
 \ASYbox=\box44
 \ASYdimen=\dimen268
 \c@asy=\count165
@@ -975,8 +976,7 @@ Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 )
 \openout5 = `Wickelgren.pre'.
 
-)
-No file Wickelgren.aux.
+) (./Wickelgren.aux)
 \openout1 = `Wickelgren.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
@@ -996,6 +996,7 @@ LaTeX Font Info:    ... okay on input line 165.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
 LaTeX Font Info:    ... okay on input line 165.
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 165.
+
 
 (/usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1126,4 +1127,4 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try 
+LaTeX Fo
