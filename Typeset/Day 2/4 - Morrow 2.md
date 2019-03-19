@@ -17,3 +17,5 @@ To check this equality, note that the LHS is built out of objects of the form $A
 $$
 A^{n\tensor_\ZZ} \underset{m^{\tensor_\ZZ}}{\tensor} k
 $$
+
+where tensoring with $k$ is just by the multiplication map.
