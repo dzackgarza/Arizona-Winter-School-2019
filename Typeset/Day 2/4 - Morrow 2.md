@@ -15,9 +15,9 @@ In order to make sense of the object on the RHS, it is perhaps easiest to view e
 
 To check this equality, the objects on each side have the following forms
 $$
-A^{n\tensor_k} \to A^{n\tensor_\ZZ} \underset{m^{\tensor_\ZZ}}{\tensor} k
+A^{n\tensor_k} \leftrightarrow A^{n\tensor_\ZZ} \underset{m^{\tensor_\ZZ}}{\tensor} k
 $$
 
 where tensoring with $k$ is just by the multiplication map. The claim is that these two are the same.
 
-There is a map going from the 
+The $\to$ map
