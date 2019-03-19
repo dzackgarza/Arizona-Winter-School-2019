@@ -24,4 +24,7 @@ The $\from$ map is given by just replacing $\tensor_\ZZ$ with $\tensor_k$ everyw
 
 The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$ The structures we need are:
 
-- Since we've written $\tensor$, the structure must be symmetric monoidal (which essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love). We also want limits and colimits to exist, so we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
+- Since we've written $\tensor$, the structure must be symmetric monoidal (which essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love). 
+- We also want limits and colimits to exist, so we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
+- $\cdots$, some other technical assumptions
+- 
