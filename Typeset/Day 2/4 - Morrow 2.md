@@ -66,5 +66,5 @@ $$
 
 The first term is $THH(A)$ shifted by a bit, while what's left on the RHS is the usual $HH$ we saw in earlier lectures. If we're convinced that the same sort of algebraic manipulations as earlier continues to work in the world of spectra, we get
 $$
-HH(A/\FF_p) = \underset{} \tensor \FF_p
+HH(A/\FF_p) = THH(A) \underset{} \tensor \FF_p
 $$
