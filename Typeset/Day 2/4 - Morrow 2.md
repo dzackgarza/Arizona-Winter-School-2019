@@ -1,3 +1,5 @@
 Last time: some general tools that are required to perform constructions like Hochschild homology in greater generality when one can't write down explicit complexes. We had a cyclic object, which leads to $S^1$ acting on something like a complex, and how you can pass from this action to homology, cohomology, and a Tate construction. When we fed Hochschild homology into this, the output was what we saw in earlier lectures: cyclic homology, negative cyclic homology, and periodic cyclic homology.
 
 Why do we want to perform this construction in greater generality, and what information can we expect to extract from it?
+
+Let $A$ be a $k\dash$algebra
