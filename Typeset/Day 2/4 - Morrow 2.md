@@ -46,4 +46,4 @@ HP_0(\FF_p) = \FF_p  \underset{\FF_p}\tensor \cdots \underset{\FF_p }\tensor \FF
 HP_0(\FF_p/\ZZ) = \Zp \oplus \text{ junk}
 $$
 
-where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ$ would again collapse, but instead taking **derived tensor product** yields something more interesting. The "junk" appearing is in fact quite bad -- period cyclic homology was built out of piling up copies of cyclic homology shifted by different degrees. You get $\Zp$ at different stages
+where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ$ would again collapse, but instead taking **derived tensor product** yields something more interesting. The "junk" appearing is in fact quite bad -- period cyclic homology was built out of piling up copies of cyclic homology shifted by different degrees. You get $\ZpZ$ at different stages
