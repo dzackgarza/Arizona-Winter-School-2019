@@ -49,3 +49,5 @@ $$
 where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ$ would again collapse, but instead taking **derived tensor product** yields something more interesting. The "junk" appearing is in fact quite bad -- period cyclic homology was built out of piling up copies of cyclic homology shifted by different degrees. You get $(\ZpZ)^n$ at different stages, which build up to $\Zp$, but at each finite stage there is already some junk, and an inverse limit of junk is also junk. In fact, the limiting junk is bad -- at each stage, you may differ from $(\ZpZ)^n$ by something controllable, but the limiting junk is not killed by a power of $p$ -- and thus come in the form of junky $\Zp\dash$modules.
 
 However, when we repeat our constructions in the world of spectra, this junk term goes away.
+
+# THH of $\FF_p\dash$algebras
