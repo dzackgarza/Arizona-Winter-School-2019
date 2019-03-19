@@ -92,4 +92,4 @@ $$
 \to THH_0(A) \to THH_2(A) \to HH_2(A/\FF_p) \to 0
 $$
 
-where we can identify
+where we can identify $THH_0, THH_1$ as before and
