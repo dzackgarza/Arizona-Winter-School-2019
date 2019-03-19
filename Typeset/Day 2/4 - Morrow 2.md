@@ -88,6 +88,8 @@ $$
 
 we explicitly get the long exact sequence
 $$
-\cdots THH_1 \to THH_3 \to HH_3 
+\cdots THH_1(A) \to THH_3(A) \to HH_3(A/\FF_p)
 \to THH_0(A) \to THH_2(A) \to HH_2(A/\FF_p) \to 0
 $$
+
+where we can identify
