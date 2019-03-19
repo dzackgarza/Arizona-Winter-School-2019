@@ -28,7 +28,7 @@ Topic: $\Af^1$ Enumerative Geometry
 @import "Day 2/2 - Wickelgren 2.md"
 
 # Lecture 3
-@import "Day 2/Notes 5 Wickelgren.md"
+@import "Day 2/5 - Wickelgren 3.md"
 
 # Lecture 4
 @import "Day 4/Notes 2 Wickelgren.md"
