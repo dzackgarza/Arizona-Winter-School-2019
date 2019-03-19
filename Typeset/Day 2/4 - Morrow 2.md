@@ -24,4 +24,4 @@ The $\from$ map is given by just replacing $\tensor_\ZZ$ with $\tensor_k$ everyw
 
 The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$
 
-Since we've written $\tensor$, the structure must be symmetric monoidal
+Since we've written $\tensor$, the structure must be symmetric monoidal (which essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love).
