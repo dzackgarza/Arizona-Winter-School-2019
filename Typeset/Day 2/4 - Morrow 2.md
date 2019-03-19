@@ -42,6 +42,6 @@ What is better information? Here are a few pathologies.
 
 - Consider $\FF_p$, then 
 $$
-HP_0(\FF_p) = \FF_p  \underset{\FF_p} \tensor\FF_p \\
+HP_0(\FF_p) = \FF_p  \underset{\FF_p}\tensor \cdots \FF_p \\
 HH_0(\FF_p
 $$
