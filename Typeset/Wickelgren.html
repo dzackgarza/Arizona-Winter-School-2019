@@ -1,0 +1,958 @@
+<!DOCTYPE html><html><head>
+      <title>A1 Enumerative Geometry</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Config({"extensions":["tex2jax.js"],"jax":["input/TeX","output/HTML-CSS"],"messageStyle":"none","tex2jax":{"displayMath":[["$$","$$"],["\\[","\\]"]],"inlineMath":[["$","$"],["\\(","\\)"]],"processEscapes":true,"processEnvironments":false},"TeX":{"extensions":["noUndefined.js","autoload-all.js","AMSmath.js","AMSsymbols.js"],"equationNumbers":{"autoNumber":"AMS"},"Macros":{"NN":["{\\mathbb{N}}",0],"RR":["{\\mathbb{R}}",0],"ZZ":["{\\mathbb{Z}}",0],"CC":["{\\mathbb{C}}",0],"QQ":["{\\mathbb{Q}}",0],"RP":["{\\mathbb{RP}}",0],"CP":["{\\mathbb{CP}}",0],"HP":["{\\mathbb{HP}}",0],"OP":["{\\mathbb{OP}}",0],"FF":["{\\mathbb{F}}",0],"PP":["{\\mathbb{P}}",0],"Af":["{\\mathbb{A}}",0],"MM":["{\\mathbb{M}}",0],"TT":["{\\mathbb{T}}",0],"Sp":["{\\mathbb{S}}",0],"KK":["{\\mathbb{K}}",0],"Gr":["{\\text{Gr}}",0],"GL":["{\\text{GL}}",0],"SL":["{\\text{SL}}",0],"SO":["{\\text{SO}}",0],"OO":["{\\mathcal{O}}",0],"mltext":["\\left\\{\\begin{array}{c}#1\\end{array}\\right\\}",1],"dual":["\\vee",0,""],"Tr":["\\mathrm{Tr}",0],"divides":["{~\\mid ~}",0],"sym":["\\mathrm{Sym}",0],"aut":["\\mathrm{Aut}",0],"grad":["\\mathrm{grad}",0],"spec":["{\\mathrm{Spec}}",0],"suchthat":["{~\\backepsilon ~}",0],"uniformlyconverges":["\\rightrightarrows",0],"mapsvia":["\\xrightarrow{#1}",1],"generators":["\\langle{#1}\\rangle",1],"theset":["\\{{#1}\\}",1],"too":["{\\xrightarrow{#1}}",1,""],"norm":["{{\\lVert}{#1}{\\rVert}}",1],"restrictionof":["{\\left.{#1}\\right|_{#2}}",2],"inner":["{\\langle {#1}, {#2} \\rangle}",2],"indicator":["{\\unicode{x1D7D9}\\left[#1\\right]}",1],"equalsbecause":["{\\stackrel{\\mbox{$\\tiny{\\text{ #1 }}$}}{=}}",1],"conjugate":["{\\overline{{#1}}}",1],"strike":["{\\enclose{horizontalstrike}{#1}}",1],"realpart":["{\\mathcal{Re}({#1})}",1],"imaginarypart":["{\\mathcal{Im}({#1})}",1],"dd":["{\\frac{\\partial #1}{\\partial #2}}",2],"rotate":["{\\style{display: inline-block; transform: rotate(#1deg)}{#2}}",2,"90"],"stirling":["\\genfrac\\{\\}{0pt}{}{#1}{#2}",2],"thevector":["{\\left[ {#1} \\right]}",1],"abs":["{\\left\\lvert #2 \\right\\rvert_{\\text{#1}}}",2,""],"intersect":["\\bigcap",0],"union":["\\bigcup",0],"coker":["\\operatorname{coker}",0],"rank":["\\operatorname{rank}",0],"tensor":["\\otimes",0],"semidirect":["\\rtimes",0],"pt":["\\{\\text{pt}\\}",0],"bd":["{\\del}",0],"wait":["{\\,\\cdot\\,}",0],"selfmap":["{\\circlearrowleft}",0],"tor":["\\text{Tor}",0],"ext":["\\text{Ext}",0],"actson":["\\curvearrowright",0],"actsonl":["\\curvearrowleft",0],"disjoint":["{\\coprod}",0],"dash":["{\\hbox{-}}",0],"bigast":["{\\mathop{\\Large \\ast}}",0],"from":["\\leftarrow",0],"covers":["\\twoheadrightarrow",0],"Zp":["\\mathbb{Z}_{(p)}",0],"Qp":["\\mathbb{Q}_{(p)}",0],"ZpZ":["\\mathbb{Z}/p\\mathbb{Z}",0],"Sm":["{\\text{Sm}_k}",0],"GG":["{\\mathbb{G}}",0],"bung":["\\text{Bun}_G",0],"Aut":["{\\text{Aut}}",0],"del":["{\\partial}",0],"im":["{\\text{im}~}",0],"homotopic":["\\simeq",0],"into":["\\to",0],"cross":["\\times",0],"definedas":["\\mathrel{\\vcenter{:}}=",0],"surjects":["\\twoheadrightarrow",0],"onto":["\\twoheadrightarrow",0],"injects":["\\hookrightarrow",0],"id":["\\text{id}",0],"inv":["^{-1}",0],"normal":["{~\\trianglelefteq~}",0],"units":["^{\\times}",0],"annd":["{\\text{ and }}",0],"orr":["{\\text{ or }}",0],"vector":["{\\mathbf{ {#1} }}",1],"hom":["\\text{Hom}",0],"qed":["{\\tag*{$\\blacksquare$}}",0],"char":["\\text{char}",0]}},"HTML-CSS":{"availableFonts":["TeX"],"imageFont":null},"root":"vscode-resource:///home/zack/.vscode-oss/extensions/shd101wyy.markdown-preview-enhanced-0.3.13/node_modules/@shd101wyy/mume/dependencies/mathjax"});
+        </script>
+        <script type="text/javascript" async src="file:////home/zack/.vscode-oss/extensions/shd101wyy.markdown-preview-enhanced-0.3.13/node_modules/@shd101wyy/mume/dependencies/mathjax/MathJax.js" charset="UTF-8"></script>
+        
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      <style> 
+      /**
+ * prism.js Github theme based on GitHub's theme.
+ * @author Sam Clarke
+ */
+code[class*="language-"],
+pre[class*="language-"] {
+  color: #333;
+  background: none;
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.4;
+
+  -moz-tab-size: 8;
+  -o-tab-size: 8;
+  tab-size: 8;
+
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+  padding: .8em;
+  overflow: auto;
+  /* border: 1px solid #ddd; */
+  border-radius: 3px;
+  /* background: #fff; */
+  background: #f5f5f5;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+  padding: .1em;
+  border-radius: .3em;
+  white-space: normal;
+  background: #f5f5f5;
+}
+
+.token.comment,
+.token.blockquote {
+  color: #969896;
+}
+
+.token.cdata {
+  color: #183691;
+}
+
+.token.doctype,
+.token.punctuation,
+.token.variable,
+.token.macro.property {
+  color: #333;
+}
+
+.token.operator,
+.token.important,
+.token.keyword,
+.token.rule,
+.token.builtin {
+  color: #a71d5d;
+}
+
+.token.string,
+.token.url,
+.token.regex,
+.token.attr-value {
+  color: #183691;
+}
+
+.token.property,
+.token.number,
+.token.boolean,
+.token.entity,
+.token.atrule,
+.token.constant,
+.token.symbol,
+.token.command,
+.token.code {
+  color: #0086b3;
+}
+
+.token.tag,
+.token.selector,
+.token.prolog {
+  color: #63a35c;
+}
+
+.token.function,
+.token.namespace,
+.token.pseudo-element,
+.token.class,
+.token.class-name,
+.token.pseudo-class,
+.token.id,
+.token.url-reference .token.variable,
+.token.attr-name {
+  color: #795da3;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.token.title,
+.token.title .token.punctuation {
+  font-weight: bold;
+  color: #1d3e81;
+}
+
+.token.list {
+  color: #ed6a43;
+}
+
+.token.inserted {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.token.deleted {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+
+/* JSON */
+.language-json .token.property {
+  color: #183691;
+}
+
+.language-markup .token.tag .token.punctuation {
+  color: #333;
+}
+
+/* CSS */
+code.language-css,
+.language-css .token.function {
+  color: #0086b3;
+}
+
+/* YAML */
+.language-yaml .token.atrule {
+  color: #63a35c;
+}
+
+code.language-yaml {
+  color: #183691;
+}
+
+/* Ruby */
+.language-ruby .token.function {
+  color: #333;
+}
+
+/* Markdown */
+.language-markdown .token.url {
+  color: #795da3;
+}
+
+/* Makefile */
+.language-makefile .token.symbol {
+  color: #795da3;
+}
+
+.language-makefile .token.variable {
+  color: #183691;
+}
+
+.language-makefile .token.builtin {
+  color: #0086b3;
+}
+
+/* Bash */
+.language-bash .token.keyword {
+  color: #0086b3;
+}
+
+/* highlight */
+pre[data-line] {
+  position: relative;
+  padding: 1em 0 1em 3em;
+}
+pre[data-line] .line-highlight-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  display: block;
+  width: 100%;
+}
+
+pre[data-line] .line-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: inherit 0;
+  margin-top: 1em;
+  background: hsla(24, 20%, 50%,.08);
+  background: linear-gradient(to right, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
+  pointer-events: none;
+  line-height: inherit;
+  white-space: pre;
+}
+
+pre[data-line] .line-highlight:before, 
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-start);
+  position: absolute;
+  top: .4em;
+  left: .6em;
+  min-width: 1em;
+  padding: 0 .5em;
+  background-color: hsla(24, 20%, 50%,.4);
+  color: hsl(24, 20%, 95%);
+  font: bold 65%/1.5 sans-serif;
+  text-align: center;
+  vertical-align: .3em;
+  border-radius: 999px;
+  text-shadow: none;
+  box-shadow: 0 1px white;
+}
+
+pre[data-line] .line-highlight[data-end]:after {
+  content: attr(data-end);
+  top: auto;
+  bottom: .4em;
+}html body{font-family:"Helvetica Neue",Helvetica,"Segoe UI",Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ul,html body>ol{margin-bottom:16px}html body ul,html body ol{padding-left:2em}html body ul.no-list,html body ol.no-list{padding:0;list-style-type:none}html body ul ul,html body ul ol,html body ol ol,html body ol ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:bold;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:bold}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em !important;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::before,html body code::after{letter-spacing:-0.2em;content:"\00a0"}html body pre>code{padding:0;margin:0;font-size:.85em !important;word-break:normal;white-space:pre;background:transparent;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;font-size:.85em !important;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:before,html body pre tt:before,html body pre code:after,html body pre tt:after{content:normal}html body p,html body blockquote,html body ul,html body ol,html body dl,html body pre{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body pre,html body code{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview .pagebreak,.markdown-preview .newpage{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center !important}.markdown-preview:not([for="preview"]) .code-chunk .btn-group{display:none}.markdown-preview:not([for="preview"]) .code-chunk .status{display:none}.markdown-preview:not([for="preview"]) .code-chunk .output-div{margin-bottom:16px}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0}@media screen and (min-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px)}}@media screen and (max-width:914px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode]) .markdown-preview{font-size:14px !important;padding:1em}}@media print{html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for="html-export"]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,0.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:rgba(150,150,150,0.66);border:4px solid rgba(150,150,150,0.66);background-clip:content-box}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{padding:0 1.6em;margin-top:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc li{margin-bottom:.8em}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc ul{list-style-type:none}html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% -  300px);padding:2em calc(50% - 457px -  150px);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for="html-export"]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for="html-export"]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+.markdown-preview.markdown-preview {
+  /*.reveal .slides {*/
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*left: 0;*/
+  /*// overflow-y: auto !important;*/
+  /*}*/
+}
+.reveal section img {
+  display: block;
+  margin: auto;
+  height: auto;
+  max-height: 100%;
+  width: auto;
+  max-width: 100%;
+}
+ 
+      </style>
+    </head>
+    <body for="html-export">
+      <div class="mume markdown-preview   ">
+      <p>Arizona Winter School 2019<br>
+Speaker: Kirsten Wickelgren<br>
+Topic: <span class="mathjax-exps">$\Af^1$</span> Enumerative Geometry</p>
+<ul>
+<li><a href="#lecture-1">Lecture 1</a></li>
+<li><a href="#lecture-2">Lecture 2</a></li>
+<li><a href="#lecture-3">Lecture 3</a></li>
+<li><a href="#lecture-4">Lecture 4</a></li>
+</ul>
+<h1 class="mume-header" id="lecture-1">Lecture 1</h1>
+
+<h1 class="mume-header" id="af1-enumerative-geometry"><span class="mathjax-exps">$\Af^1$</span> Enumerative Geometry</h1>
+
+<p>Enumerative geometry counts algebro-geometric objects, and in order to actually obtain an invariant number at the end of the day one uses an algebraically closed field <span class="mathjax-exps">$k$</span> or <span class="mathjax-exps">$\CC$</span>. This is essentially because the conditions imposed are polynomial, and polynomials of degree <span class="mathjax-exps">$n$</span> over a closed field always have <span class="mathjax-exps">$n$</span> roots.</p>
+<p>The goal here is to record information about the fields of definition. However, since we may no longer have invariant numbers as solutions to polynomial equations, we replace this with a notion of <em>weights</em> to get an &#x201C;invariance of bilinear form&#x201D; principle instead. Over characteristic not 2, we can use quadratic forms, which ties to Lurie&#x2019;s first talk.</p>
+<h1 class="mume-header" id="example-lines-on-a-smooth-cubic-surface">Example: Lines on a Smooth Cubic Surface</h1>
+
+<blockquote>
+<p>Joint work with Jesse Kass</p>
+</blockquote>
+<p>A <strong>cubic surface</strong> <span class="mathjax-exps">$X$</span> consists of the <span class="mathjax-exps">$\CC$</span> solutions to a polynomial in three variables, i.e.<br>
+</p><div class="mathjax-exps">$$X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0},$$</div><p></p>
+<p>where <span class="mathjax-exps">$f$</span> is degree 3. In general, we want to compactify, so we view <span class="mathjax-exps">$X \injects \CP^3$</span> as<br>
+</p><div class="mathjax-exps">$$\CP^3 = \theset{\vector x = [w,x,y,z]\neq \vector 0 \suchthat \forall \lambda \in \CC^\times,~\vector x = \lambda \vector x}$$</div><p></p>
+<p>and so<br>
+</p><div class="mathjax-exps">$$X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z) = 0}$$</div><br>
+where <span class="mathjax-exps">$f$</span> is homogeneous.<p></p>
+<p>The surface <span class="mathjax-exps">$X$</span> is <strong>smooth</strong> if the underlying points form a manifold, or equivalently if the partials don&#x2019;t simultaneously vanish.</p>
+<p><strong>Theorem (Salmon Cayley 1849):</strong><br>
+If <span class="mathjax-exps">$X$</span> is a smooth cubic surface, then <span class="mathjax-exps">$X$</span> contains exactly 27 lines.</p>
+<p>Example: The Fermat cubic <span class="mathjax-exps">$f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$</span>.</p>
+<p>We can find one line, given by<br>
+</p><div class="mathjax-exps">$$L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1},$$</div><p></p>
+<p>and in fact this works for any <span class="mathjax-exps">$\lambda, \omega$</span> such that <span class="mathjax-exps">$\lambda^3 = \omega^3 = -1$</span>, yielding<br>
+</p><div class="mathjax-exps">$$L&apos; = \theset{[s,\lambda s,t,\omega t] \suchthat s,t \in \CP^1}.$$</div><p></p>
+<p>We can also permute <span class="mathjax-exps">$s,t$</span> around to get more lines, and by counting this yields 27 distinct possibilities. (3 choices for <span class="mathjax-exps">$\lambda$</span>, 3 choices for <span class="mathjax-exps">$\omega$</span>, and <span class="mathjax-exps">$\frac 1 2 {4\choose 2}$</span> ways to pair them with the <span class="mathjax-exps">$s,t$</span> in the original <span class="mathjax-exps">$L$</span>.</p>
+<blockquote>
+<p>There is a proof in the notes that these are the only lines, which is relatively elementary.</p>
+</blockquote>
+<h1 class="mume-header" id="modern-proof">Modern Proof</h1>
+
+<p>We&#x2019;ll use characteristic classes, which we&#x2019;ll later replace by an <span class="mathjax-exps">$\Af^1$</span> homotopy theory variant.</p>
+<p>Let <span class="mathjax-exps">$\Gr(1,3)$</span> be the Grassmannian parameterizing 1-dimensional subspaces of <span class="mathjax-exps">$\CP^3$</span>, where the <span class="mathjax-exps">$\CC$</span> points of this space parameterize 2-dimensional subspaces <span class="mathjax-exps">$W \subseteq \CC^4$</span>. This is a moduli space of the lines we&#x2019;re looking for.</p>
+<p>Let </p><div class="mathjax-exps">$$S \to \Gr(1,3)$$</div> be the tautological bundle where the fiber is simply given by <span class="mathjax-exps">$S_W = W$</span>. We can also form the bundle <div class="mathjax-exps">$$(\sym^3 S)^\dual \to \Gr(1,3)$$</div> where the fiber over the point corresponding to <span class="mathjax-exps">$W$</span> is all of the cubic polynomials on <span class="mathjax-exps">$W$</span>, i.e. <div class="mathjax-exps">$$(\sym^3 S)^\dual_W = (\sym^3 W)^\dual.$$</div><p></p>
+<p>Explicitly, we have the following two bundles to work with:<br>
+</p><div class="mathjax-exps">$$W \to S \to \Gr(1,3) \\ (\sym^3 W)^\dual \to (\sym^3 S)^\dual \to \Gr(1,3)$$</div><p></p>
+<p>Our chosen <span class="mathjax-exps">$f$</span> determines an element of <span class="mathjax-exps">$(\sym^3 \CC^4)^\dual$</span>, which is thus a section <span class="mathjax-exps">$\sigma_f$</span> of the second bundle above, where<br>
+</p><div class="mathjax-exps">$$\sigma_f(W) = \restrictionof{f}{W}.$$</div><p></p>
+<p>We thus have<br>
+</p><div class="mathjax-exps">$$\PP W \in X \iff \sigma_f(W) = 0,$$</div><br>
+i.e. the line corresponding to <span class="mathjax-exps">$W$</span> is in our surface exactly when this section is zero. We now want to count the zeros of <span class="mathjax-exps">$\sigma_f$</span>, which is exactly what the Euler class does.<p></p>
+<p>To be precise, the Euler class counts the zeros of a section of a properly oriented vector bundle with a given weight. Let <span class="mathjax-exps">$V\to M$</span> be a rank <span class="mathjax-exps">$r$</span> <span class="mathjax-exps">$\RR\dash$</span> vector bundle over a dimension <span class="mathjax-exps">$r$</span> real manifold where we assume that <span class="mathjax-exps">$V$</span> is oriented.</p>
+<blockquote>
+<p>We choose <span class="mathjax-exps">$\RR$</span> here because <span class="mathjax-exps">$\CC$</span> is slightly too nice and gives us a preferred orientation (which we&#x2019;ll want to track later.)</p>
+</blockquote>
+<p>For any section <span class="mathjax-exps">$\sigma$</span> with only isolated zero, we&#x2019;ll assign a weight to each zero which comes from the topological degree function<br>
+</p><div class="mathjax-exps">$$\deg: [S^{r-1}, S^{r-1}] \to \ZZ,$$</div><p></p>
+<p>where we use the brackets to denote homotopy classes of maps.</p>
+<p>Definition: Let <span class="mathjax-exps">$p\in M$</span> where <span class="mathjax-exps">$\sigma(p) = 0$</span>, and define <span class="mathjax-exps">$\deg_p(\sigma)$</span> in the following way:</p>
+<p>Choose local coordinates near <span class="mathjax-exps">$p$</span>. Since the zeros are isolated, we can choose a ball <span class="mathjax-exps">$B_\varepsilon(p)$</span> such that <span class="mathjax-exps">$x\in B_\varepsilon(p) - \theset{p} \implies \sigma(x) \neq 0$</span>. Choose a local trivialization of the total space <span class="mathjax-exps">$V$</span>. This allows us to view <span class="mathjax-exps">$\sigma: \RR^r \to \RR^r$</span> as a real function.</p>
+<p>We can choose coordinates such that <span class="mathjax-exps">$p = 0$</span> in the domain, so <span class="mathjax-exps">$\sigma(0) = 0$</span>, and moreover the image <span class="mathjax-exps">$\sigma(B_\varepsilon(p)) = \RR - \theset{0}$</span>. We can then form a function<br>
+</p><div class="mathjax-exps">$$\bar\sigma: \del B_\varepsilon(p) = S^{r-1} \to S^{r-1} = \del \sigma(B_\varepsilon(p)) \\ x \mapsto \frac{\sigma(x)} {\norm{\sigma(x)}},$$</div><p></p>
+<p>and so we can take <span class="mathjax-exps">$\deg_p(\sigma) \definedas \deg \bar \sigma$</span>.</p>
+<p>There is indeterminacy here up to elements of <span class="mathjax-exps">$\GL(r, \RR)$</span> which could possibly effect the sign, however, but this can be fixed using the assumption that <span class="mathjax-exps">$V$</span> is oriented and choosing local trivializations for which the orientations are compatible. This gives us a well-defined local degree of a section at a zero.</p>
+<p>The Euler class, which only depends on the bundle and not the section, is given by<br>
+</p><div class="mathjax-exps">$$e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).$$</div><p></p>
+<p>It can be shown that because <span class="mathjax-exps">$X$</span> is smooth, the zeros are all simple and so in the complex case, the degrees are all 1. We thus obtain<br>
+</p><div class="mathjax-exps">$$\abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual),$$</div><p></p>
+<p>where the RHS is independent of <span class="mathjax-exps">$X$</span> and can be computed using the splitting principle and the cohomology of <span class="mathjax-exps">$\Gr$</span>.</p>
+<h1 class="mume-header" id="what-about-rr">What about <span class="mathjax-exps">$\RR$</span>?</h1>
+
+<p>Schlafli, 19th century: <span class="mathjax-exps">$X$</span> can have <span class="mathjax-exps">$3,7,15$</span> or <span class="mathjax-exps">$27$</span> lines. So it&#x2019;s not constant, and thus there&#x2019;s not an invariant number here, but Segre (1942) distinguished between hyperbolic and elliptic lines.</p>
+<p>Recall the characterization of elements in <span class="mathjax-exps">$\Aut L$</span> for <span class="mathjax-exps">$L=\RP^1$</span> (real lines) as elliptic/hyperbolic: we have <span class="mathjax-exps">$\Aut L \cong \mathrm{PGL}(2, \RR)$</span>, so pick some <span class="mathjax-exps">$I$</span> corresponding to a matrix<br>
+</p><div class="mathjax-exps">$$[I] = \begin{pmatrix}a &amp; b \\ c &amp; d\end{pmatrix},\quad  z\mapsto \frac{az+b}{cz+d}$$</div><p></p>
+<p>where the second formulation above shows that there are two fixed points, since solving for <span class="mathjax-exps">$z\mapsto z$</span> yields a quadratic equation. So we have<br>
+</p><div class="mathjax-exps">$$\mathrm{Fix}(I) = \theset{z \in \CC \suchthat cz^2 + (d-z)z + b = 0},$$</div><br>
+and we characterize <span class="mathjax-exps">$I$</span> by the following cases:<p></p>
+<ul>
+<li><span class="mathjax-exps">$\mathrm{Fix}(I)$</span> contains two real points: hyperbolic</li>
+<li>A complex conjugate pair: elliptic</li>
+</ul>
+<p>So we&#x2019;ll associate an involution to <span class="mathjax-exps">$L$</span>, and port over these notions of hyperbolic/elliptic. As we&#x2019;ll see later, for each point on <span class="mathjax-exps">$L$</span>, there will be a unique other point that has the tangent space, and this involution will swap them.</p>
+<p>Let <span class="mathjax-exps">$p\in L$</span>, and consider <span class="mathjax-exps">$T_pX \intersect X$</span> . Since <span class="mathjax-exps">$L$</span> is in both of the varieties we&#x2019;re intersecting here, and we can apply Bezout&#x2019;s theorem, we know that its complement will some degree 2 variety <span class="mathjax-exps">$Q$</span> (since the total degree is 3).</p>
+<p>So we can write <span class="mathjax-exps">$T_pX \intersect X = L \union Q$</span>. We know that <span class="mathjax-exps">$L \intersect Q$</span> will be the intersection of a degree 1 and a degree 2 curve, which will have 2 points of intersection. At one of these points, say <span class="mathjax-exps">$p$</span>, <span class="mathjax-exps">$Q$</span> and <span class="mathjax-exps">$L$</span> will intersect transversally, and so the tangent vectors <span class="mathjax-exps">$T_pQ$</span> and <span class="mathjax-exps">$T_pL$</span> give a 2-dimensional frame, which yields a plane <span class="mathjax-exps">$P \subseteq T_pX$</span>. Since <span class="mathjax-exps">$X$</span> is smooth, we get equality and <span class="mathjax-exps">$P = T_pX$</span>.</p>
+<p>This also holds for the second point of intersection, <span class="mathjax-exps">$p&apos;$</span>, and so we take the involution <span class="mathjax-exps">$I(p) = p&apos;$</span> and vice-versa. We then say <span class="mathjax-exps">$L$</span> is elliptic/hyperbolic exactly when <span class="mathjax-exps">$I$</span> is.</p>
+<p>A natural way to see that there should be a distinction between two types of lines is to use spin structures. Consider a physical cubic surface sitting inside <span class="mathjax-exps">$\RR^3$</span>, and push the tangent plane alone a line. There are two things that can happen &#x2013; one is a twisting by a nontrivial element of <span class="mathjax-exps">$\pi_1 SO_3(\RR)$</span>, the other is no twisting at all.</p>
+<p>Example: Look at the Fermat cubic surface <span class="mathjax-exps">$x^3+y^3+z^3=-1$</span></p>
+<p><img src="../assets/2019-03-03-22-11-15.png" alt></p>
+<p>Interpretation of this image: <span class="mathjax-exps">$X \subset \RR^3$</span> is a surface, which has 3 lines that are contained in a plane. We this view <span class="mathjax-exps">$X$</span> from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/<span class="mathjax-exps">$z$</span> coordinates, etc.</p>
+<blockquote>
+<p>This took me a while to visualize &#x2013; what worked for me was thinking about &#x201C;egg crate&#x201D; padding:</p>
+</blockquote>
+<p><img src="../assets/2019-03-03-22-27-49.png" alt></p>
+<p>After thinking about what physically happens as you push a plane around, it becomes clear that these three lines are all hyperbolic. Note that this question is the same as asking if a path in the frame bundle lifts.</p>
+<p>Although the number of lines isn&#x2019;t a constant, we can take a &#x201C;signature&#x201D; sort of formula to obtain an invariant. In this case, the number hyperbolic lines minus the number of elliptic lines <em>is</em> constant. In this case, the constant is 3.</p>
+<p>General mantra for <span class="mathjax-exps">$\Af^1$</span> homotopy theory: if you have a result that works over <span class="mathjax-exps">$\CC$</span> and <span class="mathjax-exps">$\RR$</span>, it may be a result in <span class="mathjax-exps">$\Af^1$</span> theory that has realizations recovering the original results.</p>
+<h1 class="mume-header" id="af1-homotopy-theory"><span class="mathjax-exps">$\Af^1$</span> Homotopy Theory</h1>
+
+<p>This will allow us to do with schemes much of what we can do in <span class="mathjax-exps">$\mathbf{Top}$</span>. Smooth schemes behave like manifolds, where there are balls around points. The convention here will be that we&#x2019;re working over smooth schemes, denoted <span class="mathjax-exps">$\mathrm{Sm}_k$</span> where <span class="mathjax-exps">$k$</span> is a field.</p>
+<blockquote>
+<p>Remark: in my notation I use <span class="mathjax-exps">$\RP^n, \CP^n$</span>, and <span class="mathjax-exps">$\PP^n(k)$</span> to denote various projective spaces. I&#x2019;ll adopt Kirsten&#x2019;s convention here and just denote <span class="mathjax-exps">$\PP^n(k)$</span> as <span class="mathjax-exps">$\PP^n$</span>.</p>
+</blockquote>
+<p>We&#x2019;ll get spheres from <span class="mathjax-exps">$S_\Af^n \definedas \PP^n/\PP^{n-1}$</span>&#x2026; One nice result due to Morel is that there is a degree map<br>
+</p><div class="mathjax-exps">$$[S_\Af^n, S_\Af^n] \to GW(k),$$</div><p></p>
+<p>where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms.</p>
+<p>Thus the group itself is the group completion of nondegenerate symmetric isomorphism classes of bilinear forms <span class="mathjax-exps">$V^2 \to k$</span> where <span class="mathjax-exps">$V$</span> is a finite-dimensional <span class="mathjax-exps">$k\dash$</span>vector space.</p>
+<p>The group structure arises because if we have two bilinear forms <span class="mathjax-exps">$B, B&apos;$</span> on vector spaces <span class="mathjax-exps">$V, W$</span> respectively, then we can define a new form on <span class="mathjax-exps">$V \oplus W$</span> by working in components and declaring orthogonality between any of the factors. We then take formal differences of these, and inherit a ring structure from the tensor product of forms.</p>
+<p>Bilinear forms over fields can all be diagonalized, although in characteristic 2, this only holds in a stable sense.</p>
+<h1 class="mume-header" id="the-grothendieck-witt-group">The Grothendieck-Witt Group</h1>
+
+<p>Since we can diagonalize, the group <span class="mathjax-exps">$GW(k)$</span> has a presentation coming from the one dimensional forms. Any of these work as a generator, so we have</p>
+<ul>
+<li>Generators: <span class="mathjax-exps">$&lt;a&gt;$</span> where <span class="mathjax-exps">$a\in k^\times$</span>, corresponding to the form<br>
+<div class="mathjax-exps">$$&lt;a&gt; : k^2 \to k\\ (x,y) \mapsto axy$$</div></li>
+<li>Relations: if we change the basis of <span class="mathjax-exps">$k$</span> using a multiplication by <span class="mathjax-exps">$b\in k^\times$</span>, we get <span class="mathjax-exps">$&lt;ab^2&gt;=&lt;a&gt;$</span>. (This means that <span class="mathjax-exps">$a \in k^\times/(k^\times)^2$</span>
+<ul>
+<li>We also get <span class="mathjax-exps">$&lt;a&gt; + &lt;b&gt; = &lt;a+b&gt; + &lt;ab(a+b)&gt;$</span></li>
+</ul>
+</li>
+</ul>
+<p>There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.</p>
+<p><strong>Example:</strong> Computing <span class="mathjax-exps">$GW(\CC)$</span>.</p>
+<p>The generators are in bijection with <span class="mathjax-exps">$k^\times/(k^\times)^2$</span>, but since every element of <span class="mathjax-exps">$\CC$</span> is a square, so there&#x2019;s only one element here. We thus obtain<br>
+</p><div class="mathjax-exps">$$GW(\CC) \mapsvia{\cong} \ZZ \\ \beta \mapsto \dim V$$</div><p></p>
+<p>which is realized by taking the rank.</p>
+<p><strong>Example:</strong> <span class="mathjax-exps">$GW(\RR)$</span>.<br>
+We still have the rank, but now we can also take the signature, so we have<br>
+</p><div class="mathjax-exps">$$GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,$$</div><p></p>
+<p>although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.</p>
+<p><strong>Example:</strong> <span class="mathjax-exps">$GW(\FF_q)$</span>.<br>
+We can make a matrix out of how <span class="mathjax-exps">$\beta$</span> acts on basis elements and take the determinant of it to obtain an invariant called the <em>discriminant</em>, and so<br>
+</p><div class="mathjax-exps">$$GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ$$</div><p></p>
+<p>Note that the quotient is needed because we can change basis in <span class="mathjax-exps">$\FF_q$</span>, which amounts to conjugating by a matrix <span class="mathjax-exps">$A$</span>, and so this discriminant is only well-defined up to squares.</p>
+<h1 class="mume-header" id="euler-class">Euler Class</h1>
+
+<p>There is an Euler class in this setting,<br>
+</p><div class="mathjax-exps">$$e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).$$</div><p></p>
+<p>Letting <span class="mathjax-exps">$X$</span> be a smooth cubic surface over <span class="mathjax-exps">$k$</span>, then a line <span class="mathjax-exps">$L\subset X$</span> will be a closed point of the Grassmannian <span class="mathjax-exps">$\Gr(1,3)$</span>, so we can think of it as points of the form<br>
+</p><div class="mathjax-exps">$$L = \theset{[a,b,c,d]s + [a&apos;,b&apos;,c&apos;,d&apos;]t \suchthat s,t \in \PP^1(k(L}$$</div><p></p>
+<p>where the extension field <span class="mathjax-exps">$k(L) = k(a,b,c,d,a&apos;,b&apos;,c&apos;,d&apos;)$</span> is obtained by adjoining the coefficients to <span class="mathjax-exps">$k$</span>.</p>
+<blockquote>
+<p>I think these are always separable, mentioned later in the talk.</p>
+</blockquote>
+<p>We thus get<br>
+</p><div class="mathjax-exps">$$\PP^1(k(L)) \cong L \underset{\substack{\text{closed}\\\text{subscheme}}}\subseteq X_{k(L)} \subseteq \PP^3(k(L)).$$</div><p></p>
+<p>Given such a line <span class="mathjax-exps">$L\subseteq X$</span>, similar to the real setting, we obtain an involution <span class="mathjax-exps">$I \in \Aut L \cong PGL(2, k(L))$</span> after choosing coordinates. We also find that <span class="mathjax-exps">$\mathrm{Fix}(L)$</span> again falls into two cases:</p>
+<ul>
+<li><span class="mathjax-exps">$2 k(L)$</span> points, or</li>
+<li>2 conjugate points in some quadratic extension <span class="mathjax-exps">$k(L)[\sqrt D]$</span> where <span class="mathjax-exps">$D \in k(L)^\times / (k(L)^\times)^2$</span>. These correspond to the oddities in the tangent plane in the real case.</li>
+</ul>
+<p>We then define<br>
+</p><div class="mathjax-exps">$$\mathrm{Type}(L) = &lt;D&gt; \in GW(k(L)),$$</div><p></p>
+<p>or equivalently <span class="mathjax-exps">$D=ab-cd$</span> when <span class="mathjax-exps">$I = \begin{pmatrix}a&amp;b\\c&amp;d\end{pmatrix}$</span>, in which case <span class="mathjax-exps">$\mathrm{Type}(L) = &lt;-1&gt;\deg I$</span>.</p>
+<h1 class="mume-header" id="an-analogous-trace-formula">An Analogous Trace Formula</h1>
+
+<p><strong>Theorem:</strong><br>
+Supposing <span class="mathjax-exps">$X$</span> is a smooth cubic surface over <span class="mathjax-exps">$k$</span> of characteristic not equal to 2, we then have<br>
+</p><div class="mathjax-exps">$$\sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = \text{One fixed quadratic form} = 15&lt;1&gt; + 12&lt;-1&gt;$$</div><p></p>
+<p>where the trace/transfer maps are defined as</p>
+<p></p><div class="mathjax-exps">$$\mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k) \\ (V^2 \mapsvia{\beta} k(L)) \mapsto (V^2 \mapsvia{\beta} k) \circ \mathrm{Trace}_\text{Galois}$$</div><p></p>
+<p>where <span class="mathjax-exps">$\mathrm{Trace}_\text{Galois}$</span> comes from summing the conjugates. Note that we can do this because we can view <span class="mathjax-exps">$V$</span> as a vector space over either <span class="mathjax-exps">$k$</span> or <span class="mathjax-exps">$k(L)$</span>, so we end up with a quadratic form over <span class="mathjax-exps">$k$</span>.</p>
+<blockquote>
+<p>Note: we have a well-defined map in the other direction, since the <span class="mathjax-exps">$GW$</span> is a stable homotopy group of spheres.</p>
+</blockquote>
+<p><strong>Example:</strong> Let <span class="mathjax-exps">$k=\CC$</span>, then apply rank to get <span class="mathjax-exps">$15+12=27$</span> on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.</p>
+<p><strong>Example:</strong> Let <span class="mathjax-exps">$k=\RR$</span>, apply signature. If <span class="mathjax-exps">$L$</span> is defined over <span class="mathjax-exps">$C$</span>, so the type is 1, and we&#x2019;re just left with the trace of <span class="mathjax-exps">$\CC/\RR$</span> &#x2013; but this contributes a <span class="mathjax-exps">$+1$</span> and <span class="mathjax-exps">$-1$</span>, so there is no contribution. What&#x2019;s left are the lines of <span class="mathjax-exps">$\RR$</span>, and since we set it up so type 1 lines are hyperbolic, we just get the trace <span class="mathjax-exps">$15-12=3$</span>.</p>
+<p><strong>Example:</strong> Let <span class="mathjax-exps">$k=\FF^q$</span>. We can define lines in <span class="mathjax-exps">$\FF_q^n$</span>, and the &quot;begin a square&quot; partitions <span class="mathjax-exps">$(\FF_q^n)^\times$</span> into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.</p>
+<p>We thus get<br>
+</p><div class="mathjax-exps">$$\mltext{     \text{Elliptic lines $L$ } \\       \text{with $k(L) = \FF_\text{odd}$}  } -  \mltext{     \text{Hyperbolic lines $L$} \\     \text{with $k(L) = \FF_\text{even}$} }  \equiv 0 \mod 2$$</div><p></p>
+<p>which follows from computing the discriminant of the given form.</p>
+<h1 class="mume-header" id="lecture-2">Lecture 2</h1>
+
+<h1 class="mume-header" id="users-guide-to-af1-homotopy-theory">User&#x2019;s Guide to <span class="mathjax-exps">$\Af^1$</span> Homotopy Theory</h1>
+
+<p>Particularly, arithmetically enriching enumerative results. The first part of this talk focuses on setting up the correct category for this theory.</p>
+<h2 class="mume-header" id="adding-colimits">Adding Colimits</h2>
+
+<p>Recall from last time that we wanted to form a space analogous to a sphere, given by <span class="mathjax-exps">$\PP^n/ \PP^{n-1}$</span>, which we get from a <strong>colimit</strong><br>
+</p><div class="mathjax-exps">$$\begin{CD}   \PP^{n-1} @&gt;&gt;&gt; \PP^n \\   @VVV \selfmap @VVV \\   \pt @&gt;&gt;&gt; \PP^n/ \PP^{n-1} \end{CD}$$</div><p></p>
+<p>which is the same as requiring that for maps from the total space into the quotient, maps coming from the quotiented space and maps coming from the point agree when the compositions are taken.</p>
+<p><strong>Example:</strong> Another example of a colimit is the union, which is given by<br>
+</p><div class="mathjax-exps">$$\begin{CD}   U\intersect V @&gt;&gt;&gt; U \\   @VVV \selfmap @VVV \\   V @&gt;&gt;&gt; U \union V \end{CD}$$</div><p></p>
+<p>These correspond to crushing and gluing operations, which we can do with topological spaces and would like to do with schemes as well. We&#x2019;d also like smooth schemes to behave like smooth manifolds, in the sense that we can take an open ball around each point. This is part of what <span class="mathjax-exps">$\Af^1$</span> homotopy theory buys us.</p>
+<p>We want colimits, so we add them: let <span class="mathjax-exps">$\Sm$</span> to be the category of smooth schemes over <span class="mathjax-exps">$k$</span>. There is a Yoneda embedding<br>
+</p><div class="mathjax-exps">$$\Sm \mapsvia{Y} \mathrm{Func}(\Sm^\text{op}, \mathrm{Sset}) = \text{PreSh}(\Sm) \\ X \mapsto \hom(\wait, X)$$</div><p></p>
+<p>where one might normally require the target to be sets, but since we&#x2019;d like homotopy colimits and to be able to do things analogous to fibrant/cofibrant replacements, we aim for simplicial sets instead which can essentially be regarded as topological spaces. We can also identify the target with presheaves on the category of smooth schemes.</p>
+<p>We&#x2019;re building a category for a homotopy theory, which means we need either</p>
+<ul>
+<li>A simplicial model category, or</li>
+<li>An <span class="mathjax-exps">$\infty\dash$</span>category</li>
+</ul>
+<p>Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and <span class="mathjax-exps">$\text{PreSh}(\Sm)$</span> has this structure.</p>
+<h2 class="mume-header" id="preserving-old-colimits-picking-a-topology">Preserving Old Colimits: Picking a Topology</h2>
+
+<p>This construction is essentially &#x201C;freely adding colimits&#x201D;. Since <span class="mathjax-exps">$\Sm$</span> had colimits (e.g. the union/intersection of open sets), we want <span class="mathjax-exps">$Y$</span> to preserve these. We fix this be forcing certain maps to be equivalences using <strong>Bousfield localization</strong>.</p>
+<p>This is carried out by looking at open covers<br>
+</p><div class="mathjax-exps">$$U = \coprod_{\alpha} U_\alpha \to X$$</div><p></p>
+<p>and making a simplicial object out of this map and forcing a weak equivalence<br>
+</p><div class="mathjax-exps">$$\text{cos}^0_x \coprod_\alpha U_\alpha \mapsvia{\homotopic} X$$</div><p></p>
+<blockquote>
+<p>Note: this may be the Cech nerve, not entirely sure. Pretty sure I got the notation wrong though.</p>
+</blockquote>
+<p>This gives us a localization functor<br>
+</p><div class="mathjax-exps">$$\mathrm{PreSh}(\Sm) \mapsvia{L_\tau} \mathrm{Sh}_k$$</div><p></p>
+<p>for <span class="mathjax-exps">$\tau$</span> a Grothendieck topology which declares certain classes of maps to be covers. We have some choices of topology here, roughly in order of increasing number of open sets:</p>
+<ul>
+<li>Zariski (on schemes)</li>
+<li>Nisnevich</li>
+<li>Etale</li>
+</ul>
+<p><strong>Definition:</strong>  A map <span class="mathjax-exps">$f\in \hom(X,Y) \in \Sm$</span> (not necessarily smooth) is <strong>etale</strong> at a point <span class="mathjax-exps">$x\in X$</span> if the induced map on tangent/cotangent spaces is an isomorphism:<br>
+</p><div class="mathjax-exps">$$T_x X \mapsvia{f^*} T_{f(x)}Y$$</div><p></p>
+<p><strong>Definition:</strong> A map <span class="mathjax-exps">$f: \coprod_\alpha U_\alpha \to X$</span> is an <strong>etale cover</strong> if it is etale and surjective</p>
+<p><strong>Definition:</strong> A map <span class="mathjax-exps">$f: \coprod_\alpha U_\alpha \to X$</span> is a <strong>Nisnevich cover</strong> if it is an etale cover and <span class="mathjax-exps">$x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$</span>.</p>
+<p>This topology has a few nice properties:</p>
+<ul>
+<li>Smooth schemes have etale maps into <span class="mathjax-exps">$\Af^n$</span>, inclusions/closed immersions <span class="mathjax-exps">$Z \injects X$</span> induce maps <span class="mathjax-exps">$\Af^d \injects \Af^n$</span></li>
+<li>Satisfies descent for K-theory</li>
+<li>The cohomological dimension equals the Krull dimension</li>
+<li>Cohomology can be computed Cech complexes</li>
+<li>More listed in Voevodsky&#x2019;s original paper</li>
+</ul>
+<h2 class="mume-header" id="contracting-the-affine-line">Contracting the Affine Line</h2>
+
+<p>The last step is forcing <span class="mathjax-exps">$\Af^1$</span> to be contractible, i.e. <span class="mathjax-exps">$\Af^1 \cross X \homotopic X$</span>, which will come from another localization <span class="mathjax-exps">$L_\Af$</span>. This composition will land us in the homotopy theory we want:<br>
+</p><div class="mathjax-exps">$$\Sm \mapsvia{Y} \text{PreSh}_k \mapsvia{L_\tau} \text{Sh}_k \mapsvia{L_{\Af}} \text{Spc}_k$$</div><p></p>
+<p>where <span class="mathjax-exps">$\tau$</span> is the choice of the Nisnevich topology, and so we&#x2019;ll call <span class="mathjax-exps">$\text{Spc}_k$</span> our <span class="mathjax-exps">$\Af^1$</span> homotopy theory.</p>
+<h1 class="mume-header" id="making-spheres">Making Spheres</h1>
+
+<p>Given two pointed spaces <span class="mathjax-exps">$X, Y$</span>, we have<br>
+</p><div class="mathjax-exps">$$X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}$$</div><p></p>
+<p>In topology, we have <span class="mathjax-exps">$S^m \wedge S^n = S^{m+n}$</span>. In <span class="mathjax-exps">$\Af^1$</span> homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have <span class="mathjax-exps">$S^1$</span>, we can also take <span class="mathjax-exps">$\GG_m = \Af^1 - \theset{0}$</span>, and so we have spheres<br>
+</p><div class="mathjax-exps">$$S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} .$$</div><p></p>
+<p>Some of these end up being familiar spaces. For example, we can look at the colimit<br>
+</p><div class="mathjax-exps">$$\begin{CD}   \GG_m @&gt;&gt;&gt; \Af^1 \homotopic \pt \\   @VVV \selfmap @VVV \\   \pt \homotopic \Af^1 @&gt;&gt;&gt; \PP^1 \end{CD}$$</div><p></p>
+<p>which follows from the fact that <span class="mathjax-exps">$\PP^1 = \Af^1 \union \theset{\infty}$</span> (yielding the top-right copy of <span class="mathjax-exps">$\Af^1$</span>), and we can take a neighborhood around the point at <span class="mathjax-exps">$\infty$</span> to obtain the bottom-left copy &#x2013; these intersect in <span class="mathjax-exps">$\GG_m$</span>.</p>
+<p>So <span class="mathjax-exps">$\PP^1$</span> is the colimit of maps from <span class="mathjax-exps">$\GG_m$</span> to a point, so we can conclude that <span class="mathjax-exps">$\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$</span>.</p>
+<p>We can also show <span class="mathjax-exps">$\Af^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$</span>. This will rely on a general fact about the colimit of <span class="mathjax-exps">$X\cross Y$</span> with its projections is a suspension, given by<br>
+</p><div class="mathjax-exps">$$\begin{CD}   X\cross Y @&gt;&gt;&gt; X \\   @VVV \selfmap @VVV \\   Y @&gt;&gt;&gt; \therefore \Sigma X\wedge Y  \end{CD}$$</div><p></p>
+<p>and so we can proceed by induction on the following diagram:<br>
+</p><div class="mathjax-exps">$$\begin{CD}   (\Af^{n-1} - \theset{0} )\cross(\Af^1 -\theset{0}) @&gt;&gt;&gt; (\Af^{n-1} -\theset{0}) \cross \Af^1 \\   @VVV \selfmap @VVV \\   \Af^n \cross (\Af^1 -\theset{0}) @&gt;&gt;&gt; \Af^n - \theset{0}  \end{CD}$$</div><p></p>
+<p>We also have <span class="mathjax-exps">$\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$</span>. This can be show because <span class="mathjax-exps">$\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$</span> because <span class="mathjax-exps">$\Af^1$</span> is trivial and we can homotop the embedded <span class="mathjax-exps">$\PP^{n-1}$</span> down to the origin, giving a line bundle over <span class="mathjax-exps">$\PP^{n-1}$</span>. We can then cut out the copy of <span class="mathjax-exps">$\PP^{n-1}$</span> at infinity, yielding <span class="mathjax-exps">$\Af^n / \Af^{n} - \theset{0} \homotopic \pt / \Af^{n} - \theset{0} = \Sigma (\Af^{n} - \theset{0})$</span>, where the last equality comes from looking at a similar colimit diagram as earlier.</p>
+<h1 class="mume-header" id="thom-spaces">Thom Spaces</h1>
+
+<p>These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let <span class="mathjax-exps">$V \to X$</span> be an algebraic vector bundle. Then the Thom space</p>
+<p></p><div class="mathjax-exps">$$\text{Th}(V) = \frac{V} {V-X} \homotopic \frac{\PP(V \oplus \mathcal O)}{\PP V}$$</div><br>
+where <span class="mathjax-exps">$X$</span> here corresponds to the zero section, <span class="mathjax-exps">$\mathcal O$</span> is the trivial line bundle, and <span class="mathjax-exps">$\PP V$</span> is the projectivization of <span class="mathjax-exps">$V$</span> where the coordinate is zero.<p></p>
+<blockquote>
+<p>Note: If this was a virtual vector bundle, we could make a Thom spectrum.</p>
+</blockquote>
+<p>The next theorem gives us neighborhoods around points</p>
+<p><strong>The Purity Theorem</strong>:<br>
+Let <span class="mathjax-exps">$Z \injects X$</span> be a closed immersion in <span class="mathjax-exps">$\Sm$</span>. Consider <span class="mathjax-exps">$\frac X {X-Z}$</span>, in topology we could take a tubular neighborhood around <span class="mathjax-exps">$Z$</span> and view this as a neighborhood mod its boundary. This is equivalent to <span class="mathjax-exps">$\text{Th}(N_Z X)$</span>, the Thom space of the normal bundle of <span class="mathjax-exps">$Z$</span> in <span class="mathjax-exps">$X$</span>.</p>
+<p><strong>Example:</strong> Let <span class="mathjax-exps">$Z =\spec(k)$</span> and <span class="mathjax-exps">$X \in \Sm$</span>, then let <span class="mathjax-exps">$U$</span> be a Zariski open neighborhood of <span class="mathjax-exps">$z$</span>. Then <span class="mathjax-exps">$U/U-Z \homotopic \PP^n / \PP^{n-1}$</span> since the Thom space is just a vector space here. So this produces a sphere around <span class="mathjax-exps">$z$</span>.</p>
+<p><strong>Example:</strong> Replace <span class="mathjax-exps">$\spec k$</span> with <span class="mathjax-exps">$\spec(k(z))$</span>, this yields <span class="mathjax-exps">$\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$</span></p>
+<blockquote>
+<p>Note: video says &#x201C;disjoint basepoint&#x201D; here and uses different notation, may not be correct.</p>
+</blockquote>
+<p>Compare to manifolds: if <span class="mathjax-exps">$z\in U$</span> a small ball, then <span class="mathjax-exps">$\Sigma \del U \homotopic U / U - z$</span>. So if we wanted to look at maps between boundaries, we could suspend and take degrees.</p>
+<h1 class="mume-header" id="the-grothendieck-witt-group-1">The Grothendieck-Witt Group</h1>
+
+<p>Recall that the target of the degree map was <span class="mathjax-exps">$GW(k)$</span>; we&#x2019;ll also talk a bit about Milnor K-theory <span class="mathjax-exps">$K^M_*(k)$</span>.</p>
+<p>From yesterday, we defined <span class="mathjax-exps">$GW(k)$</span> as the isomorphism classes of symmetric nondegenerate bilinear forms over <span class="mathjax-exps">$k$</span>, which had a generators<br>
+</p><div class="mathjax-exps">$$\generators{a}, \quad a\in k^\times\\ \generators{a}: k^2 \to k\\ (x,y) \mapsto axy$$</div><p></p>
+<p>and relations<br>
+</p><div class="mathjax-exps">$$\begin{align*} \generators{ab^2} &amp;= \generators{a} \quad&amp;(b\neq 0)\\ \generators{a}\tensor\generators{b} &amp;= \generators{ab} &amp;\\ \generators{a} + \generators b &amp;= \generators{a+b} + \generators{ab(a+b)} \quad&amp;(a+b\neq 0) \end{align*}$$</div><p></p>
+<p>which follows because we&#x2019;re in <span class="mathjax-exps">$k^\times/(k^\times)^2$</span>. Note that the last relation is very important.</p>
+<p>These relations imply a special relation concerning a <strong>hyperbolic form,</strong> which is given by<br>
+</p><div class="mathjax-exps">$$h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}$$</div><br>
+for any <span class="mathjax-exps">$a$</span>.<p></p>
+<p>We&#x2019;ll look at invariants on bilinear forms &#x2013; for many common fields, there are algorithms to determine equality of sums of generators, and thus in <span class="mathjax-exps">$GW$</span> there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in <span class="mathjax-exps">$\Af^1$</span> homotopy theory.</p>
+<p>We have a <strong>rank homomorphism:</strong><br>
+</p><div class="mathjax-exps">$$\text{rank}: GW(k) \to \ZZ \\  (B: V^2 \to k) \mapsto \dim V$$</div><p></p>
+<p>and the <strong>fundamental ideal</strong> is defined as <span class="mathjax-exps">$I \definedas \ker \text{rank}$</span>. This yields a filtration<br>
+</p><div class="mathjax-exps">$$GW(k) \supseteq I \supseteq I^2 \supseteq \cdots$$</div><p></p>
+<p>where the associated graded are etale cohomology groups and (by the Milnor conjecture) Milnor K-theory groups.</p>
+<h1 class="mume-header" id="milnor-k-theory">Milnor K-Theory</h1>
+
+<p>We define <strong>Milnor K-theory</strong> as<br>
+</p><div class="mathjax-exps">$$K_i^M \definedas \frac{\bigoplus_{i=1}^\infty  (k^\times)^{\tensor i} } {\generators{a\tensor(1-a)}}$$</div><p></p>
+<p>which is tensor algebra on <span class="mathjax-exps">$k^\times$</span>, modded out by the Steinberg relation.</p>
+<p><strong>Theorem: The Milnor Conjecture (Voevodsky)</strong><br>
+There is a map<br>
+</p><div class="mathjax-exps">$$K_n^M \to I^n/I^{n+1} \\ \bigotimes_{i=1}^n a_i \mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right).$$</div><p></p>
+<p>We can also look at the Kummer map coming from the short exact sequence<br>
+</p><div class="mathjax-exps">$$1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1$$</div><p></p>
+<p>which lets us make a map<br>
+</p><div class="mathjax-exps">$$k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)$$</div><p></p>
+<p>where we can use that fact that <span class="mathjax-exps">$k^\times \cong K^M_1$</span> to land in Milnor K-theory,<br>
+</p><div class="mathjax-exps">$$K_1^M \to H_\text{et}^1(k;~\ZZ/2\ZZ),$$</div><p></p>
+<p>where we can use the cup product to lift this to a map to the <span class="mathjax-exps">$n$</span>th graded piece<br>
+</p><div class="mathjax-exps">$$K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ).$$</div><p></p>
+<p>Fitting all of this together, we get maps<br>
+</p><div class="mathjax-exps">$$s I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),$$</div><p></p>
+<p>and the Milnor conjecture states that these are isomorphisms.</p>
+<p>In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the <span class="mathjax-exps">$n$</span>th etale cohomology in <span class="mathjax-exps">$\ZZ/2\ZZ$</span> coefficients doesn&#x2019;t vanish, then there is a nontrivial piece in the associated graded.</p>
+<h1 class="mume-header" id="grothendieck-witt-group-invariants">Grothendieck-Witt Group Invariants</h1>
+
+<p>This lets us view maps <span class="mathjax-exps">$I^n \to I^n/I^{n+1}$</span> as invariants on <span class="mathjax-exps">$GW(k)$</span>.</p>
+<ul>
+<li>For <span class="mathjax-exps">$n=0$</span>, this is the rank homomorphism.</li>
+<li>For <span class="mathjax-exps">$n=1$</span> we get the discriminant, which is the determinant of the linear map associated to the bilinear form obtained after choosing a basis.</li>
+<li>For <span class="mathjax-exps">$n=2$</span> this is the Hasse-Witt invariant (see written notes)</li>
+<li>For <span class="mathjax-exps">$n=3$</span> this is the Arason invariant</li>
+</ul>
+<p>For higher <span class="mathjax-exps">$n$</span> these invariants don&#x2019;t have names, but for various fields, the lower degrees form a complete invariant &#x2013; for example, for finite fields, one needs only check <span class="mathjax-exps">$n=0,1$</span>, while <span class="mathjax-exps">$\QQ$</span> requires <span class="mathjax-exps">$n=0,1,2$</span>.</p>
+<p>The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, <span class="mathjax-exps">$M_*^{MW}(k)$</span>, which is also a homotopy group of spheres in <span class="mathjax-exps">$\Af^1$</span> homotopy theory (due to Hopkins and Morel).</p>
+<p>This group has generators</p>
+<p></p><div class="mathjax-exps">$$\begin{align*} \generators{a}, &amp;\quad a\in k^\times, &amp;\deg a = 1\\ \eta, &amp; &amp; \quad\deg \eta = -1 \end{align*}$$</div><p></p>
+<p>and relations</p>
+<p></p><div class="mathjax-exps">$$\begin{align*} \eta \generators{a} &amp;= \generators{a} \eta\\ \generators{a}\generators{1-a} &amp;= 0&amp;\\ \generators{ab} &amp;= \generators{a} + \generators{b} + \eta \generators{a}\generators{b}\\ \eta h &amp;= 0 \end{align*}$$</div><p></p>
+<p>where <span class="mathjax-exps">$h$</span> is the same as earlier, but since it&#x2019;s in the wrong group, we need to define this using the isomorphism<br>
+</p><div class="mathjax-exps">$$\begin{align*} G W ( k ) &amp;\cong K _ { 0 } ^ { MW } ( k ) \\ \generators{a} &amp;\mapsto 1 + n \generators{a}\\ h\definedas \generators{1} + \generators{-1} &amp;\mapsto 2 + \eta\generators{-1}\definedas h. \end{align*}$$</div><p></p>
+<h1 class="mume-header" id="degree-theorem">Degree Theorem</h1>
+
+<p>This theorem says that <span class="mathjax-exps">$\eta$</span> corresponds to a Hopf map.</p>
+<p><strong>Theorem (Morel):</strong><br>
+</p><div class="mathjax-exps">$$[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}$$</div><p></p>
+<p>where the square brackets correspond to homotopy classes of maps.</p>
+<p>In particular, when <span class="mathjax-exps">$j=r=n$</span>, we obtain<br>
+</p><div class="mathjax-exps">$$[\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] \cong GW(k)$$</div><p></p>
+<blockquote>
+<p>This is a fantastic theorem, which we will see again later when doing oriented Chow groups.</p>
+</blockquote>
+<p>A nice consequence is that if we let <span class="mathjax-exps">$k=\RR$</span>, the degrees behave nicely, characterized by the commutativity of this diagram:<br>
+</p><div class="mathjax-exps">$$\begin{CD} [S^{2n},~S^{2n}] @&lt;\CC\dash\text{points}&lt;&lt; [\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] @&gt;\RR\dash\text{points}&gt;&gt; [S^n,~S^n] \\ @VV\deg V \selfmap @VV\deg V \selfmap @VV\deg V \\ \ZZ @&lt;&lt;\text{rank}&lt; GW(k) @&gt;&gt;\text{signature}&gt; \ZZ \end{CD}$$</div><p></p>
+<p>where the edge degree maps are just the topological degree of maps between spheres and the middle is the <span class="mathjax-exps">$\Af^1$</span> degree. The signature is the usual difference in <span class="mathjax-exps">$\pm 1$</span>s occurring after diagonalization. Thus <span class="mathjax-exps">$GW(k)$</span> lets us simultaneously read off the real and complex degrees of maps between schemes over <span class="mathjax-exps">$\RR$</span>.</p>
+<p>So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with <span class="mathjax-exps">$U^+$</span> and sheafifying. Thus <span class="mathjax-exps">$GW(k), K^{MW}_*(k),$</span> and <span class="mathjax-exps">$K^M_*(k)$</span> are all global sections of sheaves.</p>
+<blockquote>
+<p>Not sure what <span class="mathjax-exps">$U^+$</span> is here.</p>
+</blockquote>
+<h1 class="mume-header" id="producing-a-sheaf">Producing a Sheaf</h1>
+
+<p>There is a procedure in Morel&#x2019;s book for producing an unramified sheaf <span class="mathjax-exps">$K^{MW}_*$</span> from the values on fields, i.e. <span class="mathjax-exps">$K^{MW}_*(E)$</span> for some <span class="mathjax-exps">$E \supset k$</span> of finite type. It proceeds as follows:</p>
+<p>We want to know what the sections are on some scheme <span class="mathjax-exps">$Y$</span>, so we look at its function field and check <span class="mathjax-exps">$K^{MW}_*$</span> on it to see which sections are defined over all of <span class="mathjax-exps">$Y$</span> and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally.</p>
+<p>So let <span class="mathjax-exps">$V:E \to \ZZ \union \theset\infty$</span> be a valuation and <span class="mathjax-exps">$\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$</span> and choose a uniformizer <span class="mathjax-exps">$\pi$</span> such that <span class="mathjax-exps">$v(\pi)=1$</span>. Then form the residue field <span class="mathjax-exps">$k(V) \definedas \mathcal O_V / \generators{\pi}$</span>. Then this residue map plus the sections will allow us to define a sheaf, so define the <strong>residue homomorphism</strong></p>
+<p></p><div class="mathjax-exps">$$\begin{align*} \del_V^\pi: K_*^{MW}(E) &amp;\to K_*^{MW}(k(V))[-1] \\ \generators{\pi}\generators{a_1}\cdots\generators{a_n} &amp;\mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\ \generators{a_1} \cdots \generators{a_n} &amp;\mapsto 0 \\ \generators{\eta} \mapsto 0 \end{align*}$$</div><p></p>
+<p>where <span class="mathjax-exps">$a_i \in \mathcal{O}_V^\times$</span> and <span class="mathjax-exps">$\overline a_i$</span> is the reduction.</p>
+<blockquote>
+<p>Note that it is true that <span class="mathjax-exps">$\del_V^\pi \eta = \eta \del_V^\pi$</span>, and this is part of what uniquely defines this map. However, we can&#x2019;t have <span class="mathjax-exps">$\eta \mapsto \eta$</span>, because this does not decrease the degree by 1.</p>
+</blockquote>
+<p>So then the sections on <span class="mathjax-exps">$\mathcal O$</span> are given by<br>
+</p><div class="mathjax-exps">$$K^{MW}_*(\mathcal O_V) \definedas \ker \del_V^\pi$$</div><p></p>
+<p>and there is a procedure for making a sheaf from this denoted <span class="mathjax-exps">$K_*^{MW}$</span>.</p>
+<p>The fact this is a stable homotopy sheaf provides some transfers (seen last time), which we&#x2019;ll start with next time.</p>
+<h1 class="mume-header" id="lecture-3">Lecture 3</h1>
+
+<h1 class="mume-header" id="transfers">Transfers</h1>
+
+<h2 class="mume-header" id="defining-some-transfers">Defining Some Transfers</h2>
+
+<p>Recall that we have the sheaves <span class="mathjax-exps">$K^{MW}_*, GW$</span>, and the sheaf property means that an inclusion <span class="mathjax-exps">$K \injects L$</span> induces a map <span class="mathjax-exps">$\spec(L) \to \spec(K)$</span>. We can take <span class="mathjax-exps">$GW(spec(L) \to \spec(K))$</span>, and this is exactly the restriction/base change given by <span class="mathjax-exps">$\wait \tensor_k L$</span> of bilinear forms.</p>
+<p>We also saw that these were stable homotopy sheaves, so there should be transfers, and we want to use them for field extensions. Let <span class="mathjax-exps">$K\subset L$</span> be a finite extension of finite-type schemes over <span class="mathjax-exps">$k$</span>. This leads to transfer maps<br>
+</p><div class="mathjax-exps">$$\Tr_{L/K}: GW(K) \to GW(L).$$</div><p></p>
+<p>There is also a geometric transfer (which is the prettiest!) which we&#x2019;ll define momentarily, given by with multiplication by one of those brackets to define a cohomological transfer. The geometric transfer will depend on a sequence of generators, while, while this choice can be removed for the cohomological transfer. If you use the twisting data you can get an absolute transfer.</p>
+<p>In the case where <span class="mathjax-exps">$K\subset L$</span> is separable, there is a canonical way to explicitly untwist, and the absolute and cohomological transfers agree.  For these two, we took<br>
+</p><div class="mathjax-exps">$$\Tr(B: V^2 \to L) = V^2 \mapsvia{B} L \mapsvia{\Tr_{W^k}}$$</div><br>
+where we now view <span class="mathjax-exps">$V$</span> as a <span class="mathjax-exps">$k\dash$</span>vector space, and <span class="mathjax-exps">$\Tr_{W^k}$</span> is the trace from Galois theory, the sum of the Galois conjugates.<p></p>
+<p>We&#x2019;ll show that we have this structure for the geometric transfer. If <span class="mathjax-exps">$L = K[z]/\generators{f}$</span>, so we&#x2019;ve chosen some generator, then we get an induced map <span class="mathjax-exps">$\spec(L) \overset{z}\injects \PP^1_K$</span>. Since this is a closed immersion corresponding to <span class="mathjax-exps">$z$</span>, we can form a backwards map<br>
+</p><div class="mathjax-exps">$$\PP^1_K \to {\PP^1_K \over \PP^1_K-\theset{z}} \homotopic \PP^1_L$$</div><br>
+by crushing everything but <span class="mathjax-exps">$z$</span>, where the last equivalence was seen in the previous lecture. But now we can take <span class="mathjax-exps">$K^{MW}_1(\PP^1_K \to \PP^1_L)$</span>, which is a map<br>
+<div class="mathjax-exps">$$\Tr_{L/K}^{\text{geom}}:  GW(L) \to GW(K)$$</div><p></p>
+<p>So we have some transfers.</p>
+<h2 class="mume-header" id="bilinear-forms-on-chow-groups">Bilinear Forms on Chow Groups</h2>
+
+<p>The finale of this morning was going to be adding bilinear forms to Chow groups for the purposes of having a tool in enumerative geometry. So let <span class="mathjax-exps">$X\in\Sm$</span> and <span class="mathjax-exps">$X^{(i)}$</span> codimension <span class="mathjax-exps">$i$</span> reduced, irreducible subschemes of <span class="mathjax-exps">$X$</span>. Then<br>
+</p><div class="mathjax-exps">$$CH^i(X) = {\bigoplus_{X^{(i)}} \ZZ \over \sim}$$</div><p></p>
+<p>where <span class="mathjax-exps">$\sim$</span> is rational equivalence, the equivalence relation generated by taking subvarieties of <span class="mathjax-exps">$V\subset X\cross \PP^1$</span> and equating the fibers and the endpoints <span class="mathjax-exps">$V_{\theset{1}} \sim V_{\theset{0}}$</span>, i.e. <span class="mathjax-exps">$V\intersect (X\cross\theset{1}) \sim V\intersect (X\cross\theset{0})$</span>.</p>
+<p>These are useful in enumerative geometry &#x2013; there are Chern classes, pushforwards, pullbacks, a ring structure, etc. This ring structure lets us do intersection theory, providing some machinery to help with enumerative questions.</p>
+<p>The <span class="mathjax-exps">$i$</span>th Chow group, in addition to being a motivic homology group, also has a nice formula due to Bloch that applies in the case of smooth schemes: <span class="mathjax-exps">$CH^i(X) \cong H^i(X; K^{M}_i)$</span> where the RHS is the Nisnevich cohomology of <span class="mathjax-exps">$X$</span> with coefficients in Milnor <span class="mathjax-exps">$K\dash$</span>theory.</p>
+<p>Oriented Chow groups (AKA Chow-Witt groups) which are the original Chow groups together with a bilinear form. By Borge and Morel, motivated by the Bloch formula above, these can be defined as<br>
+</p><div class="mathjax-exps">$$\widetilde{CH}{}^i(X) \definedas H^i(X; K_i^{MW}).$$</div><p></p>
+<p>This can be computed by a complex (as in Morel&#x2019;s book):<br>
+</p><div class="mathjax-exps">$$\cdots \to \bigoplus_{z\in X^{(ii1)}} K^{MW}_{1}(K(z), ~\det_{k(z)} T_z X) \to \bigoplus_{z\in X^{(i)}} GW(K(z), ~\det_{k(z)} T_z X)  \to \bigoplus_{z\in X^{(i+1)}} K^{MW}_{-1}(K(z), ~\det_{k(z)} T_z X)  \to \cdots$$</div><p></p>
+<p>where <span class="mathjax-exps">$k(z)$</span> is the function field, and since <span class="mathjax-exps">$z$</span> has a generic point, we can take the highest wedge power of the tangent space of <span class="mathjax-exps">$X$</span> at <span class="mathjax-exps">$z$</span> to yield the determinant term, which serves as an added twist. This explains why elements of the oriented Chow are formal combinations of codimension <span class="mathjax-exps">$i$</span> subvarieties <span class="mathjax-exps">$z\in X^{(i)}$</span> and a bilinear form over <span class="mathjax-exps">$k(z)$</span>, <span class="mathjax-exps">$B\in GW(k(z))$</span>.</p>
+<p>There&#x2019;s structure here &#x2013; Fasel developed ring structure and pushforwards, while in the context of enumerative geometry, Mark Levine works with these. All in all, we have pullbacks, pushforwards, a noncommutative ring structure, and we can twist these groups as well.</p>
+<h2 class="mume-header" id="twisted-chow">Twisted Chow</h2>
+
+<p>First we&#x2019;ll define the twists appearing in the complex above, and then we can define how to do twisted Chow so we can do pushforwards.</p>
+<p>If <span class="mathjax-exps">$E$</span> is a field of finite type over <span class="mathjax-exps">$k$</span>, then <span class="mathjax-exps">$K^{MW}_i(E; \Lambda)$</span> (&quot;twisted by <span class="mathjax-exps">$\Lambda$</span>&quot;) where <span class="mathjax-exps">$\Lambda$</span> is a 1-dimensional <span class="mathjax-exps">$E\dash$</span>vector space can be defined as<br>
+</p><div class="mathjax-exps">$$K^{MW}_i(E) \underset{\ZZ[E^\times]}\tensor \ZZ[\Lambda - \theset{0}]$$</div><p></p>
+<p>since <span class="mathjax-exps">$E^\times$</span> acts of the LHS due to the bracket <span class="mathjax-exps">$E$</span> in the Grothendieck-Witt group, and the RHS is possible because we can act on the nonzero elements of the vector space.</p>
+<p>We can also twist by line bundles <span class="mathjax-exps">$L \to X$</span>, leading to a definition of <strong>oriented Chow groups twisted by local coefficients</strong> via <span class="mathjax-exps">$\widetilde{CH}{}^i(X; L) \definedas H^i(X; K^{MW}_i(L))$</span> where we just take <span class="mathjax-exps">$K\dash$</span>Milnor-Witt and twist by <span class="mathjax-exps">$L$</span>.</p>
+<p>For any proper <span class="mathjax-exps">$f: X\to Y$</span> where <span class="mathjax-exps">$\dim Y - \dim X = r$</span>, then we have a pushforward map<br>
+</p><div class="mathjax-exps">$$f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)$$</div><p></p>
+<p>where <span class="mathjax-exps">$\omega_{X/K}$</span> is the canonical line bundle of <span class="mathjax-exps">$X$</span> over <span class="mathjax-exps">$k$</span> given by <span class="mathjax-exps">$\det TX$</span>, the determinant of the tangent bundle of <span class="mathjax-exps">$X$</span>, and <span class="mathjax-exps">$f^* \mathcal L$</span> is the pullback of any line bundle from <span class="mathjax-exps">$f$</span>.</p>
+<p>Note that the bilinear form here acts like an orientation (which is exciting!), hence the name.</p>
+<h1 class="mume-header" id="degree-by-local-degree">Degree by Local Degree</h1>
+
+<p>Recall from Algebraic Topology that if we have a smooth map <span class="mathjax-exps">$f:S^n \to S^n$</span>, then there is a notion of degree given picking regular values <span class="mathjax-exps">$p\in S^n$</span>, so the preimage consists of finitely many points <span class="mathjax-exps">$f\inv(p) = \theset{q_1, \dots, q_n}$</span>, and we define <span class="mathjax-exps">$\deg f = \sum \underset{q_i}\deg f$</span> to be the sum of local degrees. There is a formula for computing the degree from differential topology,  given by choosing coordinates <span class="mathjax-exps">$x_1, \cdots, x_n$</span> near <span class="mathjax-exps">$q_i$</span> and <span class="mathjax-exps">$y_1, \cdots, y_n$</span> near <span class="mathjax-exps">$p$</span> which are compatible with orientations. Then <span class="mathjax-exps">$f:\RR^n\to\RR^n$</span>, so we can form its Jacobian <span class="mathjax-exps">$\operatorname{Jac}(f) = \det J$</span> where that matrix <span class="mathjax-exps">$J$</span> is given by <span class="mathjax-exps">$(J)_{i,j} = \dd{f_i}{x_j}$</span>. We then have<br>
+</p><div class="mathjax-exps">$$\underset{q_i}\deg f = \begin{cases}     1,  &amp; $\operatorname{Jac}(f) &gt; 0$ \\     -1, &amp; $\operatorname{Jac}(f) &lt; 0$. \end{cases}$$</div><p></p>
+<p>In <span class="mathjax-exps">$\Af^1$</span> algebraic topology, instead of just remembering the sign (like the signature), the idea of Lannes-Morel is to remember the entirety of <span class="mathjax-exps">$\operatorname{Jac}(f)$</span>. Take <span class="mathjax-exps">$f: \PP^1 \to \PP^1$</span> over a field <span class="mathjax-exps">$k$</span>, then let <span class="mathjax-exps">$p\in \PP^1(k)$</span> be a <span class="mathjax-exps">$k\dash$</span>rational point so that <span class="mathjax-exps">$f\inv(p) = \theset{q_1, \cdots, q_n}$</span>. We can then define<br>
+</p><div class="mathjax-exps">$$\deg^{\Af^1}(f) = \sum \langle \underset{q_i}{\operatorname{Jac}} f\rangle \in GW(k)$$</div><p></p>
+<p>which doesn&#x2019;t depend on <span class="mathjax-exps">$p$</span>. We then make an analogous definition for higher dimensions.</p>
+<p><strong>Proposition:</strong> the global degree is a sum of local degrees.<br>
+Let <span class="mathjax-exps">$f: \PP^n \to \PP^n$</span> be finite such that <span class="mathjax-exps">$f\inv(\Af^n) = \Af^n$</span> for some chosen copy of <span class="mathjax-exps">$\Af^n \subset \PP^n$</span>. This yields an induced map <span class="mathjax-exps">$\overline f :\PP^{n}/\PP^{n-1} \to \PP^{n}/\PP^{n-1}$</span>. We then define the global degree by picking some <span class="mathjax-exps">$p\in \Af^n$</span> and setting<br>
+</p><div class="mathjax-exps">$$\deg^{\Af^1}(\overline f) = \sum_{q\in f\inv(p)}\underset{q}\deg{\Af^1}(f)$$</div><p></p>
+<p>where the local degree can be define using balls (as in the first lecture), and we let <span class="mathjax-exps">$\underset{q}\deg{\Af^1}(f)$</span> be the degree of the composite map<br>
+</p><div class="mathjax-exps">$${\PP^{n} \over \PP^{n-1}} \homotopic {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic \operatorname{Th}(N_p\Af^n) \homotopic {\PP^{n} \over \PP^{n-1}}$$</div><p></p>
+<p>where <span class="mathjax-exps">$U$</span> is an open set chosen such that the preimage of <span class="mathjax-exps">$p$</span> only contains <span class="mathjax-exps">$q$</span>, and <span class="mathjax-exps">$\operatorname{Th}(N_p\Af^n)$</span> is the Thom space of the normal bundle (here, the tangent bundle) and the last equality follows from the purity theorem and the fact that everything is <span class="mathjax-exps">$k\dash$</span>rational (i.e. <span class="mathjax-exps">$k(q) = k$</span>).</p>
+<p>This can also be made to work at a non-rational point, using the Hatcher-style proof, of taking a collapsing map to yield the composite<br>
+</p><div class="mathjax-exps">$${\PP^{n} \over \PP^{n-1}} \to {\PP^{n} \over \PP^{n-1} -\theset{q}}\to {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic {\PP^{n} \over \PP^{n-1}}.$$</div><p></p>
+<p>This yields a notion of local degree in terms of global degree, by taking boundaries of balls, and we have the following facts:</p>
+<ul>
+<li>If <span class="mathjax-exps">$f$</span> is etale at <span class="mathjax-exps">$q$</span>, and <span class="mathjax-exps">$k \subseteq k(q)$</span> is separable then<br>
+<div class="mathjax-exps">$$\underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle$$</div>
+<ul>
+<li>Depending on what you mean by transfer, the hypothesis of separability can be dropped, but it&#x2019;s needed here to take the composition with the Galois theory trace.</li>
+<li>We could use this to compute the degree, but we are missing something</li>
+</ul>
+</li>
+</ul>
+<p><strong>Question:</strong> what happens if <span class="mathjax-exps">$\operatorname{Jac}(f) = 0$</span>? Answer: The Eisenbud-Levine-Khimshiashvili signature formula, which says that if <span class="mathjax-exps">$f: \RR^n \to \RR^n$</span> where <span class="mathjax-exps">$0\mapsto 0$</span> is an isolated zero, then <span class="mathjax-exps">$\underset 0 \deg(f) = \operatorname{signature} (\omega^{EKL})$</span> which is a bilinear quadratic form on<br>
+</p><div class="mathjax-exps">$$Q \definedas \RR[x_1, \cdots, x_n]_0 \over \generators{f_1, \cdots, f_n}$$</div><p></p>
+<p>where the numerator is localized at zero. Since the zero was isolated in its fiber, <span class="mathjax-exps">$Q$</span> is a finite-dimensional <span class="mathjax-exps">$\RR\dash$</span>vector space, and <span class="mathjax-exps">$\operatorname{Jac}(f) \in Q$</span> (which may lie in the maximal ideal <span class="mathjax-exps">$\generators{x_1, \cdots, x_n})$</span>. So we can pick any <span class="mathjax-exps">$\RR\dash$</span>linear <span class="mathjax-exps">$\eta: Q \to \RR$</span> such that <span class="mathjax-exps">$\eta(\operatorname{Jac}(f)) = \dim Q$</span>. This allows us to define<br>
+</p><div class="mathjax-exps">$$\omega^{EKL}: Q^2 \to \RR \\ (a,b) \mapsto \eta(ab).$$</div><p></p>
+<p>A question Eisenbud was whether or not this whole form could be used as a degree over an arbitrary field <span class="mathjax-exps">$k$</span>, not just its signature. So does it have an interpretation in algebraic topology? The answer is that it does, as a local degree in <span class="mathjax-exps">$\Af^1$</span> homotopy theory (which wasn&#x2019;t around at the time).</p>
+<p><strong>Theorem (Kass-Wickelgren)</strong>: <span class="mathjax-exps">$\underset 0 \deg^{\Af^1}(f) = \omega^{EKL}$</span>, constructed in the same way.</p>
+<p>This works for any rational point, and one of the projects is to remove the hypothesis that <span class="mathjax-exps">$k(x) = k$</span>.</p>
+<p><strong>Example:</strong><br>
+Let <span class="mathjax-exps">$f(x) = x^2$</span>, and consider <span class="mathjax-exps">$\omega^{EKL}$</span> for this form. Form <span class="mathjax-exps">$Q = k[x]/\generators{x^2}$</span>, where we don&#x2019;t need to localize at zero since <span class="mathjax-exps">$0$</span> is the only preimage of <span class="mathjax-exps">$0$</span>. Then <span class="mathjax-exps">$\operatorname{Jac}(f) = 2x$</span>. Note that <span class="mathjax-exps">$Q$</span> has a basis <span class="mathjax-exps">$\theset{1, x}$</span>, and so we can choose<br>
+</p><div class="mathjax-exps">$$\eta: k[x]/\generators{x^2} \to k \\ \eta(2x) = 2\\ \eta(1) = 0$$</div><p></p>
+<p>where we claim can send 1 wherever we want without altering the isomorphism class of <span class="mathjax-exps">$\omega^{EKL}$</span>. We do this by forming the Gram matrix<br>
+</p><div class="mathjax-exps">$$\begin{array}{cc}  &amp; \matrix{1 &amp; x} \\  \matrix{1 \\ x} &amp; \begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 0  \end{bmatrix} \end{array}$$</div><p></p>
+<p>where the 1s appear since we require <span class="mathjax-exps">$x\mapsto 1$</span>, the bottom-right 0 because <span class="mathjax-exps">$x^2$</span> in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of <span class="mathjax-exps">$x$</span> to it.</p>
+<p>Thus we can diagonalize this matrix to yield <span class="mathjax-exps">$\omega^{EKL} = \generators{1} + \generators{-1}$</span>. Note that we needed to assume <span class="mathjax-exps">$\char k$</span> does not divide <span class="mathjax-exps">$\dim Q$</span>, otherwise we could have used a distinguished socle element instead in place of the Jacobian.</p>
+<p>So now we have a way to concretely calculate degrees of maps <span class="mathjax-exps">$\PP^n /\PP^{n-1}\selfmap$</span>, so here&#x2019;s an enumerative application.</p>
+<h1 class="mume-header" id="af1-milnor-numbers"><span class="mathjax-exps">$\Af^1$</span> Milnor Numbers</h1>
+
+<p>(Joint with Jesse Kass)</p>
+<p><strong>Definition</strong>: A point <span class="mathjax-exps">$p$</span> on a scheme <span class="mathjax-exps">$X$</span> is a <strong>node</strong> if after base changing to the separable closure <span class="mathjax-exps">$k^s$</span> and looking at all of the preimages, the completed local ring <span class="mathjax-exps">$\OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}$</span> (where <span class="mathjax-exps">$o(x_i^3)$</span> just denotes higher order terms).</p>
+<p>Let <span class="mathjax-exps">$X = \theset{f=0}$</span> be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let <span class="mathjax-exps">$p\in X$</span> be a singularity; as <span class="mathjax-exps">$X$</span> is perturbed within a family <span class="mathjax-exps">$P$</span>, <span class="mathjax-exps">$p$</span> bifurcates into nodes.</p>
+<p>More specifically, for any <span class="mathjax-exps">$a_1, \cdots, a_n$</span>, we have a family of varieties/hypersurfaces given by <span class="mathjax-exps">$f(x_1, \cdots x_n) + \sum a_i x_i = t$</span> parameterized by <span class="mathjax-exps">$t$</span>. One definition of the Milnor number is that in any such family, it counts the number of nodes.</p>
+<p>Let <span class="mathjax-exps">$k=\CC$</span>, then a result of Milnor says that for any sufficiently small <span class="mathjax-exps">$a_1, \cdots, a_n$</span>, the family <span class="mathjax-exps">$P$</span> contains <span class="mathjax-exps">$\mu(p)$</span> nodes, where <span class="mathjax-exps">$\mu$</span> denotes taking the Milnor number.</p>
+<p>To find nodes, one can look at the gradient and see where all of the coefficients of the linear terms vanish. What remains is <span class="mathjax-exps">$o(x_i^2)$</span>, so we&#x2019;re looking for zeros of the gradient, which requires looking at the inverse image of the gradient, so we&#x2019;re picking up the degree of the gradient. This gives us another definition, <span class="mathjax-exps">$\mu(p) = \deg(\grad f)(p)$</span>.</p>
+<p>However, when <span class="mathjax-exps">$k\neq \CC$</span> and generally not algebraically closed, nodes have interesting information, including arithmetic data.</p>
+<p>For example, consider <span class="mathjax-exps">$x^2+y^2$</span> and <span class="mathjax-exps">$x^2-y^2$</span>. The first carves out just the origin, the latter, two diagonal lines.</p>
+<p><img src="../assets/2019-03-09-12-18-52.png" alt></p>
+<p>The LHS is a non-split node, meaning the tangent is not defined over <span class="mathjax-exps">$k$</span>, while the RHS is a split node. So we can use the <span class="mathjax-exps">$\Af^1$</span> degree in place of the topological degree, since we want to count the zeros of the gradient, and it will naturally pick up information about the node.</p>
+<p><strong>Definition:</strong> the <strong>type</strong> of a node <span class="mathjax-exps">$p = \theset{f=0}$</span> is given by<br>
+</p><div class="mathjax-exps">$$\operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).$$</div><p></p>
+<p><strong>Example:</strong><br>
+Choose a preimage of <span class="mathjax-exps">$p$</span> after base change to <span class="mathjax-exps">$k(p)$</span>, suppose the node is cut out by the <span class="mathjax-exps">$f = \sum x_i^2 + o(x_i^3)$</span>. Then we have the local ring <span class="mathjax-exps">$\widehat\OO_{X. p} = k[[p]] / \generators{f}$</span>. Then <span class="mathjax-exps">$\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$</span>, where <span class="mathjax-exps">$k(p)$</span> is always a separable extension of <span class="mathjax-exps">$k$</span>.</p>
+<p>Then <span class="mathjax-exps">$\operatorname{Type}(x^2+ay^2) = \generators{a}$</span>. This picks up the two tangent directions in the field of definition, and when it&#x2019;s not rational, it picks up the trace from <span class="mathjax-exps">$k$</span> with a 2-tangent direction. So this contains geometric/arithmetic information about both the node and its tangent directions.</p>
+<p><strong>Definition:</strong> For <span class="mathjax-exps">$p$</span> a singularity on a hypersurface, we can define <strong>the Milnor number</strong> <span class="mathjax-exps">$\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$</span>.</p>
+<p><strong>Theorem (Kass-Wickelgren):</strong> It then follows that for a generic <span class="mathjax-exps">$a_1,\cdots,a_n$</span>, for a singularity <span class="mathjax-exps">$p$</span>, we have<br>
+</p><div class="mathjax-exps">$$\sum_{x \in \text{a family of nodes}} \operatorname{Type} (x) = \mu^{\Af^1}(p) \in GW(k),$$</div><p></p>
+<p>which is a fixed element.</p>
+<p><strong>Example:</strong><br>
+Let <span class="mathjax-exps">$f(x,y) = y^2-x^3$</span>, supposing <span class="mathjax-exps">$\char(k) \neq 2,3$</span> and consider computing the <span class="mathjax-exps">$\Af^1$</span> Milnor number. We compute <span class="mathjax-exps">$\grad(f) = (-3x^2, 2y)$</span>. We can choose <span class="mathjax-exps">$p=0$</span> as a singularity, then<br>
+</p><div class="mathjax-exps">$$\mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\  = \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),$$</div><p></p>
+<p>since the two variables being split apart implies that we can decompose <span class="mathjax-exps">$\grad f$</span> into the smash product of two maps into spheres. We know that the latter map is etale, so its degree is <span class="mathjax-exps">$\generators{2}$</span>. For the former, we can use the prior computation for <span class="mathjax-exps">$x\mapsto x^2$</span> and just post-compose with <span class="mathjax-exps">$x\mapsto 3x$</span>, so we obtain<br>
+</p><div class="mathjax-exps">$$\begin{align*} \mu^{\Af^1}(0) &amp;= \generators{3}(\generators{1} + \generators{-1}) \generators{2} \\ &amp;= \generators{-6} + \generators{6}\\ &amp;= \generators{1} + \generators{-1}\\ &amp;= h, \end{align*}$$</div><p></p>
+<p>the hyperbolic form from earlier.</p>
+<p>Alternatively, take a family <span class="mathjax-exps">$y^2 = x^3 + ax  + t$</span>. We then have two situations, depending on whether or not <span class="mathjax-exps">$a=0$</span>:</p>
+<p><img src="../assets/2019-03-09-12-44-39.png" alt></p>
+<p>The bottom represents the <span class="mathjax-exps">$t$</span> line, where the LHS shows a cusp at <span class="mathjax-exps">$t=0$</span> and otherwise some general fibers. For the RHS, there are nodes exactly when <span class="mathjax-exps">$x^3+ax+t$</span> has a double root, which happens exactly when this polynomial&#x2019; discriminant is zero, which occurs at <span class="mathjax-exps">$-27t^2-4t$</span>. In particular, <span class="mathjax-exps">$t$</span> is degree 2, so there are two nodal fibers (which agrees with Milnor&#x2019;s theorem), and moreover if we add up the types we must get <span class="mathjax-exps">$h$</span>.</p>
+<p>So for example, over <span class="mathjax-exps">$\FF_5$</span>, we <span class="mathjax-exps">$\generators{1} = \generators{-1}$</span>, so in a family, it is not possible to have one split and one non-split rational node.</p>
+<p>For <span class="mathjax-exps">$\FF_7$</span>, this is reverse, and you can&#x2019;t have 2 split or 2 non-split rational nodes.</p>
+<p>Moral of the story: this obstructs certain kinds of arithmetic behavior within these families!</p>
+<h1 class="mume-header" id="lecture-4">Lecture 4</h1>
+
+<h1 class="mume-header" id="the-euler-class">The Euler Class</h1>
+
+<p>Start with the version from Algebraic Topology. Let <span class="mathjax-exps">$X$</span> be be an <span class="mathjax-exps">$\RR\dash$</span>manifold of dimension <span class="mathjax-exps">$d$</span> and <span class="mathjax-exps">$V\surjects X$</span> be a rank <span class="mathjax-exps">$r$</span> vector bundle with fibers <span class="mathjax-exps">$V_x$</span> for each <span class="mathjax-exps">$x\in X$</span>. Recall the definition of the Thom space of <span class="mathjax-exps">$V$</span>,</p>
+<p></p><div class="mathjax-exps">$$\text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X} \\$$</div><p></p>
+<p>which can be defined on a fiber<br>
+</p><div class="mathjax-exps">$$\text{Th}(V_x) \cong \PP(V\oplus \mathcal O)  / \PP(V_x) \homotopic S^r$$</div><p></p>
+<p>where <span class="mathjax-exps">$\mathcal O$</span> is a trivial bundle and <span class="mathjax-exps">$X$</span> denotes the zero section.</p>
+<p><strong>Definition</strong>: A <strong>bundle</strong> <span class="mathjax-exps">$V$</span> is <strong>oriented</strong>  by a Thom class <span class="mathjax-exps">$u\in H^r(\text{Th}(V); \ZZ)$</span> if each restriction <span class="mathjax-exps">$H^r(\text{Th}(V_x); \ZZ)$</span> yields a generator.</p>
+<p><strong>Example</strong>: This occurs when all transitions functions have positive determinant. Let <span class="mathjax-exps">$\mathcal U$</span> be an open cover of <span class="mathjax-exps">$X$</span>, then <span class="mathjax-exps">$V$</span> is described by clutching (transition) functions<br>
+</p><div class="mathjax-exps">$$\theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} &gt; 0$$</div><p></p>
+<p>if and only if <span class="mathjax-exps">$\det V = L^{\tensor 2}$</span> for some line bundle <span class="mathjax-exps">$L \surjects X$</span>. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.</p>
+<p><strong>Definition</strong>: A <strong>space</strong> <span class="mathjax-exps">$X$</span> is <strong>oriented</strong> iff its tangent space <span class="mathjax-exps">$TX$</span> is oriented.</p>
+<p>Assume <span class="mathjax-exps">$X$</span> is a compact manifold and <span class="mathjax-exps">$d=r$</span>, then by Poincare duality we obtain an isomorphism <span class="mathjax-exps">$H^r(X; \ZZ) \cong \ZZ$</span>, and so <span class="mathjax-exps">$e(V)\in \ZZ$</span> is an integer.</p>
+<p>We can compute the Euler class in the following way: choose a section <span class="mathjax-exps">$\sigma$</span> with only isolated zeros, then<br>
+</p><div class="mathjax-exps">$$e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)$$</div><br>
+where we sum the local degrees, and <span class="mathjax-exps">$\sigma$</span> is locally identified with a function<br>
+<div class="mathjax-exps">$$\sigma: \RR^d \to \RR^r \\ \text{coordinates on } X \mapsto \text{local trivialization}$$</div><br>
+by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.<p></p>
+<p>Note that if we composed the trivialization with an element of <span class="mathjax-exps">$\GL(U)$</span> with negative determinant, that would change the local degree so this definition wouldn&#x2019;t make sense for relative orientations &#x2013; however, if we change coordinates for <span class="mathjax-exps">$\RR^d$</span> and <span class="mathjax-exps">$\RR^r$</span> simultaneously, it will.</p>
+<p><strong>Definition:</strong> The bundle <span class="mathjax-exps">$V\surjects X$</span> is <strong>relatively oriented</strong> iff <span class="mathjax-exps">$\hom(\det TX, \det V)$</span> is oriented.</p>
+<p>We know what it means for such a homomorphism to be positive, and this won&#x2019;t change the value of the local index.</p>
+<p>Since <span class="mathjax-exps">$V$</span> has an orientation sheaf, let <span class="mathjax-exps">$\mathcal O(V)$</span> be a local system on <span class="mathjax-exps">$X$</span> with <span class="mathjax-exps">$\mathcal O(V)_x = H^r(\text{Th}(V_x); \ZZ)$</span>. We can then use the Thom isomorphism to get a Thom class, so we have <span class="mathjax-exps">$e(V) \in H^r(X; \mathcal O(-V))$</span> which comes from a canonical map. So when <span class="mathjax-exps">$V\to X$</span> is relatively oriented, we again have <span class="mathjax-exps">$e(V) \in \ZZ$</span>.</p>
+<h1 class="mume-header" id="af1-algebraic-topology"><span class="mathjax-exps">$\Af^1$</span> Algebraic Topology</h1>
+
+<p>Let <span class="mathjax-exps">$X\in\Sm$</span> be a smooth scheme of dimension <span class="mathjax-exps">$d$</span> and <span class="mathjax-exps">$V\surjects X$</span> an algebraic bundle of rank <span class="mathjax-exps">$r$</span>.</p>
+<p><strong>Definition</strong>: <span class="mathjax-exps">$V$</span> is oriented by the data <span class="mathjax-exps">$L\surjects X$</span> a line bundle and an isomorphism <span class="mathjax-exps">$\det V \cong L^{\tensor 2}$</span>.</p>
+<p><strong>Definition</strong>: <span class="mathjax-exps">$V$</span> is <strong>relatively oriented</strong> if <span class="mathjax-exps">$\hom(\det TX, \det V)$</span> is oriented.</p>
+<p><strong>Example:</strong> Consider both <span class="mathjax-exps">$X = \PP^n$</span> and <span class="mathjax-exps">$X = \Gr(m,n)$</span> be the Grassmannian parameterizing subspaces <span class="mathjax-exps">$\PP^m \leq \PP^n$</span>.  Then <span class="mathjax-exps">$\det TX = \mathcal O(n+1)$</span>, the dual of the tautological tensored <span class="mathjax-exps">$n+1$</span> times &#x2013; for the Grassmannian, you put it in the Plucker embedding and pull back the <span class="mathjax-exps">$\mathcal O(1)$</span>.</p>
+<p><span class="mathjax-exps">$\therefore X$</span> is orientable <span class="mathjax-exps">$\iff n$</span> is odd.</p>
+<p>This follows because we can take <span class="mathjax-exps">$\mathcal O( \frac{n+1} {2})$</span> and choose the morphism required in the definition above.</p>
+<p><strong>Example</strong>: <span class="mathjax-exps">$\mathcal O(n) \surjects \PP^1$</span> is orientable if and only if it is relatively orientable if and only if <span class="mathjax-exps">$n$</span> is even.</p>
+<p><strong>Example</strong>: Take <span class="mathjax-exps">$\OO(d)\oplus \OO(e) \to \PP^2$</span>. Since <span class="mathjax-exps">$2+1=3$</span> is odd, this is orientable if and only if <span class="mathjax-exps">$d+e$</span> is odd.</p>
+<blockquote>
+<p>Note: S. McKean uses this to make an enriched Bezout&#x2019;s theorem for the intersection of plane curves of degree <span class="mathjax-exps">$d$</span> and <span class="mathjax-exps">$e$</span>.</p>
+</blockquote>
+<h2 class="mume-header" id="computing-euler-classes-for-relatively-orientable-bundles">Computing Euler Classes for Relatively Orientable Bundles</h2>
+
+<blockquote>
+<p>Joint with Jesse Kass</p>
+</blockquote>
+<p>In addition to the prior assumptions, let <span class="mathjax-exps">$\sigma$</span> be a section of <span class="mathjax-exps">$V$</span> with only isolated zeros and use the same definition of <span class="mathjax-exps">$e(V)$</span>, which will land in the Grothendieck-Witt group <span class="mathjax-exps">$GW(k)$</span> instead of <span class="mathjax-exps">$\ZZ$</span>.</p>
+<p>what remains is to define the local degree. We&#x2019;ll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.</p>
+<p><strong>Definition</strong>: The <strong>Nisnevich</strong> coordinates near <span class="mathjax-exps">$x$</span> are given by<br>
+</p><div class="mathjax-exps">$$\varphi: U \to \Af^d$$</div><br>
+which induces an isomorphism on the function field, so the induced extension of residue fields <span class="mathjax-exps">$k(\varphi(p)) \injects k(p)$</span> is an isomorphism.<p></p>
+<ul>
+<li>Such coordinates determine a distinguished section of <span class="mathjax-exps">$\det TX(U)$</span></li>
+<li>A local trivialization <span class="mathjax-exps">$\restrictionof{\varphi}{U} \to \OO^r$</span> determines a distinguished section of <span class="mathjax-exps">$\det V(U)$</span></li>
+</ul>
+<p>And so we can make the following definition:</p>
+<p><strong>Definition</strong>: Local coordinates and a local trivialization are <strong>compatible</strong> if for these distinguished sections, we have<br>
+</p><div class="mathjax-exps">$$\hom(\det TX(U), V(U)) \cong L^{\tensor 2}.$$</div><p></p>
+<p>So we can get compatibility by varying the trivialization until we get a square (no problem). Nisnevich coordinates will always exist when <span class="mathjax-exps">$k(p)$</span> is a separable extension of <span class="mathjax-exps">$k$</span>, or the dimension is 1 (by Galois theory).</p>
+<p>So suppose we have local coordinates <span class="mathjax-exps">$\phi$</span> and a local trivialization <span class="mathjax-exps">$\pi$</span> that are compatible. If <span class="mathjax-exps">$\phi: U \injects \Af^d$</span> is an open immersion, then our section <span class="mathjax-exps">$\sigma$</span> is a function can be identified by pulling back <span class="mathjax-exps">$\sigma: \Af^d \to \Af^r$</span> and defining <span class="mathjax-exps">$\deg_p(\sigma) \definedas \deg_{\phi(p)}(\sigma)$</span>.</p>
+<p>Note that we don&#x2019;t actually need the immersion condition here, since the <span class="mathjax-exps">$\Af^1$</span> local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn&#x2019;t change the degree. So if the <span class="mathjax-exps">$\phi$</span> given by Nisnevich coordinates is an etale map where the local rings aren&#x2019;t isomorphic, then <span class="mathjax-exps">$\sigma$</span> could fail to be pulled back from <span class="mathjax-exps">$\Af^d$</span>. However, we could just add something from a really high power of the maximal ideal, and it can be shown that <span class="mathjax-exps">$\sigma$</span> is pulled back from <span class="mathjax-exps">$\Af^d$</span>. These choices don&#x2019;t affect the outcome, so the assumption is not necessary by &quot;finite determinacy of <span class="mathjax-exps">$\deg_p$</span>&quot;.</p>
+<blockquote>
+<p>Need to show that it is well-defined (i.e. it doesn&#x2019;t depend on choice of section), which it is under some conditions.</p>
+</blockquote>
+<h1 class="mume-header" id="relations-to-chow-groups">Relations to Chow Groups</h1>
+
+<p>Other perspectives:</p>
+<p>Barge Morel has one that lands in the oriented Chow, <span class="mathjax-exps">$e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$</span>.</p>
+<blockquote>
+<p>Note that you can use <span class="mathjax-exps">$V$</span> or <span class="mathjax-exps">$-V$</span> here, since the action of <span class="mathjax-exps">$GW$</span> has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn&#x2019;t effect the oriented chow groups.</p>
+</blockquote>
+<p>It is defined as follows:</p>
+<p>There is a distinguished element <span class="mathjax-exps">$\generators{1}\in \widetilde{\text{Ch}}{}^0(X)$</span> which is determined by a complex<br>
+</p><div class="mathjax-exps">$$\cdots \to \bigoplus_{z\in X^{(0)}} GW(k(Z), \det T_zX) \to \bigoplus_{z\in X^{(-1)}} GW(k(Z), \det T_zX)$$</div><p></p>
+<p>where <span class="mathjax-exps">$X^{(0)}$</span> are reduced irreducible subschemes of <span class="mathjax-exps">$X$</span>, and the RHS disappears because it&#x2019;s the generic point.</p>
+<p>In Algebraic Topology, the definition of the Thom class involves a canonical map <span class="mathjax-exps">$\text{Th}(-V)\to X$</span>, making the class land in <span class="mathjax-exps">$H^0(\text{Th}(-V)$</span> which under the Thom isomorphism gives something in <span class="mathjax-exps">$H^r$</span> with a twist. An analog in this setting is the following pushforward.</p>
+<p>Let <span class="mathjax-exps">$\sigma$</span> denote the zero section of <span class="mathjax-exps">$V\covers X$</span>, then there is a pushforward map<br>
+</p><div class="mathjax-exps">$$\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)$$</div><p></p>
+<p>where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.</p>
+<blockquote>
+<p>Note: the difference between the canonical bundle of <span class="mathjax-exps">$V$</span> and the twist we had to do to get rid of <span class="mathjax-exps">$X$</span> is like the difference between <span class="mathjax-exps">$TV$</span> and <span class="mathjax-exps">$TX$</span>, yielding the determinant appearing on the RHS.</p>
+</blockquote>
+<p>The map <span class="mathjax-exps">$p$</span> also yields an isomorphism<br>
+</p><div class="mathjax-exps">$$p^*: \widetilde{\text{Ch}}{}^r(X, \det V) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)$$</div><p></p>
+<p>and so we define<br>
+</p><div class="mathjax-exps">$$e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1}).$$</div><p></p>
+<p>If <span class="mathjax-exps">$V \surjects X$</span> is relatively oriented, there is a map <span class="mathjax-exps">$X \mapsvia \pi \spec(k)$</span> and so <span class="mathjax-exps">$\pi_* e(V) \in GW(k)$</span>.</p>
+<p>Other perspectives</p>
+<ul>
+<li>There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit (<span class="mathjax-exps">$\generators{a}$</span>)</li>
+<li>A six functor formalism</li>
+<li>Mike Hopkins</li>
+<li>Raxit and Levine?</li>
+</ul>
+<h1 class="mume-header" id="example-computations">Example Computations</h1>
+
+<p><strong>Example</strong>: Let <span class="mathjax-exps">$n$</span> be even, and <span class="mathjax-exps">$V = \OO_{\PP^1}(n)$</span> which can be thought of as meromorphic functions that have a pole of order at most <span class="mathjax-exps">$n$</span> at some point, say zero. Then in local coordinates, the function 1 looks like <span class="mathjax-exps">$x^n$</span>, and so <span class="mathjax-exps">$e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$</span>.</p>
+<blockquote>
+<p>Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of <span class="mathjax-exps">$h$</span>. A similar argument works here?</p>
+</blockquote>
+<p><strong>Example</strong>: How many lines meet 4 general lines in <span class="mathjax-exps">$\PP^3$</span>?<br>
+Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)</p>
+<p>Lines in <span class="mathjax-exps">$\PP^3$</span> are parameterized by <span class="mathjax-exps">$\Gr(1,3)$</span>, which is equivalent to <span class="mathjax-exps">$W \subseteq k^{\oplus 4}, \dim W = 2$</span>. Let</p>
+<ul>
+<li><span class="mathjax-exps">$L_i$</span> be 4 lines, no two of which intersect</li>
+<li><span class="mathjax-exps">$e_i$</span> be a basis of <span class="mathjax-exps">$k^4$</span></li>
+<li><span class="mathjax-exps">$\phi_i$</span> be the corresponding dual basis</li>
+</ul>
+<p>where <span class="mathjax-exps">$L_1 = \PP(ke_3\oplus ke_4) = \theset{\phi_1=\phi_2 = 0}$</span>. Lets find a condition on bundles for lines that intersect <span class="mathjax-exps">$L_1$</span>.</p>
+<p>Let <span class="mathjax-exps">$L= \PP(k\tilde e_3 \oplus k\tilde e_4)$</span>, the span of some two linearly independent vectors. If we wrote these out in terms of <span class="mathjax-exps">$e_i$</span>, we&#x2019;d need to find a combination where the coefficients of <span class="mathjax-exps">$e_1, e_2$</span> vanish, i.e. there needs to be a linear dependence in the part of their basis expansion involving these two elements. We thus get the condition<br>
+</p><div class="mathjax-exps">$$L\intersect L_1 \iff (\phi_1 \wedge \phi_2)(\tilde e_3 \wedge \tilde e_4) = 0$$</div><p></p>
+<p>So we look at the line bundle <span class="mathjax-exps">$S^\dual \wedge S^\dual \covers \Gr(1,3)$</span>, where the fiber above a dimension 2 subspace <span class="mathjax-exps">$W$</span> is given by <span class="mathjax-exps">$(S^\dual \wedge S^\dual)_{\PP W} = W^\dual \wedge W^\dual$</span>.</p>
+<p>Then <span class="mathjax-exps">$\theset{\phi_1, \phi_2}$</span> determine a section <span class="mathjax-exps">$\sigma_1$</span> of <span class="mathjax-exps">$S^\dual \wedge S^\dual$</span> by <span class="mathjax-exps">$\sigma_1(\PP W) = \restrictionof{\phi_1}{W} \wedge \restrictionof{\phi_2}{W}$</span>, where lines intersection <span class="mathjax-exps">$L_1$</span> correspond exactly to zeros of <span class="mathjax-exps">$\sigma_1$</span>.</p>
+<p>We can do the same thing for the other <span class="mathjax-exps">$L_i$</span> and combine them to get a section of <span class="mathjax-exps">$V \definedas \oplus_{i=1}^4S^\dual \wedge S^\dual$</span>, whose zeros are the lines we&#x2019;re looking for.</p>
+<p>Is this bundle relatively orientable? <span class="mathjax-exps">$\det TX =\OO(4), \det V = (S^\dual \wedge S^\dual)^{\tensor 4}$</span>, which are both tensor squares, so yes.</p>
+<p>Following the recipe, we need to identify <span class="mathjax-exps">$\sigma$</span> with a function. To compute <span class="mathjax-exps">$\deg_{\PP W}(\sigma)$</span>, choose local coordinates on <span class="mathjax-exps">$\Gr(1,3)$</span>. So we need to choose dimension 2 subspaces parameterized by <span class="mathjax-exps">$\Af^4$</span>, so we&#x2019;ll pick the lines which intersect <span class="mathjax-exps">$\theset{\phi_3= \phi_4 = 0}$</span>, yielding a new basis<br>
+</p><div class="mathjax-exps">$$\begin{align*} \tilde e_1 &amp;= e_1 \\ \tilde e_2 &amp;= e_2 \\ \tilde e_3 &amp;= xe_1 + ye_2 + e_3 \\ \tilde e_4 &amp;= x&apos;e_1 + y&apos;e_2 + e_4 \\ \end{align*}$$</div><p></p>
+<p>We then have an open subset<br>
+</p><div class="mathjax-exps">$$U =\spec(k[x,y,x&apos;,y&apos;]) \injects \Gr(1,3) \\ (x,y,x&apos;,y&apos;) \mapsto \PP(k\tilde e_3 +k\tilde e_4),$$</div><p></p>
+<p>so we have some local coordinates. Let <span class="mathjax-exps">$\tilde \phi_i$</span> be the dual basis.</p>
+<p>Next we choose a local trivialization, where <span class="mathjax-exps">$S^\dual \wedge S^\dual$</span> can be locally trivialized by <span class="mathjax-exps">$\tilde\phi_3 \wedge \tilde \phi_4$</span> which are compatible with some relative orientation.</p>
+<p>The expression for the function <span class="mathjax-exps">$\sigma$</span> will depend on our choice of line, and instead of notating all of them, just assume that <span class="mathjax-exps">$L_1 = \PP(ke_3 \oplus ke_4)$</span>. We then get <span class="mathjax-exps">$\sigma =(\phi_1 \wedge \phi_2, ?, ?, ?)$</span> where we just didn&#x2019;t notate the other components. So what is this first component in terms of <span class="mathjax-exps">$x&apos;, y&apos;$</span>? This amounts to finding the coordinate of <span class="mathjax-exps">$\tilde\phi_3 \wedge \tilde\phi_4$</span> is in <span class="mathjax-exps">$\phi_1 \wedge \phi_2$</span>, which is just a linear algebra problem.</p>
+<p>We want to find the coefficient <span class="mathjax-exps">$c$</span> in<br>
+</p><div class="mathjax-exps">$$\restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)$$</div><p></p>
+<p>How many <span class="mathjax-exps">$\tilde e_3$</span> are in <span class="mathjax-exps">$\phi_1$</span>? We can evaluate <span class="mathjax-exps">$\phi_1(\tilde e_3)$</span> to get how many <span class="mathjax-exps">$\tilde \phi_3$</span>s we need, but that&#x2019;s just <span class="mathjax-exps">$x$</span>. So the RHS evaluates to <span class="mathjax-exps">$(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x&apos;\tilde\phi_3 \wedge y&apos;\tilde\phi_4)$</span>, and we obtain <span class="mathjax-exps">$c = xy&apos; -yx&apos;$</span>. We can thus write<br>
+</p><div class="mathjax-exps">$$\sigma: \Af^4 \to \Af^4 \\ \sigma(x,y,x&apos;,y&apos;) = (xy&apos; -yx&apos;, ?, ? , ?)$$</div><p></p>
+<p>Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in <span class="mathjax-exps">$x,y,x&apos;,y&apos;$</span>s? Is there an AG interpretation of this local degree <span class="mathjax-exps">$\deg_P(\sigma), where$</span>P=L$ is a point on the Grassmannian?</p>
+<p>Well <span class="mathjax-exps">$L=\PP W$</span> intersects <span class="mathjax-exps">$L_i$</span>, so we have 4 points on <span class="mathjax-exps">$L\cong \PP^1_{k(L)}$</span>, and therefore we have a cross-ratio <span class="mathjax-exps">$\lambda$</span>.</p>
+<p>We can get another cross-ratio by looking at planes in <span class="mathjax-exps">$\PP^3$</span> containing <span class="mathjax-exps">$L$</span>, i.e. dimension 3 subspaces <span class="mathjax-exps">$V$</span> containing <span class="mathjax-exps">$W$</span>, so we have<br>
+</p><div class="mathjax-exps">$$W \subseteq V \subseteq k(L)^4$$</div><p></p>
+<p>where <span class="mathjax-exps">$\dim V = 1$</span>, so each plane is a <span class="mathjax-exps">$\PP^1_{k(L)}$</span>. We get 4 planes containing <span class="mathjax-exps">$L$</span>, namely the 4 planes spanned by each pair <span class="mathjax-exps">$(L, L_i)$</span>. This provides a second cross-ratio <span class="mathjax-exps">$\mu$</span></p>
+<p>Although there was choice, since our section was determined not by <span class="mathjax-exps">$L$</span> but rather by the zero set of some functions, normalizing things correctly yields<br>
+</p><div class="mathjax-exps">$$\deg_L(\sigma) = \Tr_{k(L) / k}\generators{\lambda-\mu}.$$</div><p></p>
+<p>We thus obtain a theorem:</p>
+<p><strong>Theorem</strong>:</p>
+<p></p><div class="mathjax-exps">$$\sum_{\quad L \suchthat \\ L \intersect L_i \neq\emptyset}\Tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h$$</div><br>
+<span class="mathjax-exps">$\qed$</span><p></p>
+<h1 class="mume-header" id="where-things-are-going">Where Things Are Going</h1>
+
+<ul>
+<li>Gromov-Witten invariants with Jake and Jesse</li>
+<li>Welschinger invariants, Mark Levine</li>
+</ul>
+<p>These produce more than just the 1s appearing in <span class="mathjax-exps">$h$</span>, and have ties to things like modular forms. <span class="mathjax-exps">$\qed$</span></p>
+
+      </div>
+      <div class="md-sidebar-toc"><ul>
+<li><a href="#lecture-1">Lecture 1</a></li>
+<li><a href="#af1-enumerative-geometry"><span class="mathjax-exps">$\Af^1$</span> Enumerative Geometry</a></li>
+<li><a href="#example-lines-on-a-smooth-cubic-surface">Example: Lines on a Smooth Cubic Surface</a></li>
+<li><a href="#modern-proof">Modern Proof</a></li>
+<li><a href="#what-about-rr">What about <span class="mathjax-exps">$\RR$</span>?</a></li>
+<li><a href="#af1-homotopy-theory"><span class="mathjax-exps">$\Af^1$</span> Homotopy Theory</a></li>
+<li><a href="#the-grothendieck-witt-group">The Grothendieck-Witt Group</a></li>
+<li><a href="#euler-class">Euler Class</a></li>
+<li><a href="#an-analogous-trace-formula">An Analogous Trace Formula</a></li>
+<li><a href="#lecture-2">Lecture 2</a></li>
+<li><a href="#users-guide-to-af1-homotopy-theory">User&#x2019;s Guide to <span class="mathjax-exps">$\Af^1$</span> Homotopy Theory</a>
+<ul>
+<li><a href="#adding-colimits">Adding Colimits</a></li>
+<li><a href="#preserving-old-colimits-picking-a-topology">Preserving Old Colimits: Picking a Topology</a></li>
+<li><a href="#contracting-the-affine-line">Contracting the Affine Line</a></li>
+</ul>
+</li>
+<li><a href="#making-spheres">Making Spheres</a></li>
+<li><a href="#thom-spaces">Thom Spaces</a></li>
+<li><a href="#the-grothendieck-witt-group-1">The Grothendieck-Witt Group</a></li>
+<li><a href="#milnor-k-theory">Milnor K-Theory</a></li>
+<li><a href="#grothendieck-witt-group-invariants">Grothendieck-Witt Group Invariants</a></li>
+<li><a href="#degree-theorem">Degree Theorem</a></li>
+<li><a href="#producing-a-sheaf">Producing a Sheaf</a></li>
+<li><a href="#lecture-3">Lecture 3</a></li>
+<li><a href="#transfers">Transfers</a>
+<ul>
+<li><a href="#defining-some-transfers">Defining Some Transfers</a></li>
+<li><a href="#bilinear-forms-on-chow-groups">Bilinear Forms on Chow Groups</a></li>
+<li><a href="#twisted-chow">Twisted Chow</a></li>
+</ul>
+</li>
+<li><a href="#degree-by-local-degree">Degree by Local Degree</a></li>
+<li><a href="#af1-milnor-numbers"><span class="mathjax-exps">$\Af^1$</span> Milnor Numbers</a></li>
+<li><a href="#lecture-4">Lecture 4</a></li>
+<li><a href="#the-euler-class">The Euler Class</a></li>
+<li><a href="#af1-algebraic-topology"><span class="mathjax-exps">$\Af^1$</span> Algebraic Topology</a>
+<ul>
+<li><a href="#computing-euler-classes-for-relatively-orientable-bundles">Computing Euler Classes for Relatively Orientable Bundles</a></li>
+</ul>
+</li>
+<li><a href="#relations-to-chow-groups">Relations to Chow Groups</a></li>
+<li><a href="#example-computations">Example Computations</a></li>
+<li><a href="#where-things-are-going">Where Things Are Going</a></li>
+</ul>
+</div>
+      <a id="sidebar-toc-btn">&#x2261;</a>
+    
+    
+    
+    
+    
+    
+    
+    
+<script>
+
+var sidebarTOCBtn = document.getElementById('sidebar-toc-btn')
+sidebarTOCBtn.addEventListener('click', function(event) {
+  event.stopPropagation()
+  if (document.body.hasAttribute('html-show-sidebar-toc')) {
+    document.body.removeAttribute('html-show-sidebar-toc')
+  } else {
+    document.body.setAttribute('html-show-sidebar-toc', true)
+  }
+})
+</script>
+      
+  
+    </body></html>
