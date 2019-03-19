@@ -50,7 +50,7 @@ where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ
 
 However, when we repeat our constructions in the world of spectra, this junk term goes away.
 
-# THH of $\FF_p\dash$algebras
+# $THH = HH(\wait, \Sp)$ of $\FF_p\dash$algebras
 
 Although the objects we're dealing with are unfamiliar, the following theorem lets you manipulate these objects using algebraic techniques.
 
