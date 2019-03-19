@@ -42,6 +42,6 @@ What is better information? Here are a few pathologies.
 
 - Consider $\FF_p$, then 
 $$
-HH_0(\FF_p) = HH_0(\FF_p) \\
+HP_0(\FF_p) = \FF_p \\
 HH_0(\FF_p
 $$
