@@ -52,5 +52,6 @@ However, when we repeat our constructions in the world of spectra, this junk ter
 
 # THH of $\FF_p\dash$algebras
 
-Although the objects we're dealing with are unfamiliar, the following theorem 
+Although the objects we're dealing with are unfamiliar, the following theorem lets you manipulate these objects using algebraic techniques.
+
 Theorem (Bokstedt): 
