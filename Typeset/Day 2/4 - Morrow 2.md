@@ -116,4 +116,4 @@ $$
 
 We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_p}$. But since $\Omega$ is appearing in $THH_1$, the multiplicative structure produces for us a map $\Omega^n_{A/\FF_p} \to THH_n(A)$ by multiplying together $n$ times the map $\Omega^1 \to THH_1$.
 
-But then $THH_n \surjects HH_n$, which means that the LES breaks into SESs by using the surjectivity at different levels and adding zeros at the sides of each level.
+But then $THH_n \surjects HH_n$, which means that the LES breaks into SESs by using the surjectivity at the $n$ and $n+1$ levels and adding zeros at the sides of level $n$.
