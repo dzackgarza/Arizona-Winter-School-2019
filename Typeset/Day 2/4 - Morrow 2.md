@@ -71,4 +71,7 @@ $$
 
 which witnesses the fact that $THH(A)$ is strictly richer than $HH(A/\FF_p)$; we can recover the former from the latter.
 
-But reading off the previous theorem, in order to kill all of $THH(\FF_p)$, apart from the initial $\FF_p$ in degree zero, we just have to kill $u$, and so
+But reading off the previous theorem, in order to kill all of $THH(\FF_p)$, apart from the initial $\FF_p$ in degree zero, we just have to kill $u$, and so by abuse of notation,
+$$
+THH(A) \underset{THH(\FF_p)} \tensor \FF_p = THH(A) / u
+$$
