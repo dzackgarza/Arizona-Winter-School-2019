@@ -43,5 +43,5 @@ What is better information? Here are a few pathologies.
 - Consider $\FF_p$, then 
 $$
 HP_0(\FF_p) = \FF_p  \underset{\FF_p}\tensor \cdots \underset{\FF_p }\tensor \FF_p = \FF_p \\
-HP_0(\FF_p/\ZZ) 
+HP_0(\FF_p/\ZZ) = \Zp
 $$
