@@ -64,4 +64,4 @@ $$
 THH(A)[z] \mapsvia{x\mapsto xu} THH(A) \to HH(A/\FF_p)
 $$
 
-The first term is shifted by a bit
+The first term is $THH(A)$ shifted by a bit, while what's left on the RHS is the usual $HH$ we saw in earlier lectures.
