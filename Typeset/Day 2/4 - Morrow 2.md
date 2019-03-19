@@ -32,4 +32,4 @@ The question then becomes: how far can we carry out this process? Is there an ev
 - A differential-graded category
   - Need some homotopically rich framework, since in the original derived categories we produced complexes, and we were interested in quasi-isomorphisms and equivalences between these complexes, so not just any category will do.
 
-Can such a thing exist? The answer is no! In some sense, $D(\ZZ)$ is the best we can do -- in the world of derivedit is initial
+Can such a thing exist? The answer is no! In some sense, $D(\ZZ)$ is the best we can do -- in the world of d.g. categories, $D(\ZZ)$ is characterized as an initial object
