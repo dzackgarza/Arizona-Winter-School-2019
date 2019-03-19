@@ -36,4 +36,4 @@ Can such a thing exist? The answer is no! In some sense, $D(\ZZ)$ is the best we
 
 So we need to relax some of the conditions, i.e. by replacing d.g. categories with a simplicial or $\infty\dash$category, which have less strong linearity conditions on the hom-sets. Then there is something better, and the best we can do is the category of spectra $D(\Sp)$, which we're supposed to think of as some kind of derived category over the sphere spectrum. This has a similar initial property as $D(\ZZ)$.
 
-This was really an idea of Goodwillie and 
+This was an idea of Goodwillie and Voudhousen(?) in the 80s/90s that one should try to transport these
