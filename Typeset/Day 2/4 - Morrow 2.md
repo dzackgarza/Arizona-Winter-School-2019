@@ -56,4 +56,4 @@ Although the objects we're dealing with are unfamiliar, the following theorem le
 
 Theorem (Bokstedt): $THH_\text{odd}(\FF_p) = 0$ and $THH_\text{even}(\FF_p) = \FF_p[u]$ where $u\in THH_2(FF_p)$
 
-The first part comes from computing the homotopy groups of the spectrum
+The first part comes from computing the homotopy groups of the spectrum (and the result is something we also saw for HH)
