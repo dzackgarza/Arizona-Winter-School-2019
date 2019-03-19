@@ -88,5 +88,5 @@ $$
 
 we explicitly get the long exact sequence
 $$
-\cdots 
+\cdots THH_1 \to THH_3 \to HH_3 \to 
 $$
