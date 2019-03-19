@@ -106,5 +106,5 @@ where the LHS is a graded algebra of $THH$ groups and the RHS contains the diffe
 
 More precisely, we have 
 $$
-THH_n(A) = \bigoplus_{i=1}^{\left \lceil{n}\right \rceil }
+THH_n(A) = \bigoplus_{i=1}^{\left \lfloor{n\over 2}\right \rfloor }
 $$
