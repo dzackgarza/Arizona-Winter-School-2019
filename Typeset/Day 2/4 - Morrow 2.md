@@ -22,7 +22,7 @@ where tensoring with $k$ is just by the multiplication map. The claim is that th
 
 The $\from$ map is given by just replacing $\tensor_\ZZ$ with $\tensor_k$ everywhere. For the $\to$ map, if we map some symbol $A_0 \times \cdots \times A_n$ to the RHS, the fact that $\wait \underset{m^{\tensor_\ZZ}}{\tensor} k$ is modding out by the kernel of the multiplication map exactly imposes $k\dash$bilinearity between the tensor symbols. This yields a $k\dash$bilinear map, which produces an actual map on the tensor product over $k$.
 
-The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$ The structures we need are:
+The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$ The structures we would need are:
 
 - The structure must be symmetric monoidal 
   - This essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love. 
@@ -32,3 +32,4 @@ The question then becomes: how far can we carry out this process? Is there an ev
 - A differential-graded category
   - Need some homotopically rich framework, since in the original derived categories we produced complexes, and we were interested in quasi-isomorphisms and equivalences between these complexes, so not just any category will do.
 
+Can such a thing exist? The answer is no! In some sense, $D(\ZZ)$ is the best we can do -- it is initial
