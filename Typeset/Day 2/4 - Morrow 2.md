@@ -39,3 +39,5 @@ So we need to relax some of the conditions, i.e. by replacing d.g. categories wi
 This was an idea of Goodwillie and Voudhousen(?) in the 80s/90s that one should try to transport the construction of HH beyond the algebraic case and into the world of spectra and ring spectra, where we expect that repeating the construction would yield better information. 
 
 What is better information? Here are a few pathologies.
+
+- Consider $\FF_p$
