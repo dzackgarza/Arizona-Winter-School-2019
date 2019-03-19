@@ -1,1 +1,1 @@
-Last time: some general tools that are required to perform constructions like Hochschild homology in greater generality when one can't write down explicit complexes.
+Last time: some general tools that are required to perform constructions like Hochschild homology in greater generality when one can't write down explicit complexes. We had a cyclic object, which leads to $S^1$ acting on something like a complex
