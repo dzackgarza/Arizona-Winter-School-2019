@@ -20,4 +20,4 @@ $$
 
 where tensoring with $k$ is just by the multiplication map. The claim is that these two are the same.
 
-The $\to$ map
+The $\from$ map is given by just replacing
