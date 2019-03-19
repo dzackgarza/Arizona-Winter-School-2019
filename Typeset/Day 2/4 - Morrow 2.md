@@ -114,4 +114,4 @@ $$
 \cdots \to THH_{n-2}(A) \to THH_n(A) \to HH_n(A/\FF_p) \to \cdots
 $$
 
-We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_p}$. But since $\Omega$ is appearing in $THH_1$, the multiplicative structure produces for us a map $\Omega^n_{A/\FF_p} \to THH_n(A)$.
+We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_p}$. But since $\Omega$ is appearing in $THH_1$, the multiplicative structure produces for us a map $\Omega^n_{A/\FF_p} \to THH_n(A)$ by multiplying together $n$ times this map
