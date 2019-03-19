@@ -52,4 +52,5 @@ However, when we repeat our constructions in the world of spectra, this junk ter
 
 # THH of $\FF_p\dash$algebras
 
+With the following theorem, we'll be able to 
 Theorem (Bokstedt): 
