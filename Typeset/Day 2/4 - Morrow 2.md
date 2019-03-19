@@ -102,4 +102,4 @@ $$
 THH_*(A) \cong \Omega^*_{A/\FF_p} \underset{\FF_p[u]}\tensor \FF_p[u]
 $$
 
-where the LHS is a graded algebra of $THH$ groups and the RHS contains the differential forms seen in previous HKR theorems, along with a contribution arising from functoriality and the fact that $\FF_p \to A$
+where the LHS is a graded algebra of $THH$ groups and the RHS contains the differential forms seen in previous HKR theorems, along with a contribution arising from functoriality and the fact that $\FF_p \injects A$ 
