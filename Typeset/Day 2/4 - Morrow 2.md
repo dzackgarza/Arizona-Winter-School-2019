@@ -9,4 +9,4 @@ $$
 HH(A/k) = HH(A/\ZZ) \underset{HH(k/\ZZ)}\tensor k,
 $$ 
 
-
+where we can form this tensor product because $k$ itself is a $\ZZ\dash$algebra
