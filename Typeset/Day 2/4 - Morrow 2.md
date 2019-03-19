@@ -104,3 +104,7 @@ $$
 
 where the LHS is a graded algebra of $THH$ groups and the RHS contains the differential forms seen in previous HKR theorems, along with a contribution arising from functoriality and the fact that $\FF_p \to A$ yielding a map $THH(\FF_p)\to  THH(A)$, and looks like a polynomial algebra.
 
+More precisely, we have 
+$$
+THH_n(A) = \bigoplus_{i=1}^{\floor n}
+$$
