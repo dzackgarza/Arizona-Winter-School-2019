@@ -69,4 +69,4 @@ $$
 HH(A/\FF_p) = THH(A) \underset{THH(\FF_p)} \tensor \FF_p
 $$
 
-which witnesses the fact that $THH(A)$ is strictly richer than $HH(
+which witnesses the fact that $THH(A)$ is strictly richer than $HH(A/\FF_p)$; we can recover the former from the latter.
