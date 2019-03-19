@@ -61,7 +61,7 @@ The first part comes from computing the homotopy groups of the spectrum (and the
 Corollary: for any $\FF_p\dash$ algebra $A$, we get a fiber sequence (or distinguished triangle)
 
 $$
-THH(A)[z] \mapsvia{x\mapsto xu} THH(A) \to HH(A/\FF_p)
+THH(A)[2] \mapsvia{x\mapsto xu} THH(A) \to HH(A/\FF_p)
 $$
 
 The first term is $THH(A)$ shifted by a bit, while what's left on the RHS is the usual $HH$ we saw in earlier lectures. If we're convinced that the same sort of algebraic manipulations as earlier continues to work in the world of spectra, we get
@@ -84,5 +84,5 @@ If go take homotopy groups, we get a long exact sequence, so we can see what thi
 $$
 THH_0(A) \cong HH_0(A/\FF_p) = A \\
 THH_1(A) \cong HH_1(A/\FF_p) = \Omega_{A/\FF_p}^1 \\
-THH_
+THH_2
 $$
