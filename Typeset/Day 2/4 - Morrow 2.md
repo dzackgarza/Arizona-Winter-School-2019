@@ -101,3 +101,5 @@ If $A$ is a smooth $\FF_p\dash$algebra then
 $$
 THH_*(A) \cong \Omega^*_{A/\FF_p} \underset{\FF_p[u]}\tensor \FF_p[u]
 $$
+
+where the LHS is a graded algebra of $THH$ groups and
