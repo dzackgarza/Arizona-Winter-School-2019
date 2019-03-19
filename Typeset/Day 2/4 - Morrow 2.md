@@ -22,6 +22,6 @@ where tensoring with $k$ is just by the multiplication map. The claim is that th
 
 The $\from$ map is given by just replacing $\tensor_\ZZ$ with $\tensor_k$ everywhere. For the $\to$ map, if we map some symbol $A_0 \times \cdots \times A_n$ to the RHS, the fact that $\wait \underset{m^{\tensor_\ZZ}}{\tensor} k$ is modding out by the kernel of the multiplication map exactly imposes $k\dash$bilinearity between the tensor symbols. This yields a $k\dash$bilinear map, which produces an actual map on the tensor product over $k$.
 
-The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$
+The question then becomes: how far can we carry out this process? Is there an even richer setting in which we can carry out these constructions, something of the form $(\wait, \tensor)?$ The structures we need are:
 
-Since we've written $\tensor$, the structure must be symmetric monoidal (which essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love). We also want limits and colimits to exist, so we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
+- Since we've written $\tensor$, the structure must be symmetric monoidal (which essentially says that there is some operation that behaves like tensoring and satisfies the properties we know and love). We also want limits and colimits to exist, so we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
