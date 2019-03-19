@@ -82,5 +82,5 @@ This allows us to study $HH(A/\FF_p)$, which we addressed in earlier lectures, i
 
 If go take homotopy groups, we can see what this buys us in the world of abelian groups:
 $$
-THH_0(A) \cong 
+THH_0(A) \cong HH_0(A/\FF_p) = A
 $$
