@@ -83,5 +83,5 @@ This allows us to study $HH(A/\FF_p)$, which we addressed in earlier lectures, i
 If go take homotopy groups, we get a long exact sequence, so we can see what this buys us in the world of abelian groups:
 $$
 THH_0(A) \cong HH_0(A/\FF_p) = A \\
-THH_1(A) \cong HH_1(A/\FF_p
+THH_1(A) \cong HH_1(A/\FF_p) = \Omega_{A/\FF_p}^1
 $$
