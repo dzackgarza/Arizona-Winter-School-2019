@@ -1,1 +1,1 @@
-Last time: 
+Last time: some general tools that are required to perform constructions like Hochschild homology in greater generality when one can't write down explicit complexes.
