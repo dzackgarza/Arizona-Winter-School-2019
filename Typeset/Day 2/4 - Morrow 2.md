@@ -33,3 +33,5 @@ The question then becomes: how far can we carry out this process? Is there an ev
   - Need some homotopically rich framework, since in the original derived categories we produced complexes, and we were interested in quasi-isomorphisms and equivalences between these complexes, so not just any category will do.
 
 Can such a thing exist? The answer is no! In some sense, $D(\ZZ)$ is the best we can do -- in the world of d.g. categories, $D(\ZZ)$ is characterized as an initial object. If any other such category $C$ is produced, then tensoring a map $C \to D(\ZZ)$ yields a restriction/inclusion in the other direction.
+
+So we need to relax some of the conditions, i.e. by replacing d.g. categories with a simplicial or $\infty\dash$category.
