@@ -45,3 +45,5 @@ $$
 HP_0(\FF_p) = \FF_p  \underset{\FF_p}\tensor \cdots \underset{\FF_p }\tensor \FF_p = \FF_p \\
 HP_0(\FF_p/\ZZ) = \Zp \oplus \text{ junk}
 $$
+
+where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ$ would again collapse, but instead taking *derived tensor product* yields something more interesting.
