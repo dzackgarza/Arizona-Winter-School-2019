@@ -51,3 +51,5 @@ where in the second line, tensoring copies of $\FF_p$ together naively over $\ZZ
 However, when we repeat our constructions in the world of spectra, this junk term goes away.
 
 # THH of $\FF_p\dash$algebras
+
+Theorem (Bokstedt): 
