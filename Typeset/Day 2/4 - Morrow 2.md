@@ -9,4 +9,6 @@ $$
 HH(A/k) = HH(A/\ZZ) \underset{HH(k/\ZZ)}\tensor k,
 $$ 
 
-where we can form this tensor product because $k$ itself is a $\ZZ\dash$algebra
+where we can form this tensor product because $k$ itself is a $\ZZ\dash$algebra.
+
+In order to make sense of the object on the RHS, it is perhaps easiest to view everything as a simplicial ring
