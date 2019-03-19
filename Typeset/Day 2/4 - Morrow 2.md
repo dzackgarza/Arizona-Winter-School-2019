@@ -40,4 +40,8 @@ This was an idea of Goodwillie and Voudhousen(?) in the 80s/90s that one should 
 
 What is better information? Here are a few pathologies.
 
-- Consider $\FF_p$
+- Consider $\FF_p$, then 
+$$
+HH_0(\FF_p) = HH_0(\FF_p) \\
+HH_0(\FF_p
+$$
