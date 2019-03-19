@@ -114,4 +114,4 @@ $$
 \cdots \to THH_{n-2}(A) \to THH_n(A) \to HH_n(A/\FF_p) \to \cdots
 $$
 
-We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_p}$
+We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_p}$. But since 
