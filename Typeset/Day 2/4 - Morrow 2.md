@@ -2,4 +2,6 @@ Last time: some general tools that are required to perform constructions like Ho
 
 Why do we want to perform this construction in greater generality, and what information can we expect to extract from it?
 
-Let $A$ be a $k\dash$algebra, and $D(k)$ be a complex of $k\dash$modules. So far we've been looking at these
+Let $A$ be a $k\dash$algebra, and $D(k)$ be a complex of $k\dash$modules. So far we've been looking at these and tensoring things together over $k$, 
+
+$(D(k), \tensor_k)$
