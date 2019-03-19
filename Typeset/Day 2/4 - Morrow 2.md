@@ -30,4 +30,5 @@ The question then becomes: how far can we carry out this process? Is there an ev
   - So we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
 - $\cdots$, some other technical assumptions
 - A differential-graded category
-  - Need some homotopically rich framework, since in the original derived categories we produced complexes, we were interested in quasi-isomorphisms and equivalences
+  - Need some homotopically rich framework, since in the original derived categories we produced complexes, and we were interested in quasi-isomorphisms and equivalences between these complexes, so not just any category will do.
+
