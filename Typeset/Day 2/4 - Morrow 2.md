@@ -61,7 +61,7 @@ The first part comes from computing the homotopy groups of the spectrum (and the
 Corollary: for any $\FF_p\dash$ algebra $A$, we get a fiber sequence (or distinguished triangle)
 
 $$
-THH(A)[z] \mapsvia{x\mapsto xu}THH(A) \to HH(A/\FF_p)
+THH(A)[z] \mapsvia{x\mapsto xu} THH(A) \to HH(A/\FF_p)
 $$
 
 The first term is shifted by a bit
