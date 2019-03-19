@@ -8,3 +8,5 @@ We also have $(D(k), \tensor_k) ``\subseteq" (D(\ZZ), \tensor_\ZZ)$ , where this
 $$
 HH(A/k) = HH(A/\ZZ) \underset{HH(k/\ZZ)}\tensor k,
 $$ 
+
+
