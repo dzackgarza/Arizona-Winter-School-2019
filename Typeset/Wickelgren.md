@@ -31,4 +31,4 @@ Topic: $\Af^1$ Enumerative Geometry
 @import "Day 2/5 - Wickelgren 3.md"
 
 # Lecture 4
-@import "Day 4/Notes 2 Wickelgren.md"
+@import "Day 4/2 - Wickelgren 4.md"
