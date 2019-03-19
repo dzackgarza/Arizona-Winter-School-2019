@@ -54,4 +54,4 @@ However, when we repeat our constructions in the world of spectra, this junk ter
 
 Although the objects we're dealing with are unfamiliar, the following theorem lets you manipulate these objects using algebraic techniques.
 
-Theorem (Bokstedt): $THH_\text{odd}(\FF_p) = 0$ and $THH_\text{even} = \FF_p[u]$
+Theorem (Bokstedt): $THH_\text{odd}(\FF_p) = 0$ and $THH_\text{even}(\FF_p) = \FF_p[u]$
