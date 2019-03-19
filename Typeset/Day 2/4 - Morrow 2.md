@@ -30,4 +30,4 @@ The question then becomes: how far can we carry out this process? Is there an ev
   - So we can form cyclic/periodic-cyclic homology and so on, which as we saw earlier involved taking limits over diagrams involving $BS^1$.
 - $\cdots$, some other technical assumptions
 - A differential-graded category
-  - Need some homotopically rich framework
+  - Need some homotopically rich framework since we produced
