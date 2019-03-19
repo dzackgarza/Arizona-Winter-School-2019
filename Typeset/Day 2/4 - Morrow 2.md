@@ -111,5 +111,5 @@ $$
 
 Proof: Using the long exact sequence we have
 $$
-THH_{n-2}(A) \to THH_n(A) \to HH_n(A/\FF_p)
+\cdots \to THH_{n-2}(A) \to THH_n(A) \to HH_n(A/\FF_p) \to \cdots
 $$
