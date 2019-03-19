@@ -77,3 +77,4 @@ THH(A) \underset{THH(\FF_p)} \tensor \FF_p = THH(A) / \generators{u}
 $$
 
 (where this abuse is, to some extent, allowed in this game.)
+
