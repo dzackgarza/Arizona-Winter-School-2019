@@ -71,4 +71,4 @@ $$
 
 which witnesses the fact that $THH(A)$ is strictly richer than $HH(A/\FF_p)$; we can recover the former from the latter.
 
-But reading off the previous theorem, in order to kill all of $THH(\FF_p)$, 
+But reading off the previous theorem, in order to kill all of $THH(\FF_p)$, apart from the initial $\FF_p$ in degree zero, we just have to kill $u$, and so
