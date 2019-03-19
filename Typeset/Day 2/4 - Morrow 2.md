@@ -11,4 +11,4 @@ $$
 
 where we can form this tensor product because $k$ itself is a $\ZZ\dash$algebra.
 
-In order to make sense of the object on the RHS, it is perhaps easiest to view everything as a simplicial ring, which can be tensored together by tensoring
+In order to make sense of the object on the RHS, it is perhaps easiest to view everything as a simplicial ring, which can be tensored together by tensoring what happens term-wise.
