@@ -13,4 +13,7 @@ where we can form this tensor product because $k$ itself is a $\ZZ\dash$algebra.
 
 In order to make sense of the object on the RHS, it is perhaps easiest to view everything as a simplicial ring, which can be tensored together by tensoring what happens term-wise. This will be an on-the-nose equality when some extra flatness conditions are applied; otherwise it will be some equivalence.
 
-To check this equality, note that the LHS is built out of objects of the form $A^{n\tensor_k}$ while the RHS looks like $A^{m\tensor_\ZZ}$
+To check this equality, note that the LHS is built out of objects of the form $A^{n\tensor_k}$ while the RHS looks like 
+$$
+A^{m\tensor_\ZZ} \underset{}{\tensor} k
+$$
