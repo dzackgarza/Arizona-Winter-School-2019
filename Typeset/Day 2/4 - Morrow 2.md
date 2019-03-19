@@ -113,3 +113,5 @@ Proof: Using the long exact sequence we have
 $$
 \cdots \to THH_{n-2}(A) \to THH_n(A) \to HH_n(A/\FF_p) \to \cdots
 $$
+
+We also have the classical isomorphism $TH
