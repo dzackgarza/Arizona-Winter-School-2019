@@ -97,4 +97,4 @@ where we can identify $THH_0, THH_1$ as before and in some sense, the $THH$ are 
 The case in which one can most clearly see the way this builds up is when $A$ is a smooth $k\dash$algebra, where we computed how $HH$ of these looked in the first talk. We have an analogous result:
 
 Theorem ():
-If $A$ is a smooth $\FF_p\dash$algebra then
+If $A$ is a smooth $\FF_p\dash$algebra then $THH_*(A) \cong \Omega_{A/\FF_p}
