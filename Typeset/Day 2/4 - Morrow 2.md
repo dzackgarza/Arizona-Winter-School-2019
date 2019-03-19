@@ -18,4 +18,6 @@ $$
 A^{n\tensor_\ZZ} \underset{m^{\tensor_\ZZ}}{\tensor} k
 $$
 
-where tensoring with $k$ is just by the multiplication map.
+where tensoring with $k$ is just by the multiplication map. The claim is that these two are the same.
+
+There is a map going from the 
