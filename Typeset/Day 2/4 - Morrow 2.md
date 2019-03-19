@@ -94,4 +94,4 @@ $$
 
 where we can identify $THH_0, THH_1$ as before and in some sense, the $THH$ are built up out of multiple copies of $HH$. For example, $THH_2$ gets a contribution from $HH_2$ and $THH_0 = HH_0$. Similarly, $THH_3$ has a contribution from $HH_3$ and $THH_1 = HH_1$. So continuing upwards, each $THH$ encodes some data about all of the lower $HH$ and building them together.
 
-The case in which one can most clearly see the way this builds up is when $A$ is a smooth $k\dash$algebra
+The case in which one can most clearly see the way this builds up is when $A$ is a smooth $k\dash$algebra, where we computed how $HH$ of these looked in the first talk.
