@@ -15,5 +15,5 @@ In order to make sense of the object on the RHS, it is perhaps easiest to view e
 
 To check this equality, note that the LHS is built out of objects of the form $A^{n\tensor_k}$ while the RHS looks like 
 $$
-A^{n_1\tensor_\ZZ} \underset{k^{\tensor_\ZZ}}{\tensor} k
+A^{n_1\tensor_\ZZ} \underset{n_2^{\tensor_\ZZ}}{\tensor} k
 $$
