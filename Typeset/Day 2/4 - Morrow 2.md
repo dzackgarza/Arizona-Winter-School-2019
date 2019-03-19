@@ -64,7 +64,7 @@ $$
 THH(A)[z] \mapsvia{x\mapsto xu} THH(A) \to HH(A/\FF_p)
 $$
 
-The first term is $THH(A)$ shifted by a bit, while what's left on the RHS is the usual $HH$ we saw in earlier lectures. If we're convinced that we can apply the same sort of algebraic manipulations as earlier, we get
+The first term is $THH(A)$ shifted by a bit, while what's left on the RHS is the usual $HH$ we saw in earlier lectures. If we're convinced that the same sort of algebraic manipulations as earlier continues to work in the world of spectra, we get
 $$
-HH(A/\FF_p) = 
+HH(A/\FF_p) = \underset{} \tensor \FF_p
 $$
