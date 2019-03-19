@@ -79,3 +79,5 @@ $$
 (where this abuse is, to some extent, allowed in this game.)
 
 This allows us to study $HH(A/\FF_p)$, which we addressed in earlier lectures, in terms of $THH(A)$ and this class $u$.
+
+If go take homotopy groups, we can see what this buys us in the world of abelian groups
