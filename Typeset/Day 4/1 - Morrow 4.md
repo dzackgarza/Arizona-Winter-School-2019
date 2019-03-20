@@ -200,4 +200,4 @@ A priori, this may depend on choice of lift, so we can't necessarily take this a
 Next time, we'll explain more closely the comparison between $TP$ and crystalline cohomology, and we'll see some analogous statements that arise when we plug in $\Zp\dash$algebras instead of $\FF_p\dash$algebras.
 
 Question 1: Does there always exist a smooth lift of $A$?
-Answer: When you plug in a ring, it's not clear, but it does always exist. This is only an affine statement, and so it will certainly not hold for the case of a projective variety over $\FF_p$.
+Answer: When you plug in a ring, it's not clear, but it does always exist. This is only an affine statement, and so it will certainly not hold for the case of a projective variety over $\FF_p$. But this is precisely the point of crystalline cohomology -- it tells you that in the affine case
