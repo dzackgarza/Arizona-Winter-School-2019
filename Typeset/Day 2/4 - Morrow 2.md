@@ -122,4 +122,4 @@ This may initially look bizarre -- it was very attractive in $HH$ that each grou
 
 # The Periodic Theory $TP(\FF_p)$
 
-Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1}$
+Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1} = HP(\FF_p/\Sp)$ 
