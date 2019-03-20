@@ -215,4 +215,4 @@ Question: Do $TP$ and $THH$ always have etale descent?
 Answer: Yes, even flat descent.
 
 Question: When looking at $HP(A/\FF_p)$, does this use the derived tensor product or the usual one?
-Answer: Every algebra over a field is flat, so they coincide. When taking $HP(\FF_p/\Zp)$
+Answer: Every algebra over a field is flat, so they coincide. When taking $HP(\FF_p/\ZZ)$, then they have to be derived -- in general, everything needs to be derived.
