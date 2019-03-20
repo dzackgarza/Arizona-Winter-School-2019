@@ -143,4 +143,4 @@ $$
 \end{CD}
 $$
 
-Here we just put $THH(\FF_p)$ in each of the columns, where we use the Bokstedt theorem that shows that these vanish in odd degree.
+Here we just put $THH(\FF_p)$ in each of the columns, where we use the Bokstedt theorem that shows that these vanish in odd degree. We also know that there's a copy of $\FF_p[u]$ in each even degree, and we just use the powers to keep track of the multiplicative structure.
