@@ -205,7 +205,7 @@ Answer: When you plug in a ring, it's not clear, but it does always exist. This 
 Question 2: If $A$ is a perfect algebra over $\FF_p$, what are $TP$ and $TH$?
 Answer: Replacing $\FF_p$ by any perfect $\FF_p\dash$algebra $A$ still yields true statement if you replace $\Zp$ by $W(A)$, the ring of Witt vectors over $A$.
 
-Question 3:  Does forming $TP(A)$ commute with base change, like modding out by $p$?
-Answer: No
+Question 3:  Does forming $TP(A)$ commute with base change, like modding out by $p$? Is $TP$ of a lift equal to a lift of $TP$?
+Answer: No, no. More interesting things happen!
 
 Question 4: 
