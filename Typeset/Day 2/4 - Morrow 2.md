@@ -164,5 +164,5 @@ We have $TP(A)\mod p \cong HP(A/\FF_p)$, which is perhaps the big payoff the jus
 
 > Major! This holds for an arbitrary $\FF_p\dash$algebra, so you could plug in some singular ring to get a canonical mixed-characteristic lift of $TP$ in the case. Or as per the original view of $TP$, even for noncommutative rings, it is some replacement of deRham cohomology. Even if you take some noncommutative $\FF_p\dash$algebra, even that has some nice functorial mixed-characteristic lift to $\Zp$.
 
-> Note: as far as Morrow is aware, viewing 
+> Note: as far as Morrow is aware, this point of view of the existence of noncommutative 
 
