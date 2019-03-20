@@ -151,4 +151,4 @@ So $TP_0$ again contains most of the information, which is a completed filtered 
 - We failed, and we just get $\FF_p[[u]]$, or
 - We get $\Zp$.
 
-Fortunately, life is good, and the latter case happens!
+Fortunately, life is good, and the latter case happens! We thus get a theorem, $TP_0(\FF_p) = \Zp$
