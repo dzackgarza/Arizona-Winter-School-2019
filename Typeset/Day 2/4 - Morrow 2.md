@@ -149,4 +149,6 @@ This converges to $TP(\FF_p)$, where we repeat the classical theory and "sum" al
 
 So $TP_0$ again contains most of the information, which is a completed filtered ring with associated graded pieces given by $\FF_p[u]. So the question is how we can add up copies of $\FF_p$ in various degrees and end up with a ring. There are two possibilities:
 - We failed, and we just get $\FF_p[[u]]$, or
-- We get $\Zp$
+- We get $\Zp$.
+
+Fortunately, life is good, and the latter case happens!
