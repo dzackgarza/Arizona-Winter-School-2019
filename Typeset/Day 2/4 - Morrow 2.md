@@ -124,3 +124,18 @@ This may initially look bizarre -- it was very attractive in $HH$ that each grou
 
 Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1}$, where we can think of this as equal to $HP(\FF_p/\Sp)$ where $tS^1$ denotes taking the Tate construction. In the algebraic setup, we defined $HP$ in terms of an explicit double complex which produces a spectral sequence. This sequence converges from the homology of the columns ($HH$) to $HP$. There is similarly a spectral sequence associated to this Tate construction, which can be reindexed to look exactly the same (to the horror of many topologists!)
 
+$$
+\begin{CD}
+  \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
+  @. @VbVV @VbVV @VbVV @VbVV @.\\
+  \cdots @. A^{\tensor_k 4} @<B<< A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< A @. \cdots \\
+  @. @VbVV @VbVV @VbVV @. @.\\
+  \cdots @. A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< A @. \cdot @. \cdots \\
+  @. @VbVV @VbVV @. @. @.\\
+  \cdots @. A^{\tensor_k 2} @<B<< A @. \cdot @. \cdot @. \cdots \\
+  @. @VbVV @. @. @. @.\\
+  \cdots @. A @. \cdot @. \cdot @. \cdot @. \cdots \\
+  @. @. @. @. @. @. \\
+  \rotate{\ddots} @. \vdots @. \vdots @. \vdots @. \vdots @. \ddots
+\end{CD}
+$$
