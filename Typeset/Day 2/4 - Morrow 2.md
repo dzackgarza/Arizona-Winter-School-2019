@@ -143,4 +143,4 @@ $$
 \end{CD}
 $$
 
-Here we just put $THH(\FF_p)$ in each of the columns, where we use the 
+Here we just put $THH(\FF_p)$ in each of the columns, where we use the Bokstedt theorem that shows that these vanish in odd degree.
