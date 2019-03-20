@@ -130,7 +130,7 @@ $$
   @. @VbVV @VbVV @VbVV @VbVV @.\\
   \cdots @. \FF_p[u^2] @<B<< 0 @<B<< \FF_p[u] @<B<< \cdot @. \cdots \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
-  \cdots @. \cdot @<B<< \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdots \\
+  \cdots @. \cdot @<B<< \FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
   \cdots @. \FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdot @. \cdots \\
   @. @VbVV @VbVV @. @. @.\\
