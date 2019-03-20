@@ -180,4 +180,4 @@ $$
 TP(A)[-2] \mapsvia{u} TP(A) \to HP(A/\FF_p).
 $$
 
-We should emphasize at this point that it is not automatic that $TP$ is in fact periodic.
+We should emphasize at this point that it is not automatic that $TP$ is in fact periodic, as this will not hold for an arbitrary ring.
