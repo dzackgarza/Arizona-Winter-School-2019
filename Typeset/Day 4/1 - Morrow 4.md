@@ -209,4 +209,4 @@ Question 3:  Does forming $TP(A)$ commute with base change, like modding out by 
 Answer: No, no. More interesting things happen!
 
 Question 4: Are you making any claims about whether $TP(A)$ has any $p\dash$torsion, like the homotopy groups, when you say it's a mixed-characteristic lift?
-Answer: It doesn't seem like such a claim was made, so what do we mean by "a mixed-characteristic lift"?
+Answer: It doesn't seem like such a claim was made, so what do we mean by "a mixed-characteristic lift"? This means that when you take it derived mod $p$, 
