@@ -175,4 +175,4 @@ $$
 THH(A)[-2] \mapsvia{u} THH(A) \to HH(A/\FF_p)
 $$
 
-and if we carefully choose how we multiply by $u$, this will be compatible with an $S^1$ action 
+and if we carefully choose how we multiply by $u$, this will be compatible with the $S^1$ action manifesting in the cyclic structures everywhere. 
