@@ -129,7 +129,7 @@ $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
   @. @VVV @VVV @VVV @VVV @.\\
-  \cdots @. \color{blue}\FF_p[u^2] @<<< \cdot @<<< \FF_p[u] @<<< \cdot @. \cdots \\
+  \cdots @. \color{blue}\FF_p[u]^2 @<<< \cdot @<<< \FF_p[u] @<<< \cdot @. \cdots \\
   @. @VVV @VVV @VVV @VVV @.\\
   \cdots @. \cdot @<<< \color{blue}\FF_p[u] @<<< \cdot @<<< \FF_p @. \cdots \\
   @. @VVV @VVV @VVV @. @.\\
