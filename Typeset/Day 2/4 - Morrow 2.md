@@ -182,4 +182,4 @@ $$
 
 We should emphasize at this point that it is not automatic that $TP$ is in fact periodic, as this will not hold for an arbitrary ring. In this case, however, since we have $\FF_p\dash$algebras, we read 2-periodicity off of the spectral sequence for $\FF_p$, which lifts to a result for $\FF_p$ algebras $A$.
 
-We in fact have $TP(A)[-2] \mapsvia \cong TP(A)$, and the map $u$ becomes $TP(A) \mapsvia{\times p} TP(A)$.
+We in fact have $TP(A)[-2] \mapsvia \cong TP(A)$, and the map $u$ becomes $TP(A) \mapsvia{\times p} TP(A)$. This was more or less the extension problem we needed to solve earlier.
