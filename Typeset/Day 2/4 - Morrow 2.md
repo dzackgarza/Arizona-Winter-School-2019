@@ -128,7 +128,7 @@ $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
-  \cdots @. \FF_p[u^2] @<B<< \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdots \\
+  \cdots @. \FF_p[u^2] @<B<< 0 @<B<< 0 @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
   \cdots @. 0 @<B<< \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
