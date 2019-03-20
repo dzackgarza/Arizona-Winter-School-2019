@@ -147,4 +147,4 @@ Here we just put $THH(\FF_p)$ in each of the columns, where we use the Bokstedt 
 
 This converges to $TP(\FF_p)$, where we repeat the classical theory and "sum" along the diagonals, although we need to solve some extension problems. In particular, the blue terms yield $TP_0(\FF_p)$. This is because there are no nontrivial differentials -- since it's only supported in even bidegree, every differential either comes from something zero or targets a zero.
 
-So $TP_0$ again contains most of the information, which is a completed filtered ring with associated graded pieces given by the blue diagonal.
+So $TP_0$ again contains most of the information, which is a completed filtered ring with associated graded pieces given by $\FF_p[u].
