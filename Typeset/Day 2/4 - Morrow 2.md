@@ -172,5 +172,5 @@ which is perhaps the big payoff the justifies that we haven't messed up too badl
 Proof:
 From Bokstedt's theorem, we had an exact sequence
 $$
-THH(A)[-2]
+THH(A)[-2] \mapsvia{u} THH(A) \to HH(A/\FF_p)
 $$
