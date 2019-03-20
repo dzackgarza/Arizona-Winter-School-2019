@@ -130,9 +130,9 @@ $$
   @. @VbVV @VbVV @VbVV @VbVV @.\\
   \cdots @. A^{\tensor_k 4} @<B<< A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< A @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
-  \cdots @. A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< A @. \cdot @. \cdots \\
+  \cdots @. A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< \FF_p @. \cdot @. \cdots \\
   @. @VbVV @VbVV @. @. @.\\
-  \cdots @. A^{\tensor_k 2} @<B<< A @. \cdot @. \cdot @. \cdots \\
+  \cdots @. A^{\tensor_k 2} @<B<< \FF_p @. \cdot @. \cdot @. \cdots \\
   @. @VbVV @. @. @. @.\\
   \cdots @. \FF_p @. \cdot @. \cdot @. \cdot @. \cdots \\
   @. @. @. @. @. @. \\
