@@ -54,7 +54,8 @@ However, when we repeat our constructions in the world of spectra, this junk ter
 
 Although the objects we're dealing with are unfamiliar, the following theorem lets you manipulate these objects using algebraic techniques.
 
-Theorem (Bokstedt): $THH_\text{odd}(\FF_p) = 0$ and $THH_\text{even}(\FF_p) = \FF_p[u]$ where $u\in THH_2(FF_p)$
+**Theorem (Bokstedt):** 
+$THH_\text{odd}(\FF_p) = 0$ and $THH_\text{even}(\FF_p) = \FF_p[u]$ where $u\in THH_2(FF_p)$
 
 The first part comes from computing the homotopy groups of the spectrum (and the result is something we also saw for HH), while the second part is due to the fact that $THH_2$ is a one-dimensional $\FF_p\dash$vector space, so we can just pick a generator and then multiplication is given in a polynomial fashion.
 
