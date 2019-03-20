@@ -174,3 +174,5 @@ From Bokstedt's theorem, we had an exact sequence
 $$
 THH(A)[-2] \mapsvia{u} THH(A) \to HH(A/\FF_p)
 $$
+
+and if one chooses the 
