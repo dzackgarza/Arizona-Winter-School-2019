@@ -157,4 +157,6 @@ In particular, we have a class $u\in \FF_p[u]$, which is going to give us some e
 As it turns out, $THH$ is surprisingly close to classical $HH$ in very low degrees, and so in the degrees that control this extension problem, you can work with and resolve this at the level of classical $HH$. This gives you exactly the amount of information needed to determine which way $u$ acts.
 
 
-Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$. 
+Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$.
+
+But in fact, the spectral sequence is period
