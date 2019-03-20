@@ -128,15 +128,15 @@ Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1}$, where we can t
 $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
-  @. @VbVV @VbVV @VbVV @VbVV @.\\
+  @. @VVV @VVV @VVV @VVV @.\\
   \cdots @. \color{blue}\FF_p[u^2] @<B<< \cdot @<B<< \FF_p[u] @<B<< \cdot @. \cdots \\
-  @. @VbVV @VbVV @VbVV @VbVV @.\\
+  @. @VVV @VVV @VVV @VVV @.\\
   \cdots @. \cdot @<B<< \color{blue}\FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdots \\
-  @. @VbVV @VbVV @VbVV @. @.\\
+  @. @VVV @VVV @VVV @. @.\\
   \cdots @. \FF_p[u] @<B<< \cdot @<B<< \color{blue}\FF_p @. \cdot @. \cdots \\
-  @. @VbVV @VbVV @. @. @.\\
+  @. @VVV @VVV @. @. @.\\
   \cdots @. \cdot @<B<< \FF_p @. \cdot @. \cdot @. \cdots \\
-  @. @VbVV @. @. @. @.\\
+  @. @VVV @. @. @. @.\\
   \cdots @. \FF_p @. \cdot @. \cdot @. \cdot @. \cdots \\
   @. @. @. @. @. @. \\
   \rotate{\ddots} @. \vdots @. \vdots @. \vdots @. \vdots @. \ddots
