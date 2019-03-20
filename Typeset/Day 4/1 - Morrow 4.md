@@ -197,4 +197,4 @@ where $\widetilde A$ is any smooth algebra over $\Zp$ lifting $A$.
 
 A priori, this may depend on choice of lift, so we can't necessarily take this as a definition of crystalline cohomology. It turns out not to depend on choice, and one way to see that is by comparing to what happens in $TP$, although this is perhaps overkill.
 
-Next time,
+Next time, we'll explain more closely the comparison between $TP$ and crystalline cohomology,
