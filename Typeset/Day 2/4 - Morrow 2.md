@@ -158,7 +158,8 @@ As it turns out, $THH$ is surprisingly close to classical $HH$ in very low degre
 
 But in fact, the spectral sequence is period, and so what happens along this diagonal happens along every diagonal, and we thus obtain the theorem $TP_*(\FF_p) = \Zp[\sigma^{\pm 1}]$ where $\sigma$ is any generator of the free $\Zp\dash$module $TP_2(\FF_p)$. So it's a nice, 2-periodic cohomology theory.
 
-Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$.
+Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$. We now look at the consequences for such an $A$.
+
 
 
 
