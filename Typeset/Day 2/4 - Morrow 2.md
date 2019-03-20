@@ -153,4 +153,4 @@ So $TP_0$ again contains most of the information, which is a completed filtered 
 
 Fortunately, life is good, and the latter case happens! We thus get a theorem, $TP_0(\FF_p) = \Zp$. Checking this isn't terribly difficult.
 
-In particular, we have a class $u\in \FF_p[u]$, which is going to give us some element in the first step of the filtration of $TP_0$
+In particular, we have a class $u\in \FF_p[u]$, which is going to give us some element in the first step of the filtration of $TP_0$. Either it is getting sent to an element of $TP_0$ which is killed by $p$.
