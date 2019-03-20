@@ -96,7 +96,7 @@ where we can identify $THH_0, THH_1$ as before and in some sense, the $THH$ are 
 
 The case in which one can most clearly see the way this builds up is when $A$ is a smooth $k\dash$algebra, where we computed how $HH$ of these looked in the first talk. We have an analogous result:
 
-Theorem (Hesselholt's Hochschild-Kostent-Rosenburg):
+**Theorem (Hesselholt's Hochschild-Kostent-Rosenburg):**
 If $A$ is a smooth $\FF_p\dash$algebra then 
 $$
 THH_*(A) \cong \Omega^*_{A/\FF_p} \underset{\FF_p[u]}\tensor \FF_p[u]
@@ -142,4 +142,4 @@ $$
 \end{CD}
 $$
 
-Here we just put $THH(\FF_p)$ in each of the columns
+Here we just put $THH(\FF_p)$ in each of the columns, where we use the 
