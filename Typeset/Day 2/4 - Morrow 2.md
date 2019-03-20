@@ -160,7 +160,8 @@ But in fact, the spectral sequence is period, and so what happens along this dia
 
 Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$. We now look at the consequences for such an $A$.
 
-We have $TP(A)\mod p \cong HP(A/\FF_p)$, which is perhaps the big payoff the justifies that we haven't messed up too badly. In particular, if $A$ is a smooth algebra, $HP$ is related to the deRham cohomology. This says that $TP(A)$ is a mixed characteristic lift of $HP(A/\FF_p)$. We know that $TP(A)$ lives over $TP(\FF_p)$, which has $\pi_0 = \Zp$, and so $TP(A)$ lives of $\Zp$, so this produces some sort of functorial lift which will turn out to be crystalline cohomology.
+Theorem:
+$TP(A)\mod p \cong HP(A/\FF_p)$, which is perhaps the big payoff the justifies that we haven't messed up too badly. In particular, if $A$ is a smooth algebra, $HP$ is related to the deRham cohomology. This says that $TP(A)$ is a mixed characteristic lift of $HP(A/\FF_p)$. We know that $TP(A)$ lives over $TP(\FF_p)$, which has $\pi_0 = \Zp$, and so $TP(A)$ lives of $\Zp$, so this produces some sort of functorial lift which will turn out to be crystalline cohomology.
 
 > Major! This holds for an arbitrary $\FF_p\dash$algebra, so you could plug in some singular ring to get a canonical mixed-characteristic lift of $TP$ in the case. Or as per the original view of $TP$, even for noncommutative rings, it is some replacement of deRham cohomology. Even if you take some noncommutative $\FF_p\dash$algebra, even that has some nice functorial mixed-characteristic lift to $\Zp$.
 
