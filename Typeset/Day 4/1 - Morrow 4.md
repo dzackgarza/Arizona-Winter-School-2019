@@ -208,4 +208,4 @@ Answer: Replacing $\FF_p$ by any perfect $\FF_p\dash$algebra $A$ still yields tr
 Question 3:  Does forming $TP(A)$ commute with base change, like modding out by $p$? Is $TP$ of a lift equal to a lift of $TP$?
 Answer: No, no. More interesting things happen!
 
-Question 4: Are you making any claims about whether $TP(A)$ has any $p\dash$torsion? Like the homotopy groups  
+Question 4: Are you making any claims about whether $TP(A)$ has any $p\dash$torsion, like the homotopy groups, when you say it's a mixed-characteristic lift?
