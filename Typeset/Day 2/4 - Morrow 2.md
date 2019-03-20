@@ -128,9 +128,9 @@ $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
-  \cdots @. A^{\tensor_k 4} @<B<< A^{\tensor_k 3} @<B<< A^{\tensor_k 2} @<B<< \FF_p @. \cdots \\
+  \cdots @. A^{\tensor_k 4} @<B<< A^{\tensor_k 3} @<B<< 0 @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
-  \cdots @. A^{\tensor_k 3} @<B<< 0} @<B<< \FF_p @. \cdot @. \cdots \\
+  \cdots @. A^{\tensor_k 3} @<B<< 0 @<B<< \FF_p @. \cdot @. \cdots \\
   @. @VbVV @VbVV @. @. @.\\
   \cdots @. 0 @<B<< \FF_p @. \cdot @. \cdot @. \cdots \\
   @. @VbVV @. @. @. @.\\
