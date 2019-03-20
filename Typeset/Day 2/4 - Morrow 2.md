@@ -129,13 +129,13 @@ $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
   @. @VVV @VVV @VVV @VVV @.\\
-  \cdots @. \color{blue}\FF_p[u^2] @<B<< \cdot @<B<< \FF_p[u] @<B<< \cdot @. \cdots \\
+  \cdots @. \color{blue}\FF_p[u^2] @<<< \cdot @<<< \FF_p[u] @<<< \cdot @. \cdots \\
   @. @VVV @VVV @VVV @VVV @.\\
-  \cdots @. \cdot @<B<< \color{blue}\FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdots \\
+  \cdots @. \cdot @<<< \color{blue}\FF_p[u] @<<< \cdot @<<< \FF_p @. \cdots \\
   @. @VVV @VVV @VVV @. @.\\
-  \cdots @. \FF_p[u] @<B<< \cdot @<B<< \color{blue}\FF_p @. \cdot @. \cdots \\
+  \cdots @. \FF_p[u] @<<< \cdot @<<< \color{blue}\FF_p @. \cdot @. \cdots \\
   @. @VVV @VVV @. @. @.\\
-  \cdots @. \cdot @<B<< \FF_p @. \cdot @. \cdot @. \cdots \\
+  \cdots @. \cdot @<<< \FF_p @. \cdot @. \cdot @. \cdots \\
   @. @VVV @. @. @. @.\\
   \cdots @. \FF_p @. \cdot @. \cdot @. \cdot @. \cdots \\
   @. @. @. @. @. @. \\
