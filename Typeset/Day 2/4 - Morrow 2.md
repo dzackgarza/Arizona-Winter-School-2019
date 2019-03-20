@@ -131,9 +131,9 @@ $$
   @. @VbVV @VbVV @VbVV @VbVV @.\\
   \cdots @. \FF_p[u^2] @<B<< \cdot @<B<< \FF_p[u] @<B<< \cdot @. \cdots \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
-  \cdots @. \cdot @<B<< \FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdots \\
+  \cdots @. \cdot @<B<< \color{blue}\FF_p[u] @<B<< \cdot @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
-  \cdots @. \FF_p[u] @<B<< \cdot @<B<< x\FF_p @. \cdot @. \cdots \\
+  \cdots @. \FF_p[u] @<B<< \cdot @<B<< \color{blue}\FF_p @. \cdot @. \cdots \\
   @. @VbVV @VbVV @. @. @.\\
   \cdots @. \cdot @<B<< \FF_p @. \cdot @. \cdot @. \cdots \\
   @. @VbVV @. @. @. @.\\
