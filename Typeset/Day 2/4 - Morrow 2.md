@@ -175,4 +175,4 @@ $$
 THH(A)[-2] \mapsvia{u} THH(A) \to HH(A/\FF_p)
 $$
 
-and if one chooses the 
+and if one chooses how we multiply by $u$ 
