@@ -160,6 +160,6 @@ But in fact, the spectral sequence is period, and so what happens along this dia
 
 Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$. We now look at the consequences for such an $A$.
 
-We have $TP(A)\mod p \cong HP(A/\FF_p)$, which is perhaps the big payoff the justifies that we haven't messed up too badly. In particular, if $A$ is a smooth algebra, $HP$ is related to the deRham cohomology. This says that $TP(A)$ is a mixed characteristic lift of $HP(A/\FF_p)$. We know that $TP(A)$ lives over $TP(\FF_p)$,  
+We have $TP(A)\mod p \cong HP(A/\FF_p)$, which is perhaps the big payoff the justifies that we haven't messed up too badly. In particular, if $A$ is a smooth algebra, $HP$ is related to the deRham cohomology. This says that $TP(A)$ is a mixed characteristic lift of $HP(A/\FF_p)$. We know that $TP(A)$ lives over $TP(\FF_p)$, which has $\pi_0 = \Zp$ 
 
 
