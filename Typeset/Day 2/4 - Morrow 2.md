@@ -122,7 +122,7 @@ This may initially look bizarre -- it was very attractive in $HH$ that each grou
 
 # The Periodic Theory $TP(\FF_p)$
 
-Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1}$, where we can think of this as equal to $HP(\FF_p/\Sp)$ where $tS^1$ denotes taking the Tate construction. In the algebraic setup, we defined $HP$ in terms of an explicit double complex which produces a spectral sequence. This sequence converges from the homology of the columns ($HH$) to $HP$. There is similarly a spectral sequence associated to this Tate construction, which can be reindexed to look exactly the same (to the horror of many topologists!)
+Recall that this was obtained as $TP(\FF_p) = THH(\FF_p)^{tS^1}$, where we can think of this as equal to $HP(\FF_p/\Sp)$ where $tS^1$ denotes taking the Tate construction. In the algebraic setup, we defined $HP$ in terms of an explicit double complex which produces a spectral sequence. This sequence converges from the homology of the columns ($HH$) to $HP$. There is similarly a spectral sequence associated to this Tate construction, which can be reindexed to look exactly the same (to the horror of many topologists):
 
 $$
 \begin{CD}
