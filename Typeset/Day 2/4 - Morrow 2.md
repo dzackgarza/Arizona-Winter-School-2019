@@ -153,4 +153,4 @@ So $TP_0$ again contains most of the information, which is a completed filtered 
 
 Fortunately, life is good, and the latter case happens! We thus get a theorem, $TP_0(\FF_p) = \Zp$. Checking this isn't terribly difficult.
 
-In particular, we have
+In particular, we have an element $u\in \FF_p[u]$
