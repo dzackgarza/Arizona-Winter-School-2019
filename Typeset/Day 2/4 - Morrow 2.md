@@ -176,6 +176,6 @@ THH(A)[-2] \mapsvia{u} THH(A) \to HH(A/\FF_p)
 $$
 
 and if we carefully choose how we multiply by $u$, this will be compatible with the $S^1$ action manifesting in the cyclic structures everywhere. We can this apply $tS^1$ everywhere, which is an exact functor, yielding
- $$
+$$
 TP(A)[-2] \mapsvia{u} TP(A) \to HP(A/\FF_p)
 $$
