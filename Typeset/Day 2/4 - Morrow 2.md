@@ -156,7 +156,7 @@ Fortunately, life is good, and the latter case happens! We thus get a theorem, $
 In particular, we have a class $u\in \FF_p[u]$, which is going to give us some element in the first step of the filtration of $TP_0$. Either it is getting sent to an element of $TP_0$ which is killed by $p$, according to the first case, or it's getting sent to some multiple of $p$ (note that $TP_0$ is in fact a ring, so it could get sent to $p$). So we only need to look at where $u$ goes in this very low degree part of the spectral sequence.
 As it turns out, $THH$ is surprisingly close to classical $HH$ in very low degrees, and so in the degrees that control this extension problem, you can work with and resolve this at the level of classical $HH$. This gives you exactly the amount of information needed to determine which way $u$ acts.
 
-But in fact, the spectral sequence is period, and so what happens along this diagonal happens along every diagonal, and we thus obtain the theorem $TP_*(\FF_p) = \Zp[]\sigma^{\pm 1}$ where $\sigma$ is 
+But in fact, the spectral sequence is period, and so what happens along this diagonal happens along every diagonal, and we thus obtain the theorem $TP_*(\FF_p) = \Zp[]\sigma^{\pm 1}$ where $\sigma$ is any generator of the free $\Zp\dash$module $TP_2(\FF_p)$
 
 
 Now similarly, as from Bokstedt's theorem we got a consequence for arbitrary $\FF_p\dash$algebras, we will similarly find some consequence for $TP(A)$ for $A$ and arbitrary $\FF_p\dash$algebra just by knowing what happens in $TP(\FF_p)$.
