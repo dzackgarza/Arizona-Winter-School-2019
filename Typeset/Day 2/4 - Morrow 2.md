@@ -170,3 +170,7 @@ which is perhaps the big payoff the justifies that we haven't messed up too badl
 > Note: as far as Morrow is aware, this point of view of the existence of noncommutative crystalline cohomology has not been explore.
 
 Proof:
+From Bokstedt's theorem, we had an exact sequence
+$$
+THH(A)[-2]
+$$
