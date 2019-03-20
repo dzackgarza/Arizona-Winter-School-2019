@@ -118,4 +118,4 @@ We also have the classical HKR isomorphism $HH_n(A/\FF_p) \cong \Omega^n_{A/\FF_
 
 But then $THH_n \surjects HH_n$, which means that the LES breaks into SESs by using the surjectivity at the $n$ and $n+1$ levels and adding zeros at the sides of level $n$. The result will then follow by induction, since we already have the result in degrees 0 and 1. As we run up the sequence, we'll find that as long as $THH_{n-2}$ is described by the sum above, then in order to pass to $THH_n$, we just need to add a copy of $\Omega_n$.
 
-This may initially look bizarre -- it was very attractive in $HH$ that each group was just given by a bunch of differential forms in the expected degree, while here we have them shifted in different degrees.
+This may initially look bizarre -- it was very attractive in $HH$ that each group was just given by a bunch of differential forms in the expected degree, while here we have them shifted in different degrees. This actually works out perfectly. We'll look at topological periodic cyclic homology in a moment
