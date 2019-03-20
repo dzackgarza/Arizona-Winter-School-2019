@@ -142,4 +142,4 @@ $$
 \end{CD}
 $$
 
-Here we just put $
+Here we just put $THH(\FF_p)$ in each of the columns
