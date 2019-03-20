@@ -134,7 +134,7 @@ $$
   @. @VbVV @VbVV @. @. @.\\
   \cdots @. A^{\tensor_k 2} @<B<< A @. \cdot @. \cdot @. \cdots \\
   @. @VbVV @. @. @. @.\\
-  \cdots @. A @. \cdot @. \cdot @. \cdot @. \cdots \\
+  \cdots @. \FF_p @. \cdot @. \cdot @. \cdot @. \cdots \\
   @. @. @. @. @. @. \\
   \rotate{\ddots} @. \vdots @. \vdots @. \vdots @. \vdots @. \ddots
 \end{CD}
