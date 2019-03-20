@@ -145,4 +145,4 @@ $$
 
 Here we just put $THH(\FF_p)$ in each of the columns, where we use the Bokstedt theorem that shows that these vanish in odd degree. We also know that there's a copy of $\FF_p[u]$ in each even degree, and we just use the powers to keep track of the multiplicative structure.
 
-This converges to $TP(\FF_p)$, where we repeat the classical theory and "sum" along the diagonals, although we need to solve some extension problems.
+This converges to $TP(\FF_p)$, where we repeat the classical theory and "sum" along the diagonals, although we need to solve some extension problems. In particular, the blue terms yield $TP_0(\FF_p)$
