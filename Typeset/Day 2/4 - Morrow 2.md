@@ -184,6 +184,10 @@ We should emphasize at this point that it is not automatic that $TP$ is in fact 
 
 We in fact have $TP(A)[-2] \mapsvia \cong TP(A)$, and the map $u$ becomes $TP(A) \mapsvia{\times p} TP(A)$. This was more or less the extension problem we needed to solve earlier, where we have to check that $u\mapsto p \in TP_0$. Thus if you mod out $p$ from $TP(A)$, then you collapse an $HP$, yielding the original statement.
 
-For example, if $A$ is smooth over $\FF_p$, then $TP(A)$ will look like crystalline cohomology $R\Gamma_\text{crys}(A/\Zp) \definedas \Omega^\wait_{\widetilde{A}/\FF_p}$ where $\widetilde A$ is any smooth algebra over $\Zp$ lifting $A$. 
+For example, if $A$ is smooth over $\FF_p$, then $TP(A)$ will look like crystalline cohomology 
+$$
+R\Gamma_\text{crys}(A/\Zp) \definedas \Omega^\wait_{\widetilde{A}/\FF_p}
+$$ 
+where $\widetilde A$ is any smooth algebra over $\Zp$ lifting $A$. 
 
 A priori, this may depend on choice of lift, so we can't necessarily take this as a definition of crystalline cohomology. The
