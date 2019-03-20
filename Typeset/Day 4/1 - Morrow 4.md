@@ -212,4 +212,4 @@ Question 4: Are you making any claims about whether $TP(A)$ has any $p\dash$tors
 Answer: It doesn't seem like such a claim was made, so what do we mean by "a mixed-characteristic lift"? This means that when you take it derived mod $p$, you recover the RHS, but a priori there's no reason there couldn't also be some $p\dash$torsion in $TP$. In fact, even in the theory of crystalline cohomology, given a smooth projective variety over $\FF_p$, you can see some torsion phenomena happening in $R\Gamma_\text{crys}$ over $\Zp$. You'll see that $TP$ is in fact built out of copies of $R\Gamma_\text{crys}$, which could contain torsion -- in some sense, this is not well-understood.
 
 Question: Do $TP$ and $THH$ always have etale descent?
-Answer: Yes.
+Answer: Yes, even flat descent.
