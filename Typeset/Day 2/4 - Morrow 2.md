@@ -128,7 +128,7 @@ $$
 \begin{CD}
   \ddots @. \vdots @. \vdots @. \vdots @. \vdots @. ~\rotate{\ddots} \\
   @. @VbVV @VbVV @VbVV @VbVV @.\\
-  \cdots @. A^{\tensor_k 4} @<B<< \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdots \\
+  \cdots @. 0 @<B<< \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdots \\
   @. @VbVV @VbVV @VbVV @. @.\\
   \cdots @. \FF_p[u] @<B<< 0 @<B<< \FF_p @. \cdot @. \cdots \\
   @. @VbVV @VbVV @. @. @.\\
