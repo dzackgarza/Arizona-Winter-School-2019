@@ -222,3 +222,17 @@ Although there was choice, since our section was determined not by $L$ but rathe
 $$
 \deg_L(\sigma) = \Tr_{k(L) / k}\generators{\lambda-\mu}.
 $$
+
+We thus obtain a theorem:
+
+**Theorem**:
+
+\begin{align*}
+\sum_{\quad L \suchthat \\ L \intersect L_i \neq\emptyset}\Tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
+.\end{align*}
+
+# Where Things Are Going
+- Gromov-Witten invariants with Jake and Jesse
+- Welschinger invariants, Mark Levine
+
+These produce more than just the 1s appearing in $h$, and have ties to things like modular forms. $\qed$
