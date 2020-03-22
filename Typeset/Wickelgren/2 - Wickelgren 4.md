@@ -14,18 +14,21 @@ $$
 
 where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 
-Definition
-: A bundle $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$ yields a generator.
+Definition (Orientation of a Bundle)
+: A **bundle** $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$ yields a generator.
 
-**Example**: This occurs when all transitions functions have positive determinant. Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
+Example
+:   This occurs when all transitions functions have positive determinant.
+    Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
 
-\begin{align*}
-\theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} > 0
-\end{align*}
+    \begin{align*}
+    \theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} > 0
+    \end{align*}
 
-if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
+    if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
 
-**Definition**: A **space** $X$ is **oriented** iff its tangent space $TX$ is oriented.
+Definition (Orientation of Spaces)
+: A **space** $X$ is **oriented** iff its tangent space $TX$ is oriented.
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
 
