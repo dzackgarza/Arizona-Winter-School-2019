@@ -53,3 +53,23 @@ This can be computed by a complex (as in Morel's book):
 .\end{align*}
 
 where $k(z)$ is the function field, and since $z$ has a generic point, we can take the highest wedge power of the tangent space of $X$ at $z$ to yield the determinant term, which serves as an added twist. This explains why elements of the oriented Chow are formal combinations of codimension $i$ subvarieties $z\in X^{(i)}$ and a bilinear form over $k(z)$, $B\in GW(k(z))$.
+
+There's structure here -- Fasel developed ring structure and pushforwards, while in the context of enumerative geometry, Mark Levine works with these. All in all, we have pullbacks, pushforwards, a noncommutative ring structure, and we can twist these groups as well.
+
+## Twisted Chow
+
+First we'll define the twists appearing in the complex above, and then we can define how to do twisted Chow so we can do pushforwards.
+
+If $E$ is a field of finite type over $k$, then $K^{MW}_i(E; \Lambda)$ ("twisted by $\Lambda$") where $\Lambda$ is a 1-dimensional $E\dash$vector space can be defined as
+$$
+K^{MW}_i(E) \underset{\ZZ[E^\times]}\tensor \ZZ[\Lambda - \theset{0}]
+$$
+
+since $E^\times$ acts of the LHS due to the bracket $E$ in the Grothendieck-Witt group, and the RHS is possible because we can act on the nonzero elements of the vector space.
+
+We can also twist by line bundles $L \to X$, leading to a definition of **oriented Chow groups twisted by local coefficients** via $\widetilde{CH}{}^i(X; L) \definedas H^i(X; K^{MW}_i(L))$ where we just take $K\dash$Milnor-Witt and twist by $L$.
+
+For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforward map
+$$
+f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
+$$
