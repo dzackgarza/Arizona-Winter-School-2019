@@ -162,12 +162,14 @@ This will allow us to do with schemes much of what we can do in $\mathbf{Top}$. 
 
 > Remark: in my notation I use $\RP^n, \CP^n$, and $\PP^n(k)$ to denote various projective spaces. I'll adopt Kirsten's convention here and just denote $\PP^n(k)$ as $\PP^n$.
 
-We'll get spheres from $S_\Af^n \definedas \PP^n/\PP^{n-1}$.. One nice result due to Morel is that there is a degree map
+We'll get spheres from $S_\Af^n \definedas \PP^n/\PP^{n-1}$.
+One nice result due to Morel is that there is a degree map
 $$
 [S_\Af^n, S_\Af^n] \to GW(k),
 $$
 
-where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms.
+where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2.
+It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms.
 
 Thus the group itself is the group completion of nondegenerate symmetric isomorphism classes of bilinear forms $V^2 \to k$ where $V$ is a finite-dimensional $k\dash$vector space.
 
