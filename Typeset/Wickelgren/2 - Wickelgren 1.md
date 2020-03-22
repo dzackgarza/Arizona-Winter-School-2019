@@ -202,13 +202,13 @@ Example (Computing $GW(\CC)$)
 
   which is realized by taking the rank.
 
-**Example:** $GW(\RR)$.
-We still have the rank, but now we can also take the signature, so we have
-$$
-GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,
-$$
+Example ($GW(\RR)$)
+: We still have the rank, but now we can also take the signature, so we have
+  $$
+  GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,
+  $$
 
-although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
+  although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
 **Example:** $GW(\FF_q)$.
 We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
