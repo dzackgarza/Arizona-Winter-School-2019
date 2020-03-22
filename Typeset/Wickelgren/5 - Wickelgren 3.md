@@ -146,7 +146,11 @@ where the numerator is localized at zero. Since the zero was isolated in its fib
 A question Eisenbud was whether or not this whole form could be used as a degree over an arbitrary field $k$, not just its signature. So does it have an interpretation in algebraic topology? The answer is that it does, as a local degree in $\Af^1$ homotopy theory (which wasn't around at the time).
 
 Theorem (Kass-Wickelgren)
-: $\underset 0 \deg^{\Af^1}(f) = \omega^{EKL}$, constructed in the same way.
+:   \hfill
+    $$
+    \underset 0 \deg^{\Af^1}(f) = \omega^{EKL}
+    ,$$
+    constructed in the same way.
 
 This works for any rational point, and one of the projects is to remove the hypothesis that $k(x) = k$.
 
