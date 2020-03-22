@@ -4,7 +4,6 @@ author: Talks by Kirsten Wickelgren, Transcribed by D. Zack Garza
 date: March 9, 2019
 ---
 
-
 !include Wickelgren/1 Wickelgren.md
 
 !include Wickelgren/2 Wickelgren.md
