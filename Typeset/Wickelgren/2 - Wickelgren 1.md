@@ -180,9 +180,9 @@ Bilinear forms over fields can all be diagonalized, although in characteristic 2
 ## The Grothendieck-Witt Group
 Since we can diagonalize, the group $GW(k)$ has a presentation coming from the one dimensional forms. Any of these work as a generator, so we have
 
-- Generators: $<a>$ where $a\in k^\times$, corresponding to the form
+- Generators: $\generators{a}$ where $a\in k^\times$, corresponding to the form
   \begin{align*}
-  <a> : k^2 &\to k\\
+  \generators{a} : k^2 &\to k\\
   (x,y) &\mapsto axy
   .\end{align*}
 
