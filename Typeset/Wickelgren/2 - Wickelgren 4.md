@@ -85,6 +85,7 @@ Example
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
 
 ## Computing Euler Classes for Relatively Orientable Bundles
+
 > Joint with Jesse Kass
 
 In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only isolated zeros and use the same definition of $e(V)$, which will land in the Grothendieck-Witt group $GW(k)$ instead of $\ZZ$.
