@@ -56,10 +56,6 @@ $$
 $$ where the fiber over the point corresponding to $W$ is all of the cubic polynomials on $W$, i.e. $$(\sym^3 S)\dual_W = (\sym^3 W)\dual.$$
 
 Explicitly, we have the following two bundles to work with:
-$$
-W \to &S \to \Gr(1,3) \\
-(\sym^3 W)\dual \to &(\sym^3 S)\dual \to \Gr(1,3)
-$$
 
 \begin{center}
 \begin{tikzcd}
