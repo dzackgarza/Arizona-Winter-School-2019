@@ -8,6 +8,6 @@ date: March 9, 2019
 
 !include Wickelgren/2 - Wickelgren 2.md
 
-<!--!include Wickelgren/5 - Wickelgren 3.md-->
+!include Wickelgren/5 - Wickelgren 3.md
 
 <!--!include Wickelgren/2 - Wickelgren 4.md-->
