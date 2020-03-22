@@ -195,7 +195,10 @@ One definition of the Milnor number is that in any such family, it counts the nu
 
 Let $k=\CC$, then a result of Milnor says that for any sufficiently small $a_1, \cdots, a_n$, the family $P$ contains $\mu(p)$ nodes, where $\mu$ denotes taking the Milnor number.
 
-To find nodes, one can look at the gradient and see where all of the coefficients of the linear terms vanish. What remains is $o(x_i^2)$, so we're looking for zeros of the gradient, which requires looking at the inverse image of the gradient, so we're picking up the degree of the gradient. This gives us another definition, $\mu(p) = \deg(\grad f)(p)$.
+To find nodes, one can look at the gradient and see where all of the coefficients of the linear terms vanish. What remains is $o(x_i^2)$, so we're looking for zeros of the gradient, which requires looking at the inverse image of the gradient, so we're picking up the degree of the gradient. This gives us another definition,
+$$
+\mu(p) = \deg(\grad f)(p)
+.$$
 
 However, when $k\neq \CC$ and generally not algebraically closed, nodes have interesting information, including arithmetic data.
 
