@@ -98,3 +98,51 @@ So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ tha
 Note that we don't actually need the immersion condition here, since the $\Af^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\Af^d$. However, we could just add something from a really high power of the maximal ideal, and it can be shown that $\sigma$ is pulled back from $\Af^d$. These choices don't affect the outcome, so the assumption is not necessary by "finite determinacy of $\deg_p$".
 
 > Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
+
+# Relations to Chow Groups
+
+Other perspectives:
+
+Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$.
+> Note that you can use $V$ or $-V$ here, since the action of $GW$ has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn't effect the oriented chow groups.
+
+It is defined as follows:
+
+There is a distinguished element $\generators{1}\in \widetilde{\text{Ch}}{}^0(X)$ which is determined by a complex
+$$
+\cdots \to \bigoplus_{z\in X^{(0)}} GW(k(Z), \det T_zX) \to \bigoplus_{z\in X^{(-1)}} GW(k(Z), \det T_zX)
+$$
+
+where $X^{(0)}$ are reduced irreducible subschemes of $X$, and the RHS disappears because it's the generic point.
+
+In Algebraic Topology, the definition of the Thom class involves a canonical map $\text{Th}(-V)\to X$, making the class land in $H^0(\text{Th}(-V)$ which under the Thom isomorphism gives something in $H^r$ with a twist. An analog in this setting is the following pushforward.
+
+Let $\sigma$ denote the zero section of $V\covers X$, then there is a pushforward map
+$$
+\sigma_*: \widetilde{\text{Ch}}{}^0(X) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
+$$
+
+where the source with ordinarily have a twist by the canonical, but when pulled back it will disappear.
+
+> Note: the difference between the canonical bundle of $V$ and the twist we had to do to get rid of $X$ is like the difference between $TV$ and $TX$, yielding the determinant appearing on the RHS.
+
+The map $p$ also yields an isomorphism
+$$
+p^*: \widetilde{\text{Ch}}{}^r(X, \det V) \to \widetilde{\text{Ch}}{}^r(V, \det p^* V)
+$$
+
+and so we define
+$$
+e(V) \definedas (p^*)^{-1}\sigma_*(\generators{1}).
+$$
+
+If $V \surjects X$ is relatively oriented, there is a map $X \mapsvia \pi \spec(k)$ and so $\pi_* e(V) \in GW(k)$.
+
+Other perspectives
+
+- There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit ($\generators{a}$)
+- A six functor formalism
+- Mike Hopkins
+- Raxit and Levine?
+
+# Example Computations
