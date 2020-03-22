@@ -124,6 +124,7 @@ Note that we don't actually need the immersion condition here, since the $\Af^1$
 Other perspectives:
 
 Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$.
+
 > Note that you can use $V$ or $-V$ here, since the action of $GW$ has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn't effect the oriented chow groups.
 
 It is defined as follows:
