@@ -96,7 +96,7 @@ $$
 
 where $\tau$ is the choice of the Nisnevich topology, and so we'll call $\text{Spc}_k$ our $\Af^1$ homotopy theory.
 
-# Making Spheres
+## Making Spheres
 
 Given two pointed spaces $X, Y$, we have
 $$
@@ -144,7 +144,7 @@ $$
 
 We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\Af^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\Af^n / \Af^{n} - \theset{0} \homotopic \pt / \Af^{n} - \theset{0} = \Sigma (\Af^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
 
-# Thom Spaces
+## Thom Spaces
 These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space
 
 $$
@@ -167,7 +167,7 @@ Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in 
 
 Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
 
-# The Grothendieck-Witt Group
+## The Grothendieck-Witt Group
 Recall that the target of the degree map was $GW(k)$; we'll also talk a bit about Milnor K-theory $K^M_*(k)$.
 
 From yesterday, we defined $GW(k)$ as the isomorphism classes of symmetric nondegenerate bilinear forms over $k$, which had a generators
@@ -209,7 +209,7 @@ $$
 
 where the associated graded are etale cohomology groups and (by the Milnor conjecture) Milnor K-theory groups.
 
-# Milnor K-Theory
+## Milnor K-Theory
 
 We define **Milnor K-theory** as
 $$
@@ -254,7 +254,7 @@ and the Milnor conjecture states that these are isomorphisms.
 
 In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded.
 
-# Grothendieck-Witt Group Invariants
+## Grothendieck-Witt Group Invariants
 
 This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$.
 
@@ -291,7 +291,8 @@ G W ( k ) &\cong K _ { 0 } ^ { MW } ( k ) \\
 h\definedas \generators{1} + \generators{-1} &\mapsto 2 + \eta\generators{-1}\definedas h.
 \end{align*}
 
-# Degree Theorem
+## Degree Theorem
+
 This theorem says that $\eta$ corresponds to a Hopf map.
 
 **Theorem (Morel):**
@@ -324,7 +325,8 @@ So these homotopy groups are actually homotopy sheaves (not just global sections
 > Not sure what $U^+$ is here.
 
 
-# Producing a Sheaf
+## Producing a Sheaf
+
 There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*$ from the values on fields, i.e. $K^{MW}_*(E)$ for some $E \supset k$ of finite type. It proceeds as follows:
 
 We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^{MW}_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally.
