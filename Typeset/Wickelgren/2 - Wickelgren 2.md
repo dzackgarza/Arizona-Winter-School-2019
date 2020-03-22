@@ -54,7 +54,7 @@ $$
 \text{cos}^0_x \coprod_\alpha U_\alpha \mapsvia{\homotopic} X
 $$
 
-> Note: this may be the Cech nerve, not entirely sure. Pretty sure I got the notation wrong though.
+> (DZG) Note: this may be the Cech nerve, not entirely sure. Pretty sure I got the notation wrong though.
 
 This gives us a localization functor
 $$
