@@ -186,7 +186,12 @@ where $o(x_i^3)$ just denotes higher order terms.
 
 Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes.
 
-More specifically, for any $a_1, \cdots, a_n$, we have a family of varieties/hypersurfaces given by $f(x_1, \cdots x_n) + \sum a_i x_i = t$ parameterized by $t$. One definition of the Milnor number is that in any such family, it counts the number of nodes.
+More specifically, for any $a_1, \cdots, a_n$, we have a family of varieties/hypersurfaces given by
+$$
+f(x_1, \cdots x_n) + \sum a_i x_i = t
+$$
+parameterized by $t$.
+One definition of the Milnor number is that in any such family, it counts the number of nodes.
 
 Let $k=\CC$, then a result of Milnor says that for any sufficiently small $a_1, \cdots, a_n$, the family $P$ contains $\mu(p)$ nodes, where $\mu$ denotes taking the Milnor number.
 
