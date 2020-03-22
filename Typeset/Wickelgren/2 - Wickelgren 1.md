@@ -239,7 +239,7 @@ $$
 
 or equivalently $D=ab-cd$ when $I = \begin{pmatrix}a&b\\c&d\end{pmatrix}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
 
-# An Analogous Trace Formula
+## An Analogous Trace Formula
 
 **Theorem:**
 Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 2, we then have
