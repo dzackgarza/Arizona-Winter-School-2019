@@ -1,6 +1,6 @@
-# The Euler Class
+# Lecture 3: The Euler Class
 
-Start with the version from Algebraic Topology. Let $X$ be be an $\RR\dash$manifold of dimension $d$ and $V\surjects X$ be a rank $r$ vector bundle with fibers $V_x$ for each $x\in X$. Recall the definition of the Thom space of $V$, 
+Start with the version from Algebraic Topology. Let $X$ be be an $\RR\dash$manifold of dimension $d$ and $V\surjects X$ be a rank $r$ vector bundle with fibers $V_x$ for each $x\in X$. Recall the definition of the Thom space of $V$,
 
 $$
 \text{Th}(V) \cong \PP(V\oplus \mathcal O)  / \PP(V) \homotopic \frac{V}{V-X} \\
@@ -26,15 +26,15 @@ if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. No
 
 Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
 
-We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then 
+We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then
 $$
 e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
 $$
-where we sum the local degrees, and $\sigma$ is locally identified with a function 
+where we sum the local degrees, and $\sigma$ is locally identified with a function
 $$
 \sigma: \RR^d \to \RR^r \\
 \text{coordinates on } X \mapsto \text{local trivialization}
-$$ 
+$$
 by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
 
 Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
@@ -61,7 +61,7 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 
 **Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
 
-**Example**: Take $\OO(d)\oplus \OO(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd. 
+**Example**: Take $\OO(d)\oplus \OO(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd.
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
 
 ## Computing Euler Classes for Relatively Orientable Bundles
@@ -71,10 +71,10 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
 
-**Definition**: The **Nisnevich** coordinates near $x$ are given by 
+**Definition**: The **Nisnevich** coordinates near $x$ are given by
 $$
 \varphi: U \to \Af^d
-$$ 
+$$
 which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
 
 - Such coordinates determine a distinguished section of $\det TX(U)$
@@ -91,16 +91,16 @@ So we can get compatibility by varying the trivialization until we get a square 
 
 So suppose we have local coordinates $\phi$ and a local trivialization $\pi$ that are compatible. If $\phi: U \injects \Af^d$ is an open immersion, then our section $\sigma$ is a function can be identified by pulling back $\sigma: \Af^d \to \Af^r$ and defining $\deg_p(\sigma) \definedas \deg_{\phi(p)}(\sigma)$.
 
-Note that we don't actually need the immersion condition here, since the $\Af^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\Af^d$. However, we could just add something from a really high power of the maximal ideal, and it can be shown that $\sigma$ is pulled back from $\Af^d$. These choices don't affect the outcome, so the assumption is not necessary by "finite determinacy of $\deg_p$". 
+Note that we don't actually need the immersion condition here, since the $\Af^1$ local degree is finitely determined, and so modifying the function by something in a high enough power of the maximal ideal doesn't change the degree. So if the $\phi$ given by Nisnevich coordinates is an etale map where the local rings aren't isomorphic, then $\sigma$ could fail to be pulled back from $\Af^d$. However, we could just add something from a really high power of the maximal ideal, and it can be shown that $\sigma$ is pulled back from $\Af^d$. These choices don't affect the outcome, so the assumption is not necessary by "finite determinacy of $\deg_p$".
 
 > Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
 
 # Relations to Chow Groups
 
-Other perspectives: 
+Other perspectives:
 
 Barge Morel has one that lands in the oriented Chow, $e(v) \in \widetilde{\text{Ch}}{}^r(X, \det (-V))$.
-> Note that you can use $V$ or $-V$ here, since the action of $GW$ has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn't effect the oriented chow groups. 
+> Note that you can use $V$ or $-V$ here, since the action of $GW$ has trivial squares, and the definition of the twist for oriented chow groups means that changing the twist by the square of a bundle doesn't effect the oriented chow groups.
 
 It is defined as follows:
 
@@ -138,19 +138,19 @@ Other perspectives
 
 - There is a different perspective of Morel and Mark Levine, giving the Euler class as the principal obstruction to having a nonvanishing section. This is known to be equal to the one given above, up to a unit ($\generators{a}$)
 - A six functor formalism
-- Mike Hopkins 
+- Mike Hopkins
 - Raxit and Levine?
 
 # Example Computations
 
-**Example**: Let $n$ be even, and $V = \OO_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$. 
+**Example**: Let $n$ be even, and $V = \OO_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$.
 
 > Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of $h$. A similar argument works here?
 
 **Example**: How many lines meet 4 general lines in $\PP^3$?
 Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
 
-Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. Let 
+Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. Let
 - $L_i$ be 4 lines, no two of which intersect
 - $e_i$ be a basis of $k^4$
 - $\phi_i$ be the corresponding dual basis
@@ -190,7 +190,7 @@ Next we choose a local trivialization, where $S^\dual \wedge S^\dual$ can be loc
 
 The expression for the function $\sigma$ will depend on our choice of line, and instead of notating all of them, just assume that $L_1 = \PP(ke_3 \oplus ke_4)$. We then get $\sigma =(\phi_1 \wedge \phi_2, ?, ?, ?)$ where we just didn't notate the other components. So what is this first component in terms of $x', y'$? This amounts to finding the coordinate of $\tilde\phi_3 \wedge \tilde\phi_4$ is in $\phi_1 \wedge \phi_2$, which is just a linear algebra problem.
 
-We want to find the coefficient $c$ in 
+We want to find the coefficient $c$ in
 $$
 \restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
 $$
@@ -205,7 +205,7 @@ Now we can compute the local degree by taking the Jacobian and taking the determ
 
 Well $L=\PP W$ intersects $L_i$, so we have 4 points on $L\cong \PP^1_{k(L)}$, and therefore we have a cross-ratio $\lambda$.
 
-We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$, so we have 
+We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$, so we have
 $$
 W \subseteq V \subseteq k(L)^4
 $$
