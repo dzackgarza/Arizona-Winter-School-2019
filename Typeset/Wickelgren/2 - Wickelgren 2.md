@@ -226,37 +226,37 @@ which is tensor algebra on $k^\times$, modded out by the Steinberg relation.
 
 Theorem (The Milnor Conjecture (Voevodsky))
 :   There is a map
-  \begin{align*}
-  K_n^M &\to I^n/I^{n+1} \\
-  \bigotimes_{i=1}^n a_i &\mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right)
-  .\end{align*}
+    \begin{align*}
+    K_n^M &\to I^n/I^{n+1} \\
+    \bigotimes_{i=1}^n a_i &\mapsto \prod_{i=1}^n \left(\generators{1} - \generators{a_i}\right)
+    .\end{align*}
 
-  We can also look at the Kummer map coming from the short exact sequence
-  $$
-  1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
-  $$
+    We can also look at the Kummer map coming from the short exact sequence
+    $$
+    1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
+    $$
 
-  which lets us make a map
-  $$
-  k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
-  $$
+    which lets us make a map
+    $$
+    k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
+    $$
 
-  where we can use that fact that $k^\times \cong K^M_1$ to land in Milnor K-theory,
-  $$
-  K_1^M \to H_\text{et}^1(k;~\ZZ/2\ZZ),
-  $$
+    where we can use that fact that $k^\times \cong K^M_1$ to land in Milnor K-theory,
+    $$
+    K_1^M \to H_\text{et}^1(k;~\ZZ/2\ZZ),
+    $$
 
-  where we can use the cup product to lift this to a map to the $n$th graded piece
-  $$
-  K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ).
-  $$
+    where we can use the cup product to lift this to a map to the $n$th graded piece
+    $$
+    K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ).
+    $$
 
-  Fitting all of this together, we get maps
-  $$s
-  I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),
-  $$
+    Fitting all of this together, we get maps
+    $$s
+    I^n/I^{n+1} \from K_n^M \to H_\text{et}^n(k;~\ZZ/2\ZZ),
+    $$
 
-  and the Milnor conjecture states that these are isomorphisms.
+    and the Milnor conjecture states that these are isomorphisms.
 
 In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded.
 
