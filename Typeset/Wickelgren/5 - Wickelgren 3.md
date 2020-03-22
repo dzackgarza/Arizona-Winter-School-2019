@@ -81,7 +81,7 @@ Note that the bilinear form here acts like an orientation (which is exciting!), 
 
 # Degree by Local Degree
 
-Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \dots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees.
+Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \cdots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees.
 
 There is a formula for computing the degree from differential topology,  given by choosing coordinates $x_1, \cdots, x_n$ near $q_i$ and $y_1, \cdots, y_n$ near $p$ which are compatible with orientations. Then $f:\RR^n\to\RR^n$, so we can form its Jacobian $\operatorname{Jac}(f) = \det J$ where that matrix $J$ is given by $(J)_{i,j} = \dd{f_i}{x_j}$. We then have
 
