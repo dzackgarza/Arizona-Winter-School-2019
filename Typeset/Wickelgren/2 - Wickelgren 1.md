@@ -198,7 +198,6 @@ Example (Computing $GW(\CC)$)
   GW(\CC) \mapsvia{\cong} \ZZ \\
   \beta \mapsto \dim V
   $$
-
   which is realized by taking the rank.
 
 Example ($GW(\RR)$)
@@ -206,7 +205,6 @@ Example ($GW(\RR)$)
   $$
   GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,
   $$
-
   although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
 Example ($GW(\FF_q)$)
