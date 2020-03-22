@@ -210,3 +210,15 @@ How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to g
 Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s? Is there an AG interpretation of this local degree $\deg_P(\sigma)$, where $P=L$ is a point on the Grassmannian?
 
 Well $L=\PP W$ intersects $L_i$, so we have 4 points on $L\cong \PP^1_{k(L)}$, and therefore we have a cross-ratio $\lambda$.
+
+We can get another cross-ratio by looking at planes in $\PP^3$ containing $L$, i.e. dimension 3 subspaces $V$ containing $W$, so we have
+$$
+W \subseteq V \subseteq k(L)^4
+$$
+
+where $\dim V = 1$, so each plane is a $\PP^1_{k(L)}$. We get 4 planes containing $L$, namely the 4 planes spanned by each pair $(L, L_i)$. This provides a second cross-ratio $\mu$
+
+Although there was choice, since our section was determined not by $L$ but rather by the zero set of some functions, normalizing things correctly yields
+$$
+\deg_L(\sigma) = \Tr_{k(L) / k}\generators{\lambda-\mu}.
+$$
