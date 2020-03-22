@@ -87,5 +87,4 @@ Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, the
     1,  & $\operatorname{Jac}(f) > 0$ \\
     -1, & $\operatorname{Jac}(f) < 0$.
 \end{cases}
-
 .\end{align*}
