@@ -222,7 +222,7 @@ the hyperbolic form from earlier.
 
 Alternatively, take a family $y^2 = x^3 + ax  + t$. We then have two situations, depending on whether or not $a=0$:
 
-![](/assets/2019-03-09-12-44-39.png)
+![](assets/2019-03-09-12-44-39.png)\
 
 The bottom represents the $t$ line, where the LHS shows a cusp at $t=0$ and otherwise some general fibers. For the RHS, there are nodes exactly when $x^3+ax+t$ has a double root, which happens exactly when this polynomial' discriminant is zero, which occurs at $-27t^2-4t$. In particular, $t$ is degree 2, so there are two nodal fibers (which agrees with Milnor's theorem), and moreover if we add up the types we must get $h$.
 
