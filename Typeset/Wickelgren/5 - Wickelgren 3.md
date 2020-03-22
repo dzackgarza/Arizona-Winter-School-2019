@@ -80,7 +80,7 @@ where $\omega_{X/K}$ is the canonical line bundle of $X$ over $k$ given by $\det
 
 Note that the bilinear form here acts like an orientation (which is exciting!), hence the name.
 
-# Degree by Local Degree
+## Degree by Local Degree
 
 Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \cdots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees.
 
@@ -175,8 +175,9 @@ Thus we can diagonalize this matrix to yield $\omega^{EKL} = \generators{1} + \g
 
 So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\selfmap$, so here's an enumerative application.
 
-# $\Af^1$ Milnor Numbers
-(Joint with Jesse Kass)
+## $\Af^1$ Milnor Numbers
+
+> Joint with Jesse Kass.
 
 **Definition**: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring
 $$
