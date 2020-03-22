@@ -1,4 +1,4 @@
-# User's Guide to $\Af^1$ Homotopy Theory
+# Lecture 2: User's Guide to $\Af^1$ Homotopy Theory
 Particularly, arithmetically enriching enumerative results. The first part of this talk focuses on setting up the correct category for this theory.
 
 
@@ -37,7 +37,7 @@ We're building a category for a homotopy theory, which means we need either
 - A simplicial model category, or
 - An $\infty\dash$category
 
-Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\Sm)$ has this structure. 
+Both have notions of fibrations, cofibrations, an associated homotopy category, weak equivalences, etc, and $\text{PreSh}(\Sm)$ has this structure.
 
 ## Preserving Old Colimits: Picking a Topology
 This construction is essentially "freely adding colimits". Since $\Sm$ had colimits (e.g. the union/intersection of open sets), we want $Y$ to preserve these. We fix this be forcing certain maps to be equivalences using **Bousfield localization**.
@@ -76,7 +76,7 @@ $$
 This topology has a few nice properties:
 - Smooth schemes have etale maps into $\Af^n$, inclusions/closed immersions $Z \injects X$ induce maps $\Af^d \injects \Af^n$
 - Satisfies descent for K-theory
-- The cohomological dimension equals the Krull dimension 
+- The cohomological dimension equals the Krull dimension
 - Cohomology can be computed Cech complexes
 - More listed in Voevodsky's original paper
 
@@ -99,7 +99,7 @@ $$
 In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\Af^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have $S^1$, we can also take $\GG_m = \Af^1 - \theset{0}$, and so we have spheres
 $$
 S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} .
-$$ 
+$$
 
 Some of these end up being familiar spaces. For example, we can look at the colimit
 $$
@@ -119,7 +119,7 @@ $$
 \begin{CD}
   X\cross Y @>>> X \\
   @VVV \selfmap @VVV \\
-  Y @>>> \therefore \Sigma X\wedge Y 
+  Y @>>> \therefore \Sigma X\wedge Y
 \end{CD}
 $$
 
@@ -128,14 +128,14 @@ $$
 \begin{CD}
   (\Af^{n-1} - \theset{0} )\cross(\Af^1 -\theset{0}) @>>> (\Af^{n-1} -\theset{0}) \cross \Af^1 \\
   @VVV \selfmap @VVV \\
-  \Af^n \cross (\Af^1 -\theset{0}) @>>> \Af^n - \theset{0} 
+  \Af^n \cross (\Af^1 -\theset{0}) @>>> \Af^n - \theset{0}
 \end{CD}
 $$
 
 We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\Af^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\Af^n / \Af^{n} - \theset{0} \homotopic \pt / \Af^{n} - \theset{0} = \Sigma (\Af^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
 
 # Thom Spaces
-These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space 
+These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space
 
 $$
 \text{Th}(V) = \frac{V} {V-X} \homotopic \frac{\PP(V \oplus \mathcal O)}{\PP V}
@@ -175,17 +175,17 @@ $$\begin{align*}
 
 which follows because we're in $k^\times/(k^\times)^2$. Note that the last relation is very important.
 
-These relations imply a special relation concerning a **hyperbolic form,** which is given by 
+These relations imply a special relation concerning a **hyperbolic form,** which is given by
 $$
 h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}
-$$ 
+$$
 for any $a$.
 
 We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in $\Af^1$ homotopy theory.
 
 We have a **rank homomorphism:**
 $$
-\text{rank}: GW(k) \to \ZZ \\ 
+\text{rank}: GW(k) \to \ZZ \\
 (B: V^2 \to k) \mapsto \dim V
 $$
 
@@ -217,7 +217,7 @@ $$
 1\to \ZZ/2\ZZ \to \overline {k^\times} \to \overline{k^\times} \to 1
 $$
 
-which lets us make a map 
+which lets us make a map
 $$
 k^\times \to H_\text{et}^1(k;~\ZZ/2\ZZ)
 $$
@@ -239,19 +239,19 @@ $$
 
 and the Milnor conjecture states that these are isomorphisms.
 
-In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded. 
+In other words, the associated graded of this filtration is the etale cohomology or Milnor K-theory, and if you have a field for which the $n$th etale cohomology in $\ZZ/2\ZZ$ coefficients doesn't vanish, then there is a nontrivial piece in the associated graded.
 
 # Grothendieck-Witt Group Invariants
 
-This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$. 
-- For $n=0$, this is the rank homomorphism.  
+This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$.
+- For $n=0$, this is the rank homomorphism.
 - For $n=1$ we get the discriminant, which is the determinant of the linear map associated to the bilinear form obtained after choosing a basis.
 - For $n=2$ this is the Hasse-Witt invariant (see written notes)
 - For $n=3$ this is the Arason invariant
 
 For higher $n$ these invariants don't have names, but for various fields, the lower degrees form a complete invariant -- for example, for finite fields, one needs only check $n=0,1$, while $\QQ$ requires $n=0,1,2$.
 
-The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_*^{MW}(k)$, which is also a homotopy group of spheres in $\Af^1$ homotopy theory (due to Hopkins and Morel). 
+The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_*^{MW}(k)$, which is also a homotopy group of spheres in $\Af^1$ homotopy theory (due to Hopkins and Morel).
 
 This group has generators
 
@@ -312,7 +312,7 @@ So these homotopy groups are actually homotopy sheaves (not just global sections
 # Producing a Sheaf
 There is a procedure in Morel's book for producing an unramified sheaf $K^{MW}_*$ from the values on fields, i.e. $K^{MW}_*(E)$ for some $E \supset k$ of finite type. It proceeds as follows:
 
-We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^{MW}_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally. 
+We want to know what the sections are on some scheme $Y$, so we look at its function field and check $K^{MW}_*$ on it to see which sections are defined over all of $Y$ and not over the generic point. This produces the additional data of boundary/residue maps that determine when sections extend globally.
 
 So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so define the **residue homomorphism**
 
