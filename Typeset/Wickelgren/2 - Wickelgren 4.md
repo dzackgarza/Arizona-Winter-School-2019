@@ -47,7 +47,8 @@ by choosing local coordinates and a local trivialization compatible with the sta
 
 Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
 
-**Definition:** The bundle $V\surjects X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
+Definition (Relatively Oreinted Bundles)
+: The bundle $V\surjects X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
 
 We know what it means for such a homomorphism to be positive, and this won't change the value of the local index.
 
@@ -57,7 +58,8 @@ Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$
 
 Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebraic bundle of rank $r$.
 
-**Definition**: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
+Definition
+: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
 
 **Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
 
