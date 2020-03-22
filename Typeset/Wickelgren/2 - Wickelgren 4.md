@@ -203,7 +203,7 @@ How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to g
 \sigma(x,y,x',y') = (xy' -yx', ?, ? , ?)
 .\end{align*}
 
-Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s? Is there an AG interpretation of this local degree $\deg_P(\sigma), where $P=L$ is a point on the Grassmannian?
+Now we can compute the local degree by taking the Jacobian and taking the determinant, but what AG/Arithmetic information is contained in this huge polynomial in $x,y,x',y'$s? Is there an AG interpretation of this local degree $\deg_P(\sigma)$, where $P=L$ is a point on the Grassmannian?
 
 Well $L=\PP W$ intersects $L_i$, so we have 4 points on $L\cong \PP^1_{k(L)}$, and therefore we have a cross-ratio $\lambda$.
 
