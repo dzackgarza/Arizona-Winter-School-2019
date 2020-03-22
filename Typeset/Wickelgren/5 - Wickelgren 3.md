@@ -73,3 +73,19 @@ For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforwa
 $$
 f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
 $$
+
+where $\omega_{X/K}$ is the canonical line bundle of $X$ over $k$ given by $\det TX$, the determinant of the tangent bundle of $X$, and $f^* \mathcal L$ is the pullback of any line bundle from $f$.
+
+Note that the bilinear form here acts like an orientation (which is exciting!), hence the name.
+
+# Degree by Local Degree
+
+Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \dots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees. There is a formula for computing the degree from differential topology,  given by choosing coordinates $x_1, \cdots, x_n$ near $q_i$ and $y_1, \cdots, y_n$ near $p$ which are compatible with orientations. Then $f:\RR^n\to\RR^n$, so we can form its Jacobian $\operatorname{Jac}(f) = \det J$ where that matrix $J$ is given by $(J)_{i,j} = \dd{f_i}{x_j}$. We then have
+
+\begin{align*}
+\underset{q_i}\deg f = \begin{cases}
+    1,  & $\operatorname{Jac}(f) > 0$ \\
+    -1, & $\operatorname{Jac}(f) < 0$.
+\end{cases}
+
+.\end{align*}
