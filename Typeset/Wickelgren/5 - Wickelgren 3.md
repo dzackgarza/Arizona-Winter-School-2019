@@ -115,7 +115,10 @@ $$
 This yields a notion of local degree in terms of global degree, by taking boundaries of balls, and we have the following facts:
 
 - If $f$ is etale at $q$, and $k \subseteq k(q)$ is separable then
-$$\underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle$$
+
+  $$
+  \underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle
+  $$
   - Depending on what you mean by transfer, the hypothesis of separability can be dropped, but it's needed here to take the composition with the Galois theory trace.
   - We could use this to compute the degree, but we are missing something
 
