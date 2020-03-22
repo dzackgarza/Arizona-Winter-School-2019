@@ -96,3 +96,103 @@ Given two pointed spaces $X, Y$, we have
 $$
 X \wedge Y = \frac{X \cross Y}{(X\cross \pt) \union (\pt \cross Y)}
 $$
+
+In topology, we have $S^m \wedge S^n = S^{m+n}$. In $\Af^1$ homotopy theory, we have functors to simplicial sets, and so we can take constant functors, and in particular any element space living in simplicial sets is in our new homotopy theory as well. So we have $S^1$, we can also take $\GG_m = \Af^1 - \theset{0}$, and so we have spheres
+$$
+S^{p+q,q} = (S^1)^{\wedge p} \wedge (\GG_m)^{\wedge q} .
+$$
+
+Some of these end up being familiar spaces. For example, we can look at the colimit
+$$
+\begin{CD}
+  \GG_m @>>> \Af^1 \homotopic \pt \\
+  @VVV \selfmap @VVV \\
+  \pt \homotopic \Af^1 @>>> \PP^1
+\end{CD}
+$$
+
+which follows from the fact that $\PP^1 = \Af^1 \union \theset{\infty}$ (yielding the top-right copy of $\Af^1$), and we can take a neighborhood around the point at $\infty$ to obtain the bottom-left copy -- these intersect in $\GG_m$.
+
+So $\PP^1$ is the colimit of maps from $\GG_m$ to a point, so we can conclude that $\PP^1 \homotopic \Sigma \GG_m = S^1 \wedge \GG_m$.
+
+We can also show $\Af^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)^{\wedge n}$. This will rely on a general fact about the colimit of $X\cross Y$ with its projections is a suspension, given by
+$$
+\begin{CD}
+  X\cross Y @>>> X \\
+  @VVV \selfmap @VVV \\
+  Y @>>> \therefore \Sigma X\wedge Y
+\end{CD}
+$$
+
+and so we can proceed by induction on the following diagram:
+$$
+\begin{CD}
+  (\Af^{n-1} - \theset{0} )\cross(\Af^1 -\theset{0}) @>>> (\Af^{n-1} -\theset{0}) \cross \Af^1 \\
+  @VVV \selfmap @VVV \\
+  \Af^n \cross (\Af^1 -\theset{0}) @>>> \Af^n - \theset{0}
+\end{CD}
+$$
+
+We also have $\PP^{n} / \PP^{n-1} \homotopic (S^1)^{\wedge n}\wedge (\GG_m)^{\wedge n}$. This can be show because $\PP^{n} / \PP^{n-1} \homotopic \PP^n / \PP^n-\theset{0}$ because $\Af^1$ is trivial and we can homotop the embedded $\PP^{n-1}$ down to the origin, giving a line bundle over $\PP^{n-1}$. We can then cut out the copy of $\PP^{n-1}$ at infinity, yielding $\Af^n / \Af^{n} - \theset{0} \homotopic \pt / \Af^{n} - \theset{0} = \Sigma (\Af^{n} - \theset{0})$, where the last equality comes from looking at a similar colimit diagram as earlier.
+
+# Thom Spaces
+These can be made out of vector bundles, which will prove to be useful in viewing smooth schemes like manifolds. Let $V \to X$ be an algebraic vector bundle. Then the Thom space
+
+$$
+\text{Th}(V) = \frac{V} {V-X} \homotopic \frac{\PP(V \oplus \mathcal O)}{\PP V}
+$$
+where $X$ here corresponds to the zero section, $\mathcal O$ is the trivial line bundle, and $\PP V$ is the projectivization of $V$ where the coordinate is zero.
+
+> Note: If this was a virtual vector bundle, we could make a Thom spectrum.
+
+The next theorem gives us neighborhoods around points
+
+**The Purity Theorem**:
+Let $Z \injects X$ be a closed immersion in $\Sm$. Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view this as a neighborhood mod its boundary. This is equivalent to $\text{Th}(N_Z X)$, the Thom space of the normal bundle of $Z$ in $X$.
+
+**Example:** Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
+
+**Example:** Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$
+> Note: video says "disjoint basepoint" here and uses different notation, may not be correct.
+
+Compare to manifolds: if $z\in U$ a small ball, then $\Sigma \del U \homotopic U / U - z$. So if we wanted to look at maps between boundaries, we could suspend and take degrees.
+
+# The Grothendieck-Witt Group
+Recall that the target of the degree map was $GW(k)$; we'll also talk a bit about Milnor K-theory $K^M_*(k)$.
+
+From yesterday, we defined $GW(k)$ as the isomorphism classes of symmetric nondegenerate bilinear forms over $k$, which had a generators
+$$
+\generators{a}, \quad a\in k^\times\\
+\generators{a}: k^2 \to k\\
+(x,y) \mapsto axy
+$$
+
+and relations
+$$\begin{align*}
+\generators{ab^2} &= \generators{a} \quad&(b\neq 0)\\
+\generators{a}\tensor\generators{b} &= \generators{ab} &\\
+\generators{a} + \generators b &= \generators{a+b} + \generators{ab(a+b)} \quad&(a+b\neq 0)
+\end{align*}$$
+
+which follows because we're in $k^\times/(k^\times)^2$. Note that the last relation is very important.
+
+These relations imply a special relation concerning a **hyperbolic form,** which is given by
+$$
+h\definedas \generators {1} + \generators {-1} = \generators a + \generators{-a}
+$$
+for any $a$.
+
+We'll look at invariants on bilinear forms -- for many common fields, there are algorithms to determine equality of sums of generators, and thus in $GW$ there are many tools to work with. Some of these tools are invariants arising from the Milnor conjecture, which involves this group and is a huge achievement in $\Af^1$ homotopy theory.
+
+We have a **rank homomorphism:**
+$$
+\text{rank}: GW(k) \to \ZZ \\
+(B: V^2 \to k) \mapsto \dim V
+$$
+
+and the **fundamental ideal** is defined as $I \definedas \ker \text{rank}$. This yields a filtration
+$$
+GW(k) \supseteq I \supseteq I^2 \supseteq \cdots
+$$
+
+where the associated graded are etale cohomology groups and (by the Milnor conjecture) Milnor K-theory groups.
