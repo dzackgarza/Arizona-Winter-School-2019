@@ -14,7 +14,7 @@ $$
 \Tr_{L/K}: GW(K) \to GW(L).
 $$
 
-There is also a geometric transfer (which is the prettiest!) which we'll define momentarily, given by with multiplication by one of those brackets to define a cohomological transfer. The geometric transfer will depend on a sequence of generators, while, while this choice can be removed for the cohomological transfer. If you use the twisting data you can get an absolute transfer. 
+There is also a geometric transfer (which is the prettiest!) which we'll define momentarily, given by with multiplication by one of those brackets to define a cohomological transfer. The geometric transfer will depend on a sequence of generators, while, while this choice can be removed for the cohomological transfer. If you use the twisting data you can get an absolute transfer.
 
 In the case where $K\subset L$ is separable, there is a canonical way to explicitly untwist, and the absolute and cohomological transfers agree.  For these two, we took
 $$
@@ -22,10 +22,10 @@ $$
 $$
 where we now view $V$ as a $k\dash$vector space, and $\Tr_{W^k}$ is the trace from Galois theory, the sum of the Galois conjugates.
 
-We'll show that we have this structure for the geometric transfer. If $L = K[z]/\generators{f}$, so we've chosen some generator, then we get an induced map $\spec(L) \overset{z}\injects \PP^1_K$. Since this is a closed immersion corresponding to $z$, we can form a backwards map 
+We'll show that we have this structure for the geometric transfer. If $L = K[z]/\generators{f}$, so we've chosen some generator, then we get an induced map $\spec(L) \overset{z}\injects \PP^1_K$. Since this is a closed immersion corresponding to $z$, we can form a backwards map
 $$
 \PP^1_K \to {\PP^1_K \over \PP^1_K-\theset{z}} \homotopic \PP^1_L
-$$  
+$$
 by crushing everything but $z$, where the last equivalence was seen in the previous lecture. But now we can take $K^{MW}_1(\PP^1_K \to \PP^1_L)$, which is a map
 $$
 \Tr_{L/K}^{\text{geom}}:  GW(L) \to GW(K)
@@ -35,7 +35,7 @@ So we have some transfers.
 
 ## Bilinear Forms on Chow Groups
 
-The finale of this morning was going to be adding bilinear forms to Chow groups for the purposes of having a tool in enumerative geometry. So let $X\in\Sm$ and $X^{(i)}$ codimension $i$ reduced, irreducible subschemes of $X$. Then 
+The finale of this morning was going to be adding bilinear forms to Chow groups for the purposes of having a tool in enumerative geometry. So let $X\in\Sm$ and $X^{(i)}$ codimension $i$ reduced, irreducible subschemes of $X$. Then
 $$
 CH^i(X) = {\bigoplus_{X^{(i)}} \ZZ \over \sim}
 $$
@@ -46,7 +46,7 @@ These are useful in enumerative geometry -- there are Chern classes, pushforward
 
 The $i$th Chow group, in addition to being a motivic homology group, also has a nice formula due to Bloch that applies in the case of smooth schemes: $CH^i(X) \cong H^i(X; K^{M}_i)$ where the RHS is the Nisnevich cohomology of $X$ with coefficients in Milnor $K\dash$theory.
 
-Oriented Chow groups (AKA Chow-Witt groups) which are the original Chow groups together with a bilinear form. By Borge and Morel, motivated by the Bloch formula above, these can be defined as 
+Oriented Chow groups (AKA Chow-Witt groups) which are the original Chow groups together with a bilinear form. By Borge and Morel, motivated by the Bloch formula above, these can be defined as
 $$
 \widetilde{CH}{}^i(X) \definedas H^i(X; K_i^{MW}).
 $$
@@ -64,16 +64,16 @@ There's structure here -- Fasel developed ring structure and pushforwards, while
 
 First we'll define the twists appearing in the complex above, and then we can define how to do twisted Chow so we can do pushforwards.
 
-If $E$ is a field of finite type over $k$, then $K^{MW}_i(E; \Lambda)$ ("twisted by $\Lambda$") where $\Lambda$ is a 1-dimensional $E\dash$vector space can be defined as 
+If $E$ is a field of finite type over $k$, then $K^{MW}_i(E; \Lambda)$ ("twisted by $\Lambda$") where $\Lambda$ is a 1-dimensional $E\dash$vector space can be defined as
 $$
 K^{MW}_i(E) \underset{\ZZ[E^\times]}\tensor \ZZ[\Lambda - \theset{0}]
 $$
 
-since $E^\times$ acts of the LHS due to the bracket $E$ in the Grothendieck-Witt group, and the RHS is possible because we can act on the nonzero elements of the vector space. 
+since $E^\times$ acts of the LHS due to the bracket $E$ in the Grothendieck-Witt group, and the RHS is possible because we can act on the nonzero elements of the vector space.
 
 We can also twist by line bundles $L \to X$, leading to a definition of **oriented Chow groups twisted by local coefficients** via $\widetilde{CH}{}^i(X; L) \definedas H^i(X; K^{MW}_i(L))$ where we just take $K\dash$Milnor-Witt and twist by $L$.
 
-For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforward map 
+For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforward map
 $$
 f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
 $$
@@ -99,7 +99,7 @@ $$
 
 which doesn't depend on $p$. We then make an analogous definition for higher dimensions.
 
-**Proposition:** the global degree is a sum of local degrees. 
+**Proposition:** the global degree is a sum of local degrees.
 Let $f: \PP^n \to \PP^n$ be finite such that $f\inv(\Af^n) = \Af^n$ for some chosen copy of $\Af^n \subset \PP^n$. This yields an induced map $\overline f :\PP^{n}/\PP^{n-1} \to \PP^{n}/\PP^{n-1}$. We then define the global degree by picking some $p\in \Af^n$ and setting
 $$
 \deg^{\Af^1}(\overline f) = \sum_{q\in f\inv(p)}\underset{q}\deg{\Af^1}(f)
@@ -119,13 +119,13 @@ $$
 
 This yields a notion of local degree in terms of global degree, by taking boundaries of balls, and we have the following facts:
 
-- If $f$ is etale at $q$, and $k \subseteq k(q)$ is separable then 
+- If $f$ is etale at $q$, and $k \subseteq k(q)$ is separable then
 $$\underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle$$
   - Depending on what you mean by transfer, the hypothesis of separability can be dropped, but it's needed here to take the composition with the Galois theory trace.
   - We could use this to compute the degree, but we are missing something
 
 
-**Question:** what happens if $\operatorname{Jac}(f) = 0$? Answer: The Eisenbud-Levine-Khimshiashvili signature formula, which says that if $f: \RR^n \to \RR^n$ where $0\mapsto 0$ is an isolated zero, then $\underset 0 \deg(f) = \operatorname{signature} (\omega^{EKL})$ which is a bilinear quadratic form on 
+**Question:** what happens if $\operatorname{Jac}(f) = 0$? Answer: The Eisenbud-Levine-Khimshiashvili signature formula, which says that if $f: \RR^n \to \RR^n$ where $0\mapsto 0$ is an isolated zero, then $\underset 0 \deg(f) = \operatorname{signature} (\omega^{EKL})$ which is a bilinear quadratic form on
 $$
 Q \definedas \RR[x_1, \cdots, x_n]_0 \over \generators{f_1, \cdots, f_n}
 $$
@@ -167,7 +167,7 @@ So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\s
 
 **Definition**: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring $\OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}$ (where $o(x_i^3)$ just denotes higher order terms).
 
-Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes. 
+Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes.
 
 More specifically, for any $a_1, \cdots, a_n$, we have a family of varieties/hypersurfaces given by $f(x_1, \cdots x_n) + \sum a_i x_i = t$ parameterized by $t$. One definition of the Milnor number is that in any such family, it counts the number of nodes.
 
@@ -179,21 +179,21 @@ However, when $k\neq \CC$ and generally not algebraically closed, nodes have int
 
 For example, consider $x^2+y^2$ and $x^2-y^2$. The first carves out just the origin, the latter, two diagonal lines.
 
-![](/assets/2019-03-09-12-18-52.png)
+![](assets/2019-03-09-12-18-52.png)\
 
 The LHS is a non-split node, meaning the tangent is not defined over $k$, while the RHS is a split node. So we can use the $\Af^1$ degree in place of the topological degree, since we want to count the zeros of the gradient, and it will naturally pick up information about the node.
 
-**Definition:** the **type** of a node $p = \theset{f=0}$ is given by 
+**Definition:** the **type** of a node $p = \theset{f=0}$ is given by
 $$
 \operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).
 $$
 
-**Example:** 
+**Example:**
 Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$. Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$. Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
 
 Then $\operatorname{Type}(x^2+ay^2) = \generators{a}$. This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction. So this contains geometric/arithmetic information about both the node and its tangent directions.
 
-**Definition:** For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$. 
+**Definition:** For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
 
 **Theorem (Kass-Wickelgren):** It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
 $$
@@ -203,10 +203,10 @@ $$
 which is a fixed element.
 
 
-**Example:** 
-Let $f(x,y) = y^2-x^3$, supposing $\char(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then 
+**Example:**
+Let $f(x,y) = y^2-x^3$, supposing $\char(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then
 $$
-\mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\ 
+\mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\
 = \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
 $$
 
