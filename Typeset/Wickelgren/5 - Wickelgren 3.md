@@ -1,12 +1,7 @@
----
-markdown:
-  absolute_image_path: true
----
-
-
-# Transfers
+# Lecture 3: Transfers
 
 ## Defining Some Transfers
+
 Recall that we have the sheaves $K^{MW}_*, GW$, and the sheaf property means that an inclusion $K \injects L$ induces a map $\spec(L) \to \spec(K)$. We can take $GW(spec(L) \to \spec(K))$, and this is exactly the restriction/base change given by $\wait \tensor_k L$ of bilinear forms.
 
 We also saw that these were stable homotopy sheaves, so there should be transfers, and we want to use them for field extensions. Let $K\subset L$ be a finite extension of finite-type schemes over $k$. This leads to transfer maps
@@ -211,12 +206,13 @@ $$
 $$
 
 since the two variables being split apart implies that we can decompose $\grad f$ into the smash product of two maps into spheres. We know that the latter map is etale, so its degree is $\generators{2}$. For the former, we can use the prior computation for $x\mapsto x^2$ and just post-compose with $x\mapsto 3x$, so we obtain
-$$\begin{align*}
+
+\begin{align*}
 \mu^{\Af^1}(0) &= \generators{3}(\generators{1} + \generators{-1}) \generators{2} \\
 &= \generators{-6} + \generators{6}\\
 &= \generators{1} + \generators{-1}\\
 &= h,
-\end{align*}$$
+\end{align*}
 
 the hyperbolic form from earlier.
 
