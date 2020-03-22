@@ -192,8 +192,8 @@ Since we can diagonalize, the group $GW(k)$ has a presentation coming from the o
 
 There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.
 
-Example ($GW$)
-: (Computing $GW(\CC)$)
+Example (The Complex Numbers)
+: Computing $GW(\CC)$:
   The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
   $$
   GW(\CC) \mapsvia{\cong} \ZZ \\
@@ -201,15 +201,17 @@ Example ($GW$)
   $$
   which is realized by taking the rank.
 
-Example
-: ($GW(\RR)$) We still have the rank, but now we can also take the signature, so we have
+Example (The Reals)
+: Computing $GW(\RR)$:
+  We still have the rank, but now we can also take the signature, so we have
   $$
   GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,
   $$
   although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
-Example
-: ($GW(\FF_q)$) We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
+Example (Finite Fields)
+: Computing $GW(\FF_q)$:
+  We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
   $$
   GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ
   $$
