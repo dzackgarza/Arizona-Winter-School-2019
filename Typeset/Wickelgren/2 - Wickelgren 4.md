@@ -249,9 +249,10 @@ We thus obtain a theorem:
 
 Theorem
 :   \hfill
-    \begin{align*}
-    \sum_{\quad L \suchthat \suchthat L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
-    .\end{align*}
+
+\begin{align*}
+\sum_{\quad L \suchthat \suchthat L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
+.\end{align*}
 
 ## Where Things Are Going
 
@@ -259,4 +260,3 @@ Theorem
 - Welschinger invariants, Mark Levine
 
 These produce more than just the 1s appearing in $h$, and have ties to things like modular forms.
-$\qed$
