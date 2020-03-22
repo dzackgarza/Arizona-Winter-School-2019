@@ -223,7 +223,8 @@ Example
   This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction.
   So this contains geometric/arithmetic information about both the node and its tangent directions.
 
-**Definition:** For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
+Definition (Milnor Number)
+:   For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
 
 **Theorem (Kass-Wickelgren):** It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
 $$
