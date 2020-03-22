@@ -28,7 +28,8 @@ The surface $X$ is **smooth** if the underlying points form a manifold, or equiv
 Theorem (Salmon-Cayley, 1849)
 : If $X$ is a smooth cubic surface, then $X$ contains exactly 27 lines.
 
-Example: The Fermat cubic $f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$.
+Example
+: The Fermat cubic $f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$.
 
 We can find one line, given by
 $$
