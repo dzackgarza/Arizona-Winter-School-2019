@@ -192,13 +192,13 @@ Since we can diagonalize, the group $GW(k)$ has a presentation coming from the o
 
 There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.
 
-**Example:** Computing $GW(\CC)$.
-
-The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
-$$
-GW(\CC) \mapsvia{\cong} \ZZ \\
-\beta \mapsto \dim V
-$$
+Example (Computing $GW(\CC)$)
+:
+  The generators are in bijection with $k^\times/(k^\times)^2$, but since every element of $\CC$ is a square, so there's only one element here. We thus obtain
+  $$
+  GW(\CC) \mapsvia{\cong} \ZZ \\
+  \beta \mapsto \dim V
+  $$
 
 which is realized by taking the rank.
 
