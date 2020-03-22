@@ -1,5 +1,5 @@
 ---
-title: "A^1 Enumerative Geometry (Arizona Winter School 2019)"
+title: "A1 Enumerative Geometry (Arizona Winter School 2019)"
 author: Kirsten Wickelgren
 date: March 9, 2019
 ---
