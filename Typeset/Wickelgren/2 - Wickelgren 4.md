@@ -258,4 +258,5 @@ Theorem
 - Gromov-Witten invariants with Jake and Jesse
 - Welschinger invariants, Mark Levine
 
-These produce more than just the 1s appearing in $h$, and have ties to things like modular forms. $\qed$
+These produce more than just the 1s appearing in $h$, and have ties to things like modular forms.
+$\qed$
