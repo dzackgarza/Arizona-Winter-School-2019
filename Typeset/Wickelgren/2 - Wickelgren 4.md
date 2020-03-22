@@ -186,7 +186,7 @@ We then have an open subset
 
 \begin{align*}
 U =\spec(k[x,y,x',y']) \injects \Gr(1,3) \\
-(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4),
+(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4)
 .\end{align*}
 
 so we have some local coordinates. Let $\tilde \phi_i$ be the dual basis.
@@ -227,10 +227,9 @@ We thus obtain a theorem:
 
 **Theorem**:
 
-$$
+\begin{align*}
 \sum_{\quad L \suchthat \\ L \intersect L_i \neq\emptyset}\Tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
-$$
-$\qed$
+.\end{align*}
 
 # Where Things Are Going
 - Gromov-Witten invariants with Jake and Jesse
