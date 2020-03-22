@@ -200,7 +200,7 @@ Example (Computing $GW(\CC)$)
   \beta \mapsto \dim V
   $$
 
-which is realized by taking the rank.
+  which is realized by taking the rank.
 
 **Example:** $GW(\RR)$.
 We still have the rank, but now we can also take the signature, so we have
