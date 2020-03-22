@@ -164,12 +164,13 @@ Recall that the target of the degree map was $GW(k)$; we'll also talk a bit abou
 From yesterday, we defined $GW(k)$ as the isomorphism classes of symmetric nondegenerate bilinear forms over $k$, which had a generators
 
 \begin{align*}
-\generators{a}, \quad a\in k^\times\\
-\generators{a}: k^2 \to k\\
-(x,y) \mapsto axy
+\generators{a}, \quad a &\in k^\times\\
+\generators{a}: k^2 &\to k\\
+(x,y) &\mapsto axy
 .\end{align*}
 
 and relations
+
 \begin{align*}
 \generators{ab^2} &= \generators{a} \quad&(b\neq 0)\\
 \generators{a}\tensor\generators{b} &= \generators{ab} &\\
@@ -258,26 +259,27 @@ The Grothendieck-Witt group is the 0th graded piece of Milnor-Witt K-theory, $M_
 
 This group has generators
 
-$$\begin{align*}
+\begin{align*}
 \generators{a}, &\quad a\in k^\times, &\deg a = 1\\
 \eta, & & \quad\deg \eta = -1
-\end{align*}$$
+\end{align*}
 
 and relations
 
-$$\begin{align*}
+\begin{align*}
 \eta \generators{a} &= \generators{a} \eta\\
 \generators{a}\generators{1-a} &= 0&\\
 \generators{ab} &= \generators{a} + \generators{b} + \eta \generators{a}\generators{b}\\
 \eta h &= 0
-\end{align*}$$
+\end{align*}
 
 where $h$ is the same as earlier, but since it's in the wrong group, we need to define this using the isomorphism
-$$\begin{align*}
+
+\begin{align*}
 G W ( k ) &\cong K _ { 0 } ^ { MW } ( k ) \\
 \generators{a} &\mapsto 1 + n \generators{a}\\
 h\definedas \generators{1} + \generators{-1} &\mapsto 2 + \eta\generators{-1}\definedas h.
-\end{align*}$$
+\end{align*}
 
 # Degree Theorem
 This theorem says that $\eta$ corresponds to a Hopf map.
@@ -319,12 +321,12 @@ We want to know what the sections are on some scheme $Y$, so we look at its func
 
 So let $V:E \to \ZZ \union \theset\infty$ be a valuation and $\mathcal O_V = \theset{e\in E \suchthat V(e) \geq 0}$ and choose a uniformizer $\pi$ such that $v(\pi)=1$. Then form the residue field $k(V) \definedas \mathcal O_V / \generators{\pi}$. Then this residue map plus the sections will allow us to define a sheaf, so define the **residue homomorphism**
 
-$$\begin{align*}
+\begin{align*}
 \del_V^\pi: K_*^{MW}(E) &\to K_*^{MW}(k(V))[-1] \\
 \generators{\pi}\generators{a_1}\cdots\generators{a_n} &\mapsto \generators{\overline a_1} \cdots\generators{\overline a_n} \\
 \generators{a_1} \cdots \generators{a_n} &\mapsto 0 \\
 \generators{\eta} \mapsto 0
-\end{align*}$$
+\end{align*}
 
 where $a_i \in \mathcal{O}_V^\times$ and $\overline a_i$ is the reduction.
 
