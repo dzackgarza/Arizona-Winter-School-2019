@@ -231,7 +231,7 @@ $$
 
 where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$.
 
-> I think these are always separable, mentioned later in the talk.
+> DZG: I think these are always separable, mentioned later in the talk.
 
 We thus get
 $$
