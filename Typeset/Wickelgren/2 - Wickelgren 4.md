@@ -66,6 +66,7 @@ This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the mo
 **Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
 
 **Example**: Take $\OO(d)\oplus \OO(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd.
+
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
 
 ## Computing Euler Classes for Relatively Orientable Bundles
@@ -225,11 +226,11 @@ $$
 
 We thus obtain a theorem:
 
-**Theorem**:
-
-\begin{align*}
-\sum_{\quad L \suchthat \suchthat L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
-.\end{align*}
+Theorem
+:   \hfill
+    \begin{align*}
+    \sum_{\quad L \suchthat \suchthat L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
+    .\end{align*}
 
 ## Where Things Are Going
 
