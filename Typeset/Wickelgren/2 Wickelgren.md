@@ -301,19 +301,20 @@ h\definedas \generators{1} + \generators{-1} &\mapsto 2 + \eta\generators{-1}\de
 
 This theorem says that $\eta$ corresponds to a Hopf map.
 
-**Theorem (Morel):**
-$$
-[(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
-$$
+Theorem (Morel)
+:   \hfill
+    $$
+    [(S^1)^{\wedge n} \wedge (\GG_m)^{\wedge j},~ (S^1)^{\wedge n} \wedge (\GG_m)^{\wedge r}] \cong K^{MW}_{r-j}
+    $$
 
-where the square brackets correspond to homotopy classes of maps.
+    where the square brackets correspond to homotopy classes of maps.
 
-In particular, when $j=r=n$, we obtain
-$$
-[\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] \cong GW(k)
-$$
+    In particular, when $j=r=n$, we obtain
+    $$
+    [\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] \cong GW(k)
+    $$
 
-> This is a fantastic theorem, which we will see again later when doing oriented Chow groups.
+This is a fantastic theorem, which we will see again later when doing oriented Chow groups.
 
 A nice consequence is that if we let $k=\RR$, the degrees behave nicely, characterized by the commutativity of this diagram:
 $$
