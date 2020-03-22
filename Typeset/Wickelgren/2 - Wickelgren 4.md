@@ -49,7 +49,7 @@ We know what it means for such a homomorphism to be positive, and this won't cha
 
 Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$ with $\mathcal O(V)_x = H^r(\text{Th}(V_x); \ZZ)$. We can then use the Thom isomorphism to get a Thom class, so we have $e(V) \in H^r(X; \mathcal O(-V))$ which comes from a canonical map. So when $V\to X$ is relatively oriented, we again have $e(V) \in \ZZ$.
 
-# $\Af^1$ Algebraic Topology
+## $\Af^1$ Algebraic Topology
 
 Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebraic bundle of rank $r$.
 
@@ -99,7 +99,7 @@ Note that we don't actually need the immersion condition here, since the $\Af^1$
 
 > Need to show that it is well-defined (i.e. it doesn't depend on choice of section), which it is under some conditions.
 
-# Relations to Chow Groups
+## Relations to Chow Groups
 
 Other perspectives:
 
@@ -145,7 +145,7 @@ Other perspectives
 - Mike Hopkins
 - Raxit and Levine?
 
-# Example Computations
+## Example Computations
 
 **Example**: Let $n$ be even, and $V = \OO_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$.
 
@@ -231,7 +231,8 @@ We thus obtain a theorem:
 \sum_{\quad L \suchthat \suchthat L \intersect L_i \neq\emptyset}\tr_{k(L) / k}\generators{\lambda-\mu} = \generators{1} + \generators{-1} = h
 .\end{align*}
 
-# Where Things Are Going
+## Where Things Are Going
+
 - Gromov-Witten invariants with Jake and Jesse
 - Welschinger invariants, Mark Levine
 
