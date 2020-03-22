@@ -26,4 +26,5 @@ Topic: $\AA^1$ Enumerative Geometry
 !include Wickelgren/5 - Wickelgren 3.md
 
 # Lecture 4
-!include "Wickelgren/2 - Wickelgren 4.md"
+
+!include Wickelgren/2 - Wickelgren 4.md
