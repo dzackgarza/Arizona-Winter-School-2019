@@ -167,12 +167,3 @@ $$
 \generators{a}: k^2 \to k\\
 (x,y) \mapsto axy
 $$
-
-and relations
-$$\begin{align*}
-\generators{ab^2} &= \generators{a} \quad&(b\neq 0)\\
-\generators{a}\tensor\generators{b} &= \generators{ab} &\\
-\generators{a} + \generators b &= \generators{a+b} + \generators{ab(a+b)} \quad&(a+b\neq 0)
-\end{align*}$$
-
-which follows because we're in $k^\times/(k^\times)^2$. Note that the last relation is very important.
