@@ -88,8 +88,8 @@ Then $f:\RR^n\to\RR^n$, so we can form its Jacobian $\mathrm{Jac}(f) = \det J$ w
 
 \begin{align*}
 \underset{q_i}\deg f = \begin{cases}
-    1,  & $\operatorname{Jac}(f) > 0$ \\
-    -1, & $\operatorname{Jac}(f) < 0$.
+    1,  & \operatorname{Jac}(f) > 0 \\
+    -1, & \operatorname{Jac}(f) < 0
 \end{cases}
 .\end{align*}
 
