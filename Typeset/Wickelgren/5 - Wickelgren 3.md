@@ -159,8 +159,8 @@ where we claim can send 1 wherever we want without altering the isomorphism clas
 
 $$
 \begin{array}{cc}
- &  \matrix{1 & x} \\
-    \matrix{1 \\ x} &
+ &  \begin{matrix}{1 & x}\end{matrix} \\
+    \begin{matrix}{1 \\ x}\end{matrix} &
     \begin{bmatrix}
       0 & 1 \\
       1 & 0
