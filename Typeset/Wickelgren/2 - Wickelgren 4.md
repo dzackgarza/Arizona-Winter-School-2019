@@ -17,32 +17,3 @@ where $\mathcal O$ is a trivial bundle and $X$ denotes the zero section.
 **Definition**: A **bundle** $V$ is **oriented**  by a Thom class $u\in H^r(\text{Th}(V); \ZZ)$ if each restriction $H^r(\text{Th}(V_x); \ZZ)$ yields a generator.
 
 **Example**: This occurs when all transitions functions have positive determinant. Let $\mathcal U$ be an open cover of $X$, then $V$ is described by clutching (transition) functions
-
-\begin{align*}
-\theset{\restrictionof{\varphi}{U \intersect W} \suchthat U,W\in\mathcal U} \text{ where } \det \restrictionof{\varphi}{U\intersect W} > 0
-\end{align*}
-
-if and only if $\det V = L^{\tensor 2}$ for some line bundle $L \surjects X$. Note that we can do this because if the determinant is greater than zero, we can take a square root, and if we take a positive square root the cocycle condition is still satisfied.
-
-**Definition**: A **space** $X$ is **oriented** iff its tangent space $TX$ is oriented.
-
-Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain an isomorphism $H^r(X; \ZZ) \cong \ZZ$, and so $e(V)\in \ZZ$ is an integer.
-
-We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then
-$$
-e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
-$$
-where we sum the local degrees, and $\sigma$ is locally identified with a function
-$$
-\sigma: \RR^d \to \RR^r \\
-\text{coordinates on } X \mapsto \text{local trivialization}
-$$
-by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
-
-Note that if we composed the trivialization with an element of $\GL(U)$ with negative determinant, that would change the local degree so this definition wouldn't make sense for relative orientations -- however, if we change coordinates for $\RR^d$ and $\RR^r$ simultaneously, it will.
-
-**Definition:** The bundle $V\surjects X$ is **relatively oriented** iff $\hom(\det TX, \det V)$ is oriented.
-
-We know what it means for such a homomorphism to be positive, and this won't change the value of the local index.
-
-Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$ with $\mathcal O(V)_x = H^r(\text{Th}(V_x); \ZZ)$. We can then use the Thom isomorphism to get a Thom class, so we have $e(V) \in H^r(X; \mathcal O(-V))$ which comes from a canonical map. So when $V\to X$ is relatively oriented, we again have $e(V) \in \ZZ$.
