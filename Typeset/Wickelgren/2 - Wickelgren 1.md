@@ -140,15 +140,16 @@ This also holds for the second point of intersection, $p'$, and so we take the i
 
 A natural way to see that there should be a distinction between two types of lines is to use spin structures. Consider a physical cubic surface sitting inside $\RR^3$, and push the tangent plane alone a line. There are two things that can happen -- one is a twisting by a nontrivial element of $\pi_1 SO_3(\RR)$, the other is no twisting at all.
 
-Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
+Example
+:   Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
-![](assets/2019-03-03-22-11-15.png)\
+    ![](assets/2019-03-03-22-11-15.png)\
 
-Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/$z$ coordinates, etc.
+    Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/$z$ coordinates, etc.
 
 > This took me a while to visualize -- what worked for me was thinking about "egg crate" padding:
-
-![](assets/2019-03-03-22-27-49.png)\
+>
+> ![](assets/2019-03-03-22-27-49.png)\
 
 After thinking about what physically happens as you push a plane around, it becomes clear that these three lines are all hyperbolic. Note that this question is the same as asking if a path in the frame bundle lifts.
 
