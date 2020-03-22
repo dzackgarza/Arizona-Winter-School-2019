@@ -7,7 +7,7 @@ The goal here is to record information about the fields of definition. However, 
 # Example: Lines on a Smooth Cubic Surface
 > Joint work with Jesse Kass
 
-A **cubic surface** $X$ consists of the $\CC$ solutions to a polynomial in three variables, i.e. 
+A **cubic surface** $X$ consists of the $\CC$ solutions to a polynomial in three variables, i.e.
 $$
 X = \theset{(x,y,z) \in \CC^3 \suchthat f(x,y,z) = 0},
 $$
@@ -17,7 +17,7 @@ $$
 \CP^3 = \theset{\vector x = [w,x,y,z]\neq \vector 0 \suchthat \forall \lambda \in \CC^\times,~\vector x = \lambda \vector x}
 $$
 
-and so 
+and so
 $$
 X = \theset{[w,x,y,z] \in \CP^3 \suchthat f(w,x,y,z) = 0}
 $$
@@ -30,7 +30,7 @@ If $X$ is a smooth cubic surface, then $X$ contains exactly 27 lines.
 
 Example: The Fermat cubic $f(w,x,y,z) = w^3 + x^3 + y^3 + z^3$.
 
-We can find one line, given by 
+We can find one line, given by
 $$
 L = \theset{[s,-s,t,-t] \suchthat s,t \in \CP^1},
 $$
@@ -68,7 +68,7 @@ $$
 $$
 i.e. the line corresponding to $W$ is in our surface exactly when this section is zero. We now want to count the zeros of $\sigma_f$, which is exactly what the Euler class does.
 
-To be precise, the Euler class counts the zeros of a section of a properly oriented vector bundle with a given weight. Let $V\to M$ be a rank $r$ $\RR\dash$ vector bundle over a dimension $r$ real manifold where we assume that $V$ is oriented. 
+To be precise, the Euler class counts the zeros of a section of a properly oriented vector bundle with a given weight. Let $V\to M$ be a rank $r$ $\RR\dash$ vector bundle over a dimension $r$ real manifold where we assume that $V$ is oriented.
 
 > We choose $\RR$ here because $\CC$ is slightly too nice and gives us a preferred orientation (which we'll want to track later.)
 
@@ -83,7 +83,7 @@ Definition: Let $p\in M$ where $\sigma(p) = 0$, and define $\deg_p(\sigma)$ in t
 
 Choose local coordinates near $p$. Since the zeros are isolated, we can choose a ball $B_\varepsilon(p)$ such that $x\in B_\varepsilon(p) - \theset{p} \implies \sigma(x) \neq 0$. Choose a local trivialization of the total space $V$. This allows us to view $\sigma: \RR^r \to \RR^r$ as a real function.
 
-We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(B_\varepsilon(p)) = \RR - \theset{0}$. We can then form a function 
+We can choose coordinates such that $p = 0$ in the domain, so $\sigma(0) = 0$, and moreover the image $\sigma(B_\varepsilon(p)) = \RR - \theset{0}$. We can then form a function
 $$
 \bar\sigma: \del B_\varepsilon(p) = S^{r-1} \to S^{r-1} = \del \sigma(B_\varepsilon(p)) \\
 x \mapsto \frac{\sigma(x)} {\norm{\sigma(x)}},
@@ -93,7 +93,7 @@ and so we can take $\deg_p(\sigma) \definedas \deg \bar \sigma$.
 
 There is indeterminacy here up to elements of $\GL(r, \RR)$ which could possibly effect the sign, however, but this can be fixed using the assumption that $V$ is oriented and choosing local trivializations for which the orientations are compatible. This gives us a well-defined local degree of a section at a zero.
 
-The Euler class, which only depends on the bundle and not the section, is given by 
+The Euler class, which only depends on the bundle and not the section, is given by
 $$
 e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
 $$
@@ -134,13 +134,13 @@ A natural way to see that there should be a distinction between two types of lin
 
 Example: Look at the Fermat cubic surface $x^3+y^3+z^3=-1$
 
-![](/assets/2019-03-03-22-11-15.png)
+![](assets/2019-03-03-22-11-15.png)\
 
 Interpretation of this image: $X \subset \RR^3$ is a surface, which has 3 lines that are contained in a plane. We this view $X$ from above this plane, marking a plus/minus to denote the relative height of the surface within each bounded region. Plus denotes part of the surface that bubbles up over the plane, having positive height/$z$ coordinates, etc.
 
 > This took me a while to visualize -- what worked for me was thinking about "egg crate" padding:
 
-![](/assets/2019-03-03-22-27-49.png)
+![](assets/2019-03-03-22-27-49.png)\
 
 After thinking about what physically happens as you push a plane around, it becomes clear that these three lines are all hyperbolic. Note that this question is the same as asking if a path in the frame bundle lifts.
 
@@ -158,7 +158,7 @@ $$
 [S_\Af^n, S_\Af^n] \to GW(k),
 $$
 
-where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms. 
+where the target is not the integers in this case, but rather a group of bilinear forms that are quadratic in characteristic not equal to 2. It is the Grothendieck-Witt group, whose elements are formal difference of bilinear forms.
 
 Thus the group itself is the group completion of nondegenerate symmetric isomorphism classes of bilinear forms $V^2 \to k$ where $V$ is a finite-dimensional $k\dash$vector space.
 
@@ -192,7 +192,7 @@ which is realized by taking the rank.
 **Example:** $GW(\RR)$.
 We still have the rank, but now we can also take the signature, so we have
 $$
-GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2, 
+GW(\RR) \mapsvia{\text{rank} \times \text{signature}} \ZZ^2,
 $$
 
 although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
@@ -216,7 +216,7 @@ $$
 L = \theset{[a,b,c,d]s + [a',b',c',d']t \suchthat s,t \in \PP^1(k(L}
 $$
 
-where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$. 
+where the extension field $k(L) = k(a,b,c,d,a',b',c',d')$ is obtained by adjoining the coefficients to $k$.
 
 > I think these are always separable, mentioned later in the talk.
 
@@ -236,7 +236,7 @@ $$
 
 or equivalently $D=ab-cd$ when $I = \begin{pmatrix}a&b\\c&d\end{pmatrix}$, in which case $\mathrm{Type}(L) = <-1>\deg I$.
 
-# An Analogous Trace Formula 
+# An Analogous Trace Formula
 
 **Theorem:**
 Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 2, we then have
@@ -244,7 +244,7 @@ $$
 \sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = \text{One fixed quadratic form} = 15<1> + 12<-1>
 $$
 
-where the trace/transfer maps are defined as 
+where the trace/transfer maps are defined as
 
 $$
 \mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k) \\
@@ -264,13 +264,13 @@ where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note tha
 We thus get
 $$
 \mltext{
-    \text{Elliptic lines $L$ } \\  
-    \text{with $k(L) = \FF_\text{odd}$} 
-} - 
+    \text{Elliptic lines $L$ } \\
+    \text{with $k(L) = \FF_\text{odd}$}
+} -
 \mltext{
     \text{Hyperbolic lines $L$} \\
     \text{with $k(L) = \FF_\text{even}$}
-} 
+}
 \equiv 0 \mod 2
 $$
 
