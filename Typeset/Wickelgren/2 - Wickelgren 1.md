@@ -51,16 +51,16 @@ Let $\Gr(1,3)$ be the Grassmannian parametrizing 1-dimensional subspaces of $\CP
 
 Let $$S \to \Gr(1,3)$$ be the tautological bundle where the fiber is simply given by $S_W = W$. We can also form the bundle
 $$
-(\sym^3 S)^\dual \to \Gr(1,3)
-$$ where the fiber over the point corresponding to $W$ is all of the cubic polynomials on $W$, i.e. $$(\sym^3 S)^\dual_W = (\sym^3 W)^\dual.$$
+(\sym^3 S)\dual \to \Gr(1,3)
+$$ where the fiber over the point corresponding to $W$ is all of the cubic polynomials on $W$, i.e. $$(\sym^3 S)\dual_W = (\sym^3 W)\dual.$$
 
 Explicitly, we have the following two bundles to work with:
 $$
 W \to S \to \Gr(1,3) \\
-(\sym^3 W)^\dual \to (\sym^3 S)^\dual \to \Gr(1,3)
+(\sym^3 W)\dual \to (\sym^3 S)\dual \to \Gr(1,3)
 $$
 
-Our chosen $f$ determines an element of $(\sym^3 \CC^4)^\dual$, which is thus a section $\sigma_f$ of the second bundle above, where
+Our chosen $f$ determines an element of $(\sym^3 \CC^4)\dual$, which is thus a section $\sigma_f$ of the second bundle above, where
 $$
 \sigma_f(W) = \restrictionof{f}{W}.
 $$
@@ -103,7 +103,7 @@ $$
 
 It can be shown that because $X$ is smooth, the zeros are all simple and so in the complex case, the degrees are all 1. We thus obtain
 $$
-\abs{\theset{\text{lines on } X}} = e((\sym^3 S)^\dual),
+\abs{\theset{\text{lines on } X}} = e((\sym^3 S)\dual),
 $$
 
 where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$.
