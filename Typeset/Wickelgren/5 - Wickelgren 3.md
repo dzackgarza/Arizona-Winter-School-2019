@@ -170,7 +170,7 @@ $$
 
 where the 1s appear since we require $x\mapsto 1$, the bottom-right 0 because $x^2$ in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of $x$ to it.
 
-Thus we can diagonalize this matrix to yield $\omega^{EKL} = \generators{1} + \generators{-1}$. Note that we needed to assume $\char k$ does not divide $\dim Q$, otherwise we could have used a distinguished socle element instead in place of the Jacobian.
+Thus we can diagonalize this matrix to yield $\omega^{EKL} = \generators{1} + \generators{-1}$. Note that we needed to assume $\ch k$ does not divide $\dim Q$, otherwise we could have used a distinguished socle element instead in place of the Jacobian.
 
 So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\selfmap$, so here's an enumerative application.
 
@@ -216,7 +216,7 @@ which is a fixed element.
 
 
 **Example:**
-Let $f(x,y) = y^2-x^3$, supposing $\char(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then
+Let $f(x,y) = y^2-x^3$, supposing $\ch(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then
 $$
 \mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\
 = \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
