@@ -210,11 +210,11 @@ Example ($GW(\RR)$)
 
   although a minor parity issue crops up here that can be fixed without damaging the isomorphism type.
 
-**Example:** $GW(\FF_q)$.
-We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
-$$
-GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ
-$$
+Example ($GW(\FF_q)$)
+: We can make a matrix out of how $\beta$ acts on basis elements and take the determinant of it to obtain an invariant called the *discriminant*, and so
+  $$
+  GW(\FF_q) \mapsvia{\text{discriminant} \times \text{rank}} \FF_q^\times/(\FF_q^\times)^2 \times \ZZ
+  $$
 
 Note that the quotient is needed because we can change basis in $\FF_q$, which amounts to conjugating by a matrix $A$, and so this discriminant is only well-defined up to squares.
 
