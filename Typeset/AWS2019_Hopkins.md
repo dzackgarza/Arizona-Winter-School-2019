@@ -1,6 +1,6 @@
 ---
-title: "A1 Enumerative Geometry (Arizona Winter School 2019)"
-author: Talks by Kirsten Wickelgren, Transcribed by D. Zack Garza
+title: "(Arizona Winter School 2019)"
+author: Talks by , Transcribed by D. Zack Garza
 date: March 9, 2019
 ---
 
