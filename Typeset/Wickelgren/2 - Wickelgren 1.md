@@ -126,6 +126,7 @@ $$
 \mathrm{Fix}(I) = \theset{z \in \CC \suchthat cz^2 + (d-z)z + b = 0},
 $$
 and we characterize $I$ by the following cases:
+
 - $\mathrm{Fix}(I)$ contains two real points: hyperbolic
 - A complex conjugate pair: elliptic
 
