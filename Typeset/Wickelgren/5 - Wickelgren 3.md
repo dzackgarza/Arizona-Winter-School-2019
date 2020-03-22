@@ -2,7 +2,7 @@
 
 ## Defining Some Transfers
 
-Recall that we have the sheaves $K^{MW}_*, GW$, and the sheaf property means that an inclusion $K \injects L$ induces a map $\spec(L) \to \spec(K)$. We can take $GW(spec(L) \to \spec(K))$, and this is exactly the restriction/base change given by $\wait \tensor_k L$ of bilinear forms.
+Recall that we have the sheaves $K^{MW}_*, GW$, and the sheaf property means that an inclusion $K \injects L$ induces a map $\spec(L) \to \spec(K)$. We can take $GW(\spec(L) \to \spec(K))$, and this is exactly the restriction/base change given by $\wait \tensor_k L$ of bilinear forms.
 
 We also saw that these were stable homotopy sheaves, so there should be transfers, and we want to use them for field extensions. Let $K\subset L$ be a finite extension of finite-type schemes over $k$. This leads to transfer maps
 $$
