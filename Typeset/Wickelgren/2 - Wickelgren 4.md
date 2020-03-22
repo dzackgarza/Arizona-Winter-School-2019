@@ -39,8 +39,8 @@ $$
 where we sum the local degrees, and $\sigma$ is locally identified with a function
 
 \begin{align*}
-\sigma: \RR^d \to \RR^r \\
-\text{coordinates on } X \mapsto \text{local trivialization}
+\sigma: \RR^d &\to \RR^r \\
+\text{coordinates on } X &\mapsto \text{local trivialization}
 \end{align*}
 
 by choosing local coordinates and a local trivialization compatible with the standard orientations of the spheres in the domain and codomain.
