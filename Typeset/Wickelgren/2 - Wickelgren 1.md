@@ -102,7 +102,7 @@ There is indeterminacy here up to elements of $\GL(r, \RR)$ which could possibly
 
 The Euler class, which only depends on the bundle and not the section, is given by
 $$
-e(V) = \sum_\theset{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
+e(V) = \sum_{\theset{p\suchthat \sigma(p) = 0}} \deg_p(\sigma).
 $$
 
 It can be shown that because $X$ is smooth, the zeros are all simple and so in the complex case, the degrees are all 1. We thus obtain
