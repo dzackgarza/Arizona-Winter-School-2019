@@ -208,10 +208,11 @@ For example, consider $x^2+y^2$ and $x^2-y^2$. The first carves out just the ori
 
 The LHS is a non-split node, meaning the tangent is not defined over $k$, while the RHS is a split node. So we can use the $\Af^1$ degree in place of the topological degree, since we want to count the zeros of the gradient, and it will naturally pick up information about the node.
 
-**Definition:** the **type** of a node $p = \theset{f=0}$ is given by
-$$
-\operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).
-$$
+Definition (Type of a Node)
+: The **type** of a node $p = \theset{f=0}$ is given by
+  $$
+  \operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).
+  $$
 
 **Example:**
 Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$. Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$. Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
