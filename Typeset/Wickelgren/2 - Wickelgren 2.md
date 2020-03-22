@@ -322,7 +322,7 @@ where the edge degree maps are just the topological degree of maps between spher
 
 So these homotopy groups are actually homotopy sheaves (not just global sections of sheaves), where we can form a sheaf by taking smash with $U^+$ and sheafifying. Thus $GW(k), K^{MW}_*(k),$ and $K^M_*(k)$ are all global sections of sheaves.
 
-> Not sure what $U^+$ is here.
+> DZG: Not sure what $U^+$ is here.
 
 
 ## Producing a Sheaf
