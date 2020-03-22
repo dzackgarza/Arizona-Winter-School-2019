@@ -128,7 +128,7 @@ We can also show $\Af^n - \theset{0} \homotopic (S^1)^{\wedge n-1}\wedge (\GG_m)
 $$
 \begin{CD}
   X\cross Y @>>> X \\
-  @VVV \selfmap @VVV \\
+  @VVV @VVV \\
   Y @>>> \therefore \Sigma X\wedge Y
 \end{CD}
 $$
