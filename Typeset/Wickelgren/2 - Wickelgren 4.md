@@ -87,7 +87,7 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
 
-Definition
+Definition (Nisnevich Coordinates)
 : The **Nisnevich** coordinates near $x$ are given by
   $$
   \varphi: U \to \Af^d
@@ -101,7 +101,8 @@ Remarks:
 
 And so we can make the following definition:
 
-**Definition**: Local coordinates and a local trivialization are **compatible** if for these distinguished sections, we have
+Definition (Compatibility of Coordinates and Trivialization)
+: Local coordinates and a local trivialization are **compatible** if for these distinguished sections, we have
 $$
 \hom(\det TX(U), V(U)) \cong L^{\tensor 2}.
 $$
