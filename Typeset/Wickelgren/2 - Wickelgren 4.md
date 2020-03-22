@@ -58,20 +58,25 @@ Since $V$ has an orientation sheaf, let $\mathcal O(V)$ be a local system on $X$
 
 Let $X\in\Sm$ be a smooth scheme of dimension $d$ and $V\surjects X$ an algebraic bundle of rank $r$.
 
-Definition
-: $V$ is oriented by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
+Definition (Oriented Algebraic Bundles)
+: $V$ is *oriented* by the data $L\surjects X$ a line bundle and an isomorphism $\det V \cong L^{\tensor 2}$.
 
-**Definition**: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
+Definition (Relatively Oriented Algebraic Bundles)
+: $V$ is **relatively oriented** if $\hom(\det TX, \det V)$ is oriented.
 
-**Example:** Consider both $X = \PP^n$ and $X = \Gr(m,n)$ be the Grassmannian parametrizing subspaces $\PP^m \leq \PP^n$.  Then $\det TX = \mathcal O(n+1)$, the dual of the tautological tensored $n+1$ times -- for the Grassmannian, you put it in the Plucker embedding and pull back the $\mathcal O(1)$.
+Example
+: Consider both $X = \PP^n$ and $X = \Gr(m,n)$ be the Grassmannian parametrizing subspaces $\PP^m \leq \PP^n$.
+  Then $\det TX = \mathcal O(n+1)$, the dual of the tautological tensored $n+1$ times -- for the Grassmannian, you put it in the Plucker embedding and pull back the $\mathcal O(1)$.
 
-$\therefore X$ is orientable $\iff n$ is odd.
+  $\therefore X$ is orientable $\iff n$ is odd.
 
-This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the morphism required in the definition above.
+  This follows because we can take $\mathcal O( \frac{n+1} {2})$ and choose the morphism required in the definition above.
 
-**Example**: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
+Example
+: $\mathcal O(n) \surjects \PP^1$ is orientable if and only if it is relatively orientable if and only if $n$ is even.
 
-**Example**: Take $\OO(d)\oplus \OO(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd.
+Example
+: Take $\OO(d)\oplus \OO(e) \to \PP^2$. Since $2+1=3$ is odd, this is orientable if and only if $d+e$ is odd.
 
 > Note: S. McKean uses this to make an enriched Bezout's theorem for the intersection of plane curves of degree $d$ and $e$.
 
