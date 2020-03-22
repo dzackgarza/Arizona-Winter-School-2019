@@ -269,16 +269,16 @@ Theorem
 
 Note: we have a well-defined map in the other direction, since the $GW$ is a stable homotopy group of spheres.
 
-Example
+Example (Complex Numbers)
 : Let $k=\CC$, then apply rank to get $15+12=27$ on the RHS, while since every element is a square, the Type is just 1, so we get 27 total.
 
-Example
+Example (Reals)
 : Let $k=\RR$, apply signature.
   If $L$ is defined over $C$, so the type is 1, and we're just left with the trace of $\CC/\RR$ -- but this contributes a $+1$ and $-1$, so there is no contribution.
   What's left are the lines of $\RR$, and since we set it up so type 1 lines are hyperbolic, we just get the trace $15-12=3$.
 
-Example
-  : Let $k=\FF^q$.
+Example (Finite Fields)
+  : Let $k=\FF_q$.
   We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.
 
   We thus get
