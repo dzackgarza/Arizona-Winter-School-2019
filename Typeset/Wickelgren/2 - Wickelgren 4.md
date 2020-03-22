@@ -87,11 +87,14 @@ In addition to the prior assumptions, let $\sigma$ be a section of $V$ with only
 
 what remains is to define the local degree. We'll proceed in the same way by finding a function, which will give us local coordinates and a local trivialization.
 
-**Definition**: The **Nisnevich** coordinates near $x$ are given by
-$$
-\varphi: U \to \Af^d
-$$
-which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
+Definition
+: The **Nisnevich** coordinates near $x$ are given by
+  $$
+  \varphi: U \to \Af^d
+  $$
+  which induces an isomorphism on the function field, so the induced extension of residue fields $k(\varphi(p)) \injects k(p)$ is an isomorphism.
+
+Remarks:
 
 - Such coordinates determine a distinguished section of $\det TX(U)$
 - A local trivialization $\restrictionof{\varphi}{U} \to \OO^r$ determines a distinguished section of $\det V(U)$
