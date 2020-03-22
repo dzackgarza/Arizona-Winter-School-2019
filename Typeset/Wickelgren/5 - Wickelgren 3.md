@@ -157,6 +157,7 @@ Let $f(x) = x^2$, and consider $\omega^{EKL}$ for this form. Form $Q = k[x]/\gen
 
 where we claim can send 1 wherever we want without altering the isomorphism class of $\omega^{EKL}$. We do this by forming the Gram matrix
 
+$$
 \begin{array}{cc}
  &  \matrix{1 & x} \\
     \matrix{1 \\ x} &
@@ -165,6 +166,7 @@ where we claim can send 1 wherever we want without altering the isomorphism clas
       1 & 0
     \end{bmatrix}
 \end{array}
+$$
 
 where the 1s appear since we require $x\mapsto 1$, the bottom-right 0 because $x^2$ in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of $x$ to it.
 
