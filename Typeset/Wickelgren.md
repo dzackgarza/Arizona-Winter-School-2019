@@ -6,7 +6,7 @@ date: March 9, 2019
 
 Arizona Winter School 2019
 Speaker: Kirsten Wickelgren
-Topic: $\Af^1$ Enumerative Geometry
+Topic: $\AA^1$ Enumerative Geometry
 
 - [Lecture 1](#lecture-1)
 - [Lecture 2](#lecture-2)
