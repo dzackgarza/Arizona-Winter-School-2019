@@ -4,7 +4,7 @@ Enumerative geometry counts algebro-geometric objects, and in order to actually 
 
 The goal here is to record information about the fields of definition. However, since we may no longer have invariant numbers as solutions to polynomial equations, we replace this with a notion of *weights* to get an "invariance of bilinear form" principle instead. Over characteristic not 2, we can use quadratic forms, which ties to Lurie's first talk.
 
-# Example: Lines on a Smooth Cubic Surface
+## Example: Lines on a Smooth Cubic Surface
 > Joint work with Jesse Kass
 
 A **cubic surface** $X$ consists of the $\CC$ solutions to a polynomial in three variables, i.e.
@@ -44,7 +44,7 @@ We can also permute $s,t$ around to get more lines, and by counting this yields 
 
 > There is a proof in the notes that these are the only lines, which is relatively elementary.
 
-# Modern Proof
+### Modern Proof
 We'll use characteristic classes, which we'll later replace by an $\Af^1$ homotopy theory variant.
 
 Let $\Gr(1,3)$ be the Grassmannian parametrizing 1-dimensional subspaces of $\CP^3$, where the $\CC$ points of this space parameterize 2-dimensional subspaces $W \subseteq \CC^4$. This is a moduli space of the lines we're looking for.
@@ -108,7 +108,7 @@ $$
 
 where the RHS is independent of $X$ and can be computed using the splitting principle and the cohomology of $\Gr$.
 
-# What about $\RR$?
+## What about $\RR$?
 
 Schlafli, 19th century: $X$ can have $3,7,15$ or $27$ lines. So it's not constant, and thus there's not an invariant number here, but Segre (1942) distinguished between hyperbolic and elliptic lines.
 
@@ -151,7 +151,7 @@ Although the number of lines isn't a constant, we can take a "signature" sort of
 
 General mantra for $\Af^1$ homotopy theory: if you have a result that works over $\CC$ and $\RR$, it may be a result in $\Af^1$ theory that has realizations recovering the original results.
 
-# $\Af^1$ Homotopy Theory
+## $\Af^1$ Homotopy Theory
 This will allow us to do with schemes much of what we can do in $\mathbf{Top}$. Smooth schemes behave like manifolds, where there are balls around points. The convention here will be that we're working over smooth schemes, denoted $\mathrm{Sm}_k$ where $k$ is a field.
 
 > Remark: in my notation I use $\RP^n, \CP^n$, and $\PP^n(k)$ to denote various projective spaces. I'll adopt Kirsten's convention here and just denote $\PP^n(k)$ as $\PP^n$.
@@ -169,7 +169,7 @@ The group structure arises because if we have two bilinear forms $B, B'$ on vect
 
 Bilinear forms over fields can all be diagonalized, although in characteristic 2, this only holds in a stable sense.
 
-# The Grothendieck-Witt Group
+## The Grothendieck-Witt Group
 Since we can diagonalize, the group $GW(k)$ has a presentation coming from the one dimensional forms. Any of these work as a generator, so we have
 
 - Generators: $<a>$ where $a\in k^\times$, corresponding to the form
@@ -208,7 +208,7 @@ $$
 
 Note that the quotient is needed because we can change basis in $\FF_q$, which amounts to conjugating by a matrix $A$, and so this discriminant is only well-defined up to squares.
 
-# Euler Class
+## Euler Class
 There is an Euler class in this setting,
 $$
 e(V) = \sum_{p\suchthat \sigma(p) = 0} \deg_p(\sigma).
