@@ -129,10 +129,10 @@ Q \definedas \RR[x_1, \cdots, x_n]_0 \over \generators{f_1, \cdots, f_n}
 $$
 
 where the numerator is localized at zero. Since the zero was isolated in its fiber, $Q$ is a finite-dimensional $\RR\dash$vector space, and $\operatorname{Jac}(f) \in Q$ (which may lie in the maximal ideal $\generators{x_1, \cdots, x_n})$. So we can pick any $\RR\dash$linear $\eta: Q \to \RR$ such that $\eta(\operatorname{Jac}(f)) = \dim Q$. This allows us to define
-$$
+\begin{align*}
 \omega^{EKL}: Q^2 \to \RR \\
 (a,b) \mapsto \eta(ab).
-$$
+.\end{align*}
 
 A question Eisenbud was whether or not this whole form could be used as a degree over an arbitrary field $k$, not just its signature. So does it have an interpretation in algebraic topology? The answer is that it does, as a local degree in $\Af^1$ homotopy theory (which wasn't around at the time).
 
