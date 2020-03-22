@@ -30,7 +30,7 @@ Assume $X$ is a compact manifold and $d=r$, then by Poincare duality we obtain a
 
 We can compute the Euler class in the following way: choose a section $\sigma$ with only isolated zeros, then
 $$
-e(V) = \sum_{~~x\in X\\ \sigma(x) \neq 0} \deg_x(\sigma)
+e(V) = \sum_{~~x\in X \suchthat \sigma(x) \neq 0} \deg_x(\sigma)
 $$
 where we sum the local degrees, and $\sigma$ is locally identified with a function
 
