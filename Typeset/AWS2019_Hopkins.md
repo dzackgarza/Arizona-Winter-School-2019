@@ -4,11 +4,11 @@ author: Talks by Mike Hopkins, Transcribed by D. Zack Garza
 date: March 9, 2019
 ---
 
-!include Wickelgren/1 Wickelgren.md
+!include Hopkins/1 Hopkins.md
 
-!include Wickelgren/2 Wickelgren.md
+!include Hopkins/2 Hopkins.md
 
-!include Wickelgren/3 Wickelgren.md
+!include Hopkins/3 Hopkins.md
 
-!include Wickelgren/4 Wickelgren.md
+!include Hopkins/4 Hopkins.md
 
