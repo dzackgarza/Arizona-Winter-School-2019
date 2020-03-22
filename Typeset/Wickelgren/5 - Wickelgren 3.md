@@ -180,11 +180,12 @@ So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\s
 
 > Joint with Jesse Kass.
 
-**Definition**: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring
-$$
-\OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}
-,$$
-where $o(x_i^3)$ just denotes higher order terms.
+Definition (Nodes)
+: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring
+  $$
+  \OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}
+  ,$$
+  where $o(x_i^3)$ just denotes higher order terms.
 
 Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes.
 
