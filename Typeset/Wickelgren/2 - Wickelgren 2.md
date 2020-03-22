@@ -161,7 +161,10 @@ Theorem (The Purity Theorem)
   Consider $\frac X {X-Z}$, in topology we could take a tubular neighborhood around $Z$ and view this as a neighborhood mod its boundary.
   This is equivalent to $\text{Th}(N_Z X)$, the Thom space of the normal bundle of $Z$ in $X$.
 
-**Example:** Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$. Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here. So this produces a sphere around $z$.
+Example
+: Let $Z =\spec(k)$ and $X \in \Sm$, then let $U$ be a Zariski open neighborhood of $z$.
+  Then $U/U-Z \homotopic \PP^n / \PP^{n-1}$ since the Thom space is just a vector space here.
+  So this produces a sphere around $z$.
 
 **Example:** Replace $\spec k$ with $\spec(k(z))$, this yields $\PP^n_{k(z)} / \PP^{n-1}_{k(z)} \homotopic \PP^n / \PP^{n-1} \wedge (\spec (k(z)\coprod \pt)$
 
