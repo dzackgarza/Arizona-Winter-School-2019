@@ -142,17 +142,17 @@ This works for any rational point, and one of the projects is to remove the hypo
 
 **Example:**
 Let $f(x) = x^2$, and consider $\omega^{EKL}$ for this form. Form $Q = k[x]/\generators{x^2}$, where we don't need to localize at zero since $0$ is the only preimage of $0$. Then $\operatorname{Jac}(f) = 2x$. Note that $Q$ has a basis $\theset{1, x}$, and so we can choose
-$$
+\begin{align*}
 \eta: k[x]/\generators{x^2} \to k \\
 \eta(2x) = 2\\
 \eta(1) = 0
-$$
+.\end{align*}
 
 where we claim can send 1 wherever we want without altering the isomorphism class of $\omega^{EKL}$. We do this by forming the Gram matrix
-$$\begin{array}{cc}
+\begin{array}{cc}
  & \matrix{1 & x} \\
  \matrix{1 \\ x} & \begin{bmatrix} 0 & 1 \\ 1 & 0  \end{bmatrix}
-\end{array}$$
+\end{array}
 
 where the 1s appear since we require $x\mapsto 1$, the bottom-right 0 because $x^2$ in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of $x$ to it.
 
