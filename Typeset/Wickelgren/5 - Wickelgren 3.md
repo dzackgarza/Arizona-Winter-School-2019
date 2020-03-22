@@ -224,7 +224,10 @@ Example
     So this contains geometric/arithmetic information about both the node and its tangent directions.
 
 Definition (Milnor Number)
-:   For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
+:   For $p$ a singularity on a hypersurface, we can define **the Milnor number**
+$$
+\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)
+.$$
 
 Theorem (Kass-Wickelgren)
 : It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
