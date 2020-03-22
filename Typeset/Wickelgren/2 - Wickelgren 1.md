@@ -277,19 +277,21 @@ Example
   If $L$ is defined over $C$, so the type is 1, and we're just left with the trace of $\CC/\RR$ -- but this contributes a $+1$ and $-1$, so there is no contribution.
   What's left are the lines of $\RR$, and since we set it up so type 1 lines are hyperbolic, we just get the trace $15-12=3$.
 
-**Example:** Let $k=\FF^q$. We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.
+Example
+  : Let $k=\FF^q$.
+  We can define lines in $\FF_q^n$, and the "begin a square" partitions $(\FF_q^n)^\times$ into two disjoint subsets, we can assign types and we let squares be the hyperbolic elements.
 
-We thus get
-$$
-\mltext{
-    \text{Elliptic lines $L$ } \\
-    \text{with $k(L) = \FF_\text{odd}$}
-} -
-\mltext{
-    \text{Hyperbolic lines $L$} \\
-    \text{with $k(L) = \FF_\text{even}$}
-}
-\equiv 0 \mod 2
-$$
+  We thus get
+  $$
+  \mltext{
+      \text{Elliptic lines $L$ } \\
+      \text{with $k(L) = \FF_\text{odd}$}
+  } -
+  \mltext{
+      \text{Hyperbolic lines $L$} \\
+      \text{with $k(L) = \FF_\text{even}$}
+  }
+  \equiv 0 \mod 2
+  $$
 
-which follows from computing the discriminant of the given form.
+  which follows from computing the discriminant of the given form.
