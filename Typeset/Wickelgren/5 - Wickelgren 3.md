@@ -70,3 +70,7 @@ since $E^\times$ acts of the LHS due to the bracket $E$ in the Grothendieck-Witt
 We can also twist by line bundles $L \to X$, leading to a definition of **oriented Chow groups twisted by local coefficients** via $\widetilde{CH}{}^i(X; L) \definedas H^i(X; K^{MW}_i(L))$ where we just take $K\dash$Milnor-Witt and twist by $L$.
 
 For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforward map
+
+\begin{align*}
+f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
+.\end{align*}
