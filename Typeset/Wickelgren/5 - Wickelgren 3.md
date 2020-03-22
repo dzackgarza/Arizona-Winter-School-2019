@@ -215,13 +215,13 @@ Definition (Type of a Node)
   $$
 
 Example
-: Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$.
-  Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$.
-  Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
+:   Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$.
+    Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$.
+    Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
 
-  Then $\operatorname{Type}(x^2+ay^2) = \generators{a}$.
-  This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction.
-  So this contains geometric/arithmetic information about both the node and its tangent directions.
+    Then $\operatorname{Type}(x^2+ay^2) = \generators{a}$.
+    This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction.
+    So this contains geometric/arithmetic information about both the node and its tangent directions.
 
 Definition (Milnor Number)
 :   For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
