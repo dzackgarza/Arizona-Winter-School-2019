@@ -241,20 +241,20 @@ or equivalently $D=ab-cd$ when $I = \begin{pmatrix}a&b\\c&d\end{pmatrix}$, in wh
 
 ## An Analogous Trace Formula
 
-**Theorem:**
-Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 2, we then have
-$$
-\sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = \text{One fixed quadratic form} = 15<1> + 12<-1>
-$$
+Theorem
+:   Supposing $X$ is a smooth cubic surface over $k$ of characteristic not equal to 2, we then have
+    $$
+    \sum_{L \in X}\mathrm{Tr}_{k(L) / k}\mathrm{Type}(L) = \text{One fixed quadratic form} = 15<1> + 12<-1>
+    $$
 
-where the trace/transfer maps are defined as
+    where the trace/transfer maps are defined as
 
-$$
-\mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k) \\
-(V^2 \mapsvia{\beta} k(L)) \mapsto (V^2 \mapsvia{\beta} k) \circ \mathrm{Trace}_\text{Galois}
-$$
+    $$
+    \mathrm{Tr}_{k(L) / k}: GW(k(L)) \to GW(k) \\
+    (V^2 \mapsvia{\beta} k(L)) \mapsto (V^2 \mapsvia{\beta} k) \circ \mathrm{Trace}_\text{Galois}
+    $$
 
-where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note that we can do this because we can view $V$ as a vector space over either $k$ or $k(L)$, so we end up with a quadratic form over $k$.
+    where $\mathrm{Trace}_\text{Galois}$ comes from summing the conjugates. Note that we can do this because we can view $V$ as a vector space over either $k$ or $k(L)$, so we end up with a quadratic form over $k$.
 
 > Note: we have a well-defined map in the other direction, since the $GW$ is a stable homotopy group of spheres.
 
