@@ -101,7 +101,9 @@ $$
 
 which doesn't depend on $p$. We then make an analogous definition for higher dimensions.
 
-**Proposition:** the global degree is a sum of local degrees.
+Proposition
+: The global degree is a sum of local degrees.
+
 Let $f: \PP^n \to \PP^n$ be finite such that $f\inv(\Af^n) = \Af^n$ for some chosen copy of $\Af^n \subset \PP^n$. This yields an induced map $\overline f :\PP^{n}/\PP^{n-1} \to \PP^{n}/\PP^{n-1}$. We then define the global degree by picking some $p\in \Af^n$ and setting
 $$
 \deg^{\Af^1}(\overline f) = \sum_{q\in f\inv(p)}\underset{q}\deg{\Af^1}(f)
