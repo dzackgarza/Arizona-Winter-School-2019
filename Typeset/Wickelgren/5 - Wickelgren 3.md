@@ -74,3 +74,164 @@ For any proper $f: X\to Y$ where $\dim Y - \dim X = r$, then we have a pushforwa
 \begin{align*}
 f_*: \widetilde{CH}{}^i(X, \omega_{X/k}\tensor f^* \mathcal L) \to \widetilde{CH}{}^{i-r}(Y, \omega_{Y/k}\tensor \mathcal L)
 .\end{align*}
+
+where $\omega_{X/K}$ is the canonical line bundle of $X$ over $k$ given by $\det TX$, the determinant of the tangent bundle of $X$, and $f^* \mathcal L$ is the pullback of any line bundle from $f$.
+
+Note that the bilinear form here acts like an orientation (which is exciting!), hence the name.
+
+# Degree by Local Degree
+
+Recall from Algebraic Topology that if we have a smooth map $f:S^n \to S^n$, then there is a notion of degree given picking regular values $p\in S^n$, so the preimage consists of finitely many points $f\inv(p) = \theset{q_1, \dots, q_n}$, and we define $\deg f = \sum \underset{q_i}\deg f$ to be the sum of local degrees.
+
+There is a formula for computing the degree from differential topology,  given by choosing coordinates $x_1, \cdots, x_n$ near $q_i$ and $y_1, \cdots, y_n$ near $p$ which are compatible with orientations. Then $f:\RR^n\to\RR^n$, so we can form its Jacobian $\operatorname{Jac}(f) = \det J$ where that matrix $J$ is given by $(J)_{i,j} = \dd{f_i}{x_j}$. We then have
+
+\begin{align*}
+\underset{q_i}\deg f = \begin{cases}
+    1,  & $\operatorname{Jac}(f) > 0$ \\
+    -1, & $\operatorname{Jac}(f) < 0$.
+\end{cases}
+.\end{align*}
+
+In $\Af^1$ algebraic topology, instead of just remembering the sign (like the signature), the idea of Lannes-Morel is to remember the entirety of $\operatorname{Jac}(f)$. Take $f: \PP^1 \to \PP^1$ over a field $k$, then let $p\in \PP^1(k)$ be a $k\dash$rational point so that $f\inv(p) = \theset{q_1, \cdots, q_n}$. We can then define
+$$
+\deg^{\Af^1}(f) = \sum \langle \underset{q_i}{\operatorname{Jac}} f\rangle \in GW(k)
+$$
+
+which doesn't depend on $p$. We then make an analogous definition for higher dimensions.
+
+**Proposition:** the global degree is a sum of local degrees.
+Let $f: \PP^n \to \PP^n$ be finite such that $f\inv(\Af^n) = \Af^n$ for some chosen copy of $\Af^n \subset \PP^n$. This yields an induced map $\overline f :\PP^{n}/\PP^{n-1} \to \PP^{n}/\PP^{n-1}$. We then define the global degree by picking some $p\in \Af^n$ and setting
+$$
+\deg^{\Af^1}(\overline f) = \sum_{q\in f\inv(p)}\underset{q}\deg{\Af^1}(f)
+$$
+
+where the local degree can be define using balls (as in the first lecture), and we let $\underset{q}\deg{\Af^1}(f)$ be the degree of the composite map
+$$
+{\PP^{n} \over \PP^{n-1}} \homotopic {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic \operatorname{Th}(N_p\Af^n) \homotopic {\PP^{n} \over \PP^{n-1}}
+$$
+
+where $U$ is an open set chosen such that the preimage of $p$ only contains $q$, and $\operatorname{Th}(N_p\Af^n)$ is the Thom space of the normal bundle (here, the tangent bundle) and the last equality follows from the purity theorem and the fact that everything is $k\dash$rational (i.e. $k(q) = k$).
+
+This can also be made to work at a non-rational point, using the Hatcher-style proof, of taking a collapsing map to yield the composite
+$$
+{\PP^{n} \over \PP^{n-1}} \to {\PP^{n} \over \PP^{n-1} -\theset{q}}\to {U \over U-\theset{q}} \to {\Af^n \over \Af^n - \theset{p}} \homotopic {\PP^{n} \over \PP^{n-1}}.
+$$
+
+This yields a notion of local degree in terms of global degree, by taking boundaries of balls, and we have the following facts:
+
+- If $f$ is etale at $q$, and $k \subseteq k(q)$ is separable then
+
+  $$
+  \underset q \deg^{\Af^1} (f) = \Tr_{k(q)/k} \langle \operatorname{Jac}(q) \rangle
+  $$
+  - Depending on what you mean by transfer, the hypothesis of separability can be dropped, but it's needed here to take the composition with the Galois theory trace.
+  - We could use this to compute the degree, but we are missing something
+
+
+**Question:** what happens if $\operatorname{Jac}(f) = 0$? Answer: The Eisenbud-Levine-Khimshiashvili signature formula, which says that if $f: \RR^n \to \RR^n$ where $0\mapsto 0$ is an isolated zero, then $\underset 0 \deg(f) = \operatorname{signature} (\omega^{EKL})$ which is a bilinear quadratic form on
+$$
+Q \definedas \RR[x_1, \cdots, x_n]_0 \over \generators{f_1, \cdots, f_n}
+$$
+
+where the numerator is localized at zero. Since the zero was isolated in its fiber, $Q$ is a finite-dimensional $\RR\dash$vector space, and $\operatorname{Jac}(f) \in Q$ (which may lie in the maximal ideal $\generators{x_1, \cdots, x_n})$. So we can pick any $\RR\dash$linear $\eta: Q \to \RR$ such that $\eta(\operatorname{Jac}(f)) = \dim Q$. This allows us to define
+\begin{align*}
+\omega^{EKL}: Q^2 \to \RR \\
+(a,b) \mapsto \eta(ab).
+.\end{align*}
+
+A question Eisenbud was whether or not this whole form could be used as a degree over an arbitrary field $k$, not just its signature. So does it have an interpretation in algebraic topology? The answer is that it does, as a local degree in $\Af^1$ homotopy theory (which wasn't around at the time).
+
+**Theorem (Kass-Wickelgren)**: $\underset 0 \deg^{\Af^1}(f) = \omega^{EKL}$, constructed in the same way.
+
+This works for any rational point, and one of the projects is to remove the hypothesis that $k(x) = k$.
+
+**Example:**
+Let $f(x) = x^2$, and consider $\omega^{EKL}$ for this form. Form $Q = k[x]/\generators{x^2}$, where we don't need to localize at zero since $0$ is the only preimage of $0$. Then $\operatorname{Jac}(f) = 2x$. Note that $Q$ has a basis $\theset{1, x}$, and so we can choose
+\begin{align*}
+\eta: k[x]/\generators{x^2} \to k \\
+\eta(2x) = 2\\
+\eta(1) = 0
+.\end{align*}
+
+where we claim can send 1 wherever we want without altering the isomorphism class of $\omega^{EKL}$. We do this by forming the Gram matrix
+\begin{array}{cc}
+ & \matrix{1 & x} \\
+ \matrix{1 \\ x} & \begin{bmatrix} 0 & 1 \\ 1 & 0  \end{bmatrix}
+\end{array}
+
+where the 1s appear since we require $x\mapsto 1$, the bottom-right 0 because $x^2$ in the ring, and no matter what the top-left corner is, we can change basis by adding a multiple of $x$ to it.
+
+Thus we can diagonalize this matrix to yield $\omega^{EKL} = \generators{1} + \generators{-1}$. Note that we needed to assume $\char k$ does not divide $\dim Q$, otherwise we could have used a distinguished socle element instead in place of the Jacobian.
+
+So now we have a way to concretely calculate degrees of maps $\PP^n /\PP^{n-1}\selfmap$, so here's an enumerative application.
+
+# $\Af^1$ Milnor Numbers
+(Joint with Jesse Kass)
+
+**Definition**: A point $p$ on a scheme $X$ is a **node** if after base changing to the separable closure $k^s$ and looking at all of the preimages, the completed local ring $\OO_{X, p} \cong k^s[[x_1, \cdots, x_n]] / \generators{\sum x_i^2 + o(x_i^3)}$ (where $o(x_i^3)$ just denotes higher order terms).
+
+Let $X = \theset{f=0}$ be a hypersurface, which is a scheme determined by a single equation, then if we perturb the equation near a complicated singularity, that singularity would bifurcate into nodes. So let $p\in X$ be a singularity; as $X$ is perturbed within a family $P$, $p$ bifurcates into nodes.
+
+More specifically, for any $a_1, \cdots, a_n$, we have a family of varieties/hypersurfaces given by $f(x_1, \cdots x_n) + \sum a_i x_i = t$ parameterized by $t$. One definition of the Milnor number is that in any such family, it counts the number of nodes.
+
+Let $k=\CC$, then a result of Milnor says that for any sufficiently small $a_1, \cdots, a_n$, the family $P$ contains $\mu(p)$ nodes, where $\mu$ denotes taking the Milnor number.
+
+To find nodes, one can look at the gradient and see where all of the coefficients of the linear terms vanish. What remains is $o(x_i^2)$, so we're looking for zeros of the gradient, which requires looking at the inverse image of the gradient, so we're picking up the degree of the gradient. This gives us another definition, $\mu(p) = \deg(\grad f)(p)$.
+
+However, when $k\neq \CC$ and generally not algebraically closed, nodes have interesting information, including arithmetic data.
+
+For example, consider $x^2+y^2$ and $x^2-y^2$. The first carves out just the origin, the latter, two diagonal lines.
+
+![](assets/2019-03-09-12-18-52.png)\
+
+The LHS is a non-split node, meaning the tangent is not defined over $k$, while the RHS is a split node. So we can use the $\Af^1$ degree in place of the topological degree, since we want to count the zeros of the gradient, and it will naturally pick up information about the node.
+
+**Definition:** the **type** of a node $p = \theset{f=0}$ is given by
+$$
+\operatorname{Type}(p) = \underset p \deg^{\Af^1} (\grad f) \in GW(k).
+$$
+
+**Example:**
+Choose a preimage of $p$ after base change to $k(p)$, suppose the node is cut out by the $f = \sum x_i^2 + o(x_i^3)$. Then we have the local ring $\widehat\OO_{X. p} = k[[p]] / \generators{f}$. Then $\operatorname{Type}(p) = \Tr_{k(p)/ k}\generators{2^n a_1 \cdots a_n}$, where $k(p)$ is always a separable extension of $k$.
+
+Then $\operatorname{Type}(x^2+ay^2) = \generators{a}$. This picks up the two tangent directions in the field of definition, and when it's not rational, it picks up the trace from $k$ with a 2-tangent direction. So this contains geometric/arithmetic information about both the node and its tangent directions.
+
+**Definition:** For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
+
+**Theorem (Kass-Wickelgren):** It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
+$$
+\sum_{x \in \text{a family of nodes}} \operatorname{Type} (x) = \mu^{\Af^1}(p) \in GW(k),
+$$
+
+which is a fixed element.
+
+
+**Example:**
+Let $f(x,y) = y^2-x^3$, supposing $\char(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number. We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then
+$$
+\mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\
+= \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
+$$
+
+since the two variables being split apart implies that we can decompose $\grad f$ into the smash product of two maps into spheres. We know that the latter map is etale, so its degree is $\generators{2}$. For the former, we can use the prior computation for $x\mapsto x^2$ and just post-compose with $x\mapsto 3x$, so we obtain
+
+\begin{align*}
+\mu^{\Af^1}(0) &= \generators{3}(\generators{1} + \generators{-1}) \generators{2} \\
+&= \generators{-6} + \generators{6}\\
+&= \generators{1} + \generators{-1}\\
+&= h,
+\end{align*}
+
+the hyperbolic form from earlier.
+
+Alternatively, take a family $y^2 = x^3 + ax  + t$. We then have two situations, depending on whether or not $a=0$:
+
+![](assets/2019-03-09-12-44-39.png)\
+
+The bottom represents the $t$ line, where the LHS shows a cusp at $t=0$ and otherwise some general fibers. For the RHS, there are nodes exactly when $x^3+ax+t$ has a double root, which happens exactly when this polynomial' discriminant is zero, which occurs at $-27t^2-4t$. In particular, $t$ is degree 2, so there are two nodal fibers (which agrees with Milnor's theorem), and moreover if we add up the types we must get $h$.
+
+So for example, over $\FF_5$, we $\generators{1} = \generators{-1}$, so in a family, it is not possible to have one split and one non-split rational node.
+
+For $\FF_7$, this is reverse, and you can't have 2 split or 2 non-split rational nodes.
+
+Moral of the story: this obstructs certain kinds of arithmetic behavior within these families!
