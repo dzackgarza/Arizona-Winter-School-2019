@@ -226,12 +226,12 @@ Example
 Definition (Milnor Number)
 :   For $p$ a singularity on a hypersurface, we can define **the Milnor number** $\mu^{\Af^1}(p) \definedas \underset p \deg (\grad f)$.
 
-**Theorem (Kass-Wickelgren):** It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
-$$
-\sum_{x \in \text{a family of nodes}} \operatorname{Type} (x) = \mu^{\Af^1}(p) \in GW(k),
-$$
-
-which is a fixed element.
+Theorem (Kass-Wickelgren)
+: It then follows that for a generic $a_1,\cdots,a_n$, for a singularity $p$, we have
+  $$
+  \sum_{x \in \text{a family of nodes}} \operatorname{Type} (x) = \mu^{\Af^1}(p) \in GW(k),
+  $$
+  which is a fixed element.
 
 
 **Example:**
