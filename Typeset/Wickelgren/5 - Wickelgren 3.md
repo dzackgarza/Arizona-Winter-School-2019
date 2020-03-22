@@ -148,6 +148,7 @@ This works for any rational point, and one of the projects is to remove the hypo
 
 **Example:**
 Let $f(x) = x^2$, and consider $\omega^{EKL}$ for this form. Form $Q = k[x]/\generators{x^2}$, where we don't need to localize at zero since $0$ is the only preimage of $0$. Then $\operatorname{Jac}(f) = 2x$. Note that $Q$ has a basis $\theset{1, x}$, and so we can choose
+
 \begin{align*}
 \eta: k[x]/\generators{x^2} \to k \\
 \eta(2x) = 2\\
