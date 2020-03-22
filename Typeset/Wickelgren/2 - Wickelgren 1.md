@@ -181,10 +181,11 @@ Bilinear forms over fields can all be diagonalized, although in characteristic 2
 Since we can diagonalize, the group $GW(k)$ has a presentation coming from the one dimensional forms. Any of these work as a generator, so we have
 
 - Generators: $<a>$ where $a\in k^\times$, corresponding to the form
-$$
-<a> : k^2 \to k\\
-(x,y) \mapsto axy
-$$
+\begin{align*}
+<a> : k^2 &\to k\\
+(x,y) &\mapsto axy
+.\end{align*}
+
 - Relations: if we change the basis of $k$ using a multiplication by $b\in k^\times$, we get $<ab^2>=<a>$. (This means that $a \in k^\times/(k^\times)^2$
   - We also get $<a> + <b> = <a+b> + <ab(a+b)>$
 
