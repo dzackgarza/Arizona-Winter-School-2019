@@ -62,6 +62,7 @@ $$
 $$
 
 for $\tau$ a Grothendieck topology which declares certain classes of maps to be covers. We have some choices of topology here, roughly in order of increasing number of open sets:
+
 - Zariski (on schemes)
 - Nisnevich
 - Etale
@@ -76,6 +77,7 @@ $$
 **Definition:** A map $f: \coprod_\alpha U_\alpha \to X$ is a **Nisnevich cover** if it is an etale cover and $x\in X \implies \exists u\in U \suchthat f^*: k(x) \mapsvia{\cong}k(u)$.
 
 This topology has a few nice properties:
+
 - Smooth schemes have etale maps into $\Af^n$, inclusions/closed immersions $Z \injects X$ induce maps $\Af^d \injects \Af^n$
 - Satisfies descent for K-theory
 - The cohomological dimension equals the Krull dimension
@@ -249,6 +251,7 @@ In other words, the associated graded of this filtration is the etale cohomology
 # Grothendieck-Witt Group Invariants
 
 This lets us view maps $I^n \to I^n/I^{n+1}$ as invariants on $GW(k)$.
+
 - For $n=0$, this is the rank homomorphism.
 - For $n=1$ we get the discriminant, which is the determinant of the linear map associated to the bilinear form obtained after choosing a basis.
 - For $n=2$ this is the Hasse-Witt invariant (see written notes)
