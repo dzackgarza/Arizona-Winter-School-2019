@@ -146,3 +146,58 @@ Other perspectives
 - Raxit and Levine?
 
 # Example Computations
+
+**Example**: Let $n$ be even, and $V = \OO_{\PP^1}(n)$ which can be thought of as meromorphic functions that have a pole of order at most $n$ at some point, say zero. Then in local coordinates, the function 1 looks like $x^n$, and so $e(V) = \deg_0 x^n = {n\over 2} h = {n\over 2}(\generators{1} + \generators{-1})$.
+
+> Ordinary vector bundles in Algebraic Topology for odd-dimensional vector bundles are 2-torsion. Moreover, by a result of Levine, since this is a line bundle we know that the Euler class will be a multiple of $h$. A similar argument works here?
+
+**Example**: How many lines meet 4 general lines in $\PP^3$?
+Follows joint work with Srinivasan, also in Schubert Calculus paper (Mathies Wendt)
+
+Lines in $\PP^3$ are parameterized by $\Gr(1,3)$, which is equivalent to $W \subseteq k^{\oplus 4}, \dim W = 2$. Let
+- $L_i$ be 4 lines, no two of which intersect
+- $e_i$ be a basis of $k^4$
+- $\phi_i$ be the corresponding dual basis
+
+where $L_1 = \PP(ke_3\oplus ke_4) = \theset{\phi_1=\phi_2 = 0}$. Lets find a condition on bundles for lines that intersect $L_1$.
+
+Let $L= \PP(k\tilde e_3 \oplus k\tilde e_4)$, the span of some two linearly independent vectors. If we wrote these out in terms of $e_i$, we'd need to find a combination where the coefficients of $e_1, e_2$ vanish, i.e. there needs to be a linear dependence in the part of their basis expansion involving these two elements. We thus get the condition
+$$
+L\intersect L_1 \iff (\phi_1 \wedge \phi_2)(\tilde e_3 \wedge \tilde e_4) = 0
+$$
+
+So we look at the line bundle $S\dual \wedge S\dual \covers \Gr(1,3)$, where the fiber above a dimension 2 subspace $W$ is given by $(S\dual \wedge S\dual)_{\PP W} = W\dual \wedge W\dual$.
+
+Then $\theset{\phi_1, \phi_2}$ determine a section $\sigma_1$ of $S\dual \wedge S\dual$ by $\sigma_1(\PP W) = \restrictionof{\phi_1}{W} \wedge \restrictionof{\phi_2}{W}$, where lines intersection $L_1$ correspond exactly to zeros of $\sigma_1$.
+
+We can do the same thing for the other $L_i$ and combine them to get a section of $V \definedas \oplus_{i=1}^4S\dual \wedge S\dual$, whose zeros are the lines we're looking for.
+
+Is this bundle relatively orientable? $\det TX =\OO(4), \det V = (S\dual \wedge S\dual)^{\tensor 4}$, which are both tensor squares, so yes.
+
+Following the recipe, we need to identify $\sigma$ with a function. To compute $\deg_{\PP W}(\sigma)$, choose local coordinates on $\Gr(1,3)$. So we need to choose dimension 2 subspaces parameterized by $\Af^4$, so we'll pick the lines which intersect $\theset{\phi_3= \phi_4 = 0}$, yielding a new basis
+\begin{align*}
+\tilde e_1 &= e_1 \\
+\tilde e_2 &= e_2 \\
+\tilde e_3 &= xe_1 + ye_2 + e_3 \\
+\tilde e_4 &= x'e_1 + y'e_2 + e_4
+\end{align*}
+
+We then have an open subset
+
+\begin{align*}
+U =\spec(k[x,y,x',y']) \injects \Gr(1,3) \\
+(x,y,x',y') \mapsto \PP(k\tilde e_3 +k\tilde e_4)
+.\end{align*}
+
+so we have some local coordinates. Let $\tilde \phi_i$ be the dual basis.
+
+Next we choose a local trivialization, where $S\dual \wedge S\dual$ can be locally trivialized by $\tilde\phi_3 \wedge \tilde \phi_4$ which are compatible with some relative orientation.
+
+The expression for the function $\sigma$ will depend on our choice of line, and instead of notating all of them, just assume that $L_1 = \PP(ke_3 \oplus ke_4)$. We then get $\sigma =(\phi_1 \wedge \phi_2, ?, ?, ?)$ where we just didn't notate the other components. So what is this first component in terms of $x', y'$? This amounts to finding the coordinate of $\tilde\phi_3 \wedge \tilde\phi_4$ is in $\phi_1 \wedge \phi_2$, which is just a linear algebra problem.
+
+We want to find the coefficient $c$ in
+$$
+\restrictionof{(\phi_1 \wedge \phi_2)}{k\tilde e_3 \oplus k\tilde e_4} = c (\tilde\phi_3 \wedge \tilde\phi_4)
+$$
+
+How many $\tilde e_3$ are in $\phi_1$? We can evaluate $\phi_1(\tilde e_3)$ to get how many $\tilde \phi_3$s we need, but that's just $x$. So the RHS evaluates to $(x \tilde\phi_3 \wedge y\tilde\phi_4) + (x'\tilde\phi_3 \wedge y'\tilde\phi_4)$, and we obtain $c = xy' -yx'$. We can thus write
