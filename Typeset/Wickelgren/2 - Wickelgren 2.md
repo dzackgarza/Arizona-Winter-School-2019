@@ -137,7 +137,7 @@ and so we can proceed by induction on the following diagram:
 $$
 \begin{CD}
   (\Af^{n-1} - \theset{0} )\cross(\Af^1 -\theset{0}) @>>> (\Af^{n-1} -\theset{0}) \cross \Af^1 \\
-  @VVV \selfmap @VVV \\
+  @VVV @VVV \\
   \Af^n \cross (\Af^1 -\theset{0}) @>>> \Af^n - \theset{0}
 \end{CD}
 $$
@@ -312,7 +312,7 @@ A nice consequence is that if we let $k=\RR$, the degrees behave nicely, charact
 $$
 \begin{CD}
 [S^{2n},~S^{2n}] @<\CC\dash\text{points}<< [\PP^n /\PP^{n-1},~ \PP^n /\PP^{n-1}] @>\RR\dash\text{points}>> [S^n,~S^n] \\
-@VV\deg V \selfmap @VV\deg V \selfmap @VV\deg V \\
+@VV\deg V @VV\deg V @VV\deg V \\
 \ZZ @<<\text{rank}< GW(k) @>>\text{signature}> \ZZ
 \end{CD}
 $$
