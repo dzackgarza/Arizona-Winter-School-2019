@@ -1,5 +1,5 @@
 ---
-title: "(Arizona Winter School 2019)"
+title: "Lubin Tate Spaces (Arizona Winter School 2019)"
 author: Talks by Mike Hopkins, Transcribed by D. Zack Garza
 date: March 9, 2019
 ---
