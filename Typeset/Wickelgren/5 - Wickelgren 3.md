@@ -49,7 +49,8 @@ $$
 This can be computed by a complex (as in Morel's book):
 
 \begin{align*}
-\cdots \to \bigoplus_{z\in X^{(ii1)}} K^{MW}_{1}(K(z), ~\det_{k(z)} T_z X) \to \bigoplus_{z\in X^{(i)}} GW(K(z), ~\det_{k(z)} T_z X)  \to \bigoplus_{z\in X^{(i+1)}} K^{MW}_{-1}(K(z), ~\det_{k(z)} T_z X)  \to \cdots
+\cdots \to \bigoplus_{z\in X^{(ii1)}} K^{MW}_{1}(K(z), ~\det_{k(z)} T_z X) \to \bigoplus_{z\in X^{(i)}} GW(K(z), ~\det_{k(z)} T_z X)  \\
+\to \bigoplus_{z\in X^{(i+1)}} K^{MW}_{-1}(K(z), ~\det_{k(z)} T_z X)  \to \cdots
 .\end{align*}
 
 where $k(z)$ is the function field, and since $z$ has a generic point, we can take the highest wedge power of the tangent space of $X$ at $z$ to yield the determinant term, which serves as an added twist. This explains why elements of the oriented Chow are formal combinations of codimension $i$ subvarieties $z\in X^{(i)}$ and a bilinear form over $k(z)$, $B\in GW(k(z))$.
