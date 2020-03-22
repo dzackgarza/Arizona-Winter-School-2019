@@ -2,14 +2,6 @@
 title: "A1 Enumerative Geometry"
 author: Kirsten Wickelgren
 date: March 9, 2019
-output:
-  custom_document:
-    path: Wickelgren.tex
-    pandoc_args: [
-        "-r",  "markdown+tex_math_dollars+simple_tables+table_captions+yaml_metadata_block+smart",
-        "-t", "latex",
-        "--template=/home/zack/Notes/Latex/pandoc_template.tex"
-    ]
 ---
 
 Arizona Winter School 2019
