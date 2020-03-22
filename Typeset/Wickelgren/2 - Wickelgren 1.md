@@ -186,7 +186,7 @@ Since we can diagonalize, the group $GW(k)$ has a presentation coming from the o
   (x,y) &\mapsto axy
   .\end{align*}
 
-- Relations: if we change the basis of $k$ using a multiplication by $b\in k^\times$, we get $<ab^2>=<a>$. (This means that $a \in k^\times/(k^\times)^2$
+- Relations: if we change the basis of $k$ using a multiplication by $b\in k^\times$, we get $\generators{ab^2 = \generators{a}$. (This means that $a \in k^\times/(k^\times)^2$
   - We also get $<a> + <b> = <a+b> + <ab(a+b)>$
 
 There are many concrete computations of this known for global fields, local fields, finite fields, function fields, etc.
