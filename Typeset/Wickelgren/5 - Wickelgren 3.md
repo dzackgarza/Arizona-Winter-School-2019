@@ -240,10 +240,12 @@ Theorem (Kass-Wickelgren)
 Example
 :   Let $f(x,y) = y^2-x^3$, supposing $\ch(k) \neq 2,3$ and consider computing the $\Af^1$ Milnor number.
     We compute $\grad(f) = (-3x^2, 2y)$. We can choose $p=0$ as a singularity, then
-    $$
-    \mu^{\Af^1}(0) = \underset 0 \deg(\grad f) \\
-    = \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
-    $$
+
+    \begin{align*}
+    \mu^{\Af^1}(0)
+    &= \underset 0 \deg(\grad f) \\
+    &= \underset 0 \deg(x\mapsto -3x^2) \underset 0 \deg(y\mapsto 2y),
+    .\end{align*}
 
     since the two variables being split apart implies that we can decompose $\grad f$ into the smash product of two maps into spheres. We know that the latter map is etale, so its degree is $\generators{2}$. For the former, we can use the prior computation for $x\mapsto x^2$ and just post-compose with $x\mapsto 3x$, so we obtain
 
