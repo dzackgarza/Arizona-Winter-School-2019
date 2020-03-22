@@ -112,8 +112,8 @@ Some of these end up being familiar spaces. For example, we can look at the coli
 $$
 \begin{CD}
   \GG_m @>>> \Af^1 \homotopic \pt \\
-  @VVV \selfmap @VVV \\
-  \pt \homotopic \Af^1 @>>> \PP^1
+  @VVV @VVV \\
+  \pt \homotopic \AA^1 @>>> \PP^1
 \end{CD}
 $$
 
