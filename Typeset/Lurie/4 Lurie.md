@@ -342,6 +342,4 @@ Thus the galois representation is unramified and defines an $\ell\dash$adic shea
 Idea: try to define $\mcf_{BG_X/S} \definedas \oplus_{i\in \ZZ} \mcf_i[i]$.
 In the good reduction case, this is actually correct at the level of objects.
 However, this is bad as a definition, since writing down the maps from functoriality does not make theorem A true.
-So something smarter is needed.
-
-
+So something smarter is needed, which requires some ideas from homotopy theory.
