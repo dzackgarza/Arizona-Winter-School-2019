@@ -140,3 +140,11 @@ Claim
 
       > The cohomology sheaves of $\mcf$ will be concentrated in negative degrees.
 
+    - It is functorial in $Y$, i.e. given a commuting diagram
+    \begin{center}
+    \begin{tikzcd}
+    Y' \ar[rr]\ar[rd] & & Y\ar[ld] \\
+    & X &
+    \end{tikzcd}
+    \end{center}
+
