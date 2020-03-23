@@ -152,3 +152,5 @@ Claim
       \mcf_{Y'/X} \to \mcf_{Y/X} \quad \in D^b(X)
       .$$
 
+      > This is supposed to be a map that after passing to stalks and cohomology, it induces the maps on homotopy groups given by $Y' \to Y$.
+      > I.e. the sheaves $\mcf_{Y/X}$ are some global version of taking the $\ell\dash$adic homotopy groups of the stalks, and functoriality is a global version of the fact that these homotopy groups are a functor of the scheme $Y$.
