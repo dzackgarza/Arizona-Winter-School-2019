@@ -59,4 +59,7 @@ Definition (L Function, Alternative)
 :   $$
 
   \det \qty{ 1 - \phi_{q} q^{-s} \suchthat H_c^i(\bar X, \mcf)  }\inv
-  ,$$ where the Frobenius now comes from $\FF_q$ and this determinant means an alternative product.
+  ,$$
+  where the Frobenius now comes from $\FF_q$ and this determinant means an alternating product as before.
+
+
