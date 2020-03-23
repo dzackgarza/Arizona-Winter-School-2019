@@ -118,4 +118,6 @@ Y \to X \to \spec \FF_q
 $$
 is some variety over $\FF_q$ (which will ultimately be an algebraic curve as in the second lecture) and let $Y$ be some algebraic variety (or more likely an algebraic stack) mapping to $X$.
 Assume that $Y\to X$ is smooth.
+
 For each closed point $x\in X$, write $Y_{\bar x} \definedas Y \cross_X \spec \bar {\kappa(x)}$ by crossing with the geometric point mentioned earlier.
+This is some smooth stack which is defined over the algebraic closure of a finite field.
