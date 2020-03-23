@@ -23,6 +23,7 @@ The zeta function of a variety over a finite field is a much simpler object is a
 Definition (Zeta Function, Alternate)
 :
 $$
-\zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }
+\zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }^{(-1)^{? + 1}}
+\definedas
 $$
 where $\phi$ is the Frobenius.
