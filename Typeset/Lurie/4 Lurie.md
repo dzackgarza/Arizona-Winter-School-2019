@@ -335,5 +335,7 @@ Given an $\ell\dash$adic sheaf on $X$, we first need to describe what it looks a
 Letting $BG_\eta$ be the generic fiber of this group scheme (previously denoted $G_0$), then at the generic point we are seeing $\pi_i\qty{ \bar BG_\eta  }_{\QQ_\ell}$, where we are taking its classifying stack over an algebraic closure of the generic point of the curve, and you think of it as acted on by the absolute galois group of the function field you're interested in studying.
 
 Thus the homotopy groups are classical objects, and are just dual to $I/I^2$ for $I$ the maximal ideal in the cohomology ring of this classifying stack.
+So there is some galois representation that can be defined concretely.
+The assumption that $G$ has good reduction everywhere guarantees that the sheaf $H^{-i}(\mcf)$ is ???, i.e. we should think of it as a local system.
 
 
