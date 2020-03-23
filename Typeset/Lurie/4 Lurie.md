@@ -183,7 +183,10 @@ If you started with a group that was semisimple and simply connected, it will al
 In this situation, we'd like to apply the previous ideas not to $G\to X$, but instead we'd like to take the classifying stack $BG$.
 Since $G$ is a group scheme over $X$, the classifying stack is a stack in the world of algebraic stacks with a map to $X$.
 To emphasize that this lives over $X$, we'll denote it $BG_X \to X$, and can be described as follows:
-If $R$ is any ring, then there is a correspondence
+
+If $R$ is any ring, then there is an equivalence of data
 \begin{align*}
 \correspond{\text{Maps} \spec(R) \to BG_X} \iff \correspond{ \text{Maps}\spec(R)\to X \text{ and a } G\dash \text{ bundle on } \spec(R) }
 .\end{align*}
+
+Since $G$ is a group that lives over $X$, it makes sense to talk about a $G\dash$bundle on $\spec(R)$ whenever $\spec(R)$ maps to $X$.
