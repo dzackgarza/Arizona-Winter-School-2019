@@ -136,5 +136,7 @@ Claim
 :   There exists an object $\mcf_{Y/X} \in D^b(X)$ with the following features:
 
     - For each $x\in X$, we can take the stalk of the $\ell\dash$adic sheaf $\mch^{-i}(\mcf)_{\bar x}$.
-      This is suppose to be a finite-dimensional $\QQ_\ell\dash$vector space; we want this to be isomorphic to $\pi_{i} Y_{\bar x}$.
+      This is supposed to be a finite-dimensional $\QQ_\ell\dash$vector space; we want this to be isomorphic to $\pi_{i} Y_{\bar x}$ for all $i$.
+
+      > The cohomology sheaves of $\mcf$ will be concentrated in negative degrees.
 
