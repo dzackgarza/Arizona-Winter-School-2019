@@ -267,3 +267,6 @@ Theorem (Gaitsgory, Lurie)
 : The map $\theta$ is an isomorphism.
 
 This is a type of local-to-global principal that describes the $\ell\dash$adic homotopy type of $\bung(X)$, and is one way of making precise the idea that the cohomology of $\bung(X)$ should be a "continuous tensor product" of the cohomologies of $BG$ at various points.
+
+What does this buy us?
+Assuming this theorem, this is an isomorphism in the derived category of $\ell\dash$adic sheaves on a point, or equivalently this induces an isomorphism on the cohomology sheaves when you take the stalk at the essentially unique geometric point $\spec \FF_q$.
