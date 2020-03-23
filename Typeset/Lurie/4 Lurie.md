@@ -128,4 +128,4 @@ Assume
 
 - Each $Y_{\bar x}$ has vanishing $H^1$ with $\ZZ/\ell$ coefficients
 - Finite $H^i$ with $\ZZ/\ell$ coefficients,
-- Vanishing $\pi_n(\cdots)_{\QQ_\ell}$ for $n\gg 1$, which can be chosen uniformly for all points $x$.
+- Vanishing $\pi_n(\cdots)_{\QQ_\ell}$ for $n\gg 0$, which can be chosen uniformly for all points $x$.
