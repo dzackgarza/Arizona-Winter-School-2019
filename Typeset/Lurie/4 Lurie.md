@@ -104,3 +104,6 @@ We'll assert the existence of certain relevant objects.
 Recall from a previous lecture: if $Y$ is a variety or a stack defined over a finite field $k$, where we assumed $H^1(\bar Y; \ZZ/\ell) \cong 0$ and $H^i(\bar Y; \ZZ/\ell)$ is finite for all $i$.
 We should also say $H^0$ also vanishes, which we'll emphasize by assuming $Y$ is geometrically connected.
 Under these assumptions, in the previous lecture we talked about assigning to $\bar Y$ its $\ell\dash$adic homotopy groups and homotopy type.
+
+We then have $\pi_n(\bar Y)_{\QQ_\ell}$, the homotopy groups with $\ell\dash$adic coefficients.
+These are finite dimensional $\QQ_\ell\dash$vector spaces and moreover if $\bar Y$ comes from a $Y$ defined over a finite field, then these vector spaces inherit a canonical automorphism coming from the ground field.
