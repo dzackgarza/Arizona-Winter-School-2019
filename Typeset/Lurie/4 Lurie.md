@@ -129,3 +129,11 @@ Assume
 - Each $Y_{\bar x}$ has vanishing $H^1$ with $\ZZ/\ell$ coefficients
 - Finite $H^i$ with $\ZZ/\ell$ coefficients,
 - Vanishing $\pi_n(\cdots)_{\QQ_\ell}$ for $n\gg 0$, which can be chosen uniformly for all points $x$.
+
+The claim is that in this situation, we can define a relative version of the $\ell\dash$adic homotopy groups.
+
+Claim
+:   There exists an object $\mcf_{Y/X} \in D^b(X)$ with the following features:
+
+    - For each $x\in X$, we can take the stalk of the $\ell\dash$adic sheaf $\mch^i(\mcf)_{\bar x}$.
+      This is suppose to be a finite-dimensional $\QQ_\ell\dash$vector space; we want this to be isomorphic to $\pi_{-i} Y_{\bar x}$.
