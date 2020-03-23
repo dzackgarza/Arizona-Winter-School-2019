@@ -213,3 +213,14 @@ By definition 1,
 L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \qty{\mcf_{BG_X/X}}_{\bar x}  }\inv
 ,\end{align*}
 where we're taking a product over closed points, and the Frobenius at the point $x$ on the sheaf for which we're talking stalks at a geometric point.
+
+We know what these stalks are: the stalks at geometric points should be computing homotopy groups of the fiber, so
+\begin{align*}
+L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \pi_*(BG_{\bar x})  }\inv
+.\end{align*}
+
+But this appeared in the previous lecture, at least in the case $s=0$.
+By Steinberg's formula, 
+\begin{align*}
+L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \pi_*(BG_{\bar x})  }\inv
+.\end{align*}
