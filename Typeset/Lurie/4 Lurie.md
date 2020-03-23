@@ -69,3 +69,7 @@ We now want to talk about not a single $\ell\dash$adic sheaf, but rather a compl
 Let $D^b(X)$ be the bounded derived category of $\QQ_\ell$ sheaves on $X$.
 Let $\mcf \in D^b(X)$ denote a typical element of this category.
 Roughly speaking, these can be thought of as chain complexes of $\ell\dash$adic sheaves, although that's note quite right.
+
+The objects of this category have the property that you can associate to them for each integer $i$ a $\mch^i(\mcf)$, the $i$th cohomology of $\mcf$ in the world of sheaves.
+This will be an $\ell\dash$adic sheaf on $X$.
+We want to consider the bounded derived category, so these $\mch^i$ vanish for almost all $i$.
