@@ -239,4 +239,12 @@ This description says we shouldn't look at the stalks of the sheaf $\mcf_{BG_X}$
 We want to relate this to the moduli stack of $G\dash$bundles on $X$.
 
 There is a relationship between the stack $BG_X \to X$ which lives over $X$, and the moduli stack $\bung(X) \to \spec(\FF_q)$ which lives over the point $\spec(\FF_q)$.
+The relationship is that $
+
+\begin{center}
+\begin{tikzcd}
+X \cross \bung(X) \ar[rr] \ar[rd] & & BG_X \ar[dl]\\
+& X &
+\end{tikzcd}
+\end{center}
 
