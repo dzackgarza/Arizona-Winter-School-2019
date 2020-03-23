@@ -299,3 +299,9 @@ Why is this progress toward such an implication?
 The conjecture is a statement about equality of complex numbers.
 Here we have a theorem about $\QQ_\ell$ vector spaces and some map that is an isomorphism.
 There is a geometric statement; note that theorem A does not reference the field $\FF_q$.
+It makes sense for any group scheme over any curve over any field, so proving it doesn't involve the field at all.
+So we are free to enlarge the field if necessary.
+Thus it is "geometric" in the sense that we can replace $\FF_q$ by $\bar \FF_q$.
+
+Moreover, over $\CC$ it reduces something familiar, which follows from the fact that $\bung(X)$ (which classifies algebraic $G\dash$bundles) also classifies topological $G\dash$bundles on $X$.
+
