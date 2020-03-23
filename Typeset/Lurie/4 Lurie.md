@@ -332,5 +332,7 @@ i.e. taking the cohomology sheaf should compute the homotopy groups of the class
 This tells you what the cohomology sheaf should look like at the generic point of $X$.
 Given an $\ell\dash$adic sheaf on $X$, we first need to describe what it looks at the generic point, which should be a finite dimensional $\QQ_\ell\dash$vector space with an action of some large galois group.
 
+Letting $BG_\eta$ be the generic fiber of this group scheme (previously denoted $G_0$), then at the generic point we are seeing $\pi_i\qty{BG_\eta  }_{\QQ_\ell}$
+
 
 
