@@ -28,3 +28,5 @@ $$
 \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
 $$
 where $\phi$ is the Frobenius.
+
+The equivalence of these two definitions is a consequence of the Grothendieck-Lefschetz trace formula mentioned earlier.
