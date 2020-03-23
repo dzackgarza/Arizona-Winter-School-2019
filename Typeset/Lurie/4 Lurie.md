@@ -330,6 +330,7 @@ H^_{-i} (\mcf)_{\bar x} \cong \pi_i (BG_{\bar x})_{\QQ_\ell}
 i.e. taking the cohomology sheaf should compute the homotopy groups of the classifying stack of a certain linear algebraic group.
 
 This tells you what the cohomology sheaf should look like at the generic point of $X$.
+Given an $\ell\dash$adic sheaf on $X$, we first need to describe what it looks at the generic point, which should be a finite dimensional $\QQ_\ell\dash$vector space with an action of some large Galois group.
 
 
 
