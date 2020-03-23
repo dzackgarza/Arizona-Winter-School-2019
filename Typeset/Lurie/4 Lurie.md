@@ -256,3 +256,5 @@ So the map is just given by **restriction to a point**.
 
 What does this buy us?
 If we believe that the earlier construction was functorial, this connects $\bung$ to $BG$.
+
+This induces a map $\mcf_{X\cross \bung(X) / X} \to \mcf_{BG_X/X}$.
