@@ -229,4 +229,7 @@ L(BG_X, 0)
 
 You might recognize this: it is one side of the mass formula.
 What's the upshot?
-
+\begin{align*}
+L(BG_X, 0)
+&=_{\text{Def 1}} \text{the RHS of the Mass formula for Weil's conjecture for } G
+.\end{align*}
