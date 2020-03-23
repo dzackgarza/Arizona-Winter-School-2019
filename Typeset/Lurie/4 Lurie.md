@@ -277,7 +277,10 @@ $$
 ,$$
 where the RHS is hypercohomology.
 
-By definition 2, we have an equality
+By definition 2 and using the theorem which describes what the hypercohomology groups look like, we have equalities
 \begin{align*}
-L(BG_X, s) = \det\qty{1 - q^{-s} \phi \suchthat H^*(\bar X; \mcf_{BG_X/X}) }\inv
-.\end{align*}
+L(BG_X, s)
+&= \det\qty{1 - q^{-s} \phi \suchthat H^*(\bar X; \mcf_{BG_X/X}) }\inv \\
+&= \det \qty{  1 - q^{-s} \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} }
+,\end{align*}
+where the last term denotes the homotopy groups of the moduli stack of $G\dash$bundles.
