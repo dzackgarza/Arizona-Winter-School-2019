@@ -167,3 +167,11 @@ Claim
       > This is how things ought to work based on the first assertion: taking the stalks computes the homotopy groups of the fibers.
       > The pullback diagram says that the fibers of the vertical map on the right are the same as the fibers of the one on the left,
       > therefore they'll have the same $\ell\dash$adic homotopy groups, so we want this true not just on stalks but globally.
+
+We haven't defined these sheaves yet, which we'll say something about at the end, so for the moment let's believe there is a natural construction with the described features.
+Let's go back to the situation we're really interested in, where $X$ is an algebraic curve over $\FF_q$, and let $G\to X$ be a group scheme that is
+
+- Smooth
+- Affine
+- Connected fibers
+- The generic fiber is semisimple and simply connected.
