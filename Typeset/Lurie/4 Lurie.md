@@ -320,4 +320,14 @@ How classical of an object is this?
 It's closely related to objects appearing in Steinberg's work, and in a paper of Dick Gross about the "motive of an algebraic group".
 This is essentially that object.
 
+An easy case would be if $G$ were everywhere semisimple, having good reduction at all points of the curve?
+The object $\mcf_{Y/X}$ should be an object in the derived category that has the property
+
+\begin{align*}
+H^_{-i} (\mcf)_{\bar x} \cong \pi_i (BG_{\bar x})_{\QQ_\ell}
+,\end{align*}
+
+i.e. taking the cohomology sheaf should compute the homotopy groups of the classifying stack of a certain linear algebraic group.
+
+
 
