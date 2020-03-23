@@ -108,4 +108,4 @@ Under these assumptions, in the previous lecture we talked about assigning to $\
 We then have $\pi_n(\bar Y)_{\QQ_\ell}$, the homotopy groups with $\ell\dash$adic coefficients.
 These are finite dimensional $\QQ_\ell\dash$vector spaces and moreover if $\bar Y$ comes from a $Y$ defined over a finite field, then these vector spaces inherit a canonical automorphism coming from the ground field.
 
-
+What we want to do now is a *relative* version of this: thinking of this now for a family of $Y$s parameterized by some other variety $X$.
