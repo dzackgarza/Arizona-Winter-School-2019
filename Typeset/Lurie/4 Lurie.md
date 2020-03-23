@@ -288,5 +288,7 @@ where the last term denotes the homotopy groups of the moduli stack of $G\dash$b
 When we evaluate at zero, we obtain
 \begin{align*}
 L(BG_X, 0)
-&= \det \qty{  1 - \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} }
+&= \det \qty{  1 - \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} } \\
+&=
 .\end{align*}
+where the last equality follows from the analysis in the last lecture, where we assume that the Grothendieck-Lefschetz trace formula holds and everything converges.
