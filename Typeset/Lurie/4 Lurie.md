@@ -63,3 +63,9 @@ Definition (L Function, Alternative)
   where the Frobenius now comes from $\FF_q$ and this determinant means an alternating product as before.
 
 This is a relative version of the zeta function: if you specialize to $\mcf$ the constant sheaf $\QQ_\ell$ everywhere, it recovers the zeta function of the variety $X$.
+
+
+We now want to talk about not a single $\ell\dash$adic sheaf, but rather a complex of such sheaves.
+Let $D^b(X)$ be the bounded derived category of $\QQ_\ell$ sheaves on $X$.
+Let $\mcf \in D^b(X)$ denote a typical element of this category.
+Roughly speaking, these can be thought of as chain complexes of $\ell\dash$adic sheaves, although that's note quite right.
