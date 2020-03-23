@@ -109,3 +109,13 @@ We then have $\pi_n(\bar Y)_{\QQ_\ell}$, the homotopy groups with $\ell\dash$adi
 These are finite dimensional $\QQ_\ell\dash$vector spaces and moreover if $\bar Y$ comes from a $Y$ defined over a finite field, then these vector spaces inherit a canonical automorphism coming from the ground field.
 
 What we want to do now is a *relative* version of this: thinking of this now for a family of $Y$s parameterized by some other variety $X$.
+
+**Relative Version**:
+
+Let
+$$
+Y \to X \to \spec \FF_q
+$$
+is some variety over $\FF_q$ (which will ultimately be an algebraic curve as in the second lecture) and let $Y$ be some algebraic variety (or more likely an algebraic stack) mapping to $X$.
+Assume that $Y\to X$ is smooth.
+For each closed point $x\in X$, write $Y_{\bar x} \definedas Y \cross_X \spec \bar {\kappa(x)}$ by crossing with the geometric point mentioned earlier.
