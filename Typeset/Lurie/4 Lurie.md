@@ -24,7 +24,7 @@ Definition (Zeta Function, Alternate)
 : $$
   \zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }^{(-1)^{? + 1}}
   \definedas
-  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
+  \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
   $$
 where $\phi$ is the Frobenius.
 
@@ -57,5 +57,6 @@ In the case of the zeta function, this turns out to be a rational function in $q
 
 Definition (L Function, Alternative)
 :   $$
-  
-  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
+
+  \det \qty{ 1 - \phi_{q} q^{-s} \suchthat H_c^i(\bar X, \mcf)  }\inv
+  ,$$ where the Frobenius now comes from $\FF_q$ and this determinant means an alternative product.
