@@ -62,4 +62,4 @@ Definition (L Function, Alternative)
   ,$$
   where the Frobenius now comes from $\FF_q$ and this determinant means an alternating product as before.
 
-
+This is a relative version of the zeta function if you specialize to $\mcf$ the constant sheaf $\QQ_\ell$ everywhere.
