@@ -233,3 +233,7 @@ What's the upshot?
 L(BG_X, 0)
 &=_{\text{Def 1}} \text{the RHS of the Mass formula for Weil's conjecture for } G
 .\end{align*}
+
+As you might guess, we'll try to get some mileage out of seeing what the second description of this $L$ function buys you.
+This description says we shouldn't look at the stalks of the sheaf $\mcf_{BG_X}$; we should instead think about the cohomology of this sheaf.
+We want to relate this to the moduli stack of $G\dash$bundles on $X$.
