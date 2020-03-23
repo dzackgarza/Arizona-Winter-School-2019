@@ -8,6 +8,8 @@ We'll start by recalling the definition of an $L\dash$function.
 In this setting, $X$ will be an algebraic variety defined over a finite field $\FF_q$.
 One can associate a function to such a variety, namely a *zeta function*
 $$
-\zeta_X(s) = \prod_{x\in x} \frac{1}{1 - \abs{K(x)}^{-s} }
+\zeta_X(s) = \prod_{x\in X} \frac{1}{1 - \abs{K(x)}^{-s} }
 $$
-where the product is taken over all of the closed points, and the term in the denominator is the size of the residue field.
+where the product is taken over all of the closed points of the variety, and the term in the denominator is the size of the residue field at each point.
+This is a generating function which contains information about the number of points your that your variety has with values in various finite fields.
+It contains the same information as points that that $X$ has in $\FF_q, \FF_{q^2}$, and so on, and packages this information in a useful way.
