@@ -226,3 +226,7 @@ L(BG_X, 0)
 &= \prod_{x\in X} \frac{ \abs{ BG(\kappa(x))  }  }{ \abs{\kappa(x)}^{\dim BG}  } \\
 &= \prod_{x\in X} \frac{\abs{\kappa(x)  }^{\dim G} }{ G(\kappa(x))  }
 .\end{align*}
+
+You might recognize this: it is one side of the mass formula.
+What's the upshot?
+
