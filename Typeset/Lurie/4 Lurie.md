@@ -309,4 +309,9 @@ In other words, complex analytically, $G\dash$bundles on a curve satisfy an $H\d
 The difficulty is then to make sense of the $H\dash$principle in algebraic geometry.
 Since theorem A is such a principle, the difficulty is then in proving it.
 
+## Next Time
+
+We'll sketch the ideas that go into the proof of theorem A.
+There's a theorem that goes into this conclusion, but also a definition.
+So we'll say a few words about this construction, since a difficulty is even just defining the objects appearing in its statement.
 
