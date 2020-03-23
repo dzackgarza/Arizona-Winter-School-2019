@@ -76,8 +76,15 @@ We want to consider the bounded derived category, so these $\mch^i$ vanish for a
 
 Given such an object, you can associate an $L$ function in a stupid way
 
-Definition (L Function of an l-adic Sheaf)
+Definition (L Function of a Complex)
 :   $$
     L(\mcf, s) = \prod_i L( \mch^i(\mcf), s )^{(-1)^i}
     $$
 
+Depending on which definition of $L$ functions we take on $\ell\dash$adic sheaves, we get two definitions of what it means to take an $L$ function of a complex:
+
+Definition
+:   $$
+    L(\mcf, s) = \prod_{x\in X} \prod_{i\in \ZZ} \det \qty{ 1 - \abs{\kappa(x)  }^{-s}\phi_x \suchthat \mch^i(\mcf)_{\bar x}  }^{(-1)^{i+1}}
+    $$
+    where we now take the stalkes $\mch^i(\mcf)_{\bar x}$.
