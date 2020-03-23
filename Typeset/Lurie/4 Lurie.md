@@ -73,3 +73,10 @@ Roughly speaking, these can be thought of as chain complexes of $\ell\dash$adic 
 The objects of this category have the property that you can associate to them for each integer $i$ a $\mch^i(\mcf)$, the $i$th cohomology of $\mcf$ in the world of sheaves.
 This will be an $\ell\dash$adic sheaf on $X$.
 We want to consider the bounded derived category, so these $\mch^i$ vanish for almost all $i$.
+
+Given such an object, you can associate an $L$ function in a stupid way
+
+Definition
+:   $$
+    L(\mcf, s) = \prod_i L( \mch^i(\mcf), s )^{(-1)^i}
+    $$
