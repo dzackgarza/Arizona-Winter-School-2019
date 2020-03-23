@@ -162,3 +162,4 @@ Claim
       X'\ar[r, 'f'] & X
       \end{tikzcd}
       \end{center}
+      we have $\mcf_{Y'/X'} = f^* \mcf_{Y/X}$.
