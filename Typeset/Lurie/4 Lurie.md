@@ -261,4 +261,7 @@ This induces a map $\mcf_{X\cross \bung(X) / X} \to \mcf_{BG_X/X}$.
 On the other hand, we have a pullback square which tells us how to describe the sheaf on the left, while the sheaf on the right is the one we're interested in.
 Let $f$ be the projection map from $X$ to a point, then $\mcf_{X \cross \bung(X)/X} \cong f^* \mcf_{\bung(X) / \spec(\FF_q)}$.
 Let's think of this a different way, using pushforwards instead:
-this is the same as a map $\mcf_{\bung(X) / \spec(\FF_q)} \to Rf_* \mcf_{BG_X/X}$ where we're now taking the pushforward in the derived category and denoting it $Rf^*$.
+this is the same as a map $\theta: \mcf_{\bung(X) / \spec(\FF_q)} \to Rf_* \mcf_{BG_X/X}$ where we're now taking the pushforward in the derived category and denoting it $Rf^*$.
+
+Theorem (Gaitsgory, Lurie)
+: The map $\theta$ is an isomorphism.
