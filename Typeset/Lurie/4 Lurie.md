@@ -177,3 +177,13 @@ Let's go back to the situation we're really interested in, where $X$ is an algeb
 - The generic fiber is semisimple and simply connected.
 
 This is the setup from lecture 2, where we forget to mention the properties we wanted the integral model to have (namely these properties).
+Given any linear algebraic group defined over the generic fiber, you can always find an integral model of it with these properties.
+If you started with a group that was semisimple and simply connected, it will also satisfy the last condition.
+
+In this situation, we'd like to apply the previous ideas not to $G\to X$, but instead we'd like to take the classifying stack $BG$.
+Since $G$ is a group scheme over $X$, the classifying stack is a stack in the world of algebraic stacks with a map to $X$.
+To emphasize that this lives over $X$, we'll denote it $BG_X \to X$, and can be described as follows:
+If $R$ is any ring, then there is a correspondence
+\begin{align*}
+\correspond{\text{Maps} \spec(R) \to BG_X} \iff \correspond{ \text{Maps}\spec(R)\to X \text{ and a } G\dash \text{ bundle on } \spec(R) }
+.\end{align*}
