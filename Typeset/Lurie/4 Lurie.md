@@ -337,5 +337,6 @@ Letting $BG_\eta$ be the generic fiber of this group scheme (previously denoted 
 Thus the homotopy groups are classical objects, and are just dual to $I/I^2$ for $I$ the maximal ideal in the cohomology ring of this classifying stack.
 So there is some galois representation that can be defined concretely.
 The assumption that $G$ has good reduction everywhere guarantees that the sheaf $H^{-i}(\mcf)$ is ???, i.e. we should think of it as a local system.
+Thus the galois representation is unramified and defines a sheaf $\mcf_i$ on $X$.
 
 
