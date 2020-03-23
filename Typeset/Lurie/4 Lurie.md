@@ -76,7 +76,8 @@ We want to consider the bounded derived category, so these $\mch^i$ vanish for a
 
 Given such an object, you can associate an $L$ function in a stupid way
 
-Definition
+Definition (L Function of an l-adic Sheaf)
 :   $$
     L(\mcf, s) = \prod_i L( \mch^i(\mcf), s )^{(-1)^i}
     $$
+
