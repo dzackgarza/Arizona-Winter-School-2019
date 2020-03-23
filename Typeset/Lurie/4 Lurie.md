@@ -87,4 +87,4 @@ Definition
 :   $$
     L(\mcf, s) = \prod_{x\in X} \prod_{i\in \ZZ} \det \qty{ 1 - \abs{\kappa(x)  }^{-s}\phi_x \suchthat \mch^i(\mcf)_{\bar x}  }^{(-1)^{i+1}}
     $$
-    where we now take the stalkes $\mch^i(\mcf)_{\bar x}$.
+    where we now take the stalks $\mch^i(\mcf)_{\bar x}$.
