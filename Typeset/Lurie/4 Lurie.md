@@ -10,7 +10,7 @@ In this setting, $X$ will be an algebraic variety defined over a finite field $\
 Definition (Zeta Function)
 :   One can associate a function to such a variety, namely a *zeta function*
     $$
-    \zeta_X(s) = \prod_{x\in X} \frac{1}{1 - \abs{K(x)}^{-s} }
+    \zeta_X(s) = \prod_{x\in X} \frac{1}{1 - \abs{\kappa(x)}^{-s} }
     $$
     where the product is taken over all of the closed points of the variety, and the term in the denominator is the size of the residue field at each point.
 
@@ -32,12 +32,12 @@ The equivalence of these two definitions is a consequence of the Grothendieck-Le
 
 We now want to talk about a generalization of this: a zeta function "with coefficients".
 Let $\mcf$ be an $\ell\dash$adic sheaf on $X$.
-If I have a closed point of my variety $x\in X$, I can think of it as giving me a map $\spec k(x) \mapsvia{x} X$ from the spectrum of the residue field at that closed point.
+If I have a closed point of my variety $x\in X$, I can think of it as giving me a map $\spec \kappa(x) \mapsvia{x} X$ from the spectrum of the residue field at that closed point.
 I would like to refine that to a geometric point by choosing an algebraic closure of that finite field, yielding a composite that we'll denote by $x$ with a bar over it:
 
 \begin{center}
 \begin{tikzcd}
-\spec \bar{k(x) } \ar[r] \ar[rr, bend left, "\bar x"] & \spec k(x) \ar[r, "x"] X
+\spec \bar{\kappa(x) } \ar[r] \ar[rr, bend left, "\bar x"] & \spec \kappa(x) \ar[r, "x"] X
 \end{tikzcd}
 \end{center}
 
