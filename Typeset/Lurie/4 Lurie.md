@@ -270,3 +270,14 @@ This is a type of local-to-global principal that describes the $\ell\dash$adic h
 
 What does this buy us?
 Assuming this theorem, this is an isomorphism in the derived category of $\ell\dash$adic sheaves on a point, or equivalently this induces an isomorphism on the cohomology sheaves when you take the stalk at the essentially unique geometric point $\spec \FF_q$.
+
+Concretely, there is an isomorphism of $\QQ_\ell$ vector spaces by taking
+$$
+\pi_i \qty{\bung(X)  }_{\QQ_\ell} \mapsvia{\cong} H^{-i} \qty{\bar X; \mcf_{BG_X/X}  }
+,$$
+where the RHS is hypercohomology.
+
+By definition 2, we have an equality
+\begin{align*}
+L(BG_X, s) = \det\qty{1 - q^{-s} \phi \suchthat H^*}
+.\end{align*}
