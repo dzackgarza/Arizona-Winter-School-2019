@@ -252,7 +252,7 @@ where both live over $X$.
 What are the points of the LHS?
 To give an $R\dash$valued point of the product, we have to specify an $R\dash$valued point of the curve together with a $G\dash$bundle on $X\cross \spec(R)$.
 On the other hand, an $R\dash$valued point on $BG_X$ is an $R\dash$valued point and a $G\dash$bundle not on the entire curve, but at that point.
-So the map is just given by **restriction to a point**.
+So the natural map is just given by **restriction to a point**.
 
 What does this buy us?
 If we believe that the earlier construction was functorial, this connects $\bung$ to $BG$.
