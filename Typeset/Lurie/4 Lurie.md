@@ -88,3 +88,14 @@ Definition
     L(\mcf, s) = \prod_{x\in X} \prod_{i\in \ZZ} \det \qty{ 1 - \abs{\kappa(x)  }^{-s}\phi_x \suchthat \mch^i(\mcf)_{\bar x}  }^{(-1)^{i+1}}
     $$
     where we now take the stalks $\mch^i(\mcf)_{\bar x}$.
+
+
+Definition
+:   $$
+    L(\mcf, s) = \det \qty{ 1 - \phi q^{-s} \suchthat H^*(\bar X; \mcf) }\inv
+    $$
+    where we are now considering *hypercohomology*.
+
+The equivalence of these two definitions again follows from the Grothendieck-Lefschetz trace formula.
+
+We would now like to cook up an $L$ function that is relevant to the situation in previous lectures.
