@@ -198,4 +198,9 @@ We wanted it to have a smooth map to $X$, which is satisfied by $BG_X \to X$.
 We wanted all of the geometric fibers simply connected, finite dimensional cohomology, finitely many homotopy groups.
 In this case, the geometric fibers are classifying spaces of linear algebraic groups, and thus have cohomology rings isomorphic to polynomial rings with generators of even degree.
 They are things for which the $\ell\dash$adic homotopy groups have a simple description in terms of $\ell\dash$adic cohomology.
+So we are in the setup for which we can apply the previous construction.
 
+We thus obtain a sheaf $\mcf_{BG_X/X} \in D^b(X)$, to which we can associate an $L$ function:
+\begin{align*}
+L(\mcf_{BG_X/S}, s) \definedas L(BG_X, s)
+.\end{align*}
