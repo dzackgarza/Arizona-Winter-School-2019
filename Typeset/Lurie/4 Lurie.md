@@ -99,3 +99,8 @@ Definition
 The equivalence of these two definitions again follows from the Grothendieck-Lefschetz trace formula.
 
 We would now like to cook up an $L$ function that is relevant to the situation in previous lectures.
+We'll assert the existence of certain relevant objects.
+
+Recall from a previous lecture: if $Y$ is a variety or a stack defined over a finite field $k$, where we assumed $H^1(\bar Y; \ZZ/\ell) \cong 0$ and $H^i(\bar Y; \ZZ/\ell)$ is finite for all $i$.
+We should also say $H^0$ also vanishes, which we'll emphasize by assuming $Y$ is geometrically connected.
+Under these assumptions, in the previous lecture we talked about assigning to $\bar Y$ its $\ell\dash$adic homotopy groups and homotopy type.
