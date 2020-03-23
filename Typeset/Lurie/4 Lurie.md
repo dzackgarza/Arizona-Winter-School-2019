@@ -258,3 +258,5 @@ What does this buy us?
 If we believe that the earlier construction was functorial, this connects $\bung$ to $BG$.
 
 This induces a map $\mcf_{X\cross \bung(X) / X} \to \mcf_{BG_X/X}$.
+On the other hand, we have a pullback square which tells us how to describe the sheaf on the left.
+Let $f$ be the projection map from $X$ to a point, then $\mcf_{X \cross \bung(X)/X} \cong f^* \mcf_{\bung(X) / \spec(\FF_q)}$.
