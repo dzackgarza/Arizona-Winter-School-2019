@@ -21,6 +21,8 @@ It's called the zeta function of $X$ because you can write down (more or less) t
 The zeta function of a variety over a finite field is a much simpler object is a much simpler object than the classical Riemann Zeta function: it can be written as a rational function in $q^{-s}$.
 
 Definition (Zeta Function, Alternate)
-: 
+:
 $$
-\zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 -   }
+\zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }
+$$
+where $\phi$ is the Frobenius.
