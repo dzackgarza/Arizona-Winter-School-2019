@@ -243,10 +243,14 @@ The relationship is that there is a natural map
 
 \begin{center}
 \begin{tikzcd}
-X \cross \bung(X) \ar[rr] \ar[rd] & & BG_X \ar[dl]\\
+X \cross \bung(X) \ar[rr, "\text{natural}"] \ar[rd] & & BG_X \ar[dl]\\
 & X &
 \end{tikzcd}
 \end{center}
 
 where both live over $X$.
+What are the points of the LHS?
+To give an $R\dash$valued point of the product, we have to specify an $R\dash$valued point of the curve together with a $G\dash$bundle on $X\cross \spec(R)$.
+On the other hand, an $R\dash$valued point on $BG_X$ is an $R\dash$valued point and a $G\dash$bundle not on the entire curve, but at that point.
+So the map is just given by restriction to a point.
 
