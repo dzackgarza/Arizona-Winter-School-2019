@@ -265,3 +265,5 @@ this is the same as a map $\theta: \mcf_{\bung(X) / \spec(\FF_q)} \to Rf_* \mcf_
 
 Theorem (Gaitsgory, Lurie)
 : The map $\theta$ is an isomorphism.
+
+This is a type of local-to-global principal that describes the $\ell\dash$adic homotopy type of $\bung(X)$, and is one way of making precise the idea that the cohomology of $\bung(X)$ should be a "continuous tensor product" of the cohomologies of $BG$ at various points.
