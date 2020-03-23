@@ -279,5 +279,5 @@ where the RHS is hypercohomology.
 
 By definition 2, we have an equality
 \begin{align*}
-L(BG_X, s) = \det\qty{1 - q^{-s} \phi \suchthat H^*}
+L(BG_X, s) = \det\qty{1 - q^{-s} \phi \suchthat H^*(\bar X; \mcf_{BG_X/X}) }\inv
 .\end{align*}
