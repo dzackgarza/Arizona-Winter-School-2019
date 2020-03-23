@@ -293,3 +293,9 @@ L(BG_X, 0)
 &= \text{LHS of Mass Formula from Weil's conjecture}
 .\end{align*}
 which follows from the analysis in the last lecture, where we assume that the Grothendieck-Lefschetz trace formula holds for $\bung(X)$ and everything converges.
+
+The conclusion is a proof of Weil's conjecture: in particular, theorem A implies Weil's conjecture.
+Why is this progress toward such an implication?
+The conjecture is a statement about equality of complex numbers.
+Here we have a theorem about $\QQ_\ell$ vector spaces and some map that is an isomorphism.
+There is a geometric statement; note that theorem A does not reference the field $\FF_q$.
