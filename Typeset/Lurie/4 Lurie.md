@@ -44,4 +44,5 @@ I would like to refine that to a geometric point by choosing an algebraic closur
 This is just a geometric point lying over the point $x$ of the underlying topological space.
 Then if $\mcf$ is an $\ell\dash$adic sheaf, we can talk about its stalk $\mcf_{\bar x}$, which is a finite dimensional $\QQ_\ell\dash$vector space.
 It is obtained by taking the sheaf $\mcf$ which lives on $X$ and first restricting it to $x$, which gives a sheaf of the spectrum of a finite field, then restricting it to the spectrum of the algebraic closure of that finite field.
-At the intermediate stage, we get some information: the $\QQ_\ell$ vector space has a canonical automorphism, namely the Frobenius $\phi_x$ associated to the field $\kappa(x)$.
+At the intermediate stage, we get some information: the $\QQ_\ell$ vector space $\mcf_{\bar x}$ has a canonical automorphism, namely the Frobenius $\phi_x$ associated to the field $\kappa(x)$.
+
