@@ -193,7 +193,7 @@ If $R$ is any ring, then there is an equivalence of data
 Since $G$ is a group that lives over $X$, it makes sense to talk about a $G\dash$bundle on $\spec(R)$ whenever $\spec(R)$ maps to $X$.
 
 This $BG_X$ is an example of the kind of thing we can take $Y$ to be from above:
-
+.
 We wanted it to have a smooth map to $X$, which is satisfied by $BG_X \to X$.
 We wanted all of the geometric fibers simply connected, finite dimensional cohomology, finitely many homotopy groups.
 In this case, the geometric fibers are classifying spaces of linear algebraic groups, and thus have cohomology rings isomorphic to polynomial rings with generators of even degree.
@@ -237,3 +237,6 @@ L(BG_X, 0)
 As you might guess, we'll try to get some mileage out of seeing what the second description of this $L$ function buys you.
 This description says we shouldn't look at the stalks of the sheaf $\mcf_{BG_X}$; we should instead think about the cohomology of this sheaf.
 We want to relate this to the moduli stack of $G\dash$bundles on $X$.
+
+There is a relationship between the stack $BG_X \to X$ which lives over $X$, and the moduli stack $\bung(X) \to \spec(\FF_q)$ which lives over the point $\spec(\FF_q)$.
+
