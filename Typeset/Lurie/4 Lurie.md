@@ -46,3 +46,16 @@ Then if $\mcf$ is an $\ell\dash$adic sheaf, we can talk about its stalk $\mcf_{\
 It is obtained by taking the sheaf $\mcf$ which lives on $X$ and first restricting it to $x$, which gives a sheaf of the spectrum of a finite field, then restricting it to the spectrum of the algebraic closure of that finite field.
 At the intermediate stage, we get some information: the $\QQ_\ell$ vector space $\mcf_{\bar x}$ has a canonical automorphism, namely the Frobenius $\phi_x$ associated to the field $\kappa(x)$.
 
+Definition (Associated L Function)
+:   $$
+    L(\mcf, s) = \prod_{x\in X} \det \qty{1 - \abs{\kappa(x)}^{s} \phi_x \suchthat \mcf_{\bar x}  }\inv
+    .$$
+
+This definition holds provided that $\re(s)$ is sufficiently large, which guarantees that that this infinite product converges.
+You can define it for almost all values of $s$ by analytically continuing.
+In the case of the zeta function, this turns out to be a rational function in $q^{-s}$, and the same thing is true for this $L\dash$function since this is equivalent by the Grothendieck-Lefschetz trace formula to the following:
+
+Definition (L Function, Alternative)
+:   $$
+  
+  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
