@@ -33,10 +33,14 @@ The equivalence of these two definitions is a consequence of the Grothendieck-Le
 We now want to talk about a generalization of this: a zeta function "with coefficients".
 Let $\mcf$ be an $\ell\dash$adic sheaf on $X$.
 If I have a closed point of my variety $x\in X$, I can think of it as giving me a map $\spec k(x) \mapsvia{x} X$ from the spectrum of the residue field at that closed point.
-I would like to refine that to a geometric point by choosing an algebraic closure of that finite field, yielding a composite
+I would like to refine that to a geometric point by choosing an algebraic closure of that finite field, yielding a composite that we'll denote by $x$ with a bar over it:
 
 \begin{center}
 \begin{tikzcd}
 \spec \bar{k(x) } \ar[r] \ar[rr, bend left, "\bar x"] & \spec k(x) \ar[r, "x"] X
 \end{tikzcd}
 \end{center}
+
+This is just a geometric point lying over the point $x$ of the underlying topological space.
+Then if $\mcf$ is an $\ell\dash$adic sheaf, we can talk about its stalk $\mcf_{\bar x}$, which is a finite dimensional $\QQ_\ell\dash$vector space.
+It is obtained by taking the sheaf $\mcf$ which lives on $X$ and first restricting it to $x$, which gives a sheaf of the spectrum of a finite field.
