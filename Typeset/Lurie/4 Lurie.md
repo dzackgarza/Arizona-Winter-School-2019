@@ -163,3 +163,7 @@ Claim
       \end{tikzcd}
       \end{center}
       we have $\mcf_{Y'/X'} = f^* \mcf_{Y/X}$.
+
+      > This is how things ought to work based on the first assertion: taking the stalks computes the homotopy groups of the fibers.
+      > The pullback diagram says that the fibers of the vertical map on the right are the same as the fibers of the one on the left,
+      > therefore they'll have the same $\ell\dash$adic homotopy groups, so we want this true not just on stalks but globally.
