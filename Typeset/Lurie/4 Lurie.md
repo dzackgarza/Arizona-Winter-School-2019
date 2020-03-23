@@ -220,7 +220,9 @@ L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat
 .\end{align*}
 
 But this appeared in the previous lecture, at least in the case $s=0$.
-By Steinberg's formula, 
+By Steinberg's formula,
 \begin{align*}
-L(BG_X, 0) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \pi_*(BG_{\bar x})  }\inv
+L(BG_X, 0)
+&= \prod_{x\in X} \frac{ \abs{ BG(\kappa(x))  }  }{ \abs{\kappa(x)}^{\dim BG}  } \\
+&= \prod_{x\in X} \frac{\abs{\kappa(x)  }^{\dim G} }{ G(\kappa(x))  }
 .\end{align*}
