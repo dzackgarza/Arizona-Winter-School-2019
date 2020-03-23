@@ -121,3 +121,11 @@ Assume that $Y\to X$ is smooth.
 
 For each closed point $x\in X$, write $Y_{\bar x} \definedas Y \cross_X \spec \bar {\kappa(x)}$ by crossing with the geometric point mentioned earlier.
 This is some smooth stack which is defined over the algebraic closure of a finite field.
+Potentially, it is something that the previous story could be applied to.
+In order for everything to work nicely, we need to make a lot of assumptions about how nice $Y$ is.
+
+Assume
+
+- Each $Y_{\bar x}$ has vanishing $H^1$ with $\ZZ/\ell$ coefficients
+- Finite $H^i$ with $\ZZ/\ell$ coefficients,
+- Vanishing $\pi_n(\cdots)_{\QQ_\ell}$ for $n\gg 1$, which can be chosen uniformly for all points $x$.
