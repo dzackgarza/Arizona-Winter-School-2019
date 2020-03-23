@@ -304,4 +304,5 @@ So we are free to enlarge the field if necessary.
 Thus it is "geometric" in the sense that we can replace $\FF_q$ by $\bar \FF_q$.
 
 Moreover, over $\CC$ it reduces something familiar, which follows from the fact that $\bung(X)$ (which classifies algebraic $G\dash$bundles) also classifies topological $G\dash$bundles on $X$.
+In other words, complex analytically, $G\dash$bundles on a curve satisfy an $H\dash$principal, i.e. understanding the moduli space of $G\dash$bundles in a complex-analytic sense ends up being hommotopy equivalent to the object the classifies $G\dash$bundles topologically, on which topological invariant such as homotopy and cohomology can be computed.
 
