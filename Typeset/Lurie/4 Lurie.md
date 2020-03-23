@@ -211,4 +211,5 @@ We have two formulas to evaluate it.
 By definition 1,
 \begin{align*}
 L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \qty{\mcf_{BG_X/X}}_{\bar x}  }\inv
-.\end{align*}
+,\end{align*}
+where we're taking a product over closed points, and the Frobenius at the point $x$ on the sheaf for which we're talking stalks at a geometric point.
