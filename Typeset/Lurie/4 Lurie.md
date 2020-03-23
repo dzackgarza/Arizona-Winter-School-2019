@@ -21,12 +21,22 @@ It's called the zeta function of $X$ because you can write down (more or less) t
 The zeta function of a variety over a finite field is a much simpler object is a much simpler object than the classical Riemann Zeta function: it can be written as a rational function in $q^{-s}$.
 
 Definition (Zeta Function, Alternate)
-:
-$$
-\zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }^{(-1)^{? + 1}}
-\definedas
-\prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
-$$
+: $$
+  \zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }^{(-1)^{? + 1}}
+  \definedas
+  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
+  $$
 where $\phi$ is the Frobenius.
 
 The equivalence of these two definitions is a consequence of the Grothendieck-Lefschetz trace formula mentioned earlier.
+
+We now want to talk about a generalization of this: a zeta function "with coefficients".
+Let $\mcf$ be an $\ell\dash$adic sheaf on $X$.
+If I have a closed point of my variety $x\in X$, I can think of it as giving me a map $\spec k(x) \mapsvia{x} X$ from the spectrum of the residue field at that closed point.
+I would like to refine that to a geometric point by choosing an algebraic closure of that finite field, yielding a composite
+
+\begin{center}
+\begin{tikzcd}
+\spec \bar{k(x) } \ar[r] \ar[rr, bend left, "\bar x"] & \spec k(x) \ar[r, "x"] X
+\end{tikzcd}
+\end{center}
