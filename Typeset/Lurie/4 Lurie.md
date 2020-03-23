@@ -284,3 +284,9 @@ L(BG_X, s)
 &= \det \qty{  1 - q^{-s} \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} }
 ,\end{align*}
 where the last term denotes the homotopy groups of the moduli stack of $G\dash$bundles.
+
+When we evaluate at zero, we obtain
+\begin{align*}
+L(BG_X, 0)
+&= \det \qty{  1 - \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} }
+.\end{align*}
