@@ -289,6 +289,6 @@ When we evaluate at zero, we obtain
 \begin{align*}
 L(BG_X, 0)
 &= \det \qty{  1 - \phi \suchthat \pi_* \bar{\bung(X)}_{\QQ_\ell} } \\
-&=
+&= \frac{\abs{ \bung(X)(\FF_q) }}{q^{\dim \bung(X)}}
 .\end{align*}
-where the last equality follows from the analysis in the last lecture, where we assume that the Grothendieck-Lefschetz trace formula holds and everything converges.
+which follows from the analysis in the last lecture, where we assume that the Grothendieck-Lefschetz trace formula holds for $\bung(X)$ and everything converges.
