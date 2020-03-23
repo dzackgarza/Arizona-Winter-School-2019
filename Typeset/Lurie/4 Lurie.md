@@ -25,5 +25,6 @@ Definition (Zeta Function, Alternate)
 $$
 \zeta_X(s) =  \prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H^i_c(\bar X)  }^{(-1)^{? + 1}}
 \definedas
+\prod_{i\geq 0} \det \qty{ 1 - \phi q^{-s} \suchthat H_c^i(\bar X)  }\inv
 $$
 where $\phi$ is the Frobenius.
