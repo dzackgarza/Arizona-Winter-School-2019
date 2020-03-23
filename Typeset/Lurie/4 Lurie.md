@@ -135,5 +135,6 @@ The claim is that in this situation, we can define a relative version of the $\e
 Claim
 :   There exists an object $\mcf_{Y/X} \in D^b(X)$ with the following features:
 
-    - For each $x\in X$, we can take the stalk of the $\ell\dash$adic sheaf $\mch^i(\mcf)_{\bar x}$.
-      This is suppose to be a finite-dimensional $\QQ_\ell\dash$vector space; we want this to be isomorphic to $\pi_{-i} Y_{\bar x}$.
+    - For each $x\in X$, we can take the stalk of the $\ell\dash$adic sheaf $\mch^{-i}(\mcf)_{\bar x}$.
+      This is suppose to be a finite-dimensional $\QQ_\ell\dash$vector space; we want this to be isomorphic to $\pi_{i} Y_{\bar x}$.
+
