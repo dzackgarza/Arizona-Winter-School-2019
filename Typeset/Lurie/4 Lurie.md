@@ -175,3 +175,5 @@ Let's go back to the situation we're really interested in, where $X$ is an algeb
 - Affine
 - Connected fibers
 - The generic fiber is semisimple and simply connected.
+
+This is the setup from lecture 2, where we forget to mention the properties we wanted the integral model to have (namely these properties).
