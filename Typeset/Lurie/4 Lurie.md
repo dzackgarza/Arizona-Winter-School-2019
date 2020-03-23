@@ -185,8 +185,17 @@ Since $G$ is a group scheme over $X$, the classifying stack is a stack in the wo
 To emphasize that this lives over $X$, we'll denote it $BG_X \to X$, and can be described as follows:
 
 If $R$ is any ring, then there is an equivalence of data
+
 \begin{align*}
 \correspond{\text{Maps} \spec(R) \to BG_X} \iff \correspond{ \text{Maps}\spec(R)\to X \text{ and a } G\dash \text{ bundle on } \spec(R) }
 .\end{align*}
 
 Since $G$ is a group that lives over $X$, it makes sense to talk about a $G\dash$bundle on $\spec(R)$ whenever $\spec(R)$ maps to $X$.
+
+This $BG_X$ is an example of the kind of thing we can take $Y$ to be from above:
+
+We wanted it to have a smooth map to $X$, which is satisfied by $BG_X \to X$.
+We wanted all of the geometric fibers simply connected, finite dimensional cohomology, finitely many homotopy groups.
+In this case, the geometric fibers are classifying spaces of linear algebraic groups, and thus have cohomology rings isomorphic to polynomial rings with generators of even degree.
+They are things for which the $\ell\dash$adic homotopy groups have a simple description in terms of $\ell\dash$adic cohomology.
+
