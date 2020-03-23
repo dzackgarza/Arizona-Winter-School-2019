@@ -204,3 +204,11 @@ We thus obtain a sheaf $\mcf_{BG_X/X} \in D^b(X)$, to which we can associate an 
 \begin{align*}
 L(\mcf_{BG_X/S}, s) \definedas L(BG_X, s)
 .\end{align*}
+
+What can we say about this $L$ function?
+We'd first like to write down what its values are.
+We have two formulas to evaluate it.
+By definition 1,
+\begin{align*}
+L(BG_X, s) = \prod_{x\in X} \det \qty{ 1 - \abs{\kappa(x)}^{-s} \phi_x \suchthat \qty{\mcf_{BG_X/X}}_{\bar x}  }\inv
+.\end{align*}
