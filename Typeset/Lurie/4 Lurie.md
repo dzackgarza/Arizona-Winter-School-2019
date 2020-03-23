@@ -306,3 +306,6 @@ Thus it is "geometric" in the sense that we can replace $\FF_q$ by $\bar \FF_q$.
 Moreover, over $\CC$ it reduces something familiar, which follows from the fact that $\bung(X)$ (which classifies algebraic $G\dash$bundles) also classifies topological $G\dash$bundles on $X$.
 In other words, complex analytically, $G\dash$bundles on a curve satisfy an $H\dash$principal, i.e. understanding the moduli space of $G\dash$bundles in a complex-analytic sense ends up being homotopy equivalent to the object the classifies $G\dash$bundles topologically, for which topological invariant such as homotopy and cohomology can be computed.
 
+The difficulty is then to make sense of the $H\dash$principal in algebraic geometry.
+Since theorem A is such a principal, the difficulty is then in proving it.
+
