@@ -316,5 +316,7 @@ There's a theorem that goes into this conclusion, but also a definition.
 So we'll say a few words about this construction, since a difficulty is even just defining the objects appearing in its statement.
 
 Question: how do we define $\mcf_{Y/X} \in D^b(X)$, e.g. for $Y = \BG_X$ is the classifying stack of a linear algebraic group or a group scheme over $X$?
+How classical of an object is this?
+It's closely related to objects appearing in Steinberg's work, and in a paper of Dick Gross about the "motive of an algebraic group".
 
 
